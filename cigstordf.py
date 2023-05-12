@@ -122,7 +122,20 @@ def parseCIGSFile(reader,triples,refnotfound,countrynotfound,wikidatacache,basec
         triples.add("<"+str(cururi)+"> <http://purl.org/dc/elements/1.1/created> \"2021\"^^<http://www.w3.org/2001/XMLSchema#gYear> .\n")
         triples.add("<"+str(cururi)+"> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "+str(baseclass)+" .\n")
         triples.add("<"+str(cururi)+"> <http://www.w3.org/2000/01/rdf-schema#label> \"\"\""+str(row["transc_name"]).replace("\"","'")+"\"\"\"@en .\n")
-        triples.add("<"+str(cururi)+"> <http://www.w3.org/2000/01/rdf-schema#label> \"\"\""+str(row["ara_name"]).replace("\"","'")+"\"\"\"@am .\n")
+        if str(row["anc_name"]).strip()!="":
+            triples.add("<"+str(cururi)+"> <http://www.w3.org/2004/02/skos/core#altLabel> \"\"\""+str(row["anc_name"]).replace("\"","'")+"\"\"\"@ar .\n")
+        if str(row["ara_name"]).strip()!="":
+            triples.add("<"+str(cururi)+"> <http://www.w3.org/2000/01/rdf-schema#label> \"\"\""+str(row["ara_name"]).replace("\"","'")+"\"\"\"@ar .\n")
+        if str(row["arm_name"]).strip()!="":
+            triples.add("<"+str(cururi)+"> <http://www.w3.org/2000/01/rdf-schema#label> \"\"\""+str(row["ara_name"]).replace("\"","'")+"\"\"\"@arc .\n")
+        if str(row["fas_name"]).strip()!="":
+            triples.add("<"+str(cururi)+"> <http://www.w3.org/2000/01/rdf-schema#label> \"\"\""+str(row["fas_name"]).replace("\"","'")+"\"\"\"@fa .\n")
+        if str(row["gre_name"]).strip()!="":
+            triples.add("<"+str(cururi)+"> <http://www.w3.org/2000/01/rdf-schema#label> \"\"\""+str(row["gre_name"]).replace("\"","'")+"\"\"\"@el .\n")
+        if str(row["heb_name"]).strip()!="":
+            triples.add("<"+str(cururi)+"> <http://www.w3.org/2000/01/rdf-schema#label> \"\"\""+str(row["heb_name"]).replace("\"","'")+"\"\"\"@he .\n")
+        if str(row["rus_name"]).strip()!="":
+            triples.add("<"+str(cururi)+"> <http://www.w3.org/2000/01/rdf-schema#label> \"\"\""+str(row["rus_name"]).replace("\"","'")+"\"\"\"@ru .\n")
         if dsuri!=None:
             triples.add("<"+str(cururi)+"> <http://purl.org/dc/terms/partOf> <"+str(dsuri)+"> .\n")
         if "openstreetmap_url" in row and row["openstreetmap_url"]!="" and "http" in row["openstreetmap_url"]:
@@ -135,6 +148,8 @@ def parseCIGSFile(reader,triples,refnotfound,countrynotfound,wikidatacache,basec
             triples.add("<"+str(cururi)+"> <http://www.w3.org/2002/07/owl#sameAs> <"+str(row["wikidata_url"]).replace("https:","http:").replace("wiki","entity")+"> .\n <"+str(row["wikidata_url"]).replace("https:","http:").replace("wiki","entity")+"> <http://www.w3.org/2000/01/rdf-schema#label> \""+str(row["wikidata_url"])[str(row["wikidata_url"]).rfind('/')+1:]+"\"@en .\n")
         if "accuracy" in row and row["accuracy"].strip()!="":
             triples.add("<"+str(cururi)+"> <"+str(nsont)+"accuracy> \""+str(row["accuracy"])+"\"^^<http://www.w3.org/2001/XMLSchema#string> .\n")
+        if "cdli_provenience_id" in row and row["cdli_provenience_id"].strip()!="":
+            triples.add("<"+str(cururi)+"> <"+str(nsont)+"cdli_provenience_id> \""+str(row["cdli_provenience_id"])+"\"^^<http://www.w3.org/2001/XMLSchema#string> .\n") 
         triples.add("<"+str(cururi)+"_geom> <http://www.opengis.net/ont/geosparql#asWKT> \"POINT("+row["lon_wgs1984"].replace(",",".")+" "+row["lat_wgs1984"].replace(",",".")+")\"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .\n")
         triples.add("<"+str(cururi)+"_geom> <http://www.w3.org/2000/01/rdf-schema#label> \"\"\""+str(row["transc_name"]).replace("\"","'")+" Geometry\"\"\"@en .\n")
         triples.add("<"+str(cururi)+"_geom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/sf#Point> .\n")
