@@ -117,7 +117,7 @@ def parseCIGSFile(reader,triples,refnotfound,countrynotfound,wikidatacache,basec
         cururi=ns+row["site_id"].replace(",","_")
         #print(cururi)
         triples.add("<"+str(cururi)+"> <http://www.opengis.net/ont/geosparql#hasGeometry> <"+str(cururi)+"_geom> .\n")
-        triples.add("<"+str(cururi)+"> <http://purl.org/dc/elements/1.1/creator> <http://data.archaeology.link/data/spphaefen/arthur_de_graauw> .\n")
+        #triples.add("<"+str(cururi)+"> <http://purl.org/dc/elements/1.1/creator> <http://data.archaeology.link/data/spphaefen/arthur_de_graauw> .\n")
         #triples.add("<http://data.archaeology.link/data/spphaefen/arthur_de_graauw> <http://www.w3.org/2000/01/rdf-schema#label> \"Arthur de Graauw\"@en  .\n")
         triples.add("<"+str(cururi)+"> <http://purl.org/dc/elements/1.1/created> \"2021\"^^<http://www.w3.org/2001/XMLSchema#gYear> .\n")
         triples.add("<"+str(cururi)+"> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "+str(baseclass)+" .\n")
