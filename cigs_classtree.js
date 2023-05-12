@@ -4099,7 +4099,7 @@ var tree={
         "id": "http://www.ancientports.com/ont#CuneiformSite",
         "parent": "http://www.opengis.net/ont/geosparql#Feature",
         "type": "class",
-        "text": "CuneiformSite (ns1:CuneiformSite) [579]",
+        "text": "CuneiformSite (ns2:CuneiformSite) [579]",
         "data": {}
       },
       {
