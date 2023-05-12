@@ -4158,6 +4158,13 @@ var tree={
         "data": {}
       },
       {
+        "id": "http://data.archaeology.link/data/cigs/author_Melin_Kronsell",
+        "parent": "http://xmlns.com/foaf/0.1/Person",
+        "type": "instance",
+        "text": "Melin, Kronsell (author_Melin_Kronsell)",
+        "data": {}
+      },
+      {
         "id": "http://data.archaeology.link/data/cigs/author_Nett_Seraina",
         "parent": "http://xmlns.com/foaf/0.1/Person",
         "type": "instance",
@@ -4182,7 +4189,7 @@ var tree={
         "id": "http://xmlns.com/foaf/0.1/Person",
         "parent": "#",
         "type": "class",
-        "text": "Person (foaf:Person) [5]",
+        "text": "Person (foaf:Person) [6]",
         "data": {
           "to": {
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
@@ -8301,7 +8308,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/bib_rattenborg_rune_2021_7330077_suniv0_",
         "parent": "http://purl.org/ontology/bibo/Document",
         "type": "instance",
-        "text": "{Cuneiform Inscriptions Geographical Site Index (CIGS)} (bib_rattenborg_rune_2021_7330077)",
+        "text": "Cuneiform Inscriptions Geographical Site Index (CIGS) (bib_rattenborg_rune_2021_7330077)",
         "data": {}
       },
       {
@@ -8315,7 +8322,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/bib_rattenborg_rune_2021_7330077_suniv1_",
         "parent": "http://www.w3.org/ns/dcat#Dataset",
         "type": "instance",
-        "text": "{Cuneiform Inscriptions Geographical Site Index (CIGS)} (bib_rattenborg_rune_2021_7330077)",
+        "text": "Cuneiform Inscriptions Geographical Site Index (CIGS) (bib_rattenborg_rune_2021_7330077)",
         "data": {}
       },
       {
@@ -8425,13 +8432,14 @@ var tree={
               "instancecount": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 5,
-              "http://xmlns.com/foaf/0.1/Person": 5
+              "instancecount": 1,
+              "http://purl.org/ontology/bibo/Document": 1,
+              "http://www.w3.org/ns/dcat#Dataset": 1
             }
           },
           "from": {}
         },
-        "instancecount": 7
+        "instancecount": 3
       },
       {
         "id": "http://data.archaeology.link/data/cigs/Point_collection",

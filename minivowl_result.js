@@ -49,10 +49,10 @@ var minivowlresult={
  "links": [
   {
    "source": 0,
-   "target": 6,
-   "valueTo": "partOf",
+   "target": 4,
+   "valueTo": "hasGeometry",
    "propertyTo": "class",
-   "uriTo": "http://purl.org/dc/terms/partOf"
+   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
   },
   {
    "source": 0,
@@ -63,10 +63,10 @@ var minivowlresult={
   },
   {
    "source": 0,
-   "target": 4,
-   "valueTo": "hasGeometry",
+   "target": 6,
+   "valueTo": "partOf",
    "propertyTo": "class",
-   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
+   "uriTo": "http://purl.org/dc/terms/partOf"
   }
  ]
 }

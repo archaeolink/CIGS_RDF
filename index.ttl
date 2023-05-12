@@ -605,6 +605,7 @@
     rdfs:label "Person Instances Collection" ;
     rdfs:member <http://data.archaeology.link/data/cigs/author_Andersson_Jakob>,
         <http://data.archaeology.link/data/cigs/author_Johansson_Carolin>,
+        <http://data.archaeology.link/data/cigs/author_Melin_Kronsell>,
         <http://data.archaeology.link/data/cigs/author_Nett_Seraina>,
         <http://data.archaeology.link/data/cigs/author_Rattenborg_Rune>,
         <http://data.archaeology.link/data/cigs/author_Smidt_Gustav_Ryberg> .
@@ -6530,6 +6531,11 @@
     foaf:family_Name "Johansson"@en ;
     foaf:firstName "Carolin"@en .
 
+<http://data.archaeology.link/data/cigs/author_Melin_Kronsell> a foaf:Person ;
+    rdfs:label "Melin, Kronsell"@en ;
+    foaf:family_Name "Melin"@en ;
+    foaf:firstName "Kronsell"@en .
+
 <http://data.archaeology.link/data/cigs/author_Nett_Seraina> a foaf:Person ;
     rdfs:label "Nett, Seraina"@en ;
     foaf:family_Name "Nett"@en ;
@@ -8864,7 +8870,7 @@
 <http://data.archaeology.link/data/cigs/bib_rattenborg_rune_2021_7330077> a ns3:Document,
         dcat:Dataset ;
     dc:created "2021"^^xsd:gYear ;
-    dc:title "{Cuneiform Inscriptions Geographical Site Index (CIGS)}"@en ;
+    dc:title "Cuneiform Inscriptions Geographical Site Index (CIGS)"@en ;
     dcterms:publisher "Zenodo" ;
     ns3:doi "10.5281/zenodo.7330077"^^xsd:string .
 

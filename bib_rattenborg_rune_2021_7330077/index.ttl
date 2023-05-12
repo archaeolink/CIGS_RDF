@@ -8,7 +8,7 @@
         dcat:Dataset ;
     dc:created "2021"^^xsd:gYear ;
     dc:license <http://creativecommons.org/licenses/by/4.0> ;
-    dc:title "{Cuneiform Inscriptions Geographical Site Index (CIGS)}"@en ;
+    dc:title "Cuneiform Inscriptions Geographical Site Index (CIGS)"@en ;
     dcterms:publisher "Zenodo" ;
     ns1:doi "10.5281/zenodo.7330077"^^xsd:string .
 
