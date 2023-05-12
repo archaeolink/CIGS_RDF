@@ -4099,7 +4099,7 @@ var tree={
         "id": "http://www.ancientports.com/ont#CuneiformSite",
         "parent": "http://www.opengis.net/ont/geosparql#Feature",
         "type": "halfgeoclass",
-        "text": "CuneiformSite (ns4:CuneiformSite) [579]",
+        "text": "CuneiformSite (ns3:CuneiformSite) [579]",
         "data": {
           "to": {
             "http://purl.org/dc/elements/1.1/created": {
@@ -4122,9 +4122,6 @@ var tree={
             },
             "http://www.w3.org/2000/01/rdf-schema#label": {
               "instancecount": 2
-            },
-            "http://www.wikidata.org/prop/direct/P1584": {
-              "instancecount": 1
             }
           },
           "from": {
@@ -4134,7 +4131,7 @@ var tree={
             }
           }
         },
-        "instancecount": 8
+        "instancecount": 7
       },
       {
         "id": "http://www.opengis.net/ont/geosparql#Feature",
@@ -4142,77 +4139,6 @@ var tree={
         "type": "class",
         "text": "Feature (gsp:Feature)",
         "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/cigs/author_Andersson_Jakob",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "Andersson, Jakob (author_Andersson_Jakob)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/cigs/author_Johansson_Carolin",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "Johansson, Carolin (author_Johansson_Carolin)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/cigs/author_Melin_Kronsell",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "Melin, Kronsell (author_Melin_Kronsell)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/cigs/author_Nett_Seraina",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "Nett, Seraina (author_Nett_Seraina)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/cigs/author_Rattenborg_Rune",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "Rattenborg, Rune (author_Rattenborg_Rune)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/cigs/author_Smidt_Gustav_Ryberg",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "Smidt, Gustav Ryberg (author_Smidt_Gustav_Ryberg)",
-        "data": {}
-      },
-      {
-        "id": "http://xmlns.com/foaf/0.1/Person",
-        "parent": "#",
-        "type": "class",
-        "text": "Person (foaf:Person) [6]",
-        "data": {
-          "to": {
-            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
-              "instancecount": 1
-            },
-            "http://www.w3.org/2000/01/rdf-schema#label": {
-              "instancecount": 1
-            },
-            "http://xmlns.com/foaf/0.1/family_Name": {
-              "instancecount": 1
-            },
-            "http://xmlns.com/foaf/0.1/firstName": {
-              "instancecount": 1
-            }
-          },
-          "from": {
-            "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 0,
-              "http://www.w3.org/2004/02/skos/core#Collection": 1
-            }
-          }
-        },
-        "instancecount": 4
       },
       {
         "id": "http://data.archaeology.link/data/cigs/ADA_geom",
@@ -8305,6 +8231,82 @@ var tree={
         "data": {}
       },
       {
+        "id": "http://data.archaeology.link/data/cigs/author_Andersson_Jakob",
+        "parent": "http://xmlns.com/foaf/0.1/Person",
+        "type": "instance",
+        "text": "Andersson, Jakob (author_Andersson_Jakob)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/cigs/author_Johansson_Carolin",
+        "parent": "http://xmlns.com/foaf/0.1/Person",
+        "type": "instance",
+        "text": "Johansson, Carolin (author_Johansson_Carolin)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/cigs/author_Melin_Kronsell",
+        "parent": "http://xmlns.com/foaf/0.1/Person",
+        "type": "instance",
+        "text": "Melin, Kronsell (author_Melin_Kronsell)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/cigs/author_Nett_Seraina",
+        "parent": "http://xmlns.com/foaf/0.1/Person",
+        "type": "instance",
+        "text": "Nett, Seraina (author_Nett_Seraina)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/cigs/author_Rattenborg_Rune",
+        "parent": "http://xmlns.com/foaf/0.1/Person",
+        "type": "instance",
+        "text": "Rattenborg, Rune (author_Rattenborg_Rune)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/cigs/author_Smidt_Gustav_Ryberg",
+        "parent": "http://xmlns.com/foaf/0.1/Person",
+        "type": "instance",
+        "text": "Smidt, Gustav Ryberg (author_Smidt_Gustav_Ryberg)",
+        "data": {}
+      },
+      {
+        "id": "http://xmlns.com/foaf/0.1/Person",
+        "parent": "#",
+        "type": "class",
+        "text": "Person (foaf:Person) [6]",
+        "data": {
+          "to": {
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
+              "instancecount": 1
+            },
+            "http://www.w3.org/2000/01/rdf-schema#label": {
+              "instancecount": 1
+            },
+            "http://xmlns.com/foaf/0.1/family_Name": {
+              "instancecount": 1
+            },
+            "http://xmlns.com/foaf/0.1/firstName": {
+              "instancecount": 1
+            }
+          },
+          "from": {
+            "http://purl.org/dc/elements/1.1/creator": {
+              "instancecount": 0,
+              "http://purl.org/ontology/bibo/Document": 1,
+              "http://www.w3.org/ns/dcat#Dataset": 1
+            },
+            "http://www.w3.org/2000/01/rdf-schema#member": {
+              "instancecount": 0,
+              "http://www.w3.org/2004/02/skos/core#Collection": 1
+            }
+          }
+        },
+        "instancecount": 4
+      },
+      {
         "id": "http://data.archaeology.link/data/cigs/bib_rattenborg_rune_2021_7330077_suniv0_",
         "parent": "http://purl.org/ontology/bibo/Document",
         "type": "instance",
@@ -8335,6 +8337,10 @@ var tree={
             "http://purl.org/dc/elements/1.1/created": {
               "instancecount": 1
             },
+            "http://purl.org/dc/elements/1.1/creator": {
+              "instancecount": 6,
+              "http://xmlns.com/foaf/0.1/Person": 6
+            },
             "http://purl.org/dc/elements/1.1/title": {
               "instancecount": 1
             },
@@ -8359,7 +8365,7 @@ var tree={
             }
           }
         },
-        "instancecount": 6
+        "instancecount": 12
       },
       {
         "id": "http://data.archaeology.link/data/cigs/CuneiformSite_collection",
@@ -8396,6 +8402,35 @@ var tree={
         "type": "collectionclass",
         "text": "SpatialObjectCollection (gsp:SpatialObjectCollection)",
         "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/cigs/Point_collection",
+        "parent": "http://www.opengis.net/ont/geosparql#GeometryCollection",
+        "type": "geocollection",
+        "text": "Point Instances Collection (Point_collection)",
+        "data": {}
+      },
+      {
+        "id": "http://www.opengis.net/ont/geosparql#GeometryCollection",
+        "parent": "http://www.opengis.net/ont/geosparql#SpatialObjectCollection",
+        "type": "collectionclass",
+        "text": "GeometryCollection (gsp:GeometryCollection) [1]",
+        "data": {
+          "to": {
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
+              "instancecount": 1
+            },
+            "http://www.w3.org/2000/01/rdf-schema#label": {
+              "instancecount": 1
+            },
+            "http://www.w3.org/2000/01/rdf-schema#member": {
+              "instancecount": 579,
+              "http://www.opengis.net/ont/sf#Point": 579
+            }
+          },
+          "from": {}
+        },
+        "instancecount": 582
       },
       {
         "id": "http://data.archaeology.link/data/cigs/Person_collection",
@@ -8440,35 +8475,6 @@ var tree={
           "from": {}
         },
         "instancecount": 3
-      },
-      {
-        "id": "http://data.archaeology.link/data/cigs/Point_collection",
-        "parent": "http://www.opengis.net/ont/geosparql#GeometryCollection",
-        "type": "geocollection",
-        "text": "Point Instances Collection (Point_collection)",
-        "data": {}
-      },
-      {
-        "id": "http://www.opengis.net/ont/geosparql#GeometryCollection",
-        "parent": "http://www.opengis.net/ont/geosparql#SpatialObjectCollection",
-        "type": "collectionclass",
-        "text": "GeometryCollection (gsp:GeometryCollection) [1]",
-        "data": {
-          "to": {
-            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
-              "instancecount": 1
-            },
-            "http://www.w3.org/2000/01/rdf-schema#label": {
-              "instancecount": 1
-            },
-            "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 579,
-              "http://www.opengis.net/ont/sf#Point": 579
-            }
-          },
-          "from": {}
-        },
-        "instancecount": 582
       },
       {
         "id": "http://www.opengis.net/ont/geosparql#SpatialObject",

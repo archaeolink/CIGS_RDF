@@ -11,11 +11,6 @@ var minivowlresult={
    "uri": "http://www.ancientports.com/ont#CuneiformSite"
   },
   {
-   "name": "Person",
-   "type": "class",
-   "uri": "http://xmlns.com/foaf/0.1/Person"
-  },
-  {
    "name": "DatatypeProperty",
    "type": "class",
    "uri": "http://www.w3.org/2002/07/owl#DatatypeProperty"
@@ -29,6 +24,11 @@ var minivowlresult={
    "name": "Point",
    "type": "class",
    "uri": "http://www.opengis.net/ont/sf#Point"
+  },
+  {
+   "name": "Person",
+   "type": "class",
+   "uri": "http://xmlns.com/foaf/0.1/Person"
   },
   {
    "name": "Class",
@@ -49,7 +49,7 @@ var minivowlresult={
  "links": [
   {
    "source": 0,
-   "target": 4,
+   "target": 3,
    "valueTo": "hasGeometry",
    "propertyTo": "class",
    "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
@@ -67,6 +67,20 @@ var minivowlresult={
    "valueTo": "partOf",
    "propertyTo": "class",
    "uriTo": "http://purl.org/dc/terms/partOf"
+  },
+  {
+   "source": 7,
+   "target": 4,
+   "valueTo": "creator",
+   "propertyTo": "class",
+   "uriTo": "http://purl.org/dc/elements/1.1/creator"
+  },
+  {
+   "source": 6,
+   "target": 4,
+   "valueTo": "creator",
+   "propertyTo": "class",
+   "uriTo": "http://purl.org/dc/elements/1.1/creator"
   }
  ]
 }

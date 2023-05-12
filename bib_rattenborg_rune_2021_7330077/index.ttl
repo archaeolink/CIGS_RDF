@@ -7,6 +7,12 @@
 <http://data.archaeology.link/data/cigs/bib_rattenborg_rune_2021_7330077> a ns1:Document,
         dcat:Dataset ;
     dc:created "2021"^^xsd:gYear ;
+    dc:creator <http://data.archaeology.link/data/cigs/author_Andersson_Jakob>,
+        <http://data.archaeology.link/data/cigs/author_Johansson_Carolin>,
+        <http://data.archaeology.link/data/cigs/author_Melin_Kronsell>,
+        <http://data.archaeology.link/data/cigs/author_Nett_Seraina>,
+        <http://data.archaeology.link/data/cigs/author_Rattenborg_Rune>,
+        <http://data.archaeology.link/data/cigs/author_Smidt_Gustav_Ryberg> ;
     dc:license <http://creativecommons.org/licenses/by/4.0> ;
     dc:title "Cuneiform Inscriptions Geographical Site Index (CIGS)"@en ;
     dcterms:publisher "Zenodo" ;
