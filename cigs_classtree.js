@@ -43,955 +43,4070 @@ var tree={
     "check_callback": true,
     "data": [
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Akerraz_2010_Les",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/ADA",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Akerraz_2010_Les",
+        "text": "ADA",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Allen_2007_Burnt",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/ADB",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Allen_2007_Burnt",
+        "text": "ADB",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Alonso_2008_Ports",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/ADH",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Alonso_2008_Ports",
+        "text": "ADH",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Amador_2013_Puerto",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/ADI",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Amador_2013_Puerto",
+        "text": "ADI",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Andreou_2022_Exploring",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/AFA",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Andreou_2022_Exploring",
+        "text": "AFA",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Avanzini_2014_Un",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/AGR",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Avanzini_2014_Un",
+        "text": "AGR",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Belova_2019_Russian",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/AHT",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Belova_2019_Russian",
+        "text": "AHT",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Beltrame_2012_New",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/AIR",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Beltrame_2012_New",
+        "text": "AIR",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Besenval_1994_Le",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/AJA",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Besenval_1994_Le",
+        "text": "AJA",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Beuker_1997_Kano",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/AJJ",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Beuker_1997_Kano",
+        "text": "AJJ",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Beyin_2011_Early",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/AKH",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Beyin_2011_Early",
+        "text": "AKH",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Bhacker_1997_Digging",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/ALA",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Bhacker_1997_Digging",
+        "text": "ALA",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Bjerck_2017_Settlements",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/ALH",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Bjerck_2017_Settlements",
+        "text": "ALH",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Boardman_2001_Aspects",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/ALI",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Boardman_2001_Aspects",
+        "text": "ALI",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Boulinguez_2008_Hippone",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/ALS",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Boulinguez_2008_Hippone",
+        "text": "ALS",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Breivik_2014_Palaeo",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/ALT",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Breivik_2014_Palaeo",
+        "text": "ALT",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Brouwers_2013_Romeinse",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/AMC",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Brouwers_2013_Romeinse",
+        "text": "AMC",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Bugalhao_2011_Ocupaccao",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/AMD",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Bugalhao_2011_Ocupaccao",
+        "text": "AMD",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Carannante_2015_Adulis",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/AMM",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Carannante_2015_Adulis",
+        "text": "AMM",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Carrearas_2012_Atlantic",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/ANS",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Carrearas_2012_Atlantic",
+        "text": "ANS",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Carter_2006_Bushehr",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/ANT",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Carter_2006_Bushehr",
+        "text": "ANT",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Cerdan_2016_Hispania",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/ANZ",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Cerdan_2016_Hispania",
+        "text": "ANZ",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Chami_1998_The",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/APH",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Chami_1998_The",
+        "text": "APH",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Connan_2007_Geochemical",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/AQA",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Connan_2007_Geochemical",
+        "text": "AQA",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Conwell_1987_Ostrich",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/ARA",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Conwell_1987_Ostrich",
+        "text": "ARA",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Cordoba_2006_Necropolis",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/ARI",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Cordoba_2006_Necropolis",
+        "text": "ARI",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Cuvigny_1996_Des",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/ARK",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Cuvigny_1996_Des",
+        "text": "ARK",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Dagostino_2013_Abu",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/ARM",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Dagostino_2013_Abu",
+        "text": "ARM",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Daszewski_2011_Graeco",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/ARR",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Daszewski_2011_Graeco",
+        "text": "ARR",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Demey_2013_Een",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/ART",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Demey_2013_Een",
+        "text": "ART",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Desanges_1978_Littoral",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/ARU",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Desanges_1978_Littoral",
+        "text": "ARU",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Desse_2005_Les",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/ASA",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Desse_2005_Les",
+        "text": "ASA",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Ellis_1987_Sea",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/ASD",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Ellis_1987_Sea",
+        "text": "ASD",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Erbati_2004_Ports",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/ASK",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Erbati_2004_Ports",
+        "text": "ASK",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Espinosa_2006_Nombre",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/ASS",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Espinosa_2006_Nombre",
+        "text": "ASS",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Fantar_2012_Africa",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/AST",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Fantar_2012_Africa",
+        "text": "AST",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Ferdi_2004_Tipasa",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/ASZ",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Ferdi_2004_Tipasa",
+        "text": "ASZ",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Flaux_2017_Ancient",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/ATB",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Flaux_2017_Ancient",
+        "text": "ATB",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Glazer_2012_Solomon",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/AUS",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Glazer_2012_Solomon",
+        "text": "AUS",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Gonzalez_2006_De",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/AVN",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Gonzalez_2006_De",
+        "text": "AVN",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Green_2011_Between",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/AWA",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Green_2011_Between",
+        "text": "AWA",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Hairy_2011_Canal",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/AYA",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Hairy_2011_Canal",
+        "text": "AYA",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Halkon_2011_Iron",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/AYC",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Halkon_2011_Iron",
+        "text": "AYC",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Hartung_2013_Some",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/AZF",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Hartung_2013_Some",
+        "text": "AZF",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_H\u00e5kon_2013_Where",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/AZN",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_H\u00e5kon_2013_Where",
+        "text": "AZN",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Iglesias_2005_Establecimientos",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/BAB",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Iglesias_2005_Establecimientos",
+        "text": "BAB",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Insoll_2001_Dahlak",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/BAH",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Insoll_2001_Dahlak",
+        "text": "BAH",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Insoll_2021_Excavations",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/BAK",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Insoll_2021_Excavations",
+        "text": "BAK",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Jakubiak_2020_Marina",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/BAL",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Jakubiak_2020_Marina",
+        "text": "BAL",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Jansen_2018_Rock",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/BAM",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Jansen_2018_Rock",
+        "text": "BAM",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Kastholm_2012_Stammebaaden",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/BAQ",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Kastholm_2012_Stammebaaden",
+        "text": "BAQ",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Kervran_1995_Le",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/BAR",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Kervran_1995_Le",
+        "text": "BAR",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Khakzad_2015_Maritime",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/BAS",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Khakzad_2015_Maritime",
+        "text": "BAS",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Knight_2019_Must",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/BAW",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Knight_2019_Must",
+        "text": "BAW",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Kramer_1964_Indus",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/BAY",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Kramer_1964_Indus",
+        "text": "BAY",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Kruidhof_2012_Een",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/BAZ",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Kruidhof_2012_Een",
+        "text": "BAZ",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Laronde_1992_Aspects",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/BBK",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Laronde_1992_Aspects",
+        "text": "BBK",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Lopez_2005_Minas",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/BDI",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Lopez_2005_Minas",
+        "text": "BDI",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Malm_1995_Excavating",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/BES",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Malm_1995_Excavating",
+        "text": "BES",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Martin_2016_Lusitanian",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/BHN",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Martin_2016_Lusitanian",
+        "text": "BHN",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Mayerson_1992_American",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/BHS",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Mayerson_1992_American",
+        "text": "BHS",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Missiaen_2018_Archaeological",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/BIN",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Missiaen_2018_Archaeological",
+        "text": "BIN",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Nappo_2010_Location",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/BIS",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Nappo_2010_Location",
+        "text": "BIS",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Ortega_2012_Historic",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/BIT",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Ortega_2012_Historic",
+        "text": "BIT",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Pappa_2012_Retracting",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/BLQ",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Pappa_2012_Retracting",
+        "text": "BLQ",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Paskoff_1991_Le",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/BLW",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Paskoff_1991_Le",
+        "text": "BLW",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Pavlopoulos_2018_Geomorphological",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/BMB",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Pavlopoulos_2018_Geomorphological",
+        "text": "BMB",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Pawlicki_2015_Preliminary",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/BOR",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Pawlicki_2015_Preliminary",
+        "text": "BOR",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Pedersen_2015_Preliminary",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/BOS",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Pedersen_2015_Preliminary",
+        "text": "BOS",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Pimenta_2008_Descoberta",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/BRD",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Pimenta_2008_Descoberta",
+        "text": "BRD",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Pimenta_2015_Monte",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/BRK",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Pimenta_2015_Monte",
+        "text": "BRK",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Pleuger_2019_The",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/BRM",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Pleuger_2019_The",
+        "text": "BRM",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Potts_2001_Before",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/BRS",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Potts_2001_Before",
+        "text": "BRS",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Potts_2017_Patria",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/BSE",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Potts_2017_Patria",
+        "text": "BSE",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Potts_2019_Islands",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/BSH",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Potts_2019_Islands",
+        "text": "BSH",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Pourkerman_2018_Tracking",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/BSK",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Pourkerman_2018_Tracking",
+        "text": "BSK",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Pratico_1985_Nelson",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/BST",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Pratico_1985_Nelson",
+        "text": "BST",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Ramazzotti_2015_Iraqi",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/BSV",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Ramazzotti_2015_Iraqi",
+        "text": "BSV",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Rich_2016_Mesolithic",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/BTB",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Rich_2016_Mesolithic",
+        "text": "BTB",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Robin_2002_Les",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/BTM",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Robin_2002_Les",
+        "text": "BTM",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Robin_2013_Nouveaux",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/BTU",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Robin_2013_Nouveaux",
+        "text": "BTU",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Robinson_1999_Thucydidean",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/BUK",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Robinson_1999_Thucydidean",
+        "text": "BUK",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Rougeulle_2017_Medieval",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/BUL",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Rougeulle_2017_Medieval",
+        "text": "BUL",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Ryano_2021_Find",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/BUR",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Ryano_2021_Find",
+        "text": "BUR",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Seinen_2014_Late",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/BVI",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Seinen_2014_Late",
+        "text": "BVI",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Shah_2018_Evolution",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/BYB",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Shah_2018_Evolution",
+        "text": "BYB",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Spencer_2011_Egyptian",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/BZM",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Spencer_2011_Egyptian",
+        "text": "BZM",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Stolz_2008_Kanopos",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/CAV",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Stolz_2008_Kanopos",
+        "text": "CAV",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Thomas_2015_Naukratis",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/CEL",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Thomas_2015_Naukratis",
+        "text": "CEL",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Trabelsi_2019_Port",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/CGM",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Trabelsi_2019_Port",
+        "text": "CGM",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Uhner_2015_Rock",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/CGV",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Uhner_2015_Rock",
+        "text": "CGV",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Villeneuve_2004_Une",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/CHK",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Villeneuve_2004_Une",
+        "text": "CHK",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Waasdorp_2012_Haag",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/CHM",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Waasdorp_2012_Haag",
+        "text": "CHM",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Wachsmann_2009_Palaeo",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/CHR",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Wachsmann_2009_Palaeo",
+        "text": "CHR",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Wang_2016_Tin",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/CHU",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Wang_2016_Tin",
+        "text": "CHU",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Wang_2018_Copper",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/CKK",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Wang_2018_Copper",
+        "text": "CKK",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Weill_1916_Ports",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/COZ",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Weill_1916_Ports",
+        "text": "COZ",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Wickler_2019_Early",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/CPE",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Wickler_2019_Early",
+        "text": "CPE",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Wilkins_1969_Necropolis",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/CPW",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Wilkins_1969_Necropolis",
+        "text": "CPW",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Zazzaro_2013_Ancient",
-        "parent": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/CSA",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "bib_Zazzaro_2013_Ancient",
+        "text": "CSA",
         "data": {}
       },
       {
-        "id": "http://purl.org/ontology/bibo/Article",
+        "id": "http://data.archaeology.link/data/ancientports/DAB",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "DAB",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/DAM",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "DAM",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/DAS",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "DAS",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/DEF",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "DEF",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/DEG",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "DEG",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/DEP",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "DEP",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/DER",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "DER",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/DEY",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "DEY",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/DGK",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "DGK",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/DIB",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "DIB",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/DIL",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "DIL",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/DKA",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "DKA",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/DLB",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "DLB",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/DLH",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "DLH",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/DLM",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "DLM",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/DMU",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "DMU",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/DNO",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "DNO",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/DOH",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "DOH",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/DON",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "DON",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/DQD",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "DQD",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/DRE",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "DRE",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/DUB",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "DUB",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/DUZ",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "DUZ",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/DWL",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "DWL",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/EBA",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "EBA",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/EDF",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "EDF",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/EDR",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "EDR",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/EHA",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "EHA",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/EKA",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "EKA",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/EKY",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "EKY",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/ELA",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "ELA",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/ELM",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "ELM",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/EMR",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "EMR",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/ERD",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "ERD",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/ERI",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "ERI",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/ERN",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "ERN",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/ERZ",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "ERZ",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/ESH",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "ESH",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/ESK",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "ESK",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/FAK",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "FAK",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/FAQ",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "FAQ",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/FDW",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "FDW",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/FKR",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "FKR",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/FLO",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "FLO",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/FRA",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "FRA",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/FRU",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "FRU",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/FSN",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "FSN",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/GAR",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "GAR",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/GAV",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "GAV",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/GCN",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "GCN",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/GDR",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "GDR",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/GHA",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "GHA",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/GIR",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "GIR",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/GJN",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "GJN",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/GLA",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "GLA",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/GNT",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "GNT",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/GNZ",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "GNZ",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/GOT",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "GOT",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/GOV",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "GOV",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/GOZ",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "GOZ",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/GRD",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "GRD",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/GRL",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "GRL",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/GRO",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "GRO",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/GRS",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "GRS",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/GTV",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "GTV",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/GUD",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "GUD",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/GUG",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "GUG",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/GUL",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "GUL",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/GWR",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "GWR",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/GZH",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "GZH",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/GZR",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "GZR",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/HAB",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "HAB",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/HAD",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "HAD",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/HAE",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "HAE",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/HAI",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "HAI",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/HAL",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "HAL",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/HAM",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "HAM",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/HAN",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "HAN",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/HAR",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "HAR",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/HAS",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "HAS",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/HAT",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "HAT",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/HAY",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "HAY",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/HAZ",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "HAZ",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/HBK",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "HBK",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/HBR",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "HBR",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/HBS",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "HBS",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/HDD",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "HDD",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/HFR",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "HFR",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/HIL",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "HIL",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/HJR",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "HJR",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/HLF",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "HLF",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/HLT",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "HLT",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/HLW",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "HLW",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/HMD",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "HMD",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/HMM",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "HMM",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/HMR",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "HMR",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/HMT",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "HMT",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/HOR",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "HOR",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/HPK",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "HPK",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/HRD",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "HRD",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/HRE",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "HRE",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/HRP",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "HRP",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/HRT",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "HRT",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/HSC",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "HSC",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/HSI",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "HSI",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/HSK",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "HSK",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/HSR",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "HSR",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/HUM",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "HUM",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/HUZ",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "HUZ",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/HWS",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "HWS",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/HYK",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "HYK",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/IBA",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "IBA",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/IDH",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "IDH",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/IDU",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "IDU",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/IHF",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "IHF",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/IHN",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "IHN",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/IKA",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "IKA",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/IKH",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "IKH",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/INA",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "INA",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/IRS",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "IRS",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/ISN",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "ISN",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/JAN",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "JAN",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/JAV",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "JAV",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/JDD",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "JDD",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/JDG",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "JDG",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/JDR",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "JDR",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/JMM",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "JMM",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/JOK",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "JOK",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/JOR",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "JOR",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/JRD",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "JRD",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/JRO",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "JRO",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/JRW",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "JRW",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/JUH",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "JUH",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/JWN",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "JWN",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/KAB",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "KAB",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/KAD",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "KAD",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/KAH",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "KAH",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/KAI",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "KAI",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/KAL",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "KAL",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/KAR",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "KAR",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/KAS",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "KAS",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/KAY",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "KAY",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/KAZ",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "KAZ",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/KBL",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "KBL",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/KBN",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "KBN",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/KCT",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "KCT",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/KDH",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "KDH",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/KDR",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "KDR",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/KEB",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "KEB",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/KEC",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "KEC",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/KEL",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "KEL",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/KEV",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "KEV",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/KFA",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "KFA",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/KFI",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "KFI",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/KFK",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "KFK",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/KHA",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "KHA",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/KHI",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "KHI",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/KHR",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "KHR",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/KHT",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "KHT",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/KHW",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "KHW",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/KKA",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "KKA",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/KKH",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "KKH",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/KKL",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "KKL",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/KKU",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "KKU",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/KLB",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "KLB",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/KLC",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "KLC",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/KLK",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "KLK",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/KML",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "KML",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/KMN",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "KMN",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/KMS",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "KMS",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/KNB",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "KNB",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/KNS",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "KNS",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/KOC",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "KOC",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/KOK",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "KOK",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/KOR",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "KOR",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/KOS",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "KOS",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/KOT",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "KOT",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/KOU",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "KOU",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/KRC",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "KRC",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/KRG",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "KRG",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/KRH",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "KRH",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/KRI",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "KRI",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/KRK",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "KRK",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/KRM",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "KRM",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/KRT",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "KRT",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/KSH",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "KSH",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/KSI",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "KSI",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/KSK",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "KSK",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/KSM",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "KSM",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/KSN",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "KSN",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/KSR",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "KSR",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/KSX",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "KSX",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/KTN",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "KTN",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/KUB",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "KUB",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/KUM",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "KUM",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/KUN",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "KUN",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/KUS",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "KUS",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/KZK",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "KZK",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/KZL",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "KZL",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/KZN",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "KZN",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/LAG",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "LAG",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/LAR",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "LAR",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/LCJ",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "LCJ",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/LHM",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "LHM",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/LIH",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "LIH",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/LIY",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "LIY",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/LMA",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "LMA",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/LRK",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "LRK",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/LSB",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "LSB",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/MAL",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "MAL",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/MAR",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "MAR",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/MAV",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "MAV",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/MCH",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "MCH",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/MCQ",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "MCQ",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/MCY",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "MCY",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/MCZ",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "MCZ",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/MDB",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "MDB",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/MET",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "MET",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/MGD",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "MGD",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/MHD",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "MHD",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/MHN",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "MHN",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/MHO",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "MHO",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/MHR",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "MHR",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/MIT",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "MIT",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/MKA",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "MKA",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/MLD",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "MLD",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/MLH",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "MLH",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/MLK",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "MLK",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/MMG",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "MMG",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/MOA",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "MOA",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/MQS",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "MQS",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/MRD",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "MRD",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/MRJ",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "MRJ",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/MRL",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "MRL",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/MRM",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "MRM",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/MRN",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "MRN",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/MRW",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "MRW",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/MSH",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "MSH",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/MSK",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "MSK",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/MUG",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "MUG",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/MUH",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "MUH",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/MUR",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "MUR",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/MUS",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "MUS",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/MZA",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "MZA",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/MZT",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "MZT",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/NAB",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "NAB",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/NAL",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "NAL",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/NAS",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "NAS",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/NAZ",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "NAZ",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/NER",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "NER",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/NGB",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "NGB",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/NGN",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "NGN",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/NHV",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "NHV",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/NIM",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "NIM",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/NIP",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "NIP",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/NJF",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "NJF",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/NKH",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "NKH",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/NKM",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "NKM",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/NNV",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "NNV",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/NOR",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "NOR",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/NQS",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "NQS",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/NRB",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "NRB",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/NRK",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "NRK",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/NSB",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "NSB",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/NSR",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "NSR",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/NUZ",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "NUZ",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/OJA",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "OJA",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/ORD",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "ORD",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/ORT",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "ORT",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/OTK",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "OTK",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/OYH",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "OYH",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/OZB",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "OZB",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/PAS",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "PAS",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/PAT",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "PAT",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/PDK",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "PDK",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/PEL",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "PEL",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/PHG",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "PHG",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/PHU",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "PHU",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/PIR",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "PIR",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/PLU",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "PLU",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/PRA",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "PRA",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/PRS",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "PRS",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/PSG",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "PSG",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/QAB",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "QAB",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/QAI",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "QAI",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/QAL",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "QAL",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/QAN",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "QAN",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/QAT",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "QAT",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/QBR",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "QBR",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/QCH",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "QCH",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/QDS",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "QDS",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/QHD",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "QHD",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/QIT",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "QIT",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/QLD",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "QLD",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/QNT",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "QNT",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/QQN",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "QQN",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/QSH",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "QSH",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/QTN",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "QTN",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/QUA",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "QUA",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/QUF",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "QUF",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/RAJ",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "RAJ",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/RAZ",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "RAZ",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/RBT",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "RBT",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/RKI",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "RKI",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/RQI",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "RQI",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/RSL",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "RSL",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/RTA",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "RTA",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/RTE",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "RTE",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/RUS",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "RUS",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/RUT",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "RUT",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/SAI",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "SAI",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/SAL",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "SAL",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/SAM",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "SAM",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/SAP",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "SAP",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/SAR",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "SAR",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/SAV",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "SAV",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/SBA",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "SBA",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/SBY",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "SBY",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/SCH",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "SCH",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/SDM",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "SDM",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/SDP",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "SDP",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/SEA",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "SEA",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/SEC",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "SEC",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/SEL",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "SEL",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/SEQ",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "SEQ",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/SER",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "SER",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/SFR",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "SFR",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/SHA",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "SHA",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/SHD",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "SHD",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/SHI",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "SHI",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/SHP",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "SHP",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/SHY",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "SHY",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/SHZ",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "SHZ",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/SID",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "SID",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/SIH",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "SIH",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/SIN",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "SIN",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/SIP",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "SIP",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/SIS",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "SIS",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/SIT",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "SIT",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/SIY",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "SIY",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/SJQ",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "SJQ",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/SJR",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "SJR",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/SKH",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "SKH",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/SLA",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "SLA",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/SLB",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "SLB",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/SLG",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "SLG",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/SMA",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "SMA",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/SMH",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "SMH",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/SMR",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "SMR",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/SNJ",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "SNJ",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/SOK",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "SOK",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/SOU",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "SOU",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/SPA",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "SPA",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/SPH",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "SPH",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/SPI",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "SPI",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/SQL",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "SQL",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/SRD",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "SRD",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/SRK",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "SRK",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/SRM",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "SRM",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/SRP",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "SRP",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/SSH",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "SSH",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/SUH",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "SUH",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/SUN",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "SUN",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/SUR",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "SUR",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/SUS",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "SUS",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/SWE",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "SWE",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/SWS",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "SWS",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/SYA",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "SYA",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/SZE",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "SZE",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/SZU",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "SZU",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/TAB",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "TAB",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/TAF",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "TAF",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/TAG",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "TAG",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/TAH",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "TAH",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/TAN",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "TAN",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/TAR",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "TAR",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/TAS",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "TAS",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/TAT",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "TAT",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/TAW",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "TAW",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/TAY",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "TAY",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/TBA",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "TBA",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/TBM",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "TBM",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/TBO",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "TBO",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/TBP",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "TBP",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/TBR",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "TBR",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/TBS",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "TBS",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/TBT",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "TBT",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/TDB",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "TDB",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/TDU",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "TDU",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/TDW",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "TDW",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/TEG",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "TEG",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/TEH",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "TEH",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/TEI",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "TEI",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/TEM",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "TEM",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/TFA",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "TFA",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/TFQ",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "TFQ",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/TGA",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "TGA",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/THA",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "THA",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/THE",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "THE",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/THM",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "THM",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/THO",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "THO",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/THR",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "THR",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/THW",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "THW",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/THY",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "THY",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/TIJ",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "TIJ",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/TIK",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "TIK",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/TIR",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "TIR",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/TJZ",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "TJZ",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/TKH",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "TKH",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/TKP",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "TKP",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/TLB",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "TLB",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/TLH",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "TLH",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/TLL",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "TLL",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/TMH",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "TMH",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/TMU",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "TMU",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/TNA",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "TNA",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/TNH",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "TNH",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/TNP",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "TNP",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/TOD",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "TOD",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/TOP",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "TOP",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/TRM",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "TRM",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/TRQ",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "TRQ",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/TRT",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "TRT",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/TSA",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "TSA",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/TSB",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "TSB",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/TSI",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "TSI",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/TSO",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "TSO",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/TSV",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "TSV",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/TTA",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "TTA",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/TTB",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "TTB",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/TTU",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "TTU",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/TUH",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "TUH",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/TUT",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "TUT",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/TVI",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "TVI",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/TVK",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "TVK",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/TYA",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "TYA",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/TYM",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "TYM",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/TYR",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "TYR",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/TZW",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "TZW",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/UBD",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "UBD",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/UCH",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "UCH",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/UFR",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "UFR",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/UGA",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "UGA",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/UMA",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "UMA",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/UPI",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "UPI",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/UQA",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "UQA",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/UQR",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "UQR",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/URB",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "URB",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/URI",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "URI",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/URK",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "URK",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/URU",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "URU",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/USH",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "USH",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/UWW",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "UWW",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/VAK",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "VAK",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/VAN",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "VAN",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/VAR",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "VAR",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/WIN",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "WIN",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/WLS",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "WLS",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/WRS",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "WRS",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/XOC",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "XOC",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/YAH",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "YAH",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/YAL",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "YAL",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/YAR",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "YAR",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/YAS",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "YAS",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/YAZ",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "YAZ",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/YEL",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "YEL",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/YES",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "YES",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/YON",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "YON",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/YSJ",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "YSJ",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/ZAA",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "ZAA",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/ZAB",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "ZAB",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/ZBD",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "ZBD",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/ZCR",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "ZCR",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/ZIW",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "ZIW",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/ZLB",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "ZLB",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/ZOH",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "ZOH",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/ZTP",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "ZTP",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/ZVA",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "ZVA",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/ancientports/ZWY",
+        "parent": "http://www.ancientports.com/ont#CuneiformSite",
+        "type": "instance",
+        "text": "ZWY",
+        "data": {}
+      },
+      {
+        "id": "http://www.ancientports.com/ont#CuneiformSite",
+        "parent": "http://www.opengis.net/ont/geosparql#Feature",
+        "type": "class",
+        "text": "CuneiformSite (ns1:CuneiformSite) [579]",
+        "data": {}
+      },
+      {
+        "id": "http://www.opengis.net/ont/geosparql#Feature",
         "parent": "#",
         "type": "class",
-        "text": "Article (bibo:Article) [100]",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Berger_1997_Etudes",
-        "parent": "http://purl.org/ontology/bibo/Book",
-        "type": "instance",
-        "text": "bib_Berger_1997_Etudes",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Besnier_1914_Lexique",
-        "parent": "http://purl.org/ontology/bibo/Book",
-        "type": "instance",
-        "text": "bib_Besnier_1914_Lexique",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Chankowski_2018_Entrepots",
-        "parent": "http://purl.org/ontology/bibo/Book",
-        "type": "instance",
-        "text": "bib_Chankowski_2018_Entrepots",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Eggermont_1975_Alexander",
-        "parent": "http://purl.org/ontology/bibo/Book",
-        "type": "instance",
-        "text": "bib_Eggermont_1975_Alexander",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Goddio_2007_Topography",
-        "parent": "http://purl.org/ontology/bibo/Book",
-        "type": "instance",
-        "text": "bib_Goddio_2007_Topography",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Leveau_1992_Caesarea",
-        "parent": "http://purl.org/ontology/bibo/Book",
-        "type": "instance",
-        "text": "bib_Leveau_1992_Caesarea",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Lombard_2016_Qal",
-        "parent": "http://purl.org/ontology/bibo/Book",
-        "type": "instance",
-        "text": "bib_Lombard_2016_Qal",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Maarleveld_2009_Boomstamboot",
-        "parent": "http://purl.org/ontology/bibo/Book",
-        "type": "instance",
-        "text": "bib_Maarleveld_2009_Boomstamboot",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Michalowski_2011_Correspondence",
-        "parent": "http://purl.org/ontology/bibo/Book",
-        "type": "instance",
-        "text": "bib_Michalowski_2011_Correspondence",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Milne_1985_Port",
-        "parent": "http://purl.org/ontology/bibo/Book",
-        "type": "instance",
-        "text": "bib_Milne_1985_Port",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Morris_2021_Architecture",
-        "parent": "http://purl.org/ontology/bibo/Book",
-        "type": "instance",
-        "text": "bib_Morris_2021_Architecture",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Pieters_2013_Het",
-        "parent": "http://purl.org/ontology/bibo/Book",
-        "type": "instance",
-        "text": "bib_Pieters_2013_Het",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Thiers_2007_Ptolemee",
-        "parent": "http://purl.org/ontology/bibo/Book",
-        "type": "instance",
-        "text": "bib_Thiers_2007_Ptolemee",
-        "data": {}
-      },
-      {
-        "id": "http://purl.org/ontology/bibo/Book",
-        "parent": "#",
-        "type": "class",
-        "text": "Book (bibo:Book) [13]",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Bukharin_2012_The",
-        "parent": "http://purl.org/ontology/bibo/Proceedings",
-        "type": "instance",
-        "text": "bib_Bukharin_2012_The",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Hurst_2010_Understanding",
-        "parent": "http://purl.org/ontology/bibo/Proceedings",
-        "type": "instance",
-        "text": "bib_Hurst_2010_Understanding",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Monchablon_2003_Excavations",
-        "parent": "http://purl.org/ontology/bibo/Proceedings",
-        "type": "instance",
-        "text": "bib_Monchablon_2003_Excavations",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Saez_2014_Fish",
-        "parent": "http://purl.org/ontology/bibo/Proceedings",
-        "type": "instance",
-        "text": "bib_Saez_2014_Fish",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Steerwood_2003_Context",
-        "parent": "http://purl.org/ontology/bibo/Proceedings",
-        "type": "instance",
-        "text": "bib_Steerwood_2003_Context",
-        "data": {}
-      },
-      {
-        "id": "http://purl.org/ontology/bibo/Proceedings",
-        "parent": "#",
-        "type": "class",
-        "text": "Proceedings (bibo:Proceedings) [5]",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Fernandez_2021_El",
-        "parent": "http://purl.org/ontology/bibo/BookSection",
-        "type": "instance",
-        "text": "bib_Fernandez_2021_El",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Janowski_2013_Harbours",
-        "parent": "http://purl.org/ontology/bibo/BookSection",
-        "type": "instance",
-        "text": "bib_Janowski_2013_Harbours",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Kloo\u00df_2009_The",
-        "parent": "http://purl.org/ontology/bibo/BookSection",
-        "type": "instance",
-        "text": "bib_Kloo\u00df_2009_The",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/bib_L\u00fcbke_2000_Final",
-        "parent": "http://purl.org/ontology/bibo/BookSection",
-        "type": "instance",
-        "text": "bib_L\u00fcbke_2000_Final",
-        "data": {}
-      },
-      {
-        "id": "http://purl.org/ontology/bibo/BookSection",
-        "parent": "#",
-        "type": "class",
-        "text": "BookSection (bibo:BookSection) [4]",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Lawler_2010_Forgotten",
-        "parent": "http://purl.org/ontology/bibo/Document",
-        "type": "instance",
-        "text": "bib_Lawler_2010_Forgotten",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Marcotte_2017_Ocean",
-        "parent": "http://purl.org/ontology/bibo/Document",
-        "type": "instance",
-        "text": "bib_Marcotte_2017_Ocean",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Said_2014_Ancient",
-        "parent": "http://purl.org/ontology/bibo/Document",
-        "type": "instance",
-        "text": "bib_Said_2014_Ancient",
-        "data": {}
-      },
-      {
-        "id": "http://purl.org/ontology/bibo/Document",
-        "parent": "#",
-        "type": "class",
-        "text": "Document (bibo:Document) [3]",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Macleroy_2010_Searching",
-        "parent": "http://purl.org/ontology/bibo/Thesis",
-        "type": "instance",
-        "text": "bib_Macleroy_2010_Searching",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Priestman_2013_Quantitative",
-        "parent": "http://purl.org/ontology/bibo/Thesis",
-        "type": "instance",
-        "text": "bib_Priestman_2013_Quantitative",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Terrado_2018_Portus",
-        "parent": "http://purl.org/ontology/bibo/Thesis",
-        "type": "instance",
-        "text": "bib_Terrado_2018_Portus",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Walsh_2006_Pudding",
-        "parent": "http://purl.org/ontology/bibo/Thesis",
-        "type": "instance",
-        "text": "bib_Walsh_2006_Pudding",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/bib_Wilkes_2004_Iron",
-        "parent": "http://purl.org/ontology/bibo/Thesis",
-        "type": "instance",
-        "text": "bib_Wilkes_2004_Iron",
-        "data": {}
-      },
-      {
-        "id": "http://purl.org/ontology/bibo/Thesis",
-        "parent": "#",
-        "type": "class",
-        "text": "Thesis (bibo:Thesis) [5]",
+        "text": "Feature (gsp:Feature)",
         "data": {}
       },
       {
@@ -5059,1931 +8174,6 @@ var tree={
         "parent": "#",
         "type": "class",
         "text": "Geometry (gsp:Geometry)",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Akerraz_Aomar",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Akerraz_Aomar",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Albelda_Eduardo",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Albelda_Eduardo",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Allen_J.R.L.",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Allen_J.R.L.",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Almahari_Salman",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Almahari_Salman",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Alonso-Olazabal_Ainhoa",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Alonso-Olazabal_Ainhoa",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Alonso_Carlos",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Alonso_Carlos",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Amador_JJ_L\u00f3pez",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Amador_JJ_L\u00f3pez",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Amjadi_Sedighe",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Amjadi_Sedighe",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Andreou_Georgia_M",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Andreou_Georgia_M",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Avanzini_Aless",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Avanzini_Aless",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Baeteman_Cecile",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Baeteman_Cecile",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Ballantyne_Rachel",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Ballantyne_Rachel",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Belov_AA",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Belov_AA",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Belova_GA",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Belova_GA",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Berger_Catherine",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Berger_Catherine",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Besenval_Rol",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Besenval_Rol",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Besnier_Maurice",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Besnier_Maurice",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Besselaar_JA",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Besselaar_JA",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Beuker_J",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Beuker_J",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Beyin_Amanuel",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Beyin_Amanuel",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Bhacker_Bernadette",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Bhacker_Bernadette",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Bhacker_M_Redha",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Bhacker_M_Redha",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Bjerck_Hein_B.",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Bjerck_Hein_B.",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Blot_Maria_Luisa_Pienheiro",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Blot_Maria_Luisa_Pienheiro",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Blue_Lucy",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Blue_Lucy",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Boardman_John",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Boardman_John",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Bollen_An",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Bollen_An",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Boulinguez_Corinne",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Boulinguez_Corinne",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Breivik_Heidi_Mjelva",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Breivik_Heidi_Mjelva",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Brouwers_Will",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Brouwers_Will",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Bruley-Chabot_Ga\u00eblle",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Bruley-Chabot_Ga\u00eblle",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Bugalh\u00e3o_Jacinta",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Bugalh\u00e3o_Jacinta",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Bukharin_Michael_D.",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Bukharin_Michael_D.",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Carannante_Alfredo",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Carannante_Alfredo",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Carlo_Beltrame",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Carlo_Beltrame",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Carreras_Cesar",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Carreras_Cesar",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Carter_Robert_A",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Carter_Robert_A",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Castro_Filipe",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Castro_Filipe",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Cerdan_Angel",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Cerdan_Angel",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Challis_Keith",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Challis_Keith",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Chami_Felix",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Chami_Felix",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Chami_Felix_Arkard",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Chami_Felix_Arkard",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Chankowski_V\u00e9ronique",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Chankowski_V\u00e9ronique",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Chondraki_Vassilia",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Chondraki_Vassilia",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Claerhout_Chloe",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Claerhout_Chloe",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Cleuziou_Serge",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Cleuziou_Serge",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Clogg_Philip",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Clogg_Philip",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Cocco_Maria_Bastiana",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Cocco_Maria_Bastiana",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Connan_Jacques",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Connan_Jacques",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Conwell_David",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Conwell_David",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Conyers_Lawrence_B",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Conyers_Lawrence_B",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Cooremans_Brigitte",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Cooremans_Brigitte",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Crassard_R\u00e9my",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Crassard_R\u00e9my",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Cuvigny_H\u00e9l\u00e8ne",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Cuvigny_H\u00e9l\u00e8ne",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_C\u00f3rdoba_Emilio_Mart\u00edn",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_C\u00f3rdoba_Emilio_Mart\u00edn",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_D'Agostino_Franco",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_D'Agostino_Franco",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Daszewski_Wiktor_Andrzej",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Daszewski_Wiktor_Andrzej",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Davis_Dan",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Davis_Dan",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_De_Bie_M",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_De_Bie_M",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_De_Buyser_F",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_De_Buyser_F",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_De_Canales_F_Gonz\u00e1lez",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_De_Canales_F_Gonz\u00e1lez",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_De_Clercq_Maikel",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_De_Clercq_Maikel",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_De_Clercq_Wim",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_De_Clercq_Wim",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_De_Groote_A",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_De_Groote_A",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Decorte_K",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Decorte_K",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Deforce_Koen",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Deforce_Koen",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Demerre_Ine",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Demerre_Ine",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Demey_Dieter",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Demey_Dieter",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Denys_Luc",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Denys_Luc",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Desanges_Jehan",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Desanges_Jehan",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Desse-Berset_Nathalie",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Desse-Berset_Nathalie",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Desse_Jean",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Desse_Jean",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Djamali_Morteza",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Djamali_Morteza",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Dunn_Richard_K",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Dunn_Richard_K",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Eggermont_Pierre_Herman_Leonard",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Eggermont_Pierre_Herman_Leonard",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Ellis_Peter",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Ellis_Peter",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Erbati_E",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Erbati_E",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Eric_W._Robinson",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Eric_W._Robinson",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Ernenwein_Eileen_G",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Ernenwein_Eileen_G",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Ervynck_Anton",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Ervynck_Anton",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Espinosa_Ruiz_Antonio",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Espinosa_Ruiz_Antonio",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Evangelinos_Dimitris",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Evangelinos_Dimitris",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Ferdi_Sabah",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Ferdi_Sabah",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Fern\u00e1ndez_E_P\u00e9rez",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Fern\u00e1ndez_E_P\u00e9rez",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Flaux_Cl\u00e9ment",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Flaux_Cl\u00e9ment",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Fouache_Eric",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Fouache_Eric",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Fulford_M.G.",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Fulford_M.G.",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_GLAZER_Eva_Katarina",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_GLAZER_Eva_Katarina",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Gavini_Alberto",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Gavini_Alberto",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Ghanavati_Ezatollah",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Ghanavati_Ezatollah",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Gibson_David",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Gibson_David",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Gl\u00f8rstad_H\u00e5kon",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Gl\u00f8rstad_H\u00e5kon",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Goddio_Franck",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Goddio_Franck",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Gorea_Maria",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Gorea_Maria",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Green_Jeremy",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Green_Jeremy",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Guy_Herv\u00e9",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Guy_Herv\u00e9",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Hairy_I",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Hairy_I",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Hale_John_R",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Hale_John_R",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Halkon_Peter",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Halkon_Peter",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Hamzeh_Mohammad_Ali",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Hamzeh_Mohammad_Ali",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Harpster_Matthew",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Harpster_Matthew",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Henk_Y_Raczynski",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Henk_Y_Raczynski",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Hohlfelder_Robert_L",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Hohlfelder_Robert_L",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Huigens_Harmen_O",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Huigens_Harmen_O",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Hurst_Henry",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Hurst_Henry",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Hussein_Shidad",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Hussein_Shidad",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Iba\u00f1ez-Etxeberria_Alex",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Iba\u00f1ez-Etxeberria_Alex",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Ibba_Antonio",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Ibba_Antonio",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Iglesias_Jos\u00e9_Manuel",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Iglesias_Jos\u00e9_Manuel",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Insausti_Maite",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Insausti_Maite",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Ivanov_SV",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Ivanov_SV",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Jakubiak_Krzysztof",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Jakubiak_Krzysztof",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Janowski_Andrzej",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Janowski_Andrzej",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Jansen_van_Rensburg_Julian",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Jansen_van_Rensburg_Julian",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Jansma_E",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Jansma_E",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Kadhem_Ghanim_Ali",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Kadhem_Ghanim_Ali",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Kapsimalis_Vasilios",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Kapsimalis_Vasilios",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Kastholm_Ole_Thirup",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Kastholm_Ole_Thirup",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Kervran_Monik",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Kervran_Monik",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Khakzad_Sorna",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Khakzad_Sorna",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Kloo\u00df_Stefanie",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Kloo\u00df_Stefanie",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Knight_Mark",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Knight_Mark",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Koehler_L",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Koehler_L",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Koukousioura_Olga",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Koukousioura_Olga",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Kramer_Samuel_Noah",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Kramer_Samuel_Noah",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Kruidhof_CN",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Kruidhof_CN",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Laemmel_S",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Laemmel_S",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Lafon_Xavier",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Lafon_Xavier",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Lahijani_Hamid",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Lahijani_Hamid",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Lahijani_Hamid_Alizadeh",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Lahijani_Hamid_Alizadeh",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Laronde_Andr\u00e9",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Laronde_Andr\u00e9",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Lauer_Jean_Philippe",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Lauer_Jean_Philippe",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Lawler_Andrew",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Lawler_Andrew",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Lentacker_Ann",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Lentacker_Ann",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Leveau_Ph",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Leveau_Ph",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Ling_Johan",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Ling_Johan",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Llompart_Jorge",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Llompart_Jorge",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Lombard_Pierre",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Lombard_Pierre",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Louren\u00e7o_S",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Louren\u00e7o_S",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Lyklema_E",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Lyklema_E",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_L\u00f3pez_DG",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_L\u00f3pez_DG",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Maarleveld_Thijs",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Maarleveld_Thijs",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_MacLean_Rachel",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_MacLean_Rachel",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Macleroy-Obied_CT",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Macleroy-Obied_CT",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Malm_Torben",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Malm_Torben",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Mapunda_Bertram",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Mapunda_Bertram",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Marcotte_Didier",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Marcotte_Didier",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Marriner_Nick",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Marriner_Nick",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Martin_Archer",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Martin_Archer",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Mathieu_Bernard",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Mathieu_Bernard",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Mayerson_Philip",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Mayerson_Philip",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Mendes_Henrique",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Mendes_Henrique",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Michalowski_Piotr",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Michalowski_Piotr",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Milne_Gustav",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Milne_Gustav",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Missiaen_Tine",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Missiaen_Tine",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Momber_Garry",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Momber_Garry",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Monchablon_C\u00e9cile",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Monchablon_C\u00e9cile",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Morais_Rui",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Morais_Rui",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Morhange_Christopher",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Morhange_Christopher",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Morris_Ellen",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Morris_Ellen",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Munoz_Olivia",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Munoz_Olivia",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Murelaga_Xabier",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Murelaga_Xabier",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_M\u00e9nanteau_Loic",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_M\u00e9nanteau_Loic",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Napoli_Jo\u00eblle",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Napoli_Jo\u00eblle",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Nappo_Dario",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Nappo_Dario",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Niekus_MJLT",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Niekus_MJLT",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Ochoa_Carmen",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Ochoa_Carmen",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Ortega_Luis_Angel",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Ortega_Luis_Angel",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Ortu\u00f1o_Patricia_Terrado",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Ortu\u00f1o_Patricia_Terrado",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Pappa_E",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Pappa_E",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Pareja_Victoria_Ruescas",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Pareja_Victoria_Ruescas",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Paskoff_Rol",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Paskoff_Rol",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Pavlopoulos_Kosmas",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Pavlopoulos_Kosmas",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Pawlicki_Franciszek",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Pawlicki_Franciszek",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Pedersen_Ralph",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Pedersen_Ralph",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Potts_DT",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Potts_DT",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Pourkerman_Majid",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Pourkerman_Majid",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Pratico_Gary_D.",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Pratico_Gary_D.",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Priestman_Seth",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Priestman_Seth",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Priestman_Seth_MN",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Priestman_Seth_MN",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Prioletta_Alessia",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Prioletta_Alessia",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Ramazzotti_Marco",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Ramazzotti_Marco",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Rey_Casti\u00f1eira_Josefa",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Rey_Casti\u00f1eira_Josefa",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Rich_Sara_A",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Rich_Sara_A",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Rodr\u00edguez-Corral_Javier",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Rodr\u00edguez-Corral_Javier",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Romano_Licia",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Romano_Licia",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Rougeulle_Axelle",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Rougeulle_Axelle",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Ruiz_\u00c0ngel_Recio",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Ruiz_\u00c0ngel_Recio",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Ryano_M",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Ryano_M",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_STRUKLEC_Danijel",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_STRUKLEC_Danijel",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Said_M",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Said_M",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Salido_Dom\u00ednguez_Javier",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Salido_Dom\u00ednguez_Javier",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Schacht_Sigrid",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Schacht_Sigrid",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Seinen_PA",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Seinen_PA",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Sennoune_O",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Sennoune_O",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Serrano_Leonardo",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Serrano_Leonardo",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Shah-Hoesseini_Majid",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Shah-Hoesseini_Majid",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Shah-Hosseini_Majid",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Shah-Hosseini_Majid",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Sheets_Payson",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Sheets_Payson",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Slim_H\u00e9di",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Slim_H\u00e9di",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Spencer_A_Jeffrey",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Spencer_A_Jeffrey",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Starley_David",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Starley_David",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Steerwood_Robert",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Steerwood_Robert",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Stolz_Yvonne",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Stolz_Yvonne",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Storme_Annelies",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Storme_Annelies",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_S\u00e1nchez_Juan_de_Dios_Ram\u00edrez",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_S\u00e1nchez_Juan_de_Dios_Ram\u00edrez",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Terberger_Thomas",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Terberger_Thomas",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Thiers_Christophe",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Thiers_Christophe",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Thomas_Ross",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Thomas_Ross",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Todd_J.A.",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Todd_J.A.",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Trabelsi_Soumaya",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Trabelsi_Soumaya",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Trakadas_Athena",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Trakadas_Athena",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Triantaphyllou_Maria",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Triantaphyllou_Maria",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Trousset_Pol",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Trousset_Pol",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Uhner_Claes",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Uhner_Claes",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Ulrich_Hartung",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Ulrich_Hartung",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Vacchi_Matteo",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Vacchi_Matteo",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Vanhoutte_Sofie",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Vanhoutte_Sofie",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Vaz_Pinto_Ines",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Vaz_Pinto_Ines",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Villeneuve_Fran\u00e7ois",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Villeneuve_Fran\u00e7ois",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Virlouvet_Catherine",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Virlouvet_Catherine",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Waasdorp_JA",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Waasdorp_JA",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Wachsmann_Shelley",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Wachsmann_Shelley",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Walsh_Michael_Thomas",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Walsh_Michael_Thomas",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Watts_Ryan",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Watts_Ryan",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Weill_R",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Weill_R",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Westley_Kieran",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Westley_Kieran",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Wickler_Stephen",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Wickler_Stephen",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Wilkes_Eileen",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Wilkes_Eileen",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Wilkin_Neil",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Wilkin_Neil",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Wilkins_J",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Wilkins_J",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Wittig_Nicole",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Wittig_Nicole",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Zeki_Iona_Robinson",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Zeki_Iona_Robinson",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Zuluaga_Maria_Cruz",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Zuluaga_Maria_Cruz",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_arakis_Dimitris",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_arakis_Dimitris",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_de_Almeida_Rui_Roberto",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_de_Almeida_Rui_Roberto",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_de_Proc\u00e9_Sol\u00e8ne_Marion",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_de_Proc\u00e9_Sol\u00e8ne_Marion",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_ers_M",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_ers_M",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_ez_Francisco_Jos\u00e9",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_ez_Francisco_Jos\u00e9",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Bastiaens_Jan",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Bastiaens_Jan",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Beni_Abdolmajid_Naderi",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Beni_Abdolmajid_Naderi",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Carter_Robert",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Carter_Robert",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Insoll_Timothy",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Insoll_Timothy",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_L\u00fcbke_Harald",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_L\u00fcbke_Harald",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Morhange_Christophe",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Morhange_Christophe",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Pimenta_Jo\u00e3o",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Pimenta_Jo\u00e3o",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Potts_Daniel",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Potts_Daniel",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Roberts_Benjamin_W",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Roberts_Benjamin_W",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Saez_Romero_Antonio",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Saez_Romero_Antonio",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Strekopytov_Stanislav",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Strekopytov_Stanislav",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Tofighian_Hossein",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Tofighian_Hossein",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Wang_Quanyu",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Wang_Quanyu",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Zazzaro_Chiara",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Zazzaro_Chiara",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Pieters_Marnix",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Pieters_Marnix",
-        "data": {}
-      },
-      {
-        "id": "http://data.archaeology.link/data/ancientports/author_Robin_Christian_Julien",
-        "parent": "http://xmlns.com/foaf/0.1/Person",
-        "type": "instance",
-        "text": "author_Robin_Christian_Julien",
-        "data": {}
-      },
-      {
-        "id": "http://xmlns.com/foaf/0.1/Person",
-        "parent": "#",
-        "type": "class",
-        "text": "Person (foaf:Person) [255]",
-        "data": {}
-      },
-      {
-        "id": "http://www.wikidata.org/entity/Q11821770",
-        "parent": "http://purl.org/ontology/bibo/Journal",
-        "type": "instance",
-        "text": "Q11821770 (wde:Q11821770)",
-        "data": {}
-      },
-      {
-        "id": "http://www.wikidata.org/entity/Q15716440",
-        "parent": "http://purl.org/ontology/bibo/Journal",
-        "type": "instance",
-        "text": "Q15716440 (wde:Q15716440)",
-        "data": {}
-      },
-      {
-        "id": "http://www.wikidata.org/entity/Q15755909",
-        "parent": "http://purl.org/ontology/bibo/Journal",
-        "type": "instance",
-        "text": "Q15755909 (wde:Q15755909)",
-        "data": {}
-      },
-      {
-        "id": "http://www.wikidata.org/entity/Q15763633",
-        "parent": "http://purl.org/ontology/bibo/Journal",
-        "type": "instance",
-        "text": "Q15763633 (wde:Q15763633)",
-        "data": {}
-      },
-      {
-        "id": "http://www.wikidata.org/entity/Q27715622",
-        "parent": "http://purl.org/ontology/bibo/Journal",
-        "type": "instance",
-        "text": "Q27715622 (wde:Q27715622)",
-        "data": {}
-      },
-      {
-        "id": "http://www.wikidata.org/entity/Q465332",
-        "parent": "http://purl.org/ontology/bibo/Journal",
-        "type": "instance",
-        "text": "Q465332 (wde:Q465332)",
-        "data": {}
-      },
-      {
-        "id": "http://www.wikidata.org/entity/Q5128255",
-        "parent": "http://purl.org/ontology/bibo/Journal",
-        "type": "instance",
-        "text": "Q5128255 (wde:Q5128255)",
-        "data": {}
-      },
-      {
-        "id": "http://www.wikidata.org/entity/Q589209",
-        "parent": "http://purl.org/ontology/bibo/Journal",
-        "type": "instance",
-        "text": "Q589209 (wde:Q589209)",
-        "data": {}
-      },
-      {
-        "id": "http://www.wikidata.org/entity/Q15750622",
-        "parent": "http://purl.org/ontology/bibo/Journal",
-        "type": "instance",
-        "text": "Q15750622 (wde:Q15750622)",
-        "data": {}
-      },
-      {
-        "id": "http://purl.org/ontology/bibo/Journal",
-        "parent": "#",
-        "type": "class",
-        "text": "Journal (bibo:Journal) [9]",
-        "data": {}
-      },
-      {
-        "id": "http://www.wikidata.org/entity/Q40358",
-        "parent": "http://xmlns.com/foaf/0.1/Organization",
-        "type": "instance",
-        "text": "Q40358 (wde:Q40358)",
-        "data": {}
-      },
-      {
-        "id": "http://www.wikidata.org/entity/Q56416796",
-        "parent": "http://xmlns.com/foaf/0.1/Organization",
-        "type": "instance",
-        "text": "Q56416796 (wde:Q56416796)",
-        "data": {}
-      },
-      {
-        "id": "http://www.wikidata.org/entity/Q917031",
-        "parent": "http://xmlns.com/foaf/0.1/Organization",
-        "type": "instance",
-        "text": "Q917031 (wde:Q917031)",
-        "data": {}
-      },
-      {
-        "id": "http://www.wikidata.org/entity/Q912887",
-        "parent": "http://xmlns.com/foaf/0.1/Organization",
-        "type": "instance",
-        "text": "Q912887 (wde:Q912887)",
-        "data": {}
-      },
-      {
-        "id": "http://www.wikidata.org/entity/Q70631906",
-        "parent": "http://xmlns.com/foaf/0.1/Organization",
-        "type": "instance",
-        "text": "Q70631906 (wde:Q70631906)",
-        "data": {}
-      },
-      {
-        "id": "http://www.wikidata.org/entity/Q746413",
-        "parent": "http://xmlns.com/foaf/0.1/Organization",
-        "type": "instance",
-        "text": "Q746413 (wde:Q746413)",
-        "data": {}
-      },
-      {
-        "id": "http://www.wikidata.org/entity/Q880582",
-        "parent": "http://xmlns.com/foaf/0.1/Organization",
-        "type": "instance",
-        "text": "Q880582 (wde:Q880582)",
-        "data": {}
-      },
-      {
-        "id": "http://www.wikidata.org/entity/Q1508259",
-        "parent": "http://xmlns.com/foaf/0.1/Organization",
-        "type": "instance",
-        "text": "Q1508259 (wde:Q1508259)",
-        "data": {}
-      },
-      {
-        "id": "http://xmlns.com/foaf/0.1/Organization",
-        "parent": "#",
-        "type": "class",
-        "text": "Organization (foaf:Organization) [8]",
         "data": {}
       },
       {
