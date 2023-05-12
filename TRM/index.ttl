@@ -9,7 +9,6 @@
     rdfs:label ""@am,
         "Alazlı"@en ;
     dc:created "2021"^^xsd:gYear ;
-    dc:creator <http://data.archaeology.link/data/spphaefen/arthur_de_graauw> ;
     dc:license <http://creativecommons.org/licenses/by/4.0> ;
     ns1:accuracy "3"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/TRM_geom> ;
