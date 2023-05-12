@@ -87,14 +87,21 @@ var minivowlresult={
    "uriTo": "http://purl.org/dc/elements/1.1/creator"
   },
   {
-   "source": 0,
+   "source": 3,
    "target": 9,
    "valueTo": "creator",
    "propertyTo": "class",
    "uriTo": "http://purl.org/dc/elements/1.1/creator"
   },
   {
-   "source": 3,
+   "source": 1,
+   "target": 9,
+   "valueTo": "creator",
+   "propertyTo": "class",
+   "uriTo": "http://purl.org/dc/elements/1.1/creator"
+  },
+  {
+   "source": 0,
    "target": 9,
    "valueTo": "creator",
    "propertyTo": "class",
@@ -108,14 +115,14 @@ var minivowlresult={
    "uriTo": "http://purl.org/dc/elements/1.1/creator"
   },
   {
-   "source": 1,
-   "target": 9,
-   "valueTo": "creator",
+   "source": 0,
+   "target": 10,
+   "valueTo": "issuer",
    "propertyTo": "class",
-   "uriTo": "http://purl.org/dc/elements/1.1/creator"
+   "uriTo": "http://purl.org/ontology/bibo/issuer"
   },
   {
-   "source": 1,
+   "source": 0,
    "target": 11,
    "valueTo": "publisher",
    "propertyTo": "class",
@@ -129,18 +136,11 @@ var minivowlresult={
    "uriTo": "http://purl.org/dc/terms/publisher"
   },
   {
-   "source": 0,
+   "source": 1,
    "target": 11,
    "valueTo": "publisher",
    "propertyTo": "class",
    "uriTo": "http://purl.org/dc/terms/publisher"
-  },
-  {
-   "source": 0,
-   "target": 10,
-   "valueTo": "issuer",
-   "propertyTo": "class",
-   "uriTo": "http://purl.org/ontology/bibo/issuer"
   }
  ]
 }
