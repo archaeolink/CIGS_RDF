@@ -148,7 +148,7 @@ with open('source/cigs_creator.bib',encoding="utf-8") as bibtex_file:
     bib_creator = bibtexparser.load(bibtex_file)
 print(bib_creator.entries)
 
-ns="http://data.archaeology.link/data/ancientports/"
+ns="http://data.archaeology.link/data/cigs/"
 nsont="http://www.ancientports.com/ont#"
 triples=set()
 bibres=bibtexToRDF(triples,bib_creator.entries,ns,nsont)
