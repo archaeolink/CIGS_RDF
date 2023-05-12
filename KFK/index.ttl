@@ -1,0 +1,15 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix ns1: <http://www.ancientports.com/ont#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archaeology.link/data/cigs/KFK> a ns1:CuneiformSite ;
+    rdfs:label ""@am,
+        "Kef Kalesi"@en ;
+    dc:created "2021"^^xsd:gYear ;
+    dc:creator <http://data.archaeology.link/data/spphaefen/arthur_de_graauw> ;
+    dc:license <http://creativecommons.org/licenses/by/4.0> ;
+    ns1:accuracy "2"^^xsd:string ;
+    geo:hasGeometry <http://data.archaeology.link/data/cigs/KFK_geom> .
+

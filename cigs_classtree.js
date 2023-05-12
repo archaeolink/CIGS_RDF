@@ -43,4064 +43,4099 @@ var tree={
     "check_callback": true,
     "data": [
       {
-        "id": "http://data.archaeology.link/data/ancientports/ADA",
+        "id": "http://data.archaeology.link/data/cigs/ADA",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "ADA",
+        "type": "geoinstance",
+        "text": " (ADA)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ADB",
+        "id": "http://data.archaeology.link/data/cigs/ADB",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "ADB",
+        "type": "geoinstance",
+        "text": "\u0628\u0633\u0645\u0627\u064a\u0627 (ADB)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ADH",
+        "id": "http://data.archaeology.link/data/cigs/ADH",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "ADH",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0623\u0628\u0648 \u0627\u0644\u0630\u0647\u0628 (ADH)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ADI",
+        "id": "http://data.archaeology.link/data/cigs/ADI",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "ADI",
+        "type": "geoinstance",
+        "text": " (ADI)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/AFA",
+        "id": "http://data.archaeology.link/data/cigs/AFA",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "AFA",
+        "type": "geoinstance",
+        "text": "\u062a\u0644\u0648\u0644 \u0627\u0644\u0641\u0627\u062c (AFA)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/AGR",
+        "id": "http://data.archaeology.link/data/cigs/AGR",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "AGR",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0627\u062c\u0631\u0628 (AGR)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/AHT",
+        "id": "http://data.archaeology.link/data/cigs/AHT",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "AHT",
+        "type": "geoinstance",
+        "text": " (AHT)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/AIR",
+        "id": "http://data.archaeology.link/data/cigs/AIR",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "AIR",
+        "type": "geoinstance",
+        "text": " (AIR)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/AJA",
+        "id": "http://data.archaeology.link/data/cigs/AJA",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "AJA",
+        "type": "geoinstance",
+        "text": "\u0627\u0628\u0648 \u062c\u0627\u0645\u0648\u0633 (AJA)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/AJJ",
+        "id": "http://data.archaeology.link/data/cigs/AJJ",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "AJJ",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0639\u062c\u0627\u062c\u0629 (AJJ)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/AKH",
+        "id": "http://data.archaeology.link/data/cigs/AKH",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "AKH",
+        "type": "geoinstance",
+        "text": "\u0627\u0644\u0639\u0645\u0627\u0631\u0646\u0629 (AKH)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ALA",
+        "id": "http://data.archaeology.link/data/cigs/ALA",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "ALA",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0627\u0644\u0639\u0637\u0634\u0627\u0646\u0629 (ALA)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ALH",
+        "id": "http://data.archaeology.link/data/cigs/ALH",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "ALH",
+        "type": "geoinstance",
+        "text": " (ALH)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ALI",
+        "id": "http://data.archaeology.link/data/cigs/ALI",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "ALI",
+        "type": "geoinstance",
+        "text": " (ALI)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ALS",
+        "id": "http://data.archaeology.link/data/cigs/ALS",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "ALS",
+        "type": "geoinstance",
+        "text": " (ALS)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ALT",
+        "id": "http://data.archaeology.link/data/cigs/ALT",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "ALT",
+        "type": "geoinstance",
+        "text": " (ALT)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/AMC",
+        "id": "http://data.archaeology.link/data/cigs/AMC",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "AMC",
+        "type": "geoinstance",
+        "text": "\u0639\u064e\u0645\u064e\u0651\u0627\u0646\u200e (AMC)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/AMD",
+        "id": "http://data.archaeology.link/data/cigs/AMD",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "AMD",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0639\u0627\u0645\u0648\u062f\u0627 (AMD)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/AMM",
+        "id": "http://data.archaeology.link/data/cigs/AMM",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "AMM",
+        "type": "geoinstance",
+        "text": "\u0645\u0637\u0627\u0631 \u0639\u0645\u0627\u0646 \u0627\u0644\u0645\u062f\u0646\u064a (AMM)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ANS",
+        "id": "http://data.archaeology.link/data/cigs/ANS",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "ANS",
+        "type": "geoinstance",
+        "text": " (ANS)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ANT",
+        "id": "http://data.archaeology.link/data/cigs/ANT",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "ANT",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0623\u0628\u0648 \u0639\u0646\u062a\u064a\u0643 (ANT)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ANZ",
+        "id": "http://data.archaeology.link/data/cigs/ANZ",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "ANZ",
+        "type": "geoinstance",
+        "text": " (ANZ)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/APH",
+        "id": "http://data.archaeology.link/data/cigs/APH",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "APH",
+        "type": "geoinstance",
+        "text": " (APH)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/AQA",
+        "id": "http://data.archaeology.link/data/cigs/AQA",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "AQA",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0639\u0642\u0631\u0642\u0648\u0641 (AQA)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ARA",
+        "id": "http://data.archaeology.link/data/cigs/ARA",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "ARA",
+        "type": "geoinstance",
+        "text": " (ARA)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ARI",
+        "id": "http://data.archaeology.link/data/cigs/ARI",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "ARI",
+        "type": "geoinstance",
+        "text": " (ARI)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ARK",
+        "id": "http://data.archaeology.link/data/cigs/ARK",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "ARK",
+        "type": "geoinstance",
+        "text": " (ARK)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ARM",
+        "id": "http://data.archaeology.link/data/cigs/ARM",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "ARM",
+        "type": "geoinstance",
+        "text": " (ARM)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ARR",
+        "id": "http://data.archaeology.link/data/cigs/ARR",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "ARR",
+        "type": "geoinstance",
+        "text": "\u0643\u0631\u0643\u0648\u0643 (ARR)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ART",
+        "id": "http://data.archaeology.link/data/cigs/ART",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "ART",
+        "type": "geoinstance",
+        "text": "\u0623\u0631\u0633\u0644\u0627\u0646 \u0637\u0627\u0634 (ART)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ARU",
+        "id": "http://data.archaeology.link/data/cigs/ARU",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "ARU",
+        "type": "geoinstance",
+        "text": " (ARU)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ASA",
+        "id": "http://data.archaeology.link/data/cigs/ASA",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "ASA",
+        "type": "geoinstance",
+        "text": " (ASA)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ASD",
+        "id": "http://data.archaeology.link/data/cigs/ASD",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "ASD",
+        "type": "geoinstance",
+        "text": "\u0623\u064e\u0634\u0652\u062f\u064f\u0648\u062f\u200e (ASD)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ASK",
+        "id": "http://data.archaeology.link/data/cigs/ASK",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "ASK",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0623\u0628\u0648 \u0635\u0644\u0627\u0628\u064a\u062e (ASK)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ASS",
+        "id": "http://data.archaeology.link/data/cigs/ASS",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "ASS",
+        "type": "geoinstance",
+        "text": "\u0642\u0627\u0639\u0629 \u0634\u0631\u0642\u0637 (ASS)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/AST",
+        "id": "http://data.archaeology.link/data/cigs/AST",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "AST",
+        "type": "geoinstance",
+        "text": " (AST)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ASZ",
+        "id": "http://data.archaeology.link/data/cigs/ASZ",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "ASZ",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0634\u0627\u063a\u0631 \u0628\u0627\u0632\u0627\u0631 (ASZ)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ATB",
+        "id": "http://data.archaeology.link/data/cigs/ATB",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "ATB",
+        "type": "geoinstance",
+        "text": "\u0627\u0628\u0648 \u0637\u0628\u064a\u0631\u0629 (ATB)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/AUS",
+        "id": "http://data.archaeology.link/data/cigs/AUS",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "AUS",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0639\u0648\u0634\u0631\u064a\u0629 (AUS)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/AVN",
+        "id": "http://data.archaeology.link/data/cigs/AVN",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "AVN",
+        "type": "geoinstance",
+        "text": " (AVN)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/AWA",
+        "id": "http://data.archaeology.link/data/cigs/AWA",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "AWA",
+        "type": "geoinstance",
+        "text": "\u0642\u0644\u0639\u0629 \u0639\u0648\u064a\u0646\u0629 (AWA)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/AYA",
+        "id": "http://data.archaeology.link/data/cigs/AYA",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "AYA",
+        "type": "geoinstance",
+        "text": " (AYA)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/AYC",
+        "id": "http://data.archaeology.link/data/cigs/AYC",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "AYC",
+        "type": "geoinstance",
+        "text": " (AYC)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/AZF",
+        "id": "http://data.archaeology.link/data/cigs/AZF",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "AZF",
+        "type": "geoinstance",
+        "text": " (AZF)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/AZN",
+        "id": "http://data.archaeology.link/data/cigs/AZN",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "AZN",
+        "type": "geoinstance",
+        "text": " (AZN)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/BAB",
+        "id": "http://data.archaeology.link/data/cigs/BAB",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "BAB",
+        "type": "geoinstance",
+        "text": "\u0628\u0627\u0628\u064a\u0644 (BAB)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/BAH",
+        "id": "http://data.archaeology.link/data/cigs/BAH",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "BAH",
+        "type": "geoinstance",
+        "text": " (BAH)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/BAK",
+        "id": "http://data.archaeology.link/data/cigs/BAK",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "BAK",
+        "type": "geoinstance",
+        "text": " (BAK)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/BAL",
+        "id": "http://data.archaeology.link/data/cigs/BAL",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "BAL",
+        "type": "geoinstance",
+        "text": " (BAL)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/BAM",
+        "id": "http://data.archaeology.link/data/cigs/BAM",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "BAM",
+        "type": "geoinstance",
+        "text": " (BAM)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/BAQ",
+        "id": "http://data.archaeology.link/data/cigs/BAQ",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "BAQ",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0628\u0642\u0627\u0642 (BAQ)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/BAR",
+        "id": "http://data.archaeology.link/data/cigs/BAR",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "BAR",
+        "type": "geoinstance",
+        "text": "Unknown (BAR)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/BAS",
+        "id": "http://data.archaeology.link/data/cigs/BAS",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "BAS",
+        "type": "geoinstance",
+        "text": "\u0628\u0627\u0633\u062a\u0643\u064a (BAS)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/BAW",
+        "id": "http://data.archaeology.link/data/cigs/BAW",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "BAW",
+        "type": "geoinstance",
+        "text": "\u0646\u0643\u0631\u0623\u0648I (BAW)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/BAY",
+        "id": "http://data.archaeology.link/data/cigs/BAY",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "BAY",
+        "type": "geoinstance",
+        "text": "\u0628\u064a\u0633\u0627\u0646 (BAY)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/BAZ",
+        "id": "http://data.archaeology.link/data/cigs/BAZ",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "BAZ",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0628\u0627\u0632\u064a (BAZ)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/BBK",
+        "id": "http://data.archaeology.link/data/cigs/BBK",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "BBK",
+        "type": "geoinstance",
+        "text": " (BBK)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/BDI",
+        "id": "http://data.archaeology.link/data/cigs/BDI",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "BDI",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0628\u062f\u064a\u0631\u064a (BDI)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/BES",
+        "id": "http://data.archaeology.link/data/cigs/BES",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "BES",
+        "type": "geoinstance",
+        "text": " (BES)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/BHN",
+        "id": "http://data.archaeology.link/data/cigs/BHN",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "BHN",
+        "type": "geoinstance",
+        "text": "\u0628\u0646\u0627\u062a \u0627\u0644\u062d\u0633\u0646 (BHN)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/BHS",
+        "id": "http://data.archaeology.link/data/cigs/BHS",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "BHS",
+        "type": "geoinstance",
+        "text": "\u0628\u0646\u0627\u062a \u0627\u0644\u062d\u0633\u0646 (BHS)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/BIN",
+        "id": "http://data.archaeology.link/data/cigs/BIN",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "BIN",
+        "type": "geoinstance",
+        "text": " (BIN)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/BIS",
+        "id": "http://data.archaeology.link/data/cigs/BIS",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "BIS",
+        "type": "geoinstance",
+        "text": " (BIS)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/BIT",
+        "id": "http://data.archaeology.link/data/cigs/BIT",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "BIT",
+        "type": "geoinstance",
+        "text": " (BIT)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/BLQ",
+        "id": "http://data.archaeology.link/data/cigs/BLQ",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "BLQ",
+        "type": "geoinstance",
+        "text": "\u0627\u0644\u0628\u0644\u0627\u062f \u0627\u0644\u0642\u062f\u064a\u0645 (BLQ)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/BLW",
+        "id": "http://data.archaeology.link/data/cigs/BLW",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "BLW",
+        "type": "geoinstance",
+        "text": "\u0628\u0644\u0627\u0648\u0627\u062a (BLW)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/BMB",
+        "id": "http://data.archaeology.link/data/cigs/BMB",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "BMB",
+        "type": "geoinstance",
+        "text": " (BMB)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/BOR",
+        "id": "http://data.archaeology.link/data/cigs/BOR",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "BOR",
+        "type": "geoinstance",
+        "text": "\u0628\u0631\u0633 \u0646\u0645\u0631\u0648\u062f (BOR)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/BOS",
+        "id": "http://data.archaeology.link/data/cigs/BOS",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "BOS",
+        "type": "geoinstance",
+        "text": " (BOS)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/BRD",
+        "id": "http://data.archaeology.link/data/cigs/BRD",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "BRD",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0628\u0631\u062f\u0627\u0646 (BRD)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/BRK",
+        "id": "http://data.archaeology.link/data/cigs/BRK",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "BRK",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0628\u0631\u0627\u0643 (BRK)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/BRM",
+        "id": "http://data.archaeology.link/data/cigs/BRM",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "BRM",
+        "type": "geoinstance",
+        "text": " (BRM)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/BRS",
+        "id": "http://data.archaeology.link/data/cigs/BRS",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "BRS",
+        "type": "geoinstance",
+        "text": "\u0628\u0631\u064a\u0635\u0627 (BRS)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/BSE",
+        "id": "http://data.archaeology.link/data/cigs/BSE",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "BSE",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0628\u064a\u062a \u0634\u064a\u0645\u0634 (BSE)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/BSH",
+        "id": "http://data.archaeology.link/data/cigs/BSH",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "BSH",
+        "type": "geoinstance",
+        "text": " (BSH)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/BSK",
+        "id": "http://data.archaeology.link/data/cigs/BSK",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "BSK",
+        "type": "geoinstance",
+        "text": " (BSK)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/BST",
+        "id": "http://data.archaeology.link/data/cigs/BST",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "BST",
+        "type": "geoinstance",
+        "text": " (BST)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/BSV",
+        "id": "http://data.archaeology.link/data/cigs/BSV",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "BSV",
+        "type": "geoinstance",
+        "text": " (BSV)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/BTB",
+        "id": "http://data.archaeology.link/data/cigs/BTB",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "BTB",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0627\u0644\u0645\u062f\u064a\u0646\u0629 (BTB)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/BTM",
+        "id": "http://data.archaeology.link/data/cigs/BTM",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "BTM",
+        "type": "geoinstance",
+        "text": " (BTM)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/BTU",
+        "id": "http://data.archaeology.link/data/cigs/BTU",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "BTU",
+        "type": "geoinstance",
+        "text": " (BTU)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/BUK",
+        "id": "http://data.archaeology.link/data/cigs/BUK",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "BUK",
+        "type": "geoinstance",
+        "text": " (BUK)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/BUL",
+        "id": "http://data.archaeology.link/data/cigs/BUL",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "BUL",
+        "type": "geoinstance",
+        "text": " (BUL)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/BUR",
+        "id": "http://data.archaeology.link/data/cigs/BUR",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "BUR",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0627\u0644\u0634\u064a\u0648\u062e \u0641\u0648\u0642\u0627\u0646\u064a (BUR)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/BVI",
+        "id": "http://data.archaeology.link/data/cigs/BVI",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "BVI",
+        "type": "geoinstance",
+        "text": "\u0628\u0627\u0641\u064a\u0627\u0646 (BVI)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/BYB",
+        "id": "http://data.archaeology.link/data/cigs/BYB",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "BYB",
+        "type": "geoinstance",
+        "text": "\u062c\u0628\u064a\u0644 (BYB)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/BZM",
+        "id": "http://data.archaeology.link/data/cigs/BZM",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "BZM",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0628\u0627\u0632 \u0645\u0633\u064a\u0627\u0646 (BZM)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/CAV",
+        "id": "http://data.archaeology.link/data/cigs/CAV",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "CAV",
+        "type": "geoinstance",
+        "text": " (CAV)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/CEL",
+        "id": "http://data.archaeology.link/data/cigs/CEL",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "CEL",
+        "type": "geoinstance",
+        "text": " (CEL)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/CGM",
+        "id": "http://data.archaeology.link/data/cigs/CGM",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "CGM",
+        "type": "geoinstance",
+        "text": " (CGM)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/CGV",
+        "id": "http://data.archaeology.link/data/cigs/CGV",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "CGV",
+        "type": "geoinstance",
+        "text": " (CGV)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/CHK",
+        "id": "http://data.archaeology.link/data/cigs/CHK",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "CHK",
+        "type": "geoinstance",
+        "text": " (CHK)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/CHM",
+        "id": "http://data.archaeology.link/data/cigs/CHM",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "CHM",
+        "type": "geoinstance",
+        "text": "\u062c\u0645\u062c\u0645\u0627\u0644 (CHM)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/CHR",
+        "id": "http://data.archaeology.link/data/cigs/CHR",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "CHR",
+        "type": "geoinstance",
+        "text": " (CHR)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/CHU",
+        "id": "http://data.archaeology.link/data/cigs/CHU",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "CHU",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0627\u0644\u0634\u0648\u064a\u0631\u0629 (CHU)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/CKK",
+        "id": "http://data.archaeology.link/data/cigs/CKK",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "CKK",
+        "type": "geoinstance",
+        "text": " (CKK)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/COZ",
+        "id": "http://data.archaeology.link/data/cigs/COZ",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "COZ",
+        "type": "geoinstance",
+        "text": " (COZ)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/CPE",
+        "id": "http://data.archaeology.link/data/cigs/CPE",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "CPE",
+        "type": "geoinstance",
+        "text": " (CPE)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/CPW",
+        "id": "http://data.archaeology.link/data/cigs/CPW",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "CPW",
+        "type": "geoinstance",
+        "text": " (CPW)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/CSA",
+        "id": "http://data.archaeology.link/data/cigs/CSA",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "CSA",
+        "type": "geoinstance",
+        "text": " (CSA)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/DAB",
+        "id": "http://data.archaeology.link/data/cigs/DAB",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "DAB",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0627\u0644\u0636\u0628\u0639\u0629 (DAB)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/DAM",
+        "id": "http://data.archaeology.link/data/cigs/DAM",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "DAM",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u062f\u0627\u0645\u064a\u0627 (DAM)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/DAS",
+        "id": "http://data.archaeology.link/data/cigs/DAS",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "DAS",
+        "type": "geoinstance",
+        "text": " (DAS)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/DEF",
+        "id": "http://data.archaeology.link/data/cigs/DEF",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "DEF",
+        "type": "geoinstance",
+        "text": "\u0643\u0648\u0645 \u062f\u0641\u0646\u0629 (DEF)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/DEG",
+        "id": "http://data.archaeology.link/data/cigs/DEG",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "DEG",
+        "type": "geoinstance",
+        "text": " (DEG)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/DEP",
+        "id": "http://data.archaeology.link/data/cigs/DEP",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "DEP",
+        "type": "geoinstance",
+        "text": "\u062f\u0648\u0631\u0627 \u0623\u0648\u0631\u0628\u0648\u0633 (DEP)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/DER",
+        "id": "http://data.archaeology.link/data/cigs/DER",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "DER",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0639\u0642\u0627\u0631 (DER)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/DEY",
+        "id": "http://data.archaeology.link/data/cigs/DEY",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "DEY",
+        "type": "geoinstance",
+        "text": " (DEY)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/DGK",
+        "id": "http://data.archaeology.link/data/cigs/DGK",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "DGK",
+        "type": "geoinstance",
+        "text": "Unknown (DGK)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/DIB",
+        "id": "http://data.archaeology.link/data/cigs/DIB",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "DIB",
+        "type": "geoinstance",
+        "text": "\u062f\u0628 (DIB)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/DIL",
+        "id": "http://data.archaeology.link/data/cigs/DIL",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "DIL",
+        "type": "geoinstance",
+        "text": "\u0639\u0627\u0644\u064a (DIL)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/DKA",
+        "id": "http://data.archaeology.link/data/cigs/DKA",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "DKA",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0627\u0644\u0634\u064a\u062e \u062d\u0645\u062f (DKA)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/DLB",
+        "id": "http://data.archaeology.link/data/cigs/DLB",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "DLB",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0627\u0644\u062f\u0644\u064a\u0645 (DLB)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/DLH",
+        "id": "http://data.archaeology.link/data/cigs/DLH",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "DLH",
+        "type": "geoinstance",
+        "text": "\u0625\u064a\u0634\u0627\u0646 \u062f\u0644\u064a\u0647\u0645 (DLH)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/DLM",
+        "id": "http://data.archaeology.link/data/cigs/DLM",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "DLM",
+        "type": "geoinstance",
+        "text": "\u0642\u0644\u0639\u0629 \u0627\u0644\u0628\u062d\u0631\u064a\u0646 (DLM)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/DMU",
+        "id": "http://data.archaeology.link/data/cigs/DMU",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "DMU",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0639\u0644\u064a (DMU)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/DNO",
+        "id": "http://data.archaeology.link/data/cigs/DNO",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "DNO",
+        "type": "geoinstance",
+        "text": " (DNO)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/DOH",
+        "id": "http://data.archaeology.link/data/cigs/DOH",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "DOH",
+        "type": "geoinstance",
+        "text": "\u062f\u0647\u0648\u0643\u200e (DOH)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/DON",
+        "id": "http://data.archaeology.link/data/cigs/DON",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "DON",
+        "type": "geoinstance",
+        "text": " (DON)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/DQD",
+        "id": "http://data.archaeology.link/data/cigs/DQD",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "DQD",
+        "type": "geoinstance",
+        "text": "\u062f\u0642\u062f\u0642\u0629 (DQD)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/DRE",
+        "id": "http://data.archaeology.link/data/cigs/DRE",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "DRE",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u062f\u0631\u064a\u0647\u0645 (DRE)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/DUB",
+        "id": "http://data.archaeology.link/data/cigs/DUB",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "DUB",
+        "type": "geoinstance",
+        "text": "\u0623\u0628\u0648 \u0636\u0628\u0639 (DUB)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/DUZ",
+        "id": "http://data.archaeology.link/data/cigs/DUZ",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "DUZ",
+        "type": "geoinstance",
+        "text": " (DUZ)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/DWL",
+        "id": "http://data.archaeology.link/data/cigs/DWL",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "DWL",
+        "type": "geoinstance",
+        "text": "\u0627\u0644\u062f\u0648\u0627\u0644\u064a (DWL)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/EBA",
+        "id": "http://data.archaeology.link/data/cigs/EBA",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "EBA",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0645\u0631\u062f\u064a\u062e (EBA)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/EDF",
+        "id": "http://data.archaeology.link/data/cigs/EDF",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "EDF",
+        "type": "geoinstance",
+        "text": "\u0625\u062f\u0641\u0648\u200e (EDF)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/EDR",
+        "id": "http://data.archaeology.link/data/cigs/EDR",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "EDR",
+        "type": "geoinstance",
+        "text": " (EDR)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/EHA",
+        "id": "http://data.archaeology.link/data/cigs/EHA",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "EHA",
+        "type": "geoinstance",
+        "text": " (EHA)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/EKA",
+        "id": "http://data.archaeology.link/data/cigs/EKA",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "EKA",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0645\u0646\u0628\u0627\u0642\u0647 (EKA)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/EKY",
+        "id": "http://data.archaeology.link/data/cigs/EKY",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "EKY",
+        "type": "geoinstance",
+        "text": " (EKY)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ELA",
+        "id": "http://data.archaeology.link/data/cigs/ELA",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "ELA",
+        "type": "geoinstance",
+        "text": " (ELA)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ELM",
+        "id": "http://data.archaeology.link/data/cigs/ELM",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "ELM",
+        "type": "geoinstance",
+        "text": " (ELM)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/EMR",
+        "id": "http://data.archaeology.link/data/cigs/EMR",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "EMR",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0645\u0633\u0643\u0646\u0629 (EMR)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ERD",
+        "id": "http://data.archaeology.link/data/cigs/ERD",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "ERD",
+        "type": "geoinstance",
+        "text": " (ERD)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ERI",
+        "id": "http://data.archaeology.link/data/cigs/ERI",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "ERI",
+        "type": "geoinstance",
+        "text": "\u0623\u0628\u0648 \u0634\u0647\u0631\u064a\u0646 (ERI)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ERN",
+        "id": "http://data.archaeology.link/data/cigs/ERN",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "ERN",
+        "type": "geoinstance",
+        "text": " (ERN)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ERZ",
+        "id": "http://data.archaeology.link/data/cigs/ERZ",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "ERZ",
+        "type": "geoinstance",
+        "text": " (ERZ)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ESH",
+        "id": "http://data.archaeology.link/data/cigs/ESH",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "ESH",
+        "type": "geoinstance",
+        "text": "\u062a\u0627 \u0623\u0633\u0645\u0631 (ESH)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ESK",
+        "id": "http://data.archaeology.link/data/cigs/ESK",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "ESK",
+        "type": "geoinstance",
+        "text": " (ESK)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/FAK",
+        "id": "http://data.archaeology.link/data/cigs/FAK",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "FAK",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0627\u0644\u0641\u062e\u0627\u0631 (FAK)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/FAQ",
+        "id": "http://data.archaeology.link/data/cigs/FAQ",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "FAQ",
+        "type": "geoinstance",
+        "text": "\u0641\u0627\u0642\u0648\u0633 (FAQ)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/FDW",
+        "id": "http://data.archaeology.link/data/cigs/FDW",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "FDW",
+        "type": "geoinstance",
+        "text": " (FDW)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/FKR",
+        "id": "http://data.archaeology.link/data/cigs/FKR",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "FKR",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0627\u0644\u0641\u062e\u064a\u0631\u064a\u0629 (FKR)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/FLO",
+        "id": "http://data.archaeology.link/data/cigs/FLO",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "FLO",
+        "type": "geoinstance",
+        "text": " (FLO)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/FRA",
+        "id": "http://data.archaeology.link/data/cigs/FRA",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "FRA",
+        "type": "geoinstance",
+        "text": " (FRA)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/FRU",
+        "id": "http://data.archaeology.link/data/cigs/FRU",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "FRU",
+        "type": "geoinstance",
+        "text": " (FRU)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/FSN",
+        "id": "http://data.archaeology.link/data/cigs/FSN",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "FSN",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0641\u0633\u0646\u0629 (FSN)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/GAR",
+        "id": "http://data.archaeology.link/data/cigs/GAR",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "GAR",
+        "type": "geoinstance",
+        "text": " (GAR)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/GAV",
+        "id": "http://data.archaeology.link/data/cigs/GAV",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "GAV",
+        "type": "geoinstance",
+        "text": " (GAV)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/GCN",
+        "id": "http://data.archaeology.link/data/cigs/GCN",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "GCN",
+        "type": "geoinstance",
+        "text": " (GCN)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/GDR",
+        "id": "http://data.archaeology.link/data/cigs/GDR",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "GDR",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u063a\u0636\u064a\u0631\u064a\u0641\u0647 (GDR)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/GHA",
+        "id": "http://data.archaeology.link/data/cigs/GHA",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "GHA",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0627\u0644\u063a\u0631\u0627\u0646 (GHA)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/GIR",
+        "id": "http://data.archaeology.link/data/cigs/GIR",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "GIR",
+        "type": "geoinstance",
+        "text": "\u062a\u0627 \u062a\u064a\u0644\u0648\u0647 (GIR)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/GJN",
+        "id": "http://data.archaeology.link/data/cigs/GJN",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "GJN",
+        "type": "geoinstance",
+        "text": " (GJN)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/GLA",
+        "id": "http://data.archaeology.link/data/cigs/GLA",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "GLA",
+        "type": "geoinstance",
+        "text": "Unknown (GLA)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/GNT",
+        "id": "http://data.archaeology.link/data/cigs/GNT",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "GNT",
+        "type": "geoinstance",
+        "text": " (GNT)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/GNZ",
+        "id": "http://data.archaeology.link/data/cigs/GNZ",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "GNZ",
+        "type": "geoinstance",
+        "text": " (GNZ)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/GOT",
+        "id": "http://data.archaeology.link/data/cigs/GOT",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "GOT",
+        "type": "geoinstance",
+        "text": " (GOT)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/GOV",
+        "id": "http://data.archaeology.link/data/cigs/GOV",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "GOV",
+        "type": "geoinstance",
+        "text": " (GOV)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/GOZ",
+        "id": "http://data.archaeology.link/data/cigs/GOZ",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "GOZ",
+        "type": "geoinstance",
+        "text": " (GOZ)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/GRD",
+        "id": "http://data.archaeology.link/data/cigs/GRD",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "GRD",
+        "type": "geoinstance",
+        "text": " (GRD)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/GRL",
+        "id": "http://data.archaeology.link/data/cigs/GRL",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "GRL",
+        "type": "geoinstance",
+        "text": " (GRL)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/GRO",
+        "id": "http://data.archaeology.link/data/cigs/GRO",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "GRO",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u06af\u0631\u064a \u0642\u0627\u0633\u0645 (GRO)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/GRS",
+        "id": "http://data.archaeology.link/data/cigs/GRS",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "GRS",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0628\u0631\u062f\u064a\u0629 (GRS)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/GTV",
+        "id": "http://data.archaeology.link/data/cigs/GTV",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "GTV",
+        "type": "geoinstance",
+        "text": " (GTV)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/GUD",
+        "id": "http://data.archaeology.link/data/cigs/GUD",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "GUD",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0625\u0628\u0631\u0627\u0647\u064a\u0645 (GUD)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/GUG",
+        "id": "http://data.archaeology.link/data/cigs/GUG",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "GUG",
+        "type": "geoinstance",
+        "text": " (GUG)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/GUL",
+        "id": "http://data.archaeology.link/data/cigs/GUL",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "GUL",
+        "type": "geoinstance",
+        "text": " (GUL)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/GWR",
+        "id": "http://data.archaeology.link/data/cigs/GWR",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "GWR",
+        "type": "geoinstance",
+        "text": "\u062a\u067e\u0647 \u06af\u0648\u0631\u06d5 (GWR)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/GZH",
+        "id": "http://data.archaeology.link/data/cigs/GZH",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "GZH",
+        "type": "geoinstance",
+        "text": " (GZH)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/GZR",
+        "id": "http://data.archaeology.link/data/cigs/GZR",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "GZR",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0627\u0644\u062c\u0632\u0631 (GZR)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/HAB",
+        "id": "http://data.archaeology.link/data/cigs/HAB",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "HAB",
+        "type": "geoinstance",
+        "text": " (HAB)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/HAD",
+        "id": "http://data.archaeology.link/data/cigs/HAD",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "HAD",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0627\u0644\u062d\u062f\u064a\u062f\u064a (HAD)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/HAE",
+        "id": "http://data.archaeology.link/data/cigs/HAE",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "HAE",
+        "type": "geoinstance",
+        "text": " (HAE)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/HAI",
+        "id": "http://data.archaeology.link/data/cigs/HAI",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "HAI",
+        "text": "Unknown (HAI)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/HAL",
+        "id": "http://data.archaeology.link/data/cigs/HAL",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "HAL",
+        "type": "geoinstance",
+        "text": " (HAL)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/HAM",
+        "id": "http://data.archaeology.link/data/cigs/HAM",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "HAM",
+        "type": "geoinstance",
+        "text": "\u062d\u0645\u0627\u0629 (HAM)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/HAN",
+        "id": "http://data.archaeology.link/data/cigs/HAN",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "HAN",
+        "type": "geoinstance",
+        "text": "Unknown (HAN)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/HAR",
+        "id": "http://data.archaeology.link/data/cigs/HAR",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "HAR",
+        "type": "geoinstance",
+        "text": " (HAR)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/HAS",
+        "id": "http://data.archaeology.link/data/cigs/HAS",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "HAS",
+        "type": "geoinstance",
+        "text": " (HAS)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/HAT",
+        "id": "http://data.archaeology.link/data/cigs/HAT",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "HAT",
+        "type": "geoinstance",
+        "text": " (HAT)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/HAY",
+        "id": "http://data.archaeology.link/data/cigs/HAY",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "HAY",
+        "type": "geoinstance",
+        "text": " (HAY)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/HAZ",
+        "id": "http://data.archaeology.link/data/cigs/HAZ",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "HAZ",
+        "type": "geoinstance",
+        "text": " (HAZ)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/HBK",
+        "id": "http://data.archaeology.link/data/cigs/HBK",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "HBK",
+        "type": "geoinstance",
+        "text": "\u062d\u0628\u0648\u0628\u0629 (HBK)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/HBR",
+        "id": "http://data.archaeology.link/data/cigs/HBR",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "HBR",
+        "type": "geoinstance",
+        "text": " (HBR)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/HBS",
+        "id": "http://data.archaeology.link/data/cigs/HBS",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "HBS",
+        "type": "geoinstance",
+        "text": "\u062d\u0628\u0644 \u0627\u0644\u0635\u062e\u0631 (HBS)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/HDD",
+        "id": "http://data.archaeology.link/data/cigs/HDD",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "HDD",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u062d\u062f\u0627\u062f (HDD)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/HFR",
+        "id": "http://data.archaeology.link/data/cigs/HFR",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "HFR",
+        "type": "geoinstance",
+        "text": "\u0623\u0645 \u0627\u0644\u062d\u0641\u0631\u064a\u0627\u062a (HFR)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/HIL",
+        "id": "http://data.archaeology.link/data/cigs/HIL",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "HIL",
+        "type": "geoinstance",
+        "text": "\u0627\u0644\u062d\u0644\u0629 (HIL)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/HJR",
+        "id": "http://data.archaeology.link/data/cigs/HJR",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "HJR",
+        "type": "geoinstance",
+        "text": "\u0627\u0644\u062d\u062c\u0631 (HJR)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/HLF",
+        "id": "http://data.archaeology.link/data/cigs/HLF",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "HLF",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u062d\u0644\u0641 (HLF)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/HLT",
+        "id": "http://data.archaeology.link/data/cigs/HLT",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "HLT",
+        "type": "geoinstance",
+        "text": " (HLT)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/HLW",
+        "id": "http://data.archaeology.link/data/cigs/HLW",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "HLW",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u062d\u0644\u0627\u0648\u0629 (HLW)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/HMD",
+        "id": "http://data.archaeology.link/data/cigs/HMD",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "HMD",
+        "type": "geoinstance",
+        "text": "\u0647\u0645\u062f\u0627\u0646 (HMD)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/HMM",
+        "id": "http://data.archaeology.link/data/cigs/HMM",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "HMM",
+        "type": "geoinstance",
+        "text": "\u062d\u0645\u0627\u0645 (HMM)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/HMR",
+        "id": "http://data.archaeology.link/data/cigs/HMR",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "HMR",
+        "type": "geoinstance",
+        "text": "\u0633\u0644\u064a\u0645\u0647 (HMR)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/HMT",
+        "id": "http://data.archaeology.link/data/cigs/HMT",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "HMT",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u062d\u0645\u0627\u0645 \u0627\u0644\u062a\u0631\u0643\u0645\u0627\u0646 (HMT)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/HOR",
+        "id": "http://data.archaeology.link/data/cigs/HOR",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "HOR",
+        "type": "geoinstance",
+        "text": " (HOR)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/HPK",
+        "id": "http://data.archaeology.link/data/cigs/HPK",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "HPK",
+        "type": "geoinstance",
+        "text": " (HPK)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/HRD",
+        "id": "http://data.archaeology.link/data/cigs/HRD",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "HRD",
+        "type": "geoinstance",
+        "text": "\u062e\u0631\u0628\u0629 \u0627\u0644\u062f\u064a\u0646\u064a\u0629 (HRD)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/HRE",
+        "id": "http://data.archaeology.link/data/cigs/HRE",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "HRE",
+        "type": "geoinstance",
+        "text": " (HRE)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/HRP",
+        "id": "http://data.archaeology.link/data/cigs/HRP",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "HRP",
+        "type": "geoinstance",
+        "text": " (HRP)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/HRT",
+        "id": "http://data.archaeology.link/data/cigs/HRT",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "HRT",
+        "type": "geoinstance",
+        "text": "\u0647\u0631\u0627\u062a (HRT)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/HSC",
+        "id": "http://data.archaeology.link/data/cigs/HSC",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "HSC",
+        "type": "geoinstance",
+        "text": " (HSC)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/HSI",
+        "id": "http://data.archaeology.link/data/cigs/HSI",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "HSI",
+        "type": "geoinstance",
+        "text": " (HSI)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/HSK",
+        "id": "http://data.archaeology.link/data/cigs/HSK",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "HSK",
+        "type": "geoinstance",
+        "text": " (HSK)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/HSR",
+        "id": "http://data.archaeology.link/data/cigs/HSR",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "HSR",
+        "type": "geoinstance",
+        "text": " (HSR)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/HUM",
+        "id": "http://data.archaeology.link/data/cigs/HUM",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "HUM",
+        "type": "geoinstance",
+        "text": "Unknown (HUM)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/HUZ",
+        "id": "http://data.archaeology.link/data/cigs/HUZ",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "HUZ",
+        "type": "geoinstance",
+        "text": " (HUZ)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/HWS",
+        "id": "http://data.archaeology.link/data/cigs/HWS",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "HWS",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u062d\u0648\u064a\u0634 (HWS)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/HYK",
+        "id": "http://data.archaeology.link/data/cigs/HYK",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "HYK",
+        "type": "geoinstance",
+        "text": " (HYK)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/IBA",
+        "id": "http://data.archaeology.link/data/cigs/IBA",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "IBA",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0627\u0628\u0631\u0627\u0647\u064a\u0645 \u0628\u0627\u064a\u0633 (IBA)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/IDH",
+        "id": "http://data.archaeology.link/data/cigs/IDH",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "IDH",
+        "type": "geoinstance",
+        "text": "\u0625\u0634\u0627\u0646 \u0630\u0647\u0643 (IDH)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/IDU",
+        "id": "http://data.archaeology.link/data/cigs/IDU",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "IDU",
+        "type": "geoinstance",
+        "text": "\u0633\u0627\u062a\u0648 \u0642\u0644\u0627 (IDU)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/IHF",
+        "id": "http://data.archaeology.link/data/cigs/IHF",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "IHF",
+        "type": "geoinstance",
+        "text": "\u0625\u0634\u0627\u0646 \u062d\u0627\u0641\u0630 (IHF)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/IHN",
+        "id": "http://data.archaeology.link/data/cigs/IHN",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "IHN",
+        "type": "geoinstance",
+        "text": "\u0631\u0623\u0633 \u0627\u0628\u0646 \u0647\u0627\u0646\u064a (IHN)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/IKA",
+        "id": "http://data.archaeology.link/data/cigs/IKA",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "IKA",
+        "type": "geoinstance",
+        "text": "\u0625\u0634\u0627\u0646 \u0627\u0644\u062e\u0632\u064a\u0646\u0629 (IKA)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/IKH",
+        "id": "http://data.archaeology.link/data/cigs/IKH",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "IKH",
+        "type": "geoinstance",
+        "text": "\u0625\u0634\u0627\u0646 \u0627\u0644\u062e\u0644\u0641\u0629 (IKH)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/INA",
+        "id": "http://data.archaeology.link/data/cigs/INA",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "INA",
+        "type": "geoinstance",
+        "text": " (INA)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/IRS",
+        "id": "http://data.archaeology.link/data/cigs/IRS",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "IRS",
+        "type": "geoinstance",
+        "text": " (IRS)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ISN",
+        "id": "http://data.archaeology.link/data/cigs/ISN",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "ISN",
+        "type": "geoinstance",
+        "text": "\u0625\u0634\u0627\u0646 \u0646\u062d\u0631\u064a\u0627\u062a (ISN)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/JAN",
+        "id": "http://data.archaeology.link/data/cigs/JAN",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "JAN",
+        "type": "geoinstance",
+        "text": " (JAN)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/JAV",
+        "id": "http://data.archaeology.link/data/cigs/JAV",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "JAV",
+        "type": "geoinstance",
+        "text": " (JAV)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/JDD",
+        "id": "http://data.archaeology.link/data/cigs/JDD",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "JDD",
+        "type": "geoinstance",
+        "text": "\u062c\u062f\u064a\u062f\u06d5 (JDD)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/JDG",
+        "id": "http://data.archaeology.link/data/cigs/JDG",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "JDG",
+        "type": "geoinstance",
+        "text": " (JDG)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/JDR",
+        "id": "http://data.archaeology.link/data/cigs/JDR",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "JDR",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u062c\u062f\u0631 (JDR)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/JMM",
+        "id": "http://data.archaeology.link/data/cigs/JMM",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "JMM",
+        "type": "geoinstance",
+        "text": " (JMM)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/JOK",
+        "id": "http://data.archaeology.link/data/cigs/JOK",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "JOK",
+        "type": "geoinstance",
+        "text": "\u062a\u0627 \u062c\u0648\u0643\u0629 (JOK)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/JOR",
+        "id": "http://data.archaeology.link/data/cigs/JOR",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "JOR",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0627\u062c\u0631 (JOR)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/JRD",
+        "id": "http://data.archaeology.link/data/cigs/JRD",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "JRD",
+        "type": "geoinstance",
+        "text": "\u062c\u0628\u0644 \u0639\u0627\u0631\u0648\u062f\u0629 (JRD)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/JRO",
+        "id": "http://data.archaeology.link/data/cigs/JRO",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "JRO",
+        "type": "geoinstance",
+        "text": " (JRO)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/JRW",
+        "id": "http://data.archaeology.link/data/cigs/JRW",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "JRW",
+        "type": "geoinstance",
+        "text": "\u062c\u0631\u0627\u0648\u0646\u0629 (JRW)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/JUH",
+        "id": "http://data.archaeology.link/data/cigs/JUH",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "JUH",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u062c\u0648\u062e\u0629 (JUH)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/JWN",
+        "id": "http://data.archaeology.link/data/cigs/JWN",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "JWN",
+        "type": "geoinstance",
+        "text": "\u062a\u0644\u0648\u0644 \u0623\u0628\u0648 \u062c\u0627\u0648\u0646 (JWN)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KAB",
+        "id": "http://data.archaeology.link/data/cigs/KAB",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "KAB",
+        "type": "geoinstance",
+        "text": "\u0643\u0628\u0631\u064a\u062a (KAB)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KAD",
+        "id": "http://data.archaeology.link/data/cigs/KAD",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "KAD",
+        "type": "geoinstance",
+        "text": " (KAD)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KAH",
+        "id": "http://data.archaeology.link/data/cigs/KAH",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "KAH",
+        "type": "geoinstance",
+        "text": " (KAH)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KAI",
+        "id": "http://data.archaeology.link/data/cigs/KAI",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "KAI",
+        "type": "geoinstance",
+        "text": " (KAI)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KAL",
+        "id": "http://data.archaeology.link/data/cigs/KAL",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "KAL",
+        "type": "geoinstance",
+        "text": "\u0643\u0627\u0645\u062f \u0627\u0644\u0644\u0648\u0632 (KAL)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KAR",
+        "id": "http://data.archaeology.link/data/cigs/KAR",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "KAR",
+        "type": "geoinstance",
+        "text": "\u0627\u0644\u0643\u0631\u0646\u0643 (KAR)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KAS",
+        "id": "http://data.archaeology.link/data/cigs/KAS",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "KAS",
+        "type": "geoinstance",
+        "text": " (KAS)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KAY",
+        "id": "http://data.archaeology.link/data/cigs/KAY",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "KAY",
+        "type": "geoinstance",
+        "text": " (KAY)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KAZ",
+        "id": "http://data.archaeology.link/data/cigs/KAZ",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "KAZ",
+        "type": "geoinstance",
+        "text": " (KAZ)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KBL",
+        "id": "http://data.archaeology.link/data/cigs/KBL",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "KBL",
+        "type": "geoinstance",
+        "text": " (KBL)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KBN",
+        "id": "http://data.archaeology.link/data/cigs/KBN",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "KBN",
+        "type": "geoinstance",
+        "text": "\u0647\u0641\u062a \u062a\u067e\u0647 (KBN)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KCT",
+        "id": "http://data.archaeology.link/data/cigs/KCT",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "KCT",
+        "type": "geoinstance",
+        "text": " (KCT)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KDH",
+        "id": "http://data.archaeology.link/data/cigs/KDH",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "KDH",
+        "type": "geoinstance",
+        "text": " (KDH)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KDR",
+        "id": "http://data.archaeology.link/data/cigs/KDR",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "KDR",
+        "type": "geoinstance",
+        "text": "\u0627\u0644\u062e\u0636\u0631 (KDR)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KEB",
+        "id": "http://data.archaeology.link/data/cigs/KEB",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "KEB",
+        "type": "geoinstance",
+        "text": " (KEB)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KEC",
+        "id": "http://data.archaeology.link/data/cigs/KEC",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "KEC",
+        "type": "geoinstance",
+        "text": " (KEC)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KEL",
+        "id": "http://data.archaeology.link/data/cigs/KEL",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "KEL",
+        "type": "geoinstance",
+        "text": "\u0643\u0644\u064a\u0634\u064a\u0646 (KEL)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KEV",
+        "id": "http://data.archaeology.link/data/cigs/KEV",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "KEV",
+        "type": "geoinstance",
+        "text": " (KEV)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KFA",
+        "id": "http://data.archaeology.link/data/cigs/KFA",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "KFA",
+        "type": "geoinstance",
+        "text": " (KFA)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KFI",
+        "id": "http://data.archaeology.link/data/cigs/KFI",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "KFI",
+        "type": "geoinstance",
+        "text": " (KFI)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KFK",
+        "id": "http://data.archaeology.link/data/cigs/KFK",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "KFK",
+        "type": "geoinstance",
+        "text": " (KFK)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KHA",
+        "id": "http://data.archaeology.link/data/cigs/KHA",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "KHA",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u062e\u064a\u0628\u0631 (KHA)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KHI",
+        "id": "http://data.archaeology.link/data/cigs/KHI",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "KHI",
+        "type": "geoinstance",
+        "text": " (KHI)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KHR",
+        "id": "http://data.archaeology.link/data/cigs/KHR",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "KHR",
+        "type": "geoinstance",
+        "text": "\u0627\u0644\u062e\u0631\u062c\u0629 (KHR)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KHT",
+        "id": "http://data.archaeology.link/data/cigs/KHT",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "KHT",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0628\u0631\u064a (KHT)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KHW",
+        "id": "http://data.archaeology.link/data/cigs/KHW",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "KHW",
+        "type": "geoinstance",
+        "text": "\u062e\u0627\u0646 \u062d\u0633\u0648\u0627 (KHW)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KKA",
+        "id": "http://data.archaeology.link/data/cigs/KKA",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "KKA",
+        "type": "geoinstance",
+        "text": "Unknown (KKA)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KKH",
+        "id": "http://data.archaeology.link/data/cigs/KKH",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "KKH",
+        "type": "geoinstance",
+        "text": " (KKH)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KKL",
+        "id": "http://data.archaeology.link/data/cigs/KKL",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "KKL",
+        "type": "geoinstance",
+        "text": " (KKL)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KKU",
+        "id": "http://data.archaeology.link/data/cigs/KKU",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "KKU",
+        "type": "geoinstance",
+        "text": " (KKU)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KLB",
+        "id": "http://data.archaeology.link/data/cigs/KLB",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "KLB",
+        "type": "geoinstance",
+        "text": "\u0646\u0647\u0631 \u0627\u0644\u0643\u0644\u0628 (KLB)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KLC",
+        "id": "http://data.archaeology.link/data/cigs/KLC",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "KLC",
+        "type": "geoinstance",
+        "text": " (KLC)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KLK",
+        "id": "http://data.archaeology.link/data/cigs/KLK",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "KLK",
+        "type": "geoinstance",
+        "text": " (KLK)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KML",
+        "id": "http://data.archaeology.link/data/cigs/KML",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "KML",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0627\u0644\u0642\u062f\u064a\u0633\u0629 \u0628\u0631\u0628\u0627\u0631\u0629 (KML)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KMN",
+        "id": "http://data.archaeology.link/data/cigs/KMN",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "KMN",
+        "type": "geoinstance",
+        "text": "\u0643\u0645\u0648\u0646\u0629 (KMN)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KMS",
+        "id": "http://data.archaeology.link/data/cigs/KMS",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "KMS",
+        "type": "geoinstance",
+        "text": " (KMS)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KNB",
+        "id": "http://data.archaeology.link/data/cigs/KNB",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "KNB",
+        "type": "geoinstance",
+        "text": "\u06a9\u0627\u0646\u06cc \u0628\u06cc (KNB)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KNS",
+        "id": "http://data.archaeology.link/data/cigs/KNS",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "KNS",
+        "type": "geoinstance",
+        "text": " (KNS)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KOC",
+        "id": "http://data.archaeology.link/data/cigs/KOC",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "KOC",
+        "type": "geoinstance",
+        "text": " (KOC)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KOK",
+        "id": "http://data.archaeology.link/data/cigs/KOK",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "KOK",
+        "type": "geoinstance",
+        "text": " (KOK)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KOR",
+        "id": "http://data.archaeology.link/data/cigs/KOR",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "KOR",
+        "type": "geoinstance",
+        "text": " (KOR)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KOS",
+        "id": "http://data.archaeology.link/data/cigs/KOS",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "KOS",
+        "type": "geoinstance",
+        "text": " (KOS)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KOT",
+        "id": "http://data.archaeology.link/data/cigs/KOT",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "KOT",
+        "type": "geoinstance",
+        "text": " (KOT)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KOU",
+        "id": "http://data.archaeology.link/data/cigs/KOU",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "KOU",
+        "type": "geoinstance",
+        "text": " (KOU)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KRC",
+        "id": "http://data.archaeology.link/data/cigs/KRC",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "KRC",
+        "type": "geoinstance",
+        "text": " (KRC)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KRG",
+        "id": "http://data.archaeology.link/data/cigs/KRG",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "KRG",
+        "type": "geoinstance",
+        "text": " (KRG)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KRH",
+        "id": "http://data.archaeology.link/data/cigs/KRH",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "KRH",
+        "type": "geoinstance",
+        "text": " (KRH)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KRI",
+        "id": "http://data.archaeology.link/data/cigs/KRI",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "KRI",
+        "type": "geoinstance",
+        "text": " (KRI)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KRK",
+        "id": "http://data.archaeology.link/data/cigs/KRK",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "KRK",
+        "type": "geoinstance",
+        "text": "\u062c\u0631\u0627\u0628\u0644\u0633 (KRK)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KRM",
+        "id": "http://data.archaeology.link/data/cigs/KRM",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "KRM",
+        "type": "geoinstance",
+        "text": " (KRM)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KRT",
+        "id": "http://data.archaeology.link/data/cigs/KRT",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "KRT",
+        "type": "geoinstance",
+        "text": " (KRT)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KSH",
+        "id": "http://data.archaeology.link/data/cigs/KSH",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "KSH",
+        "type": "geoinstance",
+        "text": "\u0643\u064a\u0634 (KSH)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KSI",
+        "id": "http://data.archaeology.link/data/cigs/KSI",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "KSI",
+        "type": "geoinstance",
+        "text": "\u0643\u0627\u0646\u064a \u0634\u0627\u064a\u0629 (KSI)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KSK",
+        "id": "http://data.archaeology.link/data/cigs/KSK",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "KSK",
+        "type": "geoinstance",
+        "text": " (KSK)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KSM",
+        "id": "http://data.archaeology.link/data/cigs/KSM",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "KSM",
+        "type": "geoinstance",
+        "text": " (KSM)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KSN",
+        "id": "http://data.archaeology.link/data/cigs/KSN",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "KSN",
+        "type": "geoinstance",
+        "text": " (KSN)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KSR",
+        "id": "http://data.archaeology.link/data/cigs/KSR",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "KSR",
+        "type": "geoinstance",
+        "text": "\u0625\u0634\u0627\u0646 \u0623\u0628\u0648 \u062d\u0637\u0628 (KSR)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KSX",
+        "id": "http://data.archaeology.link/data/cigs/KSX",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "KSX",
+        "type": "geoinstance",
+        "text": " (KSX)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KTN",
+        "id": "http://data.archaeology.link/data/cigs/KTN",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "KTN",
+        "type": "geoinstance",
+        "text": "\u062a\u0644\u0648\u0644 \u0627\u0644\u0623\u0642\u0631 (KTN)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KUB",
+        "id": "http://data.archaeology.link/data/cigs/KUB",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "KUB",
+        "type": "geoinstance",
+        "text": "\u0643\u0648\u0628\u0631\u064a (KUB)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KUM",
+        "id": "http://data.archaeology.link/data/cigs/KUM",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "KUM",
+        "type": "geoinstance",
+        "text": "\u0627\u064a\u0634\u0627\u0646 \u0623\u0628\u0648 \u0643\u0645\u0628\u0627\u0631\u0629 (KUM)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KUN",
+        "id": "http://data.archaeology.link/data/cigs/KUN",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "KUN",
+        "type": "geoinstance",
+        "text": "\u0643\u0648\u0646\u0640\u0627\u0631\u0627 (KUN)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KUS",
+        "id": "http://data.archaeology.link/data/cigs/KUS",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "KUS",
+        "type": "geoinstance",
+        "text": " (KUS)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KZK",
+        "id": "http://data.archaeology.link/data/cigs/KZK",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "KZK",
+        "type": "geoinstance",
+        "text": " (KZK)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KZL",
+        "id": "http://data.archaeology.link/data/cigs/KZL",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "KZL",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0643\u0632\u0644 (KZL)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KZN",
+        "id": "http://data.archaeology.link/data/cigs/KZN",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "KZN",
+        "type": "geoinstance",
+        "text": " (KZN)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/LAG",
+        "id": "http://data.archaeology.link/data/cigs/LAG",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "LAG",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0627\u0644\u0647\u0628\u0627 (LAG)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/LAR",
+        "id": "http://data.archaeology.link/data/cigs/LAR",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "LAR",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0627\u0644\u0633\u0646\u0643\u0631\u0629 (LAR)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/LCJ",
+        "id": "http://data.archaeology.link/data/cigs/LCJ",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "LCJ",
+        "type": "geoinstance",
+        "text": " (LCJ)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/LHM",
+        "id": "http://data.archaeology.link/data/cigs/LHM",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "LHM",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0627\u0644\u0644\u062d\u0645 (LHM)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/LIH",
+        "id": "http://data.archaeology.link/data/cigs/LIH",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "LIH",
+        "type": "geoinstance",
+        "text": " (LIH)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/LIY",
+        "id": "http://data.archaeology.link/data/cigs/LIY",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "LIY",
+        "type": "geoinstance",
+        "text": " (LIY)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/LMA",
+        "id": "http://data.archaeology.link/data/cigs/LMA",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "LMA",
+        "type": "geoinstance",
+        "text": " (LMA)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/LRK",
+        "id": "http://data.archaeology.link/data/cigs/LRK",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "LRK",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0648\u0644\u0627\u064a\u0629 (LRK)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/LSB",
+        "id": "http://data.archaeology.link/data/cigs/LSB",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "LSB",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0627\u0644\u0633\u064a\u0628 (LSB)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/MAL",
+        "id": "http://data.archaeology.link/data/cigs/MAL",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "MAL",
+        "type": "geoinstance",
+        "text": " (MAL)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/MAR",
+        "id": "http://data.archaeology.link/data/cigs/MAR",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "MAR",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u062d\u0631\u064a\u0631\u064a (MAR)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/MAV",
+        "id": "http://data.archaeology.link/data/cigs/MAV",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "MAV",
+        "type": "geoinstance",
+        "text": " (MAV)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/MCH",
+        "id": "http://data.archaeology.link/data/cigs/MCH",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "MCH",
+        "type": "geoinstance",
+        "text": " (MCH)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/MCQ",
+        "id": "http://data.archaeology.link/data/cigs/MCQ",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "MCQ",
+        "type": "geoinstance",
+        "text": "Unknown (MCQ)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/MCY",
+        "id": "http://data.archaeology.link/data/cigs/MCY",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "MCY",
+        "type": "geoinstance",
+        "text": "Unknown (MCY)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/MCZ",
+        "id": "http://data.archaeology.link/data/cigs/MCZ",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "MCZ",
+        "type": "geoinstance",
+        "text": "Unknown (MCZ)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/MDB",
+        "id": "http://data.archaeology.link/data/cigs/MDB",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "MDB",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0645\u062d\u0645\u062f \u062f\u064a\u0627\u0628 (MDB)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/MET",
+        "id": "http://data.archaeology.link/data/cigs/MET",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "MET",
+        "type": "geoinstance",
+        "text": " (MET)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/MGD",
+        "id": "http://data.archaeology.link/data/cigs/MGD",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "MGD",
+        "type": "geoinstance",
+        "text": " (MGD)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/MHD",
+        "id": "http://data.archaeology.link/data/cigs/MHD",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "MHD",
+        "type": "geoinstance",
+        "text": " (MHD)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/MHN",
+        "id": "http://data.archaeology.link/data/cigs/MHN",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "MHN",
+        "type": "geoinstance",
+        "text": " (MHN)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/MHO",
+        "id": "http://data.archaeology.link/data/cigs/MHO",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "MHO",
+        "type": "geoinstance",
+        "text": " (MHO)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/MHR",
+        "id": "http://data.archaeology.link/data/cigs/MHR",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "MHR",
+        "type": "geoinstance",
+        "text": " (MHR)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/MIT",
+        "id": "http://data.archaeology.link/data/cigs/MIT",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "MIT",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0645\u064a\u062b\u0644\u064a (MIT)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/MKA",
+        "id": "http://data.archaeology.link/data/cigs/MKA",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "MKA",
+        "type": "geoinstance",
+        "text": " (MKA)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/MLD",
+        "id": "http://data.archaeology.link/data/cigs/MLD",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "MLD",
+        "type": "geoinstance",
+        "text": " (MLD)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/MLH",
+        "id": "http://data.archaeology.link/data/cigs/MLH",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "MLH",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0623\u0645\u0644\u064a\u062d\u064a\u0629 (MLH)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/MLK",
+        "id": "http://data.archaeology.link/data/cigs/MLK",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "MLK",
+        "type": "geoinstance",
+        "text": "\u0627\u0644\u0645\u062e\u0637\u0637 (MLK)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/MMG",
+        "id": "http://data.archaeology.link/data/cigs/MMG",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "MMG",
+        "type": "geoinstance",
+        "text": " (MMG)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/MOA",
+        "id": "http://data.archaeology.link/data/cigs/MOA",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "MOA",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0645\u062d\u0645\u062f \u0639\u0631\u0628 (MOA)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/MQS",
+        "id": "http://data.archaeology.link/data/cigs/MQS",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "MQS",
+        "type": "geoinstance",
+        "text": "\u0627\u0644\u0645\u0642\u0634\u0629 (MQS)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/MRD",
+        "id": "http://data.archaeology.link/data/cigs/MRD",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "MRD",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0635\u062f\u0648\u0645 (MRD)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/MRJ",
+        "id": "http://data.archaeology.link/data/cigs/MRJ",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "MRJ",
+        "type": "geoinstance",
+        "text": "\u0627\u0644\u0645\u0631\u062c\u0628 (MRJ)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/MRL",
+        "id": "http://data.archaeology.link/data/cigs/MRL",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "MRL",
+        "type": "geoinstance",
+        "text": " (MRL)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/MRM",
+        "id": "http://data.archaeology.link/data/cigs/MRM",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "MRM",
+        "type": "geoinstance",
+        "text": " (MRM)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/MRN",
+        "id": "http://data.archaeology.link/data/cigs/MRN",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "MRN",
+        "type": "geoinstance",
+        "text": " (MRN)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/MRW",
+        "id": "http://data.archaeology.link/data/cigs/MRW",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "MRW",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0645\u0631\u0648\u0627\u0646\u064a (MRW)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/MSH",
+        "id": "http://data.archaeology.link/data/cigs/MSH",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "MSH",
+        "type": "geoinstance",
+        "text": "\u062c\u0628\u0644 \u0645\u0633\u0626\u062e (MSH)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/MSK",
+        "id": "http://data.archaeology.link/data/cigs/MSK",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "MSK",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0623\u0628\u0648 \u062f\u0648\u0627\u0631\u064a (MSK)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/MUG",
+        "id": "http://data.archaeology.link/data/cigs/MUG",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "MUG",
+        "type": "geoinstance",
+        "text": "\u0623\u0645 \u0627\u0644\u062c\u064a\u0631 (MUG)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/MUH",
+        "id": "http://data.archaeology.link/data/cigs/MUH",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "MUH",
+        "type": "geoinstance",
+        "text": " (MUH)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/MUR",
+        "id": "http://data.archaeology.link/data/cigs/MUR",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "MUR",
+        "type": "geoinstance",
+        "text": " (MUR)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/MUS",
+        "id": "http://data.archaeology.link/data/cigs/MUS",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "MUS",
+        "type": "geoinstance",
+        "text": " (MUS)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/MZA",
+        "id": "http://data.archaeology.link/data/cigs/MZA",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "MZA",
+        "type": "geoinstance",
+        "text": "\u0625\u0634\u0627\u0646 \u0645\u0632\u064a\u0627\u062f (MZA)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/MZT",
+        "id": "http://data.archaeology.link/data/cigs/MZT",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "MZT",
+        "type": "geoinstance",
+        "text": " (MZT)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/NAB",
+        "id": "http://data.archaeology.link/data/cigs/NAB",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "NAB",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0628\u064a\u062f\u0631 (NAB)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/NAL",
+        "id": "http://data.archaeology.link/data/cigs/NAL",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "NAL",
+        "type": "geoinstance",
+        "text": " (NAL)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/NAS",
+        "id": "http://data.archaeology.link/data/cigs/NAS",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "NAS",
+        "type": "geoinstance",
+        "text": " (NAS)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/NAZ",
+        "id": "http://data.archaeology.link/data/cigs/NAZ",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "NAZ",
+        "type": "geoinstance",
+        "text": " (NAZ)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/NER",
+        "id": "http://data.archaeology.link/data/cigs/NER",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "NER",
+        "type": "geoinstance",
+        "text": "\u0646\u064a\u0631\u0628 (NER)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/NGB",
+        "id": "http://data.archaeology.link/data/cigs/NGB",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "NGB",
+        "type": "geoinstance",
+        "text": "\u0646\u06af\u0648\u0628 (NGB)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/NGN",
+        "id": "http://data.archaeology.link/data/cigs/NGN",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "NGN",
+        "type": "geoinstance",
+        "text": "\u0627\u064a\u0634\u0627\u0646 \u0632\u0631\u063a\u0644 (NGN)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/NHV",
+        "id": "http://data.archaeology.link/data/cigs/NHV",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "NHV",
+        "type": "geoinstance",
+        "text": "\u0646\u0647\u0627\u0648\u0646\u062f (NHV)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/NIM",
+        "id": "http://data.archaeology.link/data/cigs/NIM",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "NIM",
+        "type": "geoinstance",
+        "text": "\u0646\u0645\u0631\u0648\u062f (NIM)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/NIP",
+        "id": "http://data.archaeology.link/data/cigs/NIP",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "NIP",
+        "type": "geoinstance",
+        "text": "\u0646\u0641\u0631 (NIP)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/NJF",
+        "id": "http://data.archaeology.link/data/cigs/NJF",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "NJF",
+        "type": "geoinstance",
+        "text": " (NJF)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/NKH",
+        "id": "http://data.archaeology.link/data/cigs/NKH",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "NKH",
+        "text": " (NKH)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/NKM",
+        "id": "http://data.archaeology.link/data/cigs/NKM",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "NKM",
+        "type": "geoinstance",
+        "text": " (NKM)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/NNV",
+        "id": "http://data.archaeology.link/data/cigs/NNV",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "NNV",
+        "type": "geoinstance",
+        "text": "\u0646\u064a\u0646\u0648\u0649 (NNV)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/NOR",
+        "id": "http://data.archaeology.link/data/cigs/NOR",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "NOR",
+        "type": "geoinstance",
+        "text": " (NOR)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/NQS",
+        "id": "http://data.archaeology.link/data/cigs/NQS",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "NQS",
+        "type": "geoinstance",
+        "text": " (NQS)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/NRB",
+        "id": "http://data.archaeology.link/data/cigs/NRB",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "NRB",
+        "type": "geoinstance",
+        "text": "\u0623\u0634\u062e\u0627\u0644\u064a (NRB)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/NRK",
+        "id": "http://data.archaeology.link/data/cigs/NRK",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "NRK",
+        "type": "geoinstance",
+        "text": "\u0646\u0645\u0631\u064a\u0643 (NRK)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/NSB",
+        "id": "http://data.archaeology.link/data/cigs/NSB",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "NSB",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0627\u0644\u0646\u0635\u0628\u0629 (NSB)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/NSR",
+        "id": "http://data.archaeology.link/data/cigs/NSR",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "NSR",
+        "type": "geoinstance",
+        "text": "\u062c\u0645\u062f\u0629 \u0646\u0635\u0631\u200e (NSR)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/NUZ",
+        "id": "http://data.archaeology.link/data/cigs/NUZ",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "NUZ",
+        "type": "geoinstance",
+        "text": "\u064a\u0648\u0631\u063a\u0627\u0646 \u062a\u0628\u0629 (NUZ)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/OJA",
+        "id": "http://data.archaeology.link/data/cigs/OJA",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "OJA",
+        "type": "geoinstance",
+        "text": " (OJA)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ORD",
+        "id": "http://data.archaeology.link/data/cigs/ORD",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "ORD",
+        "type": "geoinstance",
+        "text": " (ORD)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ORT",
+        "id": "http://data.archaeology.link/data/cigs/ORT",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "ORT",
+        "type": "geoinstance",
+        "text": " (ORT)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/OTK",
+        "id": "http://data.archaeology.link/data/cigs/OTK",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "OTK",
+        "type": "geoinstance",
+        "text": " (OTK)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/OYH",
+        "id": "http://data.archaeology.link/data/cigs/OYH",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "OYH",
+        "type": "geoinstance",
+        "text": " (OYH)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/OZB",
+        "id": "http://data.archaeology.link/data/cigs/OZB",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "OZB",
+        "type": "geoinstance",
+        "text": " (OZB)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/PAS",
+        "id": "http://data.archaeology.link/data/cigs/PAS",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "PAS",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0623\u0628\u0648 \u0634\u064a\u062c\u0629 (PAS)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/PAT",
+        "id": "http://data.archaeology.link/data/cigs/PAT",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "PAT",
+        "type": "geoinstance",
+        "text": " (PAT)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/PDK",
+        "id": "http://data.archaeology.link/data/cigs/PDK",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "PDK",
+        "type": "geoinstance",
+        "text": "\u0627\u0644\u062d\u0627\u064a\u0637 (PDK)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/PEL",
+        "id": "http://data.archaeology.link/data/cigs/PEL",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "PEL",
+        "type": "geoinstance",
+        "text": "\u0637\u0628\u0642\u0629 \u0641\u062d\u0644 (PEL)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/PHG",
+        "id": "http://data.archaeology.link/data/cigs/PHG",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "PHG",
+        "type": "geoinstance",
+        "text": " (PHG)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/PHU",
+        "id": "http://data.archaeology.link/data/cigs/PHU",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "PHU",
+        "type": "geoinstance",
+        "text": " (PHU)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/PIR",
+        "id": "http://data.archaeology.link/data/cigs/PIR",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "PIR",
+        "type": "geoinstance",
+        "text": " (PIR)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/PLU",
+        "id": "http://data.archaeology.link/data/cigs/PLU",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "PLU",
+        "type": "geoinstance",
+        "text": " (PLU)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/PRA",
+        "id": "http://data.archaeology.link/data/cigs/PRA",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "PRA",
+        "type": "geoinstance",
+        "text": "\u0628\u0627\u0631\u0629 (PRA)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/PRS",
+        "id": "http://data.archaeology.link/data/cigs/PRS",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "PRS",
+        "type": "geoinstance",
+        "text": ". (PRS)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/PSG",
+        "id": "http://data.archaeology.link/data/cigs/PSG",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "PSG",
+        "type": "geoinstance",
+        "text": " (PSG)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/QAB",
+        "id": "http://data.archaeology.link/data/cigs/QAB",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "QAB",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0642\u0628\u0631 \u0627\u0628\u0648 \u0627\u0644\u0639\u062a\u064a\u0642 (QAB)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/QAI",
+        "id": "http://data.archaeology.link/data/cigs/QAI",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "QAI",
+        "type": "geoinstance",
+        "text": " (QAI)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/QAL",
+        "id": "http://data.archaeology.link/data/cigs/QAL",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "QAL",
+        "type": "geoinstance",
+        "text": " (QAL)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/QAN",
+        "id": "http://data.archaeology.link/data/cigs/QAN",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "QAN",
+        "type": "geoinstance",
+        "text": " (QAN)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/QAT",
+        "id": "http://data.archaeology.link/data/cigs/QAT",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "QAT",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0627\u0644\u0631\u0645\u0629 (QAT)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/QBR",
+        "id": "http://data.archaeology.link/data/cigs/QBR",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "QBR",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0623\u0628\u0648 \u0642\u0628\u0631 (QBR)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/QCH",
+        "id": "http://data.archaeology.link/data/cigs/QCH",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "QCH",
+        "type": "geoinstance",
+        "text": "\u0642\u0631\u0629 \u062c\u062a\u0627\u0646 (QCH)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/QDS",
+        "id": "http://data.archaeology.link/data/cigs/QDS",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "QDS",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0627\u0644\u0646\u0628\u064a \u0645\u0646\u062f\u0648 (QDS)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/QHD",
+        "id": "http://data.archaeology.link/data/cigs/QHD",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "QHD",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0627\u0644\u0647\u0627\u062f\u064a (QHD)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/QIT",
+        "id": "http://data.archaeology.link/data/cigs/QIT",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "QIT",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0627\u0644\u0642\u0637\u0627\u0631 (QIT)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/QLD",
+        "id": "http://data.archaeology.link/data/cigs/QLD",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "QLD",
+        "type": "geoinstance",
+        "text": "Unknown (QLD)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/QNT",
+        "id": "http://data.archaeology.link/data/cigs/QNT",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "QNT",
+        "type": "geoinstance",
+        "text": "\u0642\u0646\u062a\u064a\u0631 (QNT)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/QQN",
+        "id": "http://data.archaeology.link/data/cigs/QQN",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "QQN",
+        "type": "geoinstance",
+        "text": "\u0642\u0627\u0642\u0648\u0646 (QQN)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/QSH",
+        "id": "http://data.archaeology.link/data/cigs/QSH",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "QSH",
+        "type": "geoinstance",
+        "text": "\u0642\u0635\u0631 \u0634\u0645\u0627\u0645\u0648\u0643 (QSH)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/QTN",
+        "id": "http://data.archaeology.link/data/cigs/QTN",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "QTN",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0627\u0644\u0645\u0634\u0631\u0641\u0629 (QTN)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/QUA",
+        "id": "http://data.archaeology.link/data/cigs/QUA",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "QUA",
+        "type": "geoinstance",
+        "text": "\u0627\u0644 \u0623\u0628\u0648 \u0645\u0627\u0631\u064a\u0627 (QUA)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/QUF",
+        "id": "http://data.archaeology.link/data/cigs/QUF",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "QUF",
+        "type": "geoinstance",
+        "text": "\u0642\u0641\u0640\u0637 (QUF)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/RAJ",
+        "id": "http://data.archaeology.link/data/cigs/RAJ",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "RAJ",
+        "type": "geoinstance",
+        "text": "\u0627\u0644\u0631\u062c\u064a\u0628\u0629 (RAJ)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/RAZ",
+        "id": "http://data.archaeology.link/data/cigs/RAZ",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "RAZ",
+        "type": "geoinstance",
+        "text": " (RAZ)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/RBT",
+        "id": "http://data.archaeology.link/data/cigs/RBT",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "RBT",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0639\u0631\u0628\u064a\u062f (RBT)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/RKI",
+        "id": "http://data.archaeology.link/data/cigs/RKI",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "RKI",
+        "type": "geoinstance",
+        "text": "\u062e\u0627\u0631\u06a9 (RKI)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/RQI",
+        "id": "http://data.archaeology.link/data/cigs/RQI",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "RQI",
+        "type": "geoinstance",
+        "text": "Unknown (RQI)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/RSL",
+        "id": "http://data.archaeology.link/data/cigs/RSL",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "RSL",
+        "type": "geoinstance",
+        "text": "\u0627\u0644\u0642\u062f\u0633 (RSL)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/RTA",
+        "id": "http://data.archaeology.link/data/cigs/RTA",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "RTA",
+        "type": "geoinstance",
+        "text": "\u0631\u0633\u0645 \u0627\u0644 \u0637\u0646\u062c\u0631\u0629 (RTA)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/RTE",
+        "id": "http://data.archaeology.link/data/cigs/RTE",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "RTE",
+        "type": "geoinstance",
+        "text": "\u0631\u0628\u062a \u062a\u067e\u0647 (RTE)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/RUS",
+        "id": "http://data.archaeology.link/data/cigs/RUS",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "RUS",
+        "type": "geoinstance",
+        "text": " (RUS)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/RUT",
+        "id": "http://data.archaeology.link/data/cigs/RUT",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "RUT",
+        "type": "geoinstance",
+        "text": " (RUT)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SAI",
+        "id": "http://data.archaeology.link/data/cigs/SAI",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "SAI",
+        "type": "geoinstance",
+        "text": "\u0627\u0644\u0633\u064a\u0627\u0644 (SAI)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SAL",
+        "id": "http://data.archaeology.link/data/cigs/SAL",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "SAL",
+        "type": "geoinstance",
+        "text": " (SAL)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SAM",
+        "id": "http://data.archaeology.link/data/cigs/SAM",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "SAM",
+        "type": "geoinstance",
+        "text": "\u0634\u0645\u064a\u062a (SAM)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SAP",
+        "id": "http://data.archaeology.link/data/cigs/SAP",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "SAP",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0623\u0628\u0648 \u062d\u0628\u0629 (SAP)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SAR",
+        "id": "http://data.archaeology.link/data/cigs/SAR",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "SAR",
+        "type": "geoinstance",
+        "text": "\u062e\u0648\u0631\u0633\u0628\u0627\u0637 (SAR)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SAV",
+        "id": "http://data.archaeology.link/data/cigs/SAV",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "SAV",
+        "type": "geoinstance",
+        "text": " (SAV)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SBA",
+        "id": "http://data.archaeology.link/data/cigs/SBA",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "SBA",
+        "type": "geoinstance",
+        "text": "\u0633\u0628\u0627\u0639 (SBA)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SBY",
+        "id": "http://data.archaeology.link/data/cigs/SBY",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "SBY",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0635\u0628\u064a \u0623\u0628\u064a\u0636 (SBY)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SCH",
+        "id": "http://data.archaeology.link/data/cigs/SCH",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "SCH",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0628\u0644\u0627\u0637\u0629\u200e (SCH)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SDM",
+        "id": "http://data.archaeology.link/data/cigs/SDM",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "SDM",
+        "type": "geoinstance",
+        "text": " (SDM)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SDP",
+        "id": "http://data.archaeology.link/data/cigs/SDP",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "SDP",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u062d\u0631\u0645\u0644 (SDP)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SEA",
+        "id": "http://data.archaeology.link/data/cigs/SEA",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "SEA",
+        "type": "geoinstance",
+        "text": " (SEA)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SEC",
+        "id": "http://data.archaeology.link/data/cigs/SEC",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "SEC",
+        "text": " (SEC)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SEL",
+        "id": "http://data.archaeology.link/data/cigs/SEL",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "SEL",
+        "type": "geoinstance",
+        "text": "\u0633\u0644\u0648\u0642\u064a\u0629 (SEL)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SEQ",
+        "id": "http://data.archaeology.link/data/cigs/SEQ",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "SEQ",
+        "type": "geoinstance",
+        "text": " (SEQ)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SER",
+        "id": "http://data.archaeology.link/data/cigs/SER",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "SER",
+        "type": "geoinstance",
+        "text": "\u0633\u0631\u0627\u0628\u064a\u0648\u0645 (SER)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SFR",
+        "id": "http://data.archaeology.link/data/cigs/SFR",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "SFR",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0633\u0641\u0631 (SFR)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SHA",
+        "id": "http://data.archaeology.link/data/cigs/SHA",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "SHA",
+        "text": "Unknown (SHA)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SHD",
+        "id": "http://data.archaeology.link/data/cigs/SHD",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "SHD",
+        "type": "geoinstance",
+        "text": " (SHD)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SHI",
+        "id": "http://data.archaeology.link/data/cigs/SHI",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "SHI",
+        "type": "geoinstance",
+        "text": "\u0627\u0644 \u0628\u0644\u0629 (SHI)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SHP",
+        "id": "http://data.archaeology.link/data/cigs/SHP",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "SHP",
+        "type": "geoinstance",
+        "text": " (SHP)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SHY",
+        "id": "http://data.archaeology.link/data/cigs/SHY",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "SHY",
+        "type": "geoinstance",
+        "text": "\u0643\u0627\u0631\u064a \u0628\u0647\u064a\u0646 (SHY)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SHZ",
+        "id": "http://data.archaeology.link/data/cigs/SHZ",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "SHZ",
+        "type": "geoinstance",
+        "text": " (SHZ)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SID",
+        "id": "http://data.archaeology.link/data/cigs/SID",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "SID",
+        "type": "geoinstance",
+        "text": "\u0635\u064a\u062f\u0627 (SID)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SIH",
+        "id": "http://data.archaeology.link/data/cigs/SIH",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "SIH",
+        "type": "geoinstance",
+        "text": " (SIH)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SIN",
+        "id": "http://data.archaeology.link/data/cigs/SIN",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "SIN",
+        "type": "geoinstance",
+        "text": "\u0634\u064a\u0634\u064a\u0646 (SIN)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SIP",
+        "id": "http://data.archaeology.link/data/cigs/SIP",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "SIP",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0627\u0644\u062f\u064a\u0631 (SIP)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SIS",
+        "id": "http://data.archaeology.link/data/cigs/SIS",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "SIS",
+        "type": "geoinstance",
+        "text": "\u0634\u064a\u0631 \u0627\u0644\u0635\u0646\u0627\u0645 (SIS)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SIT",
+        "id": "http://data.archaeology.link/data/cigs/SIT",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "SIT",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0633\u064a\u062a\u0643 (SIT)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SIY",
+        "id": "http://data.archaeology.link/data/cigs/SIY",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "SIY",
+        "type": "geoinstance",
+        "text": " (SIY)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SJQ",
+        "id": "http://data.archaeology.link/data/cigs/SJQ",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "SJQ",
+        "type": "geoinstance",
+        "text": "\u06a9\u06c6\u06cc\u0633\u06cc\u0646\u062c\u0627\u0642 (SJQ)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SJR",
+        "id": "http://data.archaeology.link/data/cigs/SJR",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "SJR",
+        "type": "geoinstance",
+        "text": " (SJR)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SKH",
+        "id": "http://data.archaeology.link/data/cigs/SKH",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "SKH",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0634\u0631\u064a\u0641 \u062e\u0627\u0646 (SKH)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SLA",
+        "id": "http://data.archaeology.link/data/cigs/SLA",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "SLA",
+        "type": "geoinstance",
+        "text": "\u0627\u0644\u0633\u0644\u0639 (SLA)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SLB",
+        "id": "http://data.archaeology.link/data/cigs/SLB",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "SLB",
+        "text": "\u062a\u0644 \u0623\u0628\u0648 \u0635\u0644\u0627\u0628\u064a\u062e (SLB)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SLG",
+        "id": "http://data.archaeology.link/data/cigs/SLG",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "SLG",
+        "type": "geoinstance",
+        "text": " (SLG)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SMA",
+        "id": "http://data.archaeology.link/data/cigs/SMA",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "SMA",
+        "type": "geoinstance",
+        "text": "\u0627\u0644\u0633\u0627\u0645\u0631\u0629 (SMA)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SMH",
+        "id": "http://data.archaeology.link/data/cigs/SMH",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "SMH",
+        "type": "geoinstance",
+        "text": "\u0627\u0634\u0627\u0646 \u0627\u0644\u0633\u0645\u0639 (SMH)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SMR",
+        "id": "http://data.archaeology.link/data/cigs/SMR",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "SMR",
+        "type": "geoinstance",
+        "text": "\u0633\u0627\u0645\u0631\u0627\u0621 (SMR)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SNJ",
+        "id": "http://data.archaeology.link/data/cigs/SNJ",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "SNJ",
+        "type": "geoinstance",
+        "text": "\u0628\u062a\u0648\u0627\u062a\u0627 (SNJ)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SOK",
+        "id": "http://data.archaeology.link/data/cigs/SOK",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "SOK",
+        "type": "geoinstance",
+        "text": " (SOK)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SOU",
+        "id": "http://data.archaeology.link/data/cigs/SOU",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "SOU",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0633\u0648\u0643\u0627\u0633 (SOU)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SPA",
+        "id": "http://data.archaeology.link/data/cigs/SPA",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "SPA",
+        "type": "geoinstance",
+        "text": " (SPA)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SPH",
+        "id": "http://data.archaeology.link/data/cigs/SPH",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "SPH",
+        "type": "geoinstance",
+        "text": " (SPH)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SPI",
+        "id": "http://data.archaeology.link/data/cigs/SPI",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "SPI",
+        "type": "geoinstance",
+        "text": " (SPI)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SQL",
+        "id": "http://data.archaeology.link/data/cigs/SQL",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "SQL",
+        "type": "geoinstance",
+        "text": " (SQL)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SRD",
+        "id": "http://data.archaeology.link/data/cigs/SRD",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "SRD",
+        "type": "geoinstance",
+        "text": " (SRD)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SRK",
+        "id": "http://data.archaeology.link/data/cigs/SRK",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "SRK",
+        "type": "geoinstance",
+        "text": " (SRK)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SRM",
+        "id": "http://data.archaeology.link/data/cigs/SRM",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "SRM",
+        "type": "geoinstance",
+        "text": " (SRM)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SRP",
+        "id": "http://data.archaeology.link/data/cigs/SRP",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "SRP",
+        "type": "geoinstance",
+        "text": "\u0633\u0627\u0631\u0628\u062a\u0627 (SRP)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SSH",
+        "id": "http://data.archaeology.link/data/cigs/SSH",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "SSH",
+        "type": "geoinstance",
+        "text": " (SSH)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SUH",
+        "id": "http://data.archaeology.link/data/cigs/SUH",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "SUH",
+        "type": "geoinstance",
+        "text": "Unknown (SUH)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SUN",
+        "id": "http://data.archaeology.link/data/cigs/SUN",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "SUN",
+        "type": "geoinstance",
+        "text": " (SUN)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SUR",
+        "id": "http://data.archaeology.link/data/cigs/SUR",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "SUR",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0641\u0627\u0631\u0627 (SUR)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SUS",
+        "id": "http://data.archaeology.link/data/cigs/SUS",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "SUS",
+        "type": "geoinstance",
+        "text": " (SUS)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SWE",
+        "id": "http://data.archaeology.link/data/cigs/SWE",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "SWE",
+        "type": "geoinstance",
+        "text": "Unknown (SWE)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SWS",
+        "id": "http://data.archaeology.link/data/cigs/SWS",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "SWS",
+        "type": "geoinstance",
+        "text": "\u0633\u0639\u062f \u0648\u0633\u0639\u064a\u062f (SWS)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SYA",
+        "id": "http://data.archaeology.link/data/cigs/SYA",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "SYA",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0633\u064a\u0627\u0646\u0648 (SYA)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SZE",
+        "id": "http://data.archaeology.link/data/cigs/SZE",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "SZE",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0644\u064a\u0644\u0627\u0646 (SZE)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SZU",
+        "id": "http://data.archaeology.link/data/cigs/SZU",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "SZU",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0634\u0645\u0634\u0627\u0631\u0629 (SZU)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TAB",
+        "id": "http://data.archaeology.link/data/cigs/TAB",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "TAB",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0637\u0627\u0628\u0627\u0646 (TAB)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TAF",
+        "id": "http://data.archaeology.link/data/cigs/TAF",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "TAF",
+        "type": "geoinstance",
+        "text": " (TAF)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TAG",
+        "id": "http://data.archaeology.link/data/cigs/TAG",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "TAG",
+        "type": "geoinstance",
+        "text": "Unknown (TAG)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TAH",
+        "id": "http://data.archaeology.link/data/cigs/TAH",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "TAH",
+        "type": "geoinstance",
+        "text": " (TAH)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TAN",
+        "id": "http://data.archaeology.link/data/cigs/TAN",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "TAN",
+        "type": "geoinstance",
+        "text": "\u0635\u0627\u0646 \u0627\u0644\u062d\u062c\u0631 (TAN)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TAR",
+        "id": "http://data.archaeology.link/data/cigs/TAR",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "TAR",
+        "type": "geoinstance",
+        "text": " (TAR)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TAS",
+        "id": "http://data.archaeology.link/data/cigs/TAS",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "TAS",
+        "type": "geoinstance",
+        "text": " (TAS)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TAT",
+        "id": "http://data.archaeology.link/data/cigs/TAT",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "TAT",
+        "type": "geoinstance",
+        "text": " (TAT)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TAW",
+        "id": "http://data.archaeology.link/data/cigs/TAW",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "TAW",
+        "type": "geoinstance",
+        "text": "\u0637\u0648\u064a\u0644\u0627\u0646 (TAW)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TAY",
+        "id": "http://data.archaeology.link/data/cigs/TAY",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "TAY",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0637\u0639\u064a\u0646\u0627\u062a (TAY)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TBA",
+        "id": "http://data.archaeology.link/data/cigs/TBA",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "TBA",
+        "type": "geoinstance",
+        "text": "\u062a\u0644\u0648\u0644 \u0627\u0644\u0628\u0642\u0631\u0627\u062a (TBA)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TBM",
+        "id": "http://data.archaeology.link/data/cigs/TBM",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "TBM",
+        "type": "geoinstance",
+        "text": " (TBM)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TBO",
+        "id": "http://data.archaeology.link/data/cigs/TBO",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "TBO",
+        "type": "geoinstance",
+        "text": "\u062a\u067e\u0647 \u0628\u0631\u0645\u06cc (TBO)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TBP",
+        "id": "http://data.archaeology.link/data/cigs/TBP",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "TBP",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0623\u062d\u0645\u0631 (TBP)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TBR",
+        "id": "http://data.archaeology.link/data/cigs/TBR",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "TBR",
+        "type": "geoinstance",
+        "text": "\u0637\u0627\u0628\u0648\u0631 (TBR)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TBS",
+        "id": "http://data.archaeology.link/data/cigs/TBS",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "TBS",
+        "type": "geoinstance",
+        "text": "Unknown (TBS)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TBT",
+        "id": "http://data.archaeology.link/data/cigs/TBT",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "TBT",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0639\u0628\u0637\u0629 (TBT)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TDB",
+        "id": "http://data.archaeology.link/data/cigs/TDB",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "TDB",
+        "type": "geoinstance",
+        "text": "Unknown (TDB)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TDU",
+        "id": "http://data.archaeology.link/data/cigs/TDU",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "TDU",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u062d\u0645\u064a\u062f\u064a (TDU)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TDW",
+        "id": "http://data.archaeology.link/data/cigs/TDW",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "TDW",
+        "text": "Unknown (TDW)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TEG",
+        "id": "http://data.archaeology.link/data/cigs/TEG",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "TEG",
+        "type": "geoinstance",
+        "text": " (TEG)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TEH",
+        "id": "http://data.archaeology.link/data/cigs/TEH",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "TEH",
+        "type": "geoinstance",
+        "text": " (TEH)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TEI",
+        "id": "http://data.archaeology.link/data/cigs/TEI",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "TEI",
+        "type": "geoinstance",
+        "text": " (TEI)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TEM",
+        "id": "http://data.archaeology.link/data/cigs/TEM",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "TEM",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0627\u0644\u0645\u0633\u062e\u0648\u0637\u0629 (TEM)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TFA",
+        "id": "http://data.archaeology.link/data/cigs/TFA",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "TFA",
+        "type": "geoinstance",
+        "text": "Unknown (TFA)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TFQ",
+        "id": "http://data.archaeology.link/data/cigs/TFQ",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "TFQ",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0641\u0642\u0648\u0633 (TFQ)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TGA",
+        "id": "http://data.archaeology.link/data/cigs/TGA",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "TGA",
+        "type": "geoinstance",
+        "text": " (TGA)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/THA",
+        "id": "http://data.archaeology.link/data/cigs/THA",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "THA",
+        "type": "geoinstance",
+        "text": " (THA)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/THE",
+        "id": "http://data.archaeology.link/data/cigs/THE",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "THE",
+        "type": "geoinstance",
+        "text": " (THE)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/THM",
+        "id": "http://data.archaeology.link/data/cigs/THM",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "THM",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0627\u0644\u062d\u0645\u0627\u0645 (THM)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/THO",
+        "id": "http://data.archaeology.link/data/cigs/THO",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "THO",
+        "type": "geoinstance",
+        "text": " (THO)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/THR",
+        "id": "http://data.archaeology.link/data/cigs/THR",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "THR",
+        "type": "geoinstance",
+        "text": "\u0637\u0648\u0632 \u062e\u0648\u0631\u0645\u0627\u062a\u0648 (THR)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/THW",
+        "id": "http://data.archaeology.link/data/cigs/THW",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "THW",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0627\u0644\u0647\u0648\u0649 (THW)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/THY",
+        "id": "http://data.archaeology.link/data/cigs/THY",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "THY",
+        "type": "geoinstance",
+        "text": " (THY)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TIJ",
+        "id": "http://data.archaeology.link/data/cigs/TIJ",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "TIJ",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0639\u062a\u064a\u062c (TIJ)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TIK",
+        "id": "http://data.archaeology.link/data/cigs/TIK",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "TIK",
+        "type": "geoinstance",
+        "text": "\u062a\u0643\u0631\u064a\u062a (TIK)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TIR",
+        "id": "http://data.archaeology.link/data/cigs/TIR",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "TIR",
+        "type": "geoinstance",
+        "text": " (TIR)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TJZ",
+        "id": "http://data.archaeology.link/data/cigs/TJZ",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "TJZ",
+        "type": "geoinstance",
+        "text": "\u062a\u0631\u062c\u0627\u0646 (TJZ)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TKH",
+        "id": "http://data.archaeology.link/data/cigs/TKH",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "TKH",
+        "type": "geoinstance",
+        "text": "\u062a\u0644\u0648\u0644 \u062e\u0637\u0627\u0628 (TKH)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TKP",
+        "id": "http://data.archaeology.link/data/cigs/TKP",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "TKP",
+        "type": "geoinstance",
+        "text": " (TKP)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TLB",
+        "id": "http://data.archaeology.link/data/cigs/TLB",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "TLB",
+        "type": "geoinstance",
+        "text": " (TLB)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TLH",
+        "id": "http://data.archaeology.link/data/cigs/TLH",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "TLH",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0627\u0644\u0644\u062d\u0645 (TLH)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TLL",
+        "id": "http://data.archaeology.link/data/cigs/TLL",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "TLL",
+        "type": "geoinstance",
+        "text": "\u062a\u0644\u0648\u0644 \u0627\u0644\u0644\u0643 (TLL)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TMH",
+        "id": "http://data.archaeology.link/data/cigs/TMH",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "TMH",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0645\u062d\u0645\u062f (TMH)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TMU",
+        "id": "http://data.archaeology.link/data/cigs/TMU",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "TMU",
+        "type": "geoinstance",
+        "text": " (TMU)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TNA",
+        "id": "http://data.archaeology.link/data/cigs/TNA",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "TNA",
+        "type": "geoinstance",
+        "text": "\u0639\u0646\u0647 (TNA)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TNH",
+        "id": "http://data.archaeology.link/data/cigs/TNH",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "TNH",
+        "type": "geoinstance",
+        "text": " (TNH)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TNP",
+        "id": "http://data.archaeology.link/data/cigs/TNP",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "TNP",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0627\u0644\u0639\u0634\u0627\u0631\u0646\u0629 (TNP)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TOD",
+        "id": "http://data.archaeology.link/data/cigs/TOD",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "TOD",
+        "type": "geoinstance",
+        "text": "\u0637\u0648\u062f (TOD)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TOP",
+        "id": "http://data.archaeology.link/data/cigs/TOP",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "TOP",
+        "type": "geoinstance",
+        "text": " (TOP)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TRM",
+        "id": "http://data.archaeology.link/data/cigs/TRM",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "TRM",
+        "type": "geoinstance",
+        "text": " (TRM)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TRQ",
+        "id": "http://data.archaeology.link/data/cigs/TRQ",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "TRQ",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0627\u0644\u0623\u0634\u0627\u0631\u0629 (TRQ)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TRT",
+        "id": "http://data.archaeology.link/data/cigs/TRT",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "TRT",
+        "type": "geoinstance",
+        "text": "\u0637\u0631\u0637\u0648\u0633 (TRT)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TSA",
+        "id": "http://data.archaeology.link/data/cigs/TSA",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "TSA",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0633\u0643 (TSA)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TSB",
+        "id": "http://data.archaeology.link/data/cigs/TSB",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "TSB",
+        "type": "geoinstance",
+        "text": " (TSB)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TSI",
+        "id": "http://data.archaeology.link/data/cigs/TSI",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "TSI",
+        "type": "geoinstance",
+        "text": "\u062a\u067e\u0647 \u0633\u06cc\u0644\u06a9 (TSI)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TSO",
+        "id": "http://data.archaeology.link/data/cigs/TSO",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "TSO",
+        "type": "geoinstance",
+        "text": " (TSO)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TSV",
+        "id": "http://data.archaeology.link/data/cigs/TSV",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "TSV",
+        "type": "geoinstance",
+        "text": " (TSV)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TTA",
+        "id": "http://data.archaeology.link/data/cigs/TTA",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "TTA",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0627\u0644\u0637\u0627\u064a\u0639 (TTA)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TTB",
+        "id": "http://data.archaeology.link/data/cigs/TTB",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "TTB",
+        "type": "geoinstance",
+        "text": "\u062e\u0641\u0627\u062c\u064a (TTB)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TTU",
+        "id": "http://data.archaeology.link/data/cigs/TTU",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "TTU",
+        "type": "geoinstance",
+        "text": " (TTU)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TUH",
+        "id": "http://data.archaeology.link/data/cigs/TUH",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "TUH",
+        "type": "geoinstance",
+        "text": "Unknown (TUH)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TUT",
+        "id": "http://data.archaeology.link/data/cigs/TUT",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "TUT",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0627\u0644\u0628\u064a\u0639\u0629 (TUT)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TVI",
+        "id": "http://data.archaeology.link/data/cigs/TVI",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "TVI",
+        "type": "geoinstance",
+        "text": " (TVI)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TVK",
+        "id": "http://data.archaeology.link/data/cigs/TVK",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "TVK",
+        "type": "geoinstance",
+        "text": " (TVK)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TYA",
+        "id": "http://data.archaeology.link/data/cigs/TYA",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "TYA",
+        "type": "geoinstance",
+        "text": " (TYA)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TYM",
+        "id": "http://data.archaeology.link/data/cigs/TYM",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "TYM",
+        "type": "geoinstance",
+        "text": "\u062a\u064a\u0645\u0627 (TYM)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TYR",
+        "id": "http://data.archaeology.link/data/cigs/TYR",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "TYR",
+        "type": "geoinstance",
+        "text": "\u0635\u0648\u0631 (TYR)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TZW",
+        "id": "http://data.archaeology.link/data/cigs/TZW",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "TZW",
+        "type": "geoinstance",
+        "text": "\u0637\u0648\u0628\u0632\u0627\u0648\u0629 (TZW)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/UBD",
+        "id": "http://data.archaeology.link/data/cigs/UBD",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "UBD",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0627\u0644\u0639\u0628\u064a\u062f (UBD)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/UCH",
+        "id": "http://data.archaeology.link/data/cigs/UCH",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "UCH",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0627\u0644\u0645\u062c\u0627\u062a\u0644 (UCH)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/UFR",
+        "id": "http://data.archaeology.link/data/cigs/UFR",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "UFR",
+        "type": "geoinstance",
+        "text": "\u0623\u0645 \u0627\u0644\u062d\u0641\u0631\u064a\u0627\u062a (UFR)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/UGA",
+        "id": "http://data.archaeology.link/data/cigs/UGA",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "UGA",
+        "type": "geoinstance",
+        "text": "\u0631\u0627\u0633 \u0634\u0645\u0631\u0629 (UGA)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/UMA",
+        "id": "http://data.archaeology.link/data/cigs/UMA",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "UMA",
+        "type": "geoinstance",
+        "text": "\u0623\u0645 \u0627\u0644\u0645\u0631\u0629 (UMA)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/UPI",
+        "id": "http://data.archaeology.link/data/cigs/UPI",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "UPI",
+        "type": "geoinstance",
+        "text": "\u0623\u0648\u0628\u064a\u0633 (UPI)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/UQA",
+        "id": "http://data.archaeology.link/data/cigs/UQA",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "UQA",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0639\u0642\u064a\u0631 (UQA)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/UQR",
+        "id": "http://data.archaeology.link/data/cigs/UQR",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "UQR",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0627\u0645 \u0627\u0644\u0639\u062c\u0627\u064a\u0628 (UQR)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/URB",
+        "id": "http://data.archaeology.link/data/cigs/URB",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "URB",
+        "type": "geoinstance",
+        "text": "\u0642\u0644\u0639\u0629 \u0623\u0631\u0628\u064a\u0644 (URB)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/URI",
+        "id": "http://data.archaeology.link/data/cigs/URI",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "URI",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0627\u0644\u0645\u0642\u064a\u0631 (URI)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/URK",
+        "id": "http://data.archaeology.link/data/cigs/URK",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "URK",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0645\u0648\u0632\u0627\u0646\u200e\u200e (URK)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/URU",
+        "id": "http://data.archaeology.link/data/cigs/URU",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "URU",
+        "type": "geoinstance",
+        "text": "\u0648\u0631\u0643\u0627\u0621 (URU)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/USH",
+        "id": "http://data.archaeology.link/data/cigs/USH",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "USH",
+        "type": "geoinstance",
+        "text": " (USH)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/UWW",
+        "id": "http://data.archaeology.link/data/cigs/UWW",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "UWW",
+        "type": "geoinstance",
+        "text": " (UWW)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/VAK",
+        "id": "http://data.archaeology.link/data/cigs/VAK",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "VAK",
+        "type": "geoinstance",
+        "text": " (VAK)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/VAN",
+        "id": "http://data.archaeology.link/data/cigs/VAN",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "VAN",
+        "type": "geoinstance",
+        "text": " (VAN)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/VAR",
+        "id": "http://data.archaeology.link/data/cigs/VAR",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "VAR",
+        "type": "geoinstance",
+        "text": " (VAR)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/WIN",
+        "id": "http://data.archaeology.link/data/cigs/WIN",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "WIN",
+        "type": "geoinstance",
+        "text": " (WIN)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/WLS",
+        "id": "http://data.archaeology.link/data/cigs/WLS",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "WLS",
+        "type": "geoinstance",
+        "text": "\u0648\u0627\u062f\u064a \u0622\u0644 \u0633\u0628\u0639 (WLS)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/WRS",
+        "id": "http://data.archaeology.link/data/cigs/WRS",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "WRS",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0648\u0631\u064a\u0634 (WRS)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/XOC",
+        "id": "http://data.archaeology.link/data/cigs/XOC",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "XOC",
+        "type": "geoinstance",
+        "text": " (XOC)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/YAH",
+        "id": "http://data.archaeology.link/data/cigs/YAH",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "YAH",
+        "type": "geoinstance",
+        "text": " (YAH)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/YAL",
+        "id": "http://data.archaeology.link/data/cigs/YAL",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "YAL",
+        "type": "geoinstance",
+        "text": " (YAL)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/YAR",
+        "id": "http://data.archaeology.link/data/cigs/YAR",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "YAR",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u064a\u0627\u0631\u0629 (YAR)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/YAS",
+        "id": "http://data.archaeology.link/data/cigs/YAS",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "YAS",
+        "type": "geoinstance",
+        "text": " (YAS)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/YAZ",
+        "id": "http://data.archaeology.link/data/cigs/YAZ",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "YAZ",
+        "type": "geoinstance",
+        "text": " (YAZ)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/YEL",
+        "id": "http://data.archaeology.link/data/cigs/YEL",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "YEL",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u064a\u0644\u062e\u064a (YEL)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/YES",
+        "id": "http://data.archaeology.link/data/cigs/YES",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "YES",
+        "type": "geoinstance",
+        "text": " (YES)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/YON",
+        "id": "http://data.archaeology.link/data/cigs/YON",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "YON",
+        "type": "geoinstance",
+        "text": " (YON)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/YSJ",
+        "id": "http://data.archaeology.link/data/cigs/YSJ",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "YSJ",
+        "type": "geoinstance",
+        "text": "\u06cc\u0627\u0633\u0648\u062c (YSJ)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ZAA",
+        "id": "http://data.archaeology.link/data/cigs/ZAA",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "instance",
-        "text": "ZAA",
+        "text": "Unknown (ZAA)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ZAB",
+        "id": "http://data.archaeology.link/data/cigs/ZAB",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "ZAB",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0627\u0628\u0632\u064a\u062e (ZAB)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ZBD",
+        "id": "http://data.archaeology.link/data/cigs/ZBD",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "ZBD",
+        "type": "geoinstance",
+        "text": "\u062a\u0644 \u0632\u0628\u064a\u062f\u064a (ZBD)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ZCR",
+        "id": "http://data.archaeology.link/data/cigs/ZCR",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "ZCR",
+        "type": "geoinstance",
+        "text": " (ZCR)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ZIW",
+        "id": "http://data.archaeology.link/data/cigs/ZIW",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "ZIW",
+        "type": "geoinstance",
+        "text": " (ZIW)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ZLB",
+        "id": "http://data.archaeology.link/data/cigs/ZLB",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "ZLB",
+        "type": "geoinstance",
+        "text": "\u0632\u0627\u0644\u0648\u0622\u0628 (ZLB)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ZOH",
+        "id": "http://data.archaeology.link/data/cigs/ZOH",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "ZOH",
+        "type": "geoinstance",
+        "text": " (ZOH)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ZTP",
+        "id": "http://data.archaeology.link/data/cigs/ZTP",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "ZTP",
+        "type": "geoinstance",
+        "text": " (ZTP)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ZVA",
+        "id": "http://data.archaeology.link/data/cigs/ZVA",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "ZVA",
+        "type": "geoinstance",
+        "text": " (ZVA)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ZWY",
+        "id": "http://data.archaeology.link/data/cigs/ZWY",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
-        "type": "instance",
-        "text": "ZWY",
+        "type": "geoinstance",
+        "text": "\u0632\u0648\u064a\u0629 (ZWY)",
         "data": {}
       },
       {
         "id": "http://www.ancientports.com/ont#CuneiformSite",
         "parent": "http://www.opengis.net/ont/geosparql#Feature",
-        "type": "class",
-        "text": "CuneiformSite (ns2:CuneiformSite) [579]",
-        "data": {}
+        "type": "halfgeoclass",
+        "text": "CuneiformSite (ns1:CuneiformSite) [579]",
+        "data": {
+          "to": {
+            "http://purl.org/dc/elements/1.1/created": {
+              "instancecount": 1
+            },
+            "http://purl.org/dc/elements/1.1/creator": {
+              "instancecount": 1
+            },
+            "http://www.ancientports.com/ont#accuracy": {
+              "instancecount": 1
+            },
+            "http://www.opengis.net/ont/geosparql#hasGeometry": {
+              "instancecount": 1,
+              "http://www.opengis.net/ont/sf#Point": 1
+            },
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
+              "instancecount": 1
+            },
+            "http://www.w3.org/2000/01/rdf-schema#label": {
+              "instancecount": 2
+            },
+            "http://www.w3.org/2002/07/owl#sameAs": {
+              "instancecount": 1
+            },
+            "http://www.wikidata.org/prop/direct/P1584": {
+              "instancecount": 1
+            }
+          },
+          "from": {
+            "http://www.w3.org/2000/01/rdf-schema#member": {
+              "instancecount": 0,
+              "http://www.opengis.net/ont/geosparql#FeatureCollection": 1
+            }
+          }
+        },
+        "instancecount": 9
       },
       {
         "id": "http://www.opengis.net/ont/geosparql#Feature",
@@ -4110,4064 +4145,4087 @@ var tree={
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ADA_geom",
+        "id": "http://data.archaeology.link/data/cigs/ADA_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "ADA_geom",
+        "type": "geoinstance",
+        "text": "Adalar Geometry (ADA_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ADB_geom",
+        "id": "http://data.archaeology.link/data/cigs/ADB_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "ADB_geom",
+        "type": "geoinstance",
+        "text": "Bism\u0101y\u0101 Geometry (ADB_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ADH_geom",
+        "id": "http://data.archaeology.link/data/cigs/ADH_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "ADH_geom",
+        "type": "geoinstance",
+        "text": "Tall Abu al-Dhahab Geometry (ADH_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ADI_geom",
+        "id": "http://data.archaeology.link/data/cigs/ADI_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "ADI_geom",
+        "type": "geoinstance",
+        "text": "Adilcevaz Geometry (ADI_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/AFA_geom",
+        "id": "http://data.archaeology.link/data/cigs/AFA_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "AFA_geom",
+        "type": "geoinstance",
+        "text": "Tul\u016bl al-F\u0101j Geometry (AFA_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/AGR_geom",
+        "id": "http://data.archaeology.link/data/cigs/AGR_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "AGR_geom",
+        "type": "geoinstance",
+        "text": "Tall Ajrab Geometry (AGR_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/AHT_geom",
+        "id": "http://data.archaeology.link/data/cigs/AHT_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "AHT_geom",
+        "type": "geoinstance",
+        "text": "Ahtamar Geometry (AHT_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/AIR_geom",
+        "id": "http://data.archaeology.link/data/cigs/AIR_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "AIR_geom",
+        "type": "geoinstance",
+        "text": "\u2018Ayn-i R\u016bm Geometry (AIR_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/AJA_geom",
+        "id": "http://data.archaeology.link/data/cigs/AJA_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "AJA_geom",
+        "type": "geoinstance",
+        "text": "Ab\u016b J\u0101m\u016bs Geometry (AJA_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/AJJ_geom",
+        "id": "http://data.archaeology.link/data/cigs/AJJ_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "AJJ_geom",
+        "type": "geoinstance",
+        "text": "Tall \u2018Aj\u0101jah Geometry (AJJ_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/AKH_geom",
+        "id": "http://data.archaeology.link/data/cigs/AKH_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "AKH_geom",
+        "type": "geoinstance",
+        "text": "Al-\u2018Am\u0101rnah Geometry (AKH_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ALA_geom",
+        "id": "http://data.archaeology.link/data/cigs/ALA_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "ALA_geom",
+        "type": "geoinstance",
+        "text": "Tel A\u00e7ana Geometry (ALA_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ALH_geom",
+        "id": "http://data.archaeology.link/data/cigs/ALH_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "ALH_geom",
+        "type": "geoinstance",
+        "text": "Ala\u00e7a H\u00f6yuk Geometry (ALH_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ALI_geom",
+        "id": "http://data.archaeology.link/data/cigs/ALI_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "ALI_geom",
+        "type": "geoinstance",
+        "text": "Aliler Geometry (ALI_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ALS_geom",
+        "id": "http://data.archaeology.link/data/cigs/ALS_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "ALS_geom",
+        "type": "geoinstance",
+        "text": "Ali\u015far H\u00fcy\u00fck Geometry (ALS_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ALT_geom",
+        "id": "http://data.archaeology.link/data/cigs/ALT_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "ALT_geom",
+        "type": "geoinstance",
+        "text": "Alt\u0131ntepe Geometry (ALT_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/AMC_geom",
+        "id": "http://data.archaeology.link/data/cigs/AMC_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "AMC_geom",
+        "type": "geoinstance",
+        "text": "\u2018Amm\u0101n Geometry (AMC_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/AMD_geom",
+        "id": "http://data.archaeology.link/data/cigs/AMD_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "AMD_geom",
+        "type": "geoinstance",
+        "text": "Tall \u02bb\u0100m\u016bd\u0101 Geometry (AMD_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/AMM_geom",
+        "id": "http://data.archaeology.link/data/cigs/AMM_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "AMM_geom",
+        "type": "geoinstance",
+        "text": "Ma\u1e6d\u0101r \u2018Amm\u0101n al-Madan\u012b Geometry (AMM_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ANS_geom",
+        "id": "http://data.archaeology.link/data/cigs/ANS_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "ANS_geom",
+        "type": "geoinstance",
+        "text": "Tal-I Maly\u0101n Geometry (ANS_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ANT_geom",
+        "id": "http://data.archaeology.link/data/cigs/ANT_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "ANT_geom",
+        "type": "geoinstance",
+        "text": "Tall Ab\u016b \u2018Ant\u012bk Geometry (ANT_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ANZ_geom",
+        "id": "http://data.archaeology.link/data/cigs/ANZ_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "ANZ_geom",
+        "type": "geoinstance",
+        "text": "Dere\u00fcst\u00fc Geometry (ANZ_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/APH_geom",
+        "id": "http://data.archaeology.link/data/cigs/APH_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "APH_geom",
+        "type": "geoinstance",
+        "text": "Tel Afek Geometry (APH_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/AQA_geom",
+        "id": "http://data.archaeology.link/data/cigs/AQA_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "AQA_geom",
+        "type": "geoinstance",
+        "text": "Tall \u2018Aqarq\u016bf Geometry (AQA_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ARA_geom",
+        "id": "http://data.archaeology.link/data/cigs/ARA_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "ARA_geom",
+        "type": "geoinstance",
+        "text": "Aras Geometry (ARA_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ARI_geom",
+        "id": "http://data.archaeology.link/data/cigs/ARI_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "ARI_geom",
+        "type": "geoinstance",
+        "text": "Arin Berd Geometry (ARI_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ARK_geom",
+        "id": "http://data.archaeology.link/data/cigs/ARK_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "ARK_geom",
+        "type": "geoinstance",
+        "text": "Arin\u00e7kus Geometry (ARK_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ARM_geom",
+        "id": "http://data.archaeology.link/data/cigs/ARM_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "ARM_geom",
+        "type": "geoinstance",
+        "text": "Armavir Geometry (ARM_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ARR_geom",
+        "id": "http://data.archaeology.link/data/cigs/ARR_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "ARR_geom",
+        "type": "geoinstance",
+        "text": "Kirk\u016bk Geometry (ARR_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ART_geom",
+        "id": "http://data.archaeology.link/data/cigs/ART_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "ART_geom",
+        "type": "geoinstance",
+        "text": "Arsl\u0101n \u1e6cash Geometry (ART_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ARU_geom",
+        "id": "http://data.archaeology.link/data/cigs/ARU_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "ARU_geom",
+        "type": "geoinstance",
+        "text": "Aruch Geometry (ARU_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ASA_geom",
+        "id": "http://data.archaeology.link/data/cigs/ASA_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "ASA_geom",
+        "type": "geoinstance",
+        "text": "A\u015fa\u011f\u0131 Anzaf Geometry (ASA_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ASD_geom",
+        "id": "http://data.archaeology.link/data/cigs/ASD_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "ASD_geom",
+        "type": "geoinstance",
+        "text": "Ashdod Geometry (ASD_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ASK_geom",
+        "id": "http://data.archaeology.link/data/cigs/ASK_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "ASK_geom",
+        "type": "geoinstance",
+        "text": "Tall Ab\u016b \u1e62\u0101lab\u012bkh Geometry (ASK_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ASS_geom",
+        "id": "http://data.archaeology.link/data/cigs/ASS_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "ASS_geom",
+        "type": "geoinstance",
+        "text": "Qal\u02bbat Shirq\u0101\u1e6d Geometry (ASS_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/AST_geom",
+        "id": "http://data.archaeology.link/data/cigs/AST_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "AST_geom",
+        "type": "geoinstance",
+        "text": "Metsopay-Vank Geometry (AST_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ASZ_geom",
+        "id": "http://data.archaeology.link/data/cigs/ASZ_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "ASZ_geom",
+        "type": "geoinstance",
+        "text": "Tall Sh\u0101ghir B\u0101z\u0101r Geometry (ASZ_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ATB_geom",
+        "id": "http://data.archaeology.link/data/cigs/ATB_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "ATB_geom",
+        "type": "geoinstance",
+        "text": "Ab\u016b \u1e6cb\u012brah Geometry (ATB_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/AUS_geom",
+        "id": "http://data.archaeology.link/data/cigs/AUS_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "AUS_geom",
+        "type": "geoinstance",
+        "text": "Tall \u2018Aushariyah Geometry (AUS_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/AVN_geom",
+        "id": "http://data.archaeology.link/data/cigs/AVN_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "AVN_geom",
+        "type": "geoinstance",
+        "text": "G\u00fczelhisar Geometry (AVN_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/AWA_geom",
+        "id": "http://data.archaeology.link/data/cigs/AWA_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "AWA_geom",
+        "type": "geoinstance",
+        "text": "Qal\u2018at \u2018Awaynah Geometry (AWA_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/AYA_geom",
+        "id": "http://data.archaeology.link/data/cigs/AYA_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "AYA_geom",
+        "type": "geoinstance",
+        "text": "Ayan\u0131s Geometry (AYA_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/AYC_geom",
+        "id": "http://data.archaeology.link/data/cigs/AYC_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "AYC_geom",
+        "type": "geoinstance",
+        "text": "A\u015fa\u011f\u0131 Yar\u0131mca Geometry (AYC_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/AZF_geom",
+        "id": "http://data.archaeology.link/data/cigs/AZF_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "AZF_geom",
+        "type": "geoinstance",
+        "text": "Yukar\u0131 Anzaf Geometry (AZF_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/AZN_geom",
+        "id": "http://data.archaeology.link/data/cigs/AZN_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "AZN_geom",
+        "type": "geoinstance",
+        "text": "Aznavurtepe Geometry (AZN_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/BAB_geom",
+        "id": "http://data.archaeology.link/data/cigs/BAB_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "BAB_geom",
+        "type": "geoinstance",
+        "text": "B\u0101b\u012bl Geometry (BAB_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/BAH_geom",
+        "id": "http://data.archaeology.link/data/cigs/BAH_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "BAH_geom",
+        "type": "geoinstance",
+        "text": "Bah\u00e7ecik Geometry (BAH_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/BAK_geom",
+        "id": "http://data.archaeology.link/data/cigs/BAK_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "BAK_geom",
+        "type": "geoinstance",
+        "text": "Bakra\u00e7l\u0131 Geometry (BAK_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/BAL_geom",
+        "id": "http://data.archaeology.link/data/cigs/BAL_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "BAL_geom",
+        "type": "geoinstance",
+        "text": "Ba\u011fin Geometry (BAL_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/BAM_geom",
+        "id": "http://data.archaeology.link/data/cigs/BAM_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "BAM_geom",
+        "type": "geoinstance",
+        "text": "Kition Geometry (BAM_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/BAQ_geom",
+        "id": "http://data.archaeology.link/data/cigs/BAQ_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "BAQ_geom",
+        "type": "geoinstance",
+        "text": "Tall Baq\u0101q Geometry (BAQ_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/BAR_geom",
+        "id": "http://data.archaeology.link/data/cigs/BAR_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "BAR_geom",
+        "type": "geoinstance",
+        "text": "Tall Barguthiat Geometry (BAR_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/BAS_geom",
+        "id": "http://data.archaeology.link/data/cigs/BAS_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "BAS_geom",
+        "type": "geoinstance",
+        "text": "Bassatki Geometry (BAS_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/BAW_geom",
+        "id": "http://data.archaeology.link/data/cigs/BAW_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "BAW_geom",
+        "type": "geoinstance",
+        "text": "Bakr \u0100w\u0101 Geometry (BAW_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/BAY_geom",
+        "id": "http://data.archaeology.link/data/cigs/BAY_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "BAY_geom",
+        "type": "geoinstance",
+        "text": "Bays\u0101n Geometry (BAY_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/BAZ_geom",
+        "id": "http://data.archaeology.link/data/cigs/BAZ_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "BAZ_geom",
+        "type": "geoinstance",
+        "text": "Tall B\u0101zy Geometry (BAZ_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/BBK_geom",
+        "id": "http://data.archaeology.link/data/cigs/BBK_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "BBK_geom",
+        "type": "geoinstance",
+        "text": "Ba\u015fbulak Geometry (BBK_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/BDI_geom",
+        "id": "http://data.archaeology.link/data/cigs/BDI_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "BDI_geom",
+        "type": "geoinstance",
+        "text": "Tall Budayr\u012b Geometry (BDI_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/BES_geom",
+        "id": "http://data.archaeology.link/data/cigs/BES_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "BES_geom",
+        "type": "geoinstance",
+        "text": "Be\u015f\u00e7atak Geometry (BES_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/BHN_geom",
+        "id": "http://data.archaeology.link/data/cigs/BHN_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "BHN_geom",
+        "type": "geoinstance",
+        "text": "Ban\u0101t al-Hassan Geometry (BHN_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/BHS_geom",
+        "id": "http://data.archaeology.link/data/cigs/BHS_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "BHS_geom",
+        "type": "geoinstance",
+        "text": "Ban\u0101t al-Hassan Geometry (BHS_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/BIN_geom",
+        "id": "http://data.archaeology.link/data/cigs/BIN_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "BIN_geom",
+        "type": "geoinstance",
+        "text": "Bing\u00f6l Da\u011f Geometry (BIN_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/BIS_geom",
+        "id": "http://data.archaeology.link/data/cigs/BIS_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "BIS_geom",
+        "type": "geoinstance",
+        "text": "B\u012bsut\u016bn Geometry (BIS_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/BIT_geom",
+        "id": "http://data.archaeology.link/data/cigs/BIT_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "BIT_geom",
+        "type": "geoinstance",
+        "text": "Bitlis Geometry (BIT_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/BLQ_geom",
+        "id": "http://data.archaeology.link/data/cigs/BLQ_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "BLQ_geom",
+        "type": "geoinstance",
+        "text": "Al-Bilad al-Qad\u012bm Geometry (BLQ_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/BLW_geom",
+        "id": "http://data.archaeology.link/data/cigs/BLW_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "BLW_geom",
+        "type": "geoinstance",
+        "text": "Bal\u0101w\u0101t Geometry (BLW_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/BMB_geom",
+        "id": "http://data.archaeology.link/data/cigs/BMB_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "BMB_geom",
+        "type": "geoinstance",
+        "text": "Bambakajat Geometry (BMB_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/BOR_geom",
+        "id": "http://data.archaeology.link/data/cigs/BOR_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "BOR_geom",
+        "type": "geoinstance",
+        "text": "Birs Nimr\u016bd Geometry (BOR_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/BOS_geom",
+        "id": "http://data.archaeology.link/data/cigs/BOS_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "BOS_geom",
+        "type": "geoinstance",
+        "text": "Bostankaya Geometry (BOS_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/BRD_geom",
+        "id": "http://data.archaeology.link/data/cigs/BRD_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "BRD_geom",
+        "type": "geoinstance",
+        "text": "Tall Barad\u0101n Geometry (BRD_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/BRK_geom",
+        "id": "http://data.archaeology.link/data/cigs/BRK_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "BRK_geom",
+        "type": "geoinstance",
+        "text": "Tall Br\u0101k Geometry (BRK_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/BRM_geom",
+        "id": "http://data.archaeology.link/data/cigs/BRM_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "BRM_geom",
+        "type": "geoinstance",
+        "text": "Burmage\u00e7it Geometry (BRM_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/BRS_geom",
+        "id": "http://data.archaeology.link/data/cigs/BRS_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "BRS_geom",
+        "type": "geoinstance",
+        "text": "Br\u012b\u1e63\u0101 Geometry (BRS_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/BSE_geom",
+        "id": "http://data.archaeology.link/data/cigs/BSE_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "BSE_geom",
+        "type": "geoinstance",
+        "text": "Tel Bet Shemesh Geometry (BSE_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/BSH_geom",
+        "id": "http://data.archaeology.link/data/cigs/BSH_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "BSH_geom",
+        "type": "geoinstance",
+        "text": "Ben Shemen Geometry (BSH_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/BSK_geom",
+        "id": "http://data.archaeology.link/data/cigs/BSK_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "BSK_geom",
+        "type": "geoinstance",
+        "text": "Ba\u015fkale Geometry (BSK_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/BST_geom",
+        "id": "http://data.archaeology.link/data/cigs/BST_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "BST_geom",
+        "type": "geoinstance",
+        "text": "Qa`la Bast Geometry (BST_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/BSV_geom",
+        "id": "http://data.archaeology.link/data/cigs/BSV_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "BSV_geom",
+        "type": "geoinstance",
+        "text": "Tel Be'er Sheva Geometry (BSV_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/BTB_geom",
+        "id": "http://data.archaeology.link/data/cigs/BTB_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "BTB_geom",
+        "type": "geoinstance",
+        "text": "Tall al-Madinah Geometry (BTB_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/BTM_geom",
+        "id": "http://data.archaeology.link/data/cigs/BTM_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "BTM_geom",
+        "type": "geoinstance",
+        "text": "Bas\u1e6d\u0101m Geometry (BTM_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/BTU_geom",
+        "id": "http://data.archaeology.link/data/cigs/BTU_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "BTU_geom",
+        "type": "geoinstance",
+        "text": "Kebeli Geometry (BTU_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/BUK_geom",
+        "id": "http://data.archaeology.link/data/cigs/BUK_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "BUK_geom",
+        "type": "geoinstance",
+        "text": "B\u00fckl\u00fckale Geometry (BUK_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/BUL_geom",
+        "id": "http://data.archaeology.link/data/cigs/BUL_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "BUL_geom",
+        "type": "geoinstance",
+        "text": "Bulutp\u0131nar Geometry (BUL_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/BUR_geom",
+        "id": "http://data.archaeology.link/data/cigs/BUR_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "BUR_geom",
+        "type": "geoinstance",
+        "text": "Tall al-Shiy\u016bkh F\u016bq\u0101n\u012b Geometry (BUR_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/BVI_geom",
+        "id": "http://data.archaeology.link/data/cigs/BVI_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "BVI_geom",
+        "type": "geoinstance",
+        "text": "B\u0101f\u012b\u0101n Geometry (BVI_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/BYB_geom",
+        "id": "http://data.archaeology.link/data/cigs/BYB_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "BYB_geom",
+        "type": "geoinstance",
+        "text": "Jiba\u012bl Geometry (BYB_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/BZM_geom",
+        "id": "http://data.archaeology.link/data/cigs/BZM_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "BZM_geom",
+        "type": "geoinstance",
+        "text": "Tall B\u0101z Musiy\u0101n Geometry (BZM_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/CAV_geom",
+        "id": "http://data.archaeology.link/data/cigs/CAV_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "CAV_geom",
+        "type": "geoinstance",
+        "text": "\u00c7avu\u015ftepe Geometry (CAV_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/CEL_geom",
+        "id": "http://data.archaeology.link/data/cigs/CEL_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "CEL_geom",
+        "type": "geoinstance",
+        "text": "\u00c7elebiba\u011f\u0131 Geometry (CEL_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/CGM_geom",
+        "id": "http://data.archaeology.link/data/cigs/CGM_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "CGM_geom",
+        "type": "geoinstance",
+        "text": "Chugh\u0101 M\u012bsh Geometry (CGM_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/CGV_geom",
+        "id": "http://data.archaeology.link/data/cigs/CGV_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "CGV_geom",
+        "type": "geoinstance",
+        "text": "Chugh\u0101 G\u0101w\u0101nah Geometry (CGV_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/CHK_geom",
+        "id": "http://data.archaeology.link/data/cigs/CHK_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "CHK_geom",
+        "type": "geoinstance",
+        "text": "Acemh\u00f6y\u00fck Geometry (CHK_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/CHM_geom",
+        "id": "http://data.archaeology.link/data/cigs/CHM_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "CHM_geom",
+        "type": "geoinstance",
+        "text": "Jamjam\u0101l Geometry (CHM_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/CHR_geom",
+        "id": "http://data.archaeology.link/data/cigs/CHR_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "CHR_geom",
+        "type": "geoinstance",
+        "text": "Ir\u00e1kleio Geometry (CHR_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/CHU_geom",
+        "id": "http://data.archaeology.link/data/cigs/CHU_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "CHU_geom",
+        "type": "geoinstance",
+        "text": "Tall al-Shuwaiyrah Geometry (CHU_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/CKK_geom",
+        "id": "http://data.archaeology.link/data/cigs/CKK_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "CKK_geom",
+        "type": "geoinstance",
+        "text": "Kalm\u0101karrah Geometry (CKK_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/COZ_geom",
+        "id": "http://data.archaeology.link/data/cigs/COZ_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "COZ_geom",
+        "type": "geoinstance",
+        "text": "Chugh\u0101 Zanb\u012bl Geometry (COZ_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/CPE_geom",
+        "id": "http://data.archaeology.link/data/cigs/CPE_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "CPE_geom",
+        "type": "geoinstance",
+        "text": "Chugh\u0101 Pahn Geometry (CPE_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/CPW_geom",
+        "id": "http://data.archaeology.link/data/cigs/CPW_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "CPW_geom",
+        "type": "geoinstance",
+        "text": "Chugh\u0101 Pahn Geometry (CPW_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/CSA_geom",
+        "id": "http://data.archaeology.link/data/cigs/CSA_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "CSA_geom",
+        "type": "geoinstance",
+        "text": "Chugh\u0101 Sabz Geometry (CSA_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/DAB_geom",
+        "id": "http://data.archaeology.link/data/cigs/DAB_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "DAB_geom",
+        "type": "geoinstance",
+        "text": "Tall al-\u1e0cab\u02bba Geometry (DAB_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/DAM_geom",
+        "id": "http://data.archaeology.link/data/cigs/DAM_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "DAM_geom",
+        "type": "geoinstance",
+        "text": "Tall D\u0101miy\u0101 Geometry (DAM_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/DAS_geom",
+        "id": "http://data.archaeology.link/data/cigs/DAS_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "DAS_geom",
+        "type": "geoinstance",
+        "text": "Daskileion Geometry (DAS_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/DEF_geom",
+        "id": "http://data.archaeology.link/data/cigs/DEF_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "DEF_geom",
+        "type": "geoinstance",
+        "text": "K\u016bm Dafnah Geometry (DEF_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/DEG_geom",
+        "id": "http://data.archaeology.link/data/cigs/DEG_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "DEG_geom",
+        "type": "geoinstance",
+        "text": "De\u011firmenk\u00f6y Geometry (DEG_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/DEP_geom",
+        "id": "http://data.archaeology.link/data/cigs/DEP_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "DEP_geom",
+        "type": "geoinstance",
+        "text": "D\u016br\u0101 Awrub\u016bs Geometry (DEP_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/DER_geom",
+        "id": "http://data.archaeology.link/data/cigs/DER_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "DER_geom",
+        "type": "geoinstance",
+        "text": "Tall \u2018Aq\u0101r Geometry (DER_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/DEY_geom",
+        "id": "http://data.archaeology.link/data/cigs/DEY_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "DEY_geom",
+        "type": "geoinstance",
+        "text": "Tapah Daylam Geometry (DEY_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/DGK_geom",
+        "id": "http://data.archaeology.link/data/cigs/DGK_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "DGK_geom",
+        "type": "geoinstance",
+        "text": "Dugirdkhan Geometry (DGK_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/DIB_geom",
+        "id": "http://data.archaeology.link/data/cigs/DIB_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "DIB_geom",
+        "type": "geoinstance",
+        "text": "Dibba Geometry (DIB_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/DIL_geom",
+        "id": "http://data.archaeology.link/data/cigs/DIL_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "DIL_geom",
+        "type": "geoinstance",
+        "text": "\u2018\u0100l\u012b Geometry (DIL_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/DKA_geom",
+        "id": "http://data.archaeology.link/data/cigs/DKA_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "DKA_geom",
+        "type": "geoinstance",
+        "text": "Tall al-Shaiykh Hamad Geometry (DKA_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/DLB_geom",
+        "id": "http://data.archaeology.link/data/cigs/DLB_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "DLB_geom",
+        "type": "geoinstance",
+        "text": "Tall al-Dilaiym Geometry (DLB_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/DLH_geom",
+        "id": "http://data.archaeology.link/data/cigs/DLH_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "DLH_geom",
+        "type": "geoinstance",
+        "text": "Ish\u0101n Dulaiyhim Geometry (DLH_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/DLM_geom",
+        "id": "http://data.archaeology.link/data/cigs/DLM_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "DLM_geom",
+        "type": "geoinstance",
+        "text": "Qal\u02bbat al-Ba\u1e25ra\u012bn Geometry (DLM_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/DMU_geom",
+        "id": "http://data.archaeology.link/data/cigs/DMU_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "DMU_geom",
+        "type": "geoinstance",
+        "text": "Tall \u2018Ali Geometry (DMU_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/DNO_geom",
+        "id": "http://data.archaeology.link/data/cigs/DNO_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "DNO_geom",
+        "type": "geoinstance",
+        "text": "Dah-i N\u016b Geometry (DNO_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/DOH_geom",
+        "id": "http://data.archaeology.link/data/cigs/DOH_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "DOH_geom",
+        "type": "geoinstance",
+        "text": "D\u0101huk Geometry (DOH_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/DON_geom",
+        "id": "http://data.archaeology.link/data/cigs/DON_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "DON_geom",
+        "type": "geoinstance",
+        "text": "Donat\u0131m Geometry (DON_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/DQD_geom",
+        "id": "http://data.archaeology.link/data/cigs/DQD_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "DQD_geom",
+        "type": "geoinstance",
+        "text": "Diqdiqqah Geometry (DQD_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/DRE_geom",
+        "id": "http://data.archaeology.link/data/cigs/DRE_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "DRE_geom",
+        "type": "geoinstance",
+        "text": "Tall Dariyhim Geometry (DRE_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/DUB_geom",
+        "id": "http://data.archaeology.link/data/cigs/DUB_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "DUB_geom",
+        "type": "geoinstance",
+        "text": "Ab\u016b Dhuba\u2018 Geometry (DUB_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/DUZ_geom",
+        "id": "http://data.archaeology.link/data/cigs/DUZ_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "DUZ_geom",
+        "type": "geoinstance",
+        "text": "D\u00fczceli Geometry (DUZ_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/DWL_geom",
+        "id": "http://data.archaeology.link/data/cigs/DWL_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "DWL_geom",
+        "type": "geoinstance",
+        "text": "Al-Daw\u0101l\u012b Geometry (DWL_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/EBA_geom",
+        "id": "http://data.archaeology.link/data/cigs/EBA_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "EBA_geom",
+        "type": "geoinstance",
+        "text": "Tall Mard\u012bkh Geometry (EBA_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/EDF_geom",
+        "id": "http://data.archaeology.link/data/cigs/EDF_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "EDF_geom",
+        "type": "geoinstance",
+        "text": "Idf\u016b Geometry (EDF_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/EDR_geom",
+        "id": "http://data.archaeology.link/data/cigs/EDR_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "EDR_geom",
+        "type": "geoinstance",
+        "text": "Edremit Geometry (EDR_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/EHA_geom",
+        "id": "http://data.archaeology.link/data/cigs/EHA_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "EHA_geom",
+        "type": "geoinstance",
+        "text": "Eskiharran Geometry (EHA_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/EKA_geom",
+        "id": "http://data.archaeology.link/data/cigs/EKA_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "EKA_geom",
+        "type": "geoinstance",
+        "text": "Tall Munb\u0101qah Geometry (EKA_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/EKY_geom",
+        "id": "http://data.archaeology.link/data/cigs/EKY_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "EKY_geom",
+        "type": "geoinstance",
+        "text": "Eskiyapar Geometry (EKY_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ELA_geom",
+        "id": "http://data.archaeology.link/data/cigs/ELA_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "ELA_geom",
+        "type": "geoinstance",
+        "text": "Elar Geometry (ELA_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ELM_geom",
+        "id": "http://data.archaeology.link/data/cigs/ELM_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "ELM_geom",
+        "type": "geoinstance",
+        "text": "Elmal\u0131k Geometry (ELM_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/EMR_geom",
+        "id": "http://data.archaeology.link/data/cigs/EMR_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "EMR_geom",
+        "type": "geoinstance",
+        "text": "Tall Maskanah Geometry (EMR_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ERD_geom",
+        "id": "http://data.archaeology.link/data/cigs/ERD_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "ERD_geom",
+        "type": "geoinstance",
+        "text": "Erek Da\u01e7 Geometry (ERD_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ERI_geom",
+        "id": "http://data.archaeology.link/data/cigs/ERI_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "ERI_geom",
+        "type": "geoinstance",
+        "text": "Ab\u016b Shahra\u012bn Geometry (ERI_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ERN_geom",
+        "id": "http://data.archaeology.link/data/cigs/ERN_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "ERN_geom",
+        "type": "geoinstance",
+        "text": "Ererin Geometry (ERN_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ERZ_geom",
+        "id": "http://data.archaeology.link/data/cigs/ERZ_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "ERZ_geom",
+        "type": "geoinstance",
+        "text": "Erzen Geometry (ERZ_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ESH_geom",
+        "id": "http://data.archaeology.link/data/cigs/ESH_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "ESH_geom",
+        "type": "geoinstance",
+        "text": "Tall \u02bcAsmar Geometry (ESH_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ESK_geom",
+        "id": "http://data.archaeology.link/data/cigs/ESK_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "ESK_geom",
+        "type": "geoinstance",
+        "text": "Ishkaft Salm\u0101n Geometry (ESK_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/FAK_geom",
+        "id": "http://data.archaeology.link/data/cigs/FAK_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "FAK_geom",
+        "type": "geoinstance",
+        "text": "Tall al-Fakhar Geometry (FAK_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/FAQ_geom",
+        "id": "http://data.archaeology.link/data/cigs/FAQ_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "FAQ_geom",
+        "type": "geoinstance",
+        "text": "F\u0101q\u016bs Geometry (FAQ_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/FDW_geom",
+        "id": "http://data.archaeology.link/data/cigs/FDW_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "FDW_geom",
+        "type": "geoinstance",
+        "text": "Ab\u016b Fanduw\u0101 Geometry (FDW_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/FKR_geom",
+        "id": "http://data.archaeology.link/data/cigs/FKR_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "FKR_geom",
+        "type": "geoinstance",
+        "text": "Tall al-Fakh\u012briyah Geometry (FKR_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/FLO_geom",
+        "id": "http://data.archaeology.link/data/cigs/FLO_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "FLO_geom",
+        "type": "geoinstance",
+        "text": "Falerii Geometry (FLO_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/FRA_geom",
+        "id": "http://data.archaeology.link/data/cigs/FRA_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "FRA_geom",
+        "type": "geoinstance",
+        "text": "Tall Fray Geometry (FRA_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/FRU_geom",
+        "id": "http://data.archaeology.link/data/cigs/FRU_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "FRU_geom",
+        "type": "geoinstance",
+        "text": "Tapah Farukh\u0101b\u0101d Geometry (FRU_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/FSN_geom",
+        "id": "http://data.archaeology.link/data/cigs/FSN_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "FSN_geom",
+        "type": "geoinstance",
+        "text": "Tall Fisnah Geometry (FSN_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/GAR_geom",
+        "id": "http://data.archaeology.link/data/cigs/GAR_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "GAR_geom",
+        "type": "geoinstance",
+        "text": "Garni Geometry (GAR_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/GAV_geom",
+        "id": "http://data.archaeology.link/data/cigs/GAV_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "GAV_geom",
+        "type": "geoinstance",
+        "text": "Gava\u1e5b Geometry (GAV_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/GCN_geom",
+        "id": "http://data.archaeology.link/data/cigs/GCN_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "GCN_geom",
+        "type": "geoinstance",
+        "text": "Giricano Geometry (GCN_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/GDR_geom",
+        "id": "http://data.archaeology.link/data/cigs/GDR_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "GDR_geom",
+        "type": "geoinstance",
+        "text": "Tall Gha\u1e0daiyr\u012bfah Geometry (GDR_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/GHA_geom",
+        "id": "http://data.archaeology.link/data/cigs/GHA_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "GHA_geom",
+        "type": "geoinstance",
+        "text": "Tall al-Gharr\u0101n Geometry (GHA_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/GIR_geom",
+        "id": "http://data.archaeology.link/data/cigs/GIR_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "GIR_geom",
+        "type": "geoinstance",
+        "text": "Tall T\u012bl\u016bh Geometry (GIR_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/GJN_geom",
+        "id": "http://data.archaeology.link/data/cigs/GJN_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "GJN_geom",
+        "type": "geoinstance",
+        "text": "Ganjn\u0101mah Geometry (GJN_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/GLA_geom",
+        "id": "http://data.archaeology.link/data/cigs/GLA_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "GLA_geom",
+        "type": "geoinstance",
+        "text": "Glay\u2018a Geometry (GLA_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/GNT_geom",
+        "id": "http://data.archaeology.link/data/cigs/GNT_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "GNT_geom",
+        "type": "geoinstance",
+        "text": "Go\u0148ur depe Geometry (GNT_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/GNZ_geom",
+        "id": "http://data.archaeology.link/data/cigs/GNZ_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "GNZ_geom",
+        "type": "geoinstance",
+        "text": "Girnavaz Geometry (GNZ_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/GOT_geom",
+        "id": "http://data.archaeology.link/data/cigs/GOT_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "GOT_geom",
+        "type": "geoinstance",
+        "text": "G\u016bd\u012bn Tapah Geometry (GOT_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/GOV_geom",
+        "id": "http://data.archaeology.link/data/cigs/GOV_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "GOV_geom",
+        "type": "geoinstance",
+        "text": "G\u00f6velek Geometry (GOV_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/GOZ_geom",
+        "id": "http://data.archaeology.link/data/cigs/GOZ_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "GOZ_geom",
+        "type": "geoinstance",
+        "text": "G\u00f6zl\u00fckule Geometry (GOZ_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/GRD_geom",
+        "id": "http://data.archaeology.link/data/cigs/GRD_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "GRD_geom",
+        "type": "geoinstance",
+        "text": "Gird-i Rustam Geometry (GRD_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/GRL_geom",
+        "id": "http://data.archaeology.link/data/cigs/GRL_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "GRL_geom",
+        "type": "geoinstance",
+        "text": "Gherla Geometry (GRL_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/GRO_geom",
+        "id": "http://data.archaeology.link/data/cigs/GRO_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "GRO_geom",
+        "type": "geoinstance",
+        "text": "Tall Karay Q\u0101sim Geometry (GRO_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/GRS_geom",
+        "id": "http://data.archaeology.link/data/cigs/GRS_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "GRS_geom",
+        "type": "geoinstance",
+        "text": "Tall Baridiyah Geometry (GRS_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/GTV_geom",
+        "id": "http://data.archaeology.link/data/cigs/GTV_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "GTV_geom",
+        "type": "geoinstance",
+        "text": "Tapah Gutwand Geometry (GTV_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/GUD_geom",
+        "id": "http://data.archaeology.link/data/cigs/GUD_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "GUD_geom",
+        "type": "geoinstance",
+        "text": "Tall \u012abr\u0101h\u012bm Geometry (GUD_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/GUG_geom",
+        "id": "http://data.archaeology.link/data/cigs/GUG_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "GUG_geom",
+        "type": "geoinstance",
+        "text": "G\u00fcganis Geometry (GUG_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/GUL_geom",
+        "id": "http://data.archaeology.link/data/cigs/GUL_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "GUL_geom",
+        "type": "geoinstance",
+        "text": "Shiq\u0101ft-i Gulgul Geometry (GUL_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/GWR_geom",
+        "id": "http://data.archaeology.link/data/cigs/GWR_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "GWR_geom",
+        "type": "geoinstance",
+        "text": "Tapah Gawra Geometry (GWR_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/GZH_geom",
+        "id": "http://data.archaeology.link/data/cigs/GZH_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "GZH_geom",
+        "type": "geoinstance",
+        "text": "Tall Gasir Geometry (GZH_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/GZR_geom",
+        "id": "http://data.archaeology.link/data/cigs/GZR_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "GZR_geom",
+        "type": "geoinstance",
+        "text": "Gezer Geometry (GZR_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/HAB_geom",
+        "id": "http://data.archaeology.link/data/cigs/HAB_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "HAB_geom",
+        "type": "geoinstance",
+        "text": "Hab\u0131bu\u015fa\u01e7\u0131 Geometry (HAB_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/HAD_geom",
+        "id": "http://data.archaeology.link/data/cigs/HAD_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "HAD_geom",
+        "type": "geoinstance",
+        "text": "Tall al-\u1e24ad\u012bd\u012b Geometry (HAD_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/HAE_geom",
+        "id": "http://data.archaeology.link/data/cigs/HAE_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "HAE_geom",
+        "type": "geoinstance",
+        "text": "Hamamk\u00f6y Geometry (HAE_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/HAI_geom",
+        "id": "http://data.archaeology.link/data/cigs/HAI_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "instance",
-        "text": "HAI_geom",
+        "text": " Geometry (HAI_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/HAL_geom",
+        "id": "http://data.archaeology.link/data/cigs/HAL_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "HAL_geom",
+        "type": "geoinstance",
+        "text": "Halicarnassos Geometry (HAL_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/HAM_geom",
+        "id": "http://data.archaeology.link/data/cigs/HAM_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "HAM_geom",
+        "type": "geoinstance",
+        "text": "\u1e24am\u0101h Geometry (HAM_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/HAN_geom",
+        "id": "http://data.archaeology.link/data/cigs/HAN_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "HAN_geom",
+        "type": "geoinstance",
+        "text": "Tall Hanas Geometry (HAN_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/HAR_geom",
+        "id": "http://data.archaeology.link/data/cigs/HAR_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "HAR_geom",
+        "type": "geoinstance",
+        "text": "Harran Geometry (HAR_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/HAS_geom",
+        "id": "http://data.archaeology.link/data/cigs/HAS_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "HAS_geom",
+        "type": "geoinstance",
+        "text": "Hasbey Geometry (HAS_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/HAT_geom",
+        "id": "http://data.archaeology.link/data/cigs/HAT_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "HAT_geom",
+        "type": "geoinstance",
+        "text": "Bo\u011fazkale Geometry (HAT_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/HAY_geom",
+        "id": "http://data.archaeology.link/data/cigs/HAY_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "HAY_geom",
+        "type": "geoinstance",
+        "text": "Haykavan Geometry (HAY_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/HAZ_geom",
+        "id": "http://data.archaeology.link/data/cigs/HAZ_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "HAZ_geom",
+        "type": "geoinstance",
+        "text": "Tel Hazor Geometry (HAZ_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/HBK_geom",
+        "id": "http://data.archaeology.link/data/cigs/HBK_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "HBK_geom",
+        "type": "geoinstance",
+        "text": "\u1e24ab\u016bbah Geometry (HBK_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/HBR_geom",
+        "id": "http://data.archaeology.link/data/cigs/HBR_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "HBR_geom",
+        "type": "geoinstance",
+        "text": "Tel Hebron Geometry (HBR_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/HBS_geom",
+        "id": "http://data.archaeology.link/data/cigs/HBS_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "HBS_geom",
+        "type": "geoinstance",
+        "text": "\u1e24abl al-\u1e62akhar Geometry (HBS_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/HDD_geom",
+        "id": "http://data.archaeology.link/data/cigs/HDD_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "HDD_geom",
+        "type": "geoinstance",
+        "text": "Tall \u1e24ad\u0101d Geometry (HDD_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/HFR_geom",
+        "id": "http://data.archaeology.link/data/cigs/HFR_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "HFR_geom",
+        "type": "geoinstance",
+        "text": "Umm al-\u1e24afry\u0101t Geometry (HFR_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/HIL_geom",
+        "id": "http://data.archaeology.link/data/cigs/HIL_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "HIL_geom",
+        "type": "geoinstance",
+        "text": "Al-\u1e24ilah Geometry (HIL_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/HJR_geom",
+        "id": "http://data.archaeology.link/data/cigs/HJR_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "HJR_geom",
+        "type": "geoinstance",
+        "text": "Al-\u1e24ajar Geometry (HJR_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/HLF_geom",
+        "id": "http://data.archaeology.link/data/cigs/HLF_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "HLF_geom",
+        "type": "geoinstance",
+        "text": "Tall \u1e24alaf Geometry (HLF_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/HLT_geom",
+        "id": "http://data.archaeology.link/data/cigs/HLT_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "HLT_geom",
+        "type": "geoinstance",
+        "text": "Hala Sultan Tekes Geometry (HLT_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/HLW_geom",
+        "id": "http://data.archaeology.link/data/cigs/HLW_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "HLW_geom",
+        "type": "geoinstance",
+        "text": "Tall \u1e24al\u0101wah Geometry (HLW_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/HMD_geom",
+        "id": "http://data.archaeology.link/data/cigs/HMD_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "HMD_geom",
+        "type": "geoinstance",
+        "text": "Hamad\u0101n Geometry (HMD_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/HMM_geom",
+        "id": "http://data.archaeology.link/data/cigs/HMM_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "HMM_geom",
+        "type": "geoinstance",
+        "text": "\u1e24amm\u0101m Geometry (HMM_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/HMR_geom",
+        "id": "http://data.archaeology.link/data/cigs/HMR_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "HMR_geom",
+        "type": "geoinstance",
+        "text": "Sulaiymah Geometry (HMR_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/HMT_geom",
+        "id": "http://data.archaeology.link/data/cigs/HMT_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "HMT_geom",
+        "type": "geoinstance",
+        "text": "Tall \u1e24amm\u0101m al-Turkm\u0101n Geometry (HMT_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/HOR_geom",
+        "id": "http://data.archaeology.link/data/cigs/HOR_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "HOR_geom",
+        "type": "geoinstance",
+        "text": "Tepe Horreeye Geometry (HOR_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/HPK_geom",
+        "id": "http://data.archaeology.link/data/cigs/HPK_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "HPK_geom",
+        "type": "geoinstance",
+        "text": "Hazine Piri Kap\u0131s\u0131 Geometry (HPK_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/HRD_geom",
+        "id": "http://data.archaeology.link/data/cigs/HRD_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "HRD_geom",
+        "type": "geoinstance",
+        "text": "Khirbat al-Diniyah Geometry (HRD_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/HRE_geom",
+        "id": "http://data.archaeology.link/data/cigs/HRE_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "HRE_geom",
+        "type": "geoinstance",
+        "text": "\u0397eraio Samou Geometry (HRE_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/HRP_geom",
+        "id": "http://data.archaeology.link/data/cigs/HRP_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "HRP_geom",
+        "type": "geoinstance",
+        "text": "Harput Geometry (HRP_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/HRT_geom",
+        "id": "http://data.archaeology.link/data/cigs/HRT_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "HRT_geom",
+        "type": "geoinstance",
+        "text": "Har\u0101t Geometry (HRT_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/HSC_geom",
+        "id": "http://data.archaeology.link/data/cigs/HSC_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "HSC_geom",
+        "type": "geoinstance",
+        "text": "Hasanc\u0131kl\u0131 Geometry (HSC_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/HSI_geom",
+        "id": "http://data.archaeology.link/data/cigs/HSI_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "HSI_geom",
+        "type": "geoinstance",
+        "text": "Tel Hesi Geometry (HSI_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/HSK_geom",
+        "id": "http://data.archaeology.link/data/cigs/HSK_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "HSK_geom",
+        "type": "geoinstance",
+        "text": "Hasankeyf Geometry (HSK_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/HSR_geom",
+        "id": "http://data.archaeology.link/data/cigs/HSR_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "HSR_geom",
+        "type": "geoinstance",
+        "text": "Tapah \u1e24i\u1e63\u0101r Geometry (HSR_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/HUM_geom",
+        "id": "http://data.archaeology.link/data/cigs/HUM_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "HUM_geom",
+        "type": "geoinstance",
+        "text": "Tul\u016bl al-Hummar Geometry (HUM_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/HUZ_geom",
+        "id": "http://data.archaeology.link/data/cigs/HUZ_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "HUZ_geom",
+        "type": "geoinstance",
+        "text": "Sultantepe Geometry (HUZ_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/HWS_geom",
+        "id": "http://data.archaeology.link/data/cigs/HWS_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "HWS_geom",
+        "type": "geoinstance",
+        "text": "Tall \u1e24uwaysh Geometry (HWS_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/HYK_geom",
+        "id": "http://data.archaeology.link/data/cigs/HYK_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "HYK_geom",
+        "type": "geoinstance",
+        "text": "\u00c7atal H\u00f6y\u00fck Geometry (HYK_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/IBA_geom",
+        "id": "http://data.archaeology.link/data/cigs/IBA_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "IBA_geom",
+        "type": "geoinstance",
+        "text": "Tall Ibr\u0101h\u012bm Bayis Geometry (IBA_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/IDH_geom",
+        "id": "http://data.archaeology.link/data/cigs/IDH_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "IDH_geom",
+        "type": "geoinstance",
+        "text": "Ish\u0101n Dhahak Geometry (IDH_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/IDU_geom",
+        "id": "http://data.archaeology.link/data/cigs/IDU_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "IDU_geom",
+        "type": "geoinstance",
+        "text": "S\u0101t\u016b Qal\u0101 Geometry (IDU_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/IHF_geom",
+        "id": "http://data.archaeology.link/data/cigs/IHF_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "IHF_geom",
+        "type": "geoinstance",
+        "text": "Ish\u0101n H\u0101fudh Geometry (IHF_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/IHN_geom",
+        "id": "http://data.archaeology.link/data/cigs/IHN_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "IHN_geom",
+        "type": "geoinstance",
+        "text": "Ras Ibn H\u0101n\u012b Geometry (IHN_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/IKA_geom",
+        "id": "http://data.archaeology.link/data/cigs/IKA_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "IKA_geom",
+        "type": "geoinstance",
+        "text": "Ishan al-Kh\u0101zna Geometry (IKA_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/IKH_geom",
+        "id": "http://data.archaeology.link/data/cigs/IKH_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "IKH_geom",
+        "type": "geoinstance",
+        "text": "Ish\u0101n Kh\u0101lifa Geometry (IKH_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/INA_geom",
+        "id": "http://data.archaeology.link/data/cigs/INA_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "INA_geom",
+        "type": "geoinstance",
+        "text": "\u0130nand\u0131k Geometry (INA_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/IRS_geom",
+        "id": "http://data.archaeology.link/data/cigs/IRS_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "IRS_geom",
+        "type": "geoinstance",
+        "text": " Geometry (IRS_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ISN_geom",
+        "id": "http://data.archaeology.link/data/cigs/ISN_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "ISN_geom",
+        "type": "geoinstance",
+        "text": "I\u0161\u0101n Ba\u1e25r\u012by\u0101t Geometry (ISN_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/JAN_geom",
+        "id": "http://data.archaeology.link/data/cigs/JAN_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "JAN_geom",
+        "type": "geoinstance",
+        "text": "Janfida Geometry (JAN_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/JAV_geom",
+        "id": "http://data.archaeology.link/data/cigs/JAV_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "JAV_geom",
+        "type": "geoinstance",
+        "text": "Jaw\u0101nqal\u2018h Geometry (JAV_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/JDD_geom",
+        "id": "http://data.archaeology.link/data/cigs/JDD_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "JDD_geom",
+        "type": "geoinstance",
+        "text": "Jad\u012bdah Geometry (JDD_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/JDG_geom",
+        "id": "http://data.archaeology.link/data/cigs/JDG_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "JDG_geom",
+        "type": "geoinstance",
+        "text": "Cudi Da\u011f\u0131 Geometry (JDG_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/JDR_geom",
+        "id": "http://data.archaeology.link/data/cigs/JDR_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "JDR_geom",
+        "type": "geoinstance",
+        "text": "Tall Jidar Geometry (JDR_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/JMM_geom",
+        "id": "http://data.archaeology.link/data/cigs/JMM_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "JMM_geom",
+        "type": "geoinstance",
+        "text": "Tel Gamma Geometry (JMM_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/JOK_geom",
+        "id": "http://data.archaeology.link/data/cigs/JOK_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "JOK_geom",
+        "type": "geoinstance",
+        "text": "Tall J\u016bka Geometry (JOK_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/JOR_geom",
+        "id": "http://data.archaeology.link/data/cigs/JOR_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "JOR_geom",
+        "type": "geoinstance",
+        "text": "Tul-i \u0100juri Geometry (JOR_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/JRD_geom",
+        "id": "http://data.archaeology.link/data/cigs/JRD_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "JRD_geom",
+        "type": "geoinstance",
+        "text": "Jabal \u2018\u0100r\u016bdah Geometry (JRD_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/JRO_geom",
+        "id": "http://data.archaeology.link/data/cigs/JRO_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "JRO_geom",
+        "type": "geoinstance",
+        "text": "Jericho Geometry (JRO_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/JRW_geom",
+        "id": "http://data.archaeology.link/data/cigs/JRW_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "JRW_geom",
+        "type": "geoinstance",
+        "text": "Jar\u0101wanah Geometry (JRW_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/JUH_geom",
+        "id": "http://data.archaeology.link/data/cigs/JUH_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "JUH_geom",
+        "type": "geoinstance",
+        "text": "Tall J\u016bkha Geometry (JUH_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/JWN_geom",
+        "id": "http://data.archaeology.link/data/cigs/JWN_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "JWN_geom",
+        "type": "geoinstance",
+        "text": "Tul\u016bl Ab\u016b J\u0101wan Geometry (JWN_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KAB_geom",
+        "id": "http://data.archaeology.link/data/cigs/KAB_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "KAB_geom",
+        "type": "geoinstance",
+        "text": "Kabr\u012bt Geometry (KAB_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KAD_geom",
+        "id": "http://data.archaeology.link/data/cigs/KAD_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "KAD_geom",
+        "type": "geoinstance",
+        "text": "Kadembas Geometry (KAD_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KAH_geom",
+        "id": "http://data.archaeology.link/data/cigs/KAH_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "KAH_geom",
+        "type": "geoinstance",
+        "text": "Kahramanmara\u015f Geometry (KAH_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KAI_geom",
+        "id": "http://data.archaeology.link/data/cigs/KAI_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "KAI_geom",
+        "type": "geoinstance",
+        "text": "Kaisaran Geometry (KAI_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KAL_geom",
+        "id": "http://data.archaeology.link/data/cigs/KAL_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "KAL_geom",
+        "type": "geoinstance",
+        "text": "K\u0101mid al-L\u016bz Geometry (KAL_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KAR_geom",
+        "id": "http://data.archaeology.link/data/cigs/KAR_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "KAR_geom",
+        "type": "geoinstance",
+        "text": "Al-Karnak Geometry (KAR_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KAS_geom",
+        "id": "http://data.archaeology.link/data/cigs/KAS_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "KAS_geom",
+        "type": "geoinstance",
+        "text": "Kastri Geometry (KAS_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KAY_geom",
+        "id": "http://data.archaeology.link/data/cigs/KAY_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "KAY_geom",
+        "type": "geoinstance",
+        "text": "Kayal\u0131p\u0131nar Geometry (KAY_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KAZ_geom",
+        "id": "http://data.archaeology.link/data/cigs/KAZ_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "KAZ_geom",
+        "type": "geoinstance",
+        "text": "Kazanc\u0131 Geometry (KAZ_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KBL_geom",
+        "id": "http://data.archaeology.link/data/cigs/KBL_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "KBL_geom",
+        "type": "geoinstance",
+        "text": "Chaman-i \u1e24az\u0324\u016br\u012b Geometry (KBL_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KBN_geom",
+        "id": "http://data.archaeology.link/data/cigs/KBN_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "KBN_geom",
+        "type": "geoinstance",
+        "text": "Haft Tapah Geometry (KBN_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KCT_geom",
+        "id": "http://data.archaeology.link/data/cigs/KCT_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "KCT_geom",
+        "type": "geoinstance",
+        "text": "Ko\u00e7yata\u011f\u0131 Geometry (KCT_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KDH_geom",
+        "id": "http://data.archaeology.link/data/cigs/KDH_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "KDH_geom",
+        "type": "geoinstance",
+        "text": "Qandah\u0101r Geometry (KDH_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KDR_geom",
+        "id": "http://data.archaeology.link/data/cigs/KDR_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "KDR_geom",
+        "type": "geoinstance",
+        "text": "Al-Khi\u1e0dr Geometry (KDR_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KEB_geom",
+        "id": "http://data.archaeology.link/data/cigs/KEB_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "KEB_geom",
+        "type": "geoinstance",
+        "text": "Kenk Bo\u01e7az\u0131 Geometry (KEB_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KEC_geom",
+        "id": "http://data.archaeology.link/data/cigs/KEC_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "KEC_geom",
+        "type": "geoinstance",
+        "text": "Ke\u00e7ik\u0131ran Geometry (KEC_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KEL_geom",
+        "id": "http://data.archaeology.link/data/cigs/KEL_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "KEL_geom",
+        "type": "geoinstance",
+        "text": "Kal\u012bsh\u012bn Geometry (KEL_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KEV_geom",
+        "id": "http://data.archaeology.link/data/cigs/KEV_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "KEV_geom",
+        "type": "geoinstance",
+        "text": "Kevenli Geometry (KEV_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KFA_geom",
+        "id": "http://data.archaeology.link/data/cigs/KFA_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "KFA_geom",
+        "type": "geoinstance",
+        "text": "K\u016blfara\u1e25 Geometry (KFA_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KFI_geom",
+        "id": "http://data.archaeology.link/data/cigs/KFI_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "KFI_geom",
+        "type": "geoinstance",
+        "text": "K\u0101mf\u012br\u016bz Geometry (KFI_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KFK_geom",
+        "id": "http://data.archaeology.link/data/cigs/KFK_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "KFK_geom",
+        "type": "geoinstance",
+        "text": "Kef Kalesi Geometry (KFK_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KHA_geom",
+        "id": "http://data.archaeology.link/data/cigs/KHA_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "KHA_geom",
+        "type": "geoinstance",
+        "text": "Tall Khaibar Geometry (KHA_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KHI_geom",
+        "id": "http://data.archaeology.link/data/cigs/KHI_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "KHI_geom",
+        "type": "geoinstance",
+        "text": "Tapah Kh\u012bbr Geometry (KHI_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KHR_geom",
+        "id": "http://data.archaeology.link/data/cigs/KHR_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "KHR_geom",
+        "type": "geoinstance",
+        "text": "Al-Kharjah Geometry (KHR_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KHT_geom",
+        "id": "http://data.archaeology.link/data/cigs/KHT_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "KHT_geom",
+        "type": "geoinstance",
+        "text": "Tall Barri Geometry (KHT_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KHW_geom",
+        "id": "http://data.archaeology.link/data/cigs/KHW_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "KHW_geom",
+        "type": "geoinstance",
+        "text": "Kh\u0101n \u1e24asw\u0101 Geometry (KHW_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KKA_geom",
+        "id": "http://data.archaeology.link/data/cigs/KKA_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "KKA_geom",
+        "type": "geoinstance",
+        "text": "Kawala Kandal Geometry (KKA_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KKH_geom",
+        "id": "http://data.archaeology.link/data/cigs/KKH_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "KKH_geom",
+        "type": "geoinstance",
+        "text": "\u00dc\u00e7tepe Geometry (KKH_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KKL_geom",
+        "id": "http://data.archaeology.link/data/cigs/KKL_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "KKL_geom",
+        "type": "geoinstance",
+        "text": "Karakala Geometry (KKL_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KKU_geom",
+        "id": "http://data.archaeology.link/data/cigs/KKU_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "KKU_geom",
+        "type": "geoinstance",
+        "text": "Khirbet Kusiya Geometry (KKU_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KLB_geom",
+        "id": "http://data.archaeology.link/data/cigs/KLB_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "KLB_geom",
+        "type": "geoinstance",
+        "text": "Nahr al-Kalb Geometry (KLB_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KLC_geom",
+        "id": "http://data.archaeology.link/data/cigs/KLC_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "KLC_geom",
+        "type": "geoinstance",
+        "text": "Kalecik Geometry (KLC_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KLK_geom",
+        "id": "http://data.archaeology.link/data/cigs/KLK_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "KLK_geom",
+        "type": "geoinstance",
+        "text": "Kalek\u00f6y Geometry (KLK_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KML_geom",
+        "id": "http://data.archaeology.link/data/cigs/KML_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "KML_geom",
+        "type": "geoinstance",
+        "text": "Tall al-Qadd\u012bsah Barb\u0101rah Geometry (KML_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KMN_geom",
+        "id": "http://data.archaeology.link/data/cigs/KMN_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "KMN_geom",
+        "type": "geoinstance",
+        "text": "Kim\u016bnah Geometry (KMN_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KMS_geom",
+        "id": "http://data.archaeology.link/data/cigs/KMS_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "KMS_geom",
+        "type": "geoinstance",
+        "text": "Kam\u0131\u015fvan Geometry (KMS_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KNB_geom",
+        "id": "http://data.archaeology.link/data/cigs/KNB_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "KNB_geom",
+        "type": "geoinstance",
+        "text": "K\u0101n\u012b B\u012b Geometry (KNB_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KNS_geom",
+        "id": "http://data.archaeology.link/data/cigs/KNS_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "KNS_geom",
+        "type": "geoinstance",
+        "text": "K\u00fcltepe Geometry (KNS_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KOC_geom",
+        "id": "http://data.archaeology.link/data/cigs/KOC_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "KOC_geom",
+        "type": "geoinstance",
+        "text": "Ko\u00e7aklar Geometry (KOC_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KOK_geom",
+        "id": "http://data.archaeology.link/data/cigs/KOK_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "KOK_geom",
+        "type": "geoinstance",
+        "text": "K\u00f6\u015fk Geometry (KOK_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KOR_geom",
+        "id": "http://data.archaeology.link/data/cigs/KOR_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "KOR_geom",
+        "type": "geoinstance",
+        "text": "K\u00f6rz\u00fct Geometry (KOR_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KOS_geom",
+        "id": "http://data.archaeology.link/data/cigs/KOS_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "KOS_geom",
+        "type": "geoinstance",
+        "text": "Kon\u0101r Sandal Geometry (KOS_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KOT_geom",
+        "id": "http://data.archaeology.link/data/cigs/KOT_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "KOT_geom",
+        "type": "geoinstance",
+        "text": "Kotanl\u0131 Geometry (KOT_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KOU_geom",
+        "id": "http://data.archaeology.link/data/cigs/KOU_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "KOU_geom",
+        "type": "geoinstance",
+        "text": "Kourion Geometry (KOU_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KRC_geom",
+        "id": "http://data.archaeology.link/data/cigs/KRC_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "KRC_geom",
+        "type": "geoinstance",
+        "text": "Karaca\u00f6ren Geometry (KRC_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KRG_geom",
+        "id": "http://data.archaeology.link/data/cigs/KRG_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "KRG_geom",
+        "type": "geoinstance",
+        "text": "Karag\u00fcnd\u00fcz Geometry (KRG_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KRH_geom",
+        "id": "http://data.archaeology.link/data/cigs/KRH_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "KRH_geom",
+        "type": "geoinstance",
+        "text": "Karahan Geometry (KRH_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KRI_geom",
+        "id": "http://data.archaeology.link/data/cigs/KRI_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "KRI_geom",
+        "type": "geoinstance",
+        "text": "Kayseri Geometry (KRI_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KRK_geom",
+        "id": "http://data.archaeology.link/data/cigs/KRK_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "KRK_geom",
+        "type": "geoinstance",
+        "text": "Jar\u0101blus Geometry (KRK_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KRM_geom",
+        "id": "http://data.archaeology.link/data/cigs/KRM_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "KRM_geom",
+        "type": "geoinstance",
+        "text": "Kerm\u0101nsh\u0101h Geometry (KRM_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KRT_geom",
+        "id": "http://data.archaeology.link/data/cigs/KRT_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "KRT_geom",
+        "type": "geoinstance",
+        "text": "Karata\u015f Geometry (KRT_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KSH_geom",
+        "id": "http://data.archaeology.link/data/cigs/KSH_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "KSH_geom",
+        "type": "geoinstance",
+        "text": "K\u012bsh Geometry (KSH_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KSI_geom",
+        "id": "http://data.archaeology.link/data/cigs/KSI_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "KSI_geom",
+        "type": "geoinstance",
+        "text": "K\u0101n\u012b Sh\u0101yah Geometry (KSI_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KSK_geom",
+        "id": "http://data.archaeology.link/data/cigs/KSK_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "KSK_geom",
+        "type": "geoinstance",
+        "text": "Ku\u015fakl\u0131 Geometry (KSK_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KSM_geom",
+        "id": "http://data.archaeology.link/data/cigs/KSM_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "KSM_geom",
+        "type": "geoinstance",
+        "text": "Kas\u0131mo\u011flu Geometry (KSM_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KSN_geom",
+        "id": "http://data.archaeology.link/data/cigs/KSN_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "KSN_geom",
+        "type": "geoinstance",
+        "text": "Tel Keisan Geometry (KSN_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KSR_geom",
+        "id": "http://data.archaeology.link/data/cigs/KSR_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "KSR_geom",
+        "type": "geoinstance",
+        "text": "Ish\u0101n Ab\u016b \u1e24a\u1e6dab Geometry (KSR_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KSX_geom",
+        "id": "http://data.archaeology.link/data/cigs/KSX_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "KSX_geom",
+        "type": "geoinstance",
+        "text": "Kuhanak Geometry (KSX_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KTN_geom",
+        "id": "http://data.archaeology.link/data/cigs/KTN_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "KTN_geom",
+        "type": "geoinstance",
+        "text": "Tul\u016bl al-\u2018Aqir Geometry (KTN_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KUB_geom",
+        "id": "http://data.archaeology.link/data/cigs/KUB_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "KUB_geom",
+        "type": "geoinstance",
+        "text": "K\u016bbr\u012b Geometry (KUB_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KUM_geom",
+        "id": "http://data.archaeology.link/data/cigs/KUM_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "KUM_geom",
+        "type": "geoinstance",
+        "text": "Ishan Ab\u016b Kumb\u0101rah Geometry (KUM_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KUN_geom",
+        "id": "http://data.archaeology.link/data/cigs/KUN_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "KUN_geom",
+        "type": "geoinstance",
+        "text": "K\u016bn\u0101r\u0101 Geometry (KUN_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KUS_geom",
+        "id": "http://data.archaeology.link/data/cigs/KUS_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "KUS_geom",
+        "type": "geoinstance",
+        "text": "Ku\u015fsaray Geometry (KUS_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KZK_geom",
+        "id": "http://data.archaeology.link/data/cigs/KZK_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "KZK_geom",
+        "type": "geoinstance",
+        "text": "Kizkapanl\u0131 Geometry (KZK_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KZL_geom",
+        "id": "http://data.archaeology.link/data/cigs/KZL_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "KZL_geom",
+        "type": "geoinstance",
+        "text": "Tall Kazal Geometry (KZL_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/KZN_geom",
+        "id": "http://data.archaeology.link/data/cigs/KZN_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "KZN_geom",
+        "type": "geoinstance",
+        "text": "Kazane H\u00f6y\u00fck Geometry (KZN_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/LAG_geom",
+        "id": "http://data.archaeology.link/data/cigs/LAG_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "LAG_geom",
+        "type": "geoinstance",
+        "text": "Tall al-Hib\u0101 Geometry (LAG_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/LAR_geom",
+        "id": "http://data.archaeology.link/data/cigs/LAR_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "LAR_geom",
+        "type": "geoinstance",
+        "text": "Tall al-Sankarah Geometry (LAR_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/LCJ_geom",
+        "id": "http://data.archaeology.link/data/cigs/LCJ_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "LCJ_geom",
+        "type": "geoinstance",
+        "text": "Lchajen Geometry (LCJ_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/LHM_geom",
+        "id": "http://data.archaeology.link/data/cigs/LHM_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "LHM_geom",
+        "type": "geoinstance",
+        "text": "Tall al-La\u1e25am Geometry (LHM_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/LIH_geom",
+        "id": "http://data.archaeology.link/data/cigs/LIH_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "LIH_geom",
+        "type": "geoinstance",
+        "text": "Lidar H\u00f6y\u00fck Geometry (LIH_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/LIY_geom",
+        "id": "http://data.archaeology.link/data/cigs/LIY_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "LIY_geom",
+        "type": "geoinstance",
+        "text": "B\u016bs\u0331har Geometry (LIY_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/LMA_geom",
+        "id": "http://data.archaeology.link/data/cigs/LMA_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "LMA_geom",
+        "type": "geoinstance",
+        "text": "Lam\u0101 Geometry (LMA_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/LRK_geom",
+        "id": "http://data.archaeology.link/data/cigs/LRK_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "LRK_geom",
+        "type": "geoinstance",
+        "text": "Tall Wil\u0101iyah Geometry (LRK_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/LSB_geom",
+        "id": "http://data.archaeology.link/data/cigs/LSB_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "LSB_geom",
+        "type": "geoinstance",
+        "text": "Tall al-S\u012bb Geometry (LSB_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/MAL_geom",
+        "id": "http://data.archaeology.link/data/cigs/MAL_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "MAL_geom",
+        "type": "geoinstance",
+        "text": "Malazgirt Geometry (MAL_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/MAR_geom",
+        "id": "http://data.archaeology.link/data/cigs/MAR_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "MAR_geom",
+        "type": "geoinstance",
+        "text": "Tall \u1e24ar\u012br\u012b Geometry (MAR_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/MAV_geom",
+        "id": "http://data.archaeology.link/data/cigs/MAV_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "MAV_geom",
+        "type": "geoinstance",
+        "text": "Maw\u0101n\u0101 Geometry (MAV_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/MCH_geom",
+        "id": "http://data.archaeology.link/data/cigs/MCH_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "MCH_geom",
+        "type": "geoinstance",
+        "text": "Mikhmoret Geometry (MCH_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/MCQ_geom",
+        "id": "http://data.archaeology.link/data/cigs/MCQ_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "MCQ_geom",
+        "type": "geoinstance",
+        "text": " Geometry (MCQ_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/MCY_geom",
+        "id": "http://data.archaeology.link/data/cigs/MCY_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "MCY_geom",
+        "type": "geoinstance",
+        "text": "Dibbin Geometry (MCY_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/MCZ_geom",
+        "id": "http://data.archaeology.link/data/cigs/MCZ_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "MCZ_geom",
+        "type": "geoinstance",
+        "text": "Tall al-Disim Geometry (MCZ_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/MDB_geom",
+        "id": "http://data.archaeology.link/data/cigs/MDB_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "MDB_geom",
+        "type": "geoinstance",
+        "text": "Tall Mu\u1e25amad Diy\u0101b Geometry (MDB_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/MET_geom",
+        "id": "http://data.archaeology.link/data/cigs/MET_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "MET_geom",
+        "type": "geoinstance",
+        "text": "Metsamor Geometry (MET_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/MGD_geom",
+        "id": "http://data.archaeology.link/data/cigs/MGD_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "MGD_geom",
+        "type": "geoinstance",
+        "text": "Megiddo Geometry (MGD_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/MHD_geom",
+        "id": "http://data.archaeology.link/data/cigs/MHD_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "MHD_geom",
+        "type": "geoinstance",
+        "text": "Ma\u1e25m\u016bd \u0100b\u0101d Geometry (MHD_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/MHN_geom",
+        "id": "http://data.archaeology.link/data/cigs/MHN_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "MHN_geom",
+        "type": "geoinstance",
+        "text": "M\u0101h\u0101n Geometry (MHN_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/MHO_geom",
+        "id": "http://data.archaeology.link/data/cigs/MHO_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "MHO_geom",
+        "type": "geoinstance",
+        "text": "Ma\u015fat H\u00f6y\u00fck Geometry (MHO_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/MHR_geom",
+        "id": "http://data.archaeology.link/data/cigs/MHR_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "MHR_geom",
+        "type": "geoinstance",
+        "text": "Meher Kap\u0131s\u0131 Geometry (MHR_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/MIT_geom",
+        "id": "http://data.archaeology.link/data/cigs/MIT_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "MIT_geom",
+        "type": "geoinstance",
+        "text": "Tall M\u012bthlay Geometry (MIT_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/MKA_geom",
+        "id": "http://data.archaeology.link/data/cigs/MKA_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "MKA_geom",
+        "type": "geoinstance",
+        "text": "Mergeh Karvan Geometry (MKA_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/MLD_geom",
+        "id": "http://data.archaeology.link/data/cigs/MLD_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "MLD_geom",
+        "type": "geoinstance",
+        "text": "Arslantepe H\u00f6y\u00fc\u011f\u00fc Geometry (MLD_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/MLH_geom",
+        "id": "http://data.archaeology.link/data/cigs/MLH_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "MLH_geom",
+        "type": "geoinstance",
+        "text": "Tall Iml\u012b\u1e25iyah Geometry (MLH_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/MLK_geom",
+        "id": "http://data.archaeology.link/data/cigs/MLK_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "MLK_geom",
+        "type": "geoinstance",
+        "text": "Al-Mukha\u1e6d\u1e6da\u1e6d Geometry (MLK_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/MMG_geom",
+        "id": "http://data.archaeology.link/data/cigs/MMG_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "MMG_geom",
+        "type": "geoinstance",
+        "text": "Mila Mergi Geometry (MMG_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/MOA_geom",
+        "id": "http://data.archaeology.link/data/cigs/MOA_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "MOA_geom",
+        "type": "geoinstance",
+        "text": "Tall Mu\u1e25amad \u2018Arab Geometry (MOA_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/MQS_geom",
+        "id": "http://data.archaeology.link/data/cigs/MQS_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "MQS_geom",
+        "type": "geoinstance",
+        "text": "Al-Maqsha Geometry (MQS_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/MRD_geom",
+        "id": "http://data.archaeology.link/data/cigs/MRD_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "MRD_geom",
+        "type": "geoinstance",
+        "text": "Tall \u1e62ad\u016bm Geometry (MRD_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/MRJ_geom",
+        "id": "http://data.archaeology.link/data/cigs/MRJ_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "MRJ_geom",
+        "type": "geoinstance",
+        "text": "Al-Marjab Geometry (MRJ_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/MRL_geom",
+        "id": "http://data.archaeology.link/data/cigs/MRL_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "MRL_geom",
+        "type": "geoinstance",
+        "text": "M\u0101rl\u012bk Geometry (MRL_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/MRM_geom",
+        "id": "http://data.archaeology.link/data/cigs/MRM_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "MRM_geom",
+        "type": "geoinstance",
+        "text": "Marmachyn Geometry (MRM_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/MRN_geom",
+        "id": "http://data.archaeology.link/data/cigs/MRN_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "MRN_geom",
+        "type": "geoinstance",
+        "text": "Mardin Geometry (MRN_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/MRW_geom",
+        "id": "http://data.archaeology.link/data/cigs/MRW_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "MRW_geom",
+        "type": "geoinstance",
+        "text": "Tall Marw\u0101ny Geometry (MRW_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/MSH_geom",
+        "id": "http://data.archaeology.link/data/cigs/MSH_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "MSH_geom",
+        "type": "geoinstance",
+        "text": "Tall Masaikh Geometry (MSH_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/MSK_geom",
+        "id": "http://data.archaeology.link/data/cigs/MSK_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "MSK_geom",
+        "type": "geoinstance",
+        "text": "Tall Ab\u016b Duw\u0101r\u012b Geometry (MSK_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/MUG_geom",
+        "id": "http://data.archaeology.link/data/cigs/MUG_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "MUG_geom",
+        "type": "geoinstance",
+        "text": "Umm al-J\u012br Geometry (MUG_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/MUH_geom",
+        "id": "http://data.archaeology.link/data/cigs/MUH_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "MUH_geom",
+        "type": "geoinstance",
+        "text": "Muhrapert Geometry (MUH_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/MUR_geom",
+        "id": "http://data.archaeology.link/data/cigs/MUR_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "MUR_geom",
+        "type": "geoinstance",
+        "text": "Muradiye Geometry (MUR_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/MUS_geom",
+        "id": "http://data.archaeology.link/data/cigs/MUS_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "MUS_geom",
+        "type": "geoinstance",
+        "text": "Mu\u015f Geometry (MUS_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/MZA_geom",
+        "id": "http://data.archaeology.link/data/cigs/MZA_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "MZA_geom",
+        "type": "geoinstance",
+        "text": "Ish\u0101n Miziyad Geometry (MZA_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/MZT_geom",
+        "id": "http://data.archaeology.link/data/cigs/MZT_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "MZT_geom",
+        "type": "geoinstance",
+        "text": "Mezraa Teleilat Geometry (MZT_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/NAB_geom",
+        "id": "http://data.archaeology.link/data/cigs/NAB_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "NAB_geom",
+        "type": "geoinstance",
+        "text": "Tall Baiydar Geometry (NAB_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/NAL_geom",
+        "id": "http://data.archaeology.link/data/cigs/NAL_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "NAL_geom",
+        "type": "geoinstance",
+        "text": "Nalbandyan Geometry (NAL_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/NAS_geom",
+        "id": "http://data.archaeology.link/data/cigs/NAS_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "NAS_geom",
+        "type": "geoinstance",
+        "text": "Nashteban Geometry (NAS_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/NAZ_geom",
+        "id": "http://data.archaeology.link/data/cigs/NAZ_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "NAZ_geom",
+        "type": "geoinstance",
+        "text": "Anaz Geometry (NAZ_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/NER_geom",
+        "id": "http://data.archaeology.link/data/cigs/NER_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "NER_geom",
+        "type": "geoinstance",
+        "text": "Naiyrab Geometry (NER_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/NGB_geom",
+        "id": "http://data.archaeology.link/data/cigs/NGB_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "NGB_geom",
+        "type": "geoinstance",
+        "text": "Nig\u016bb Geometry (NGB_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/NGN_geom",
+        "id": "http://data.archaeology.link/data/cigs/NGN_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "NGN_geom",
+        "type": "geoinstance",
+        "text": "Ish\u0101n Zurghul Geometry (NGN_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/NHV_geom",
+        "id": "http://data.archaeology.link/data/cigs/NHV_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "NHV_geom",
+        "type": "geoinstance",
+        "text": "Nih\u0101wand Geometry (NHV_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/NIM_geom",
+        "id": "http://data.archaeology.link/data/cigs/NIM_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "NIM_geom",
+        "type": "geoinstance",
+        "text": "Nimr\u016bd Geometry (NIM_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/NIP_geom",
+        "id": "http://data.archaeology.link/data/cigs/NIP_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "NIP_geom",
+        "type": "geoinstance",
+        "text": "Nufar Geometry (NIP_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/NJF_geom",
+        "id": "http://data.archaeology.link/data/cigs/NJF_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "NJF_geom",
+        "type": "geoinstance",
+        "text": "Najaf\u0101b\u0101d Geometry (NJF_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/NKH_geom",
+        "id": "http://data.archaeology.link/data/cigs/NKH_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "instance",
-        "text": "NKH_geom",
+        "text": " Geometry (NKH_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/NKM_geom",
+        "id": "http://data.archaeology.link/data/cigs/NKM_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "NKM_geom",
+        "type": "geoinstance",
+        "text": "\u041d\u043e\u0432\u044b\u0439 \u041a\u0443\u043c\u0430\u043a Geometry (NKM_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/NNV_geom",
+        "id": "http://data.archaeology.link/data/cigs/NNV_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "NNV_geom",
+        "type": "geoinstance",
+        "text": "N\u012bn\u016ba Geometry (NNV_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/NOR_geom",
+        "id": "http://data.archaeology.link/data/cigs/NOR_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "NOR_geom",
+        "type": "geoinstance",
+        "text": "Noragavid Geometry (NOR_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/NQS_geom",
+        "id": "http://data.archaeology.link/data/cigs/NQS_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "NQS_geom",
+        "type": "geoinstance",
+        "text": "Naqsh Rustam Geometry (NQS_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/NRB_geom",
+        "id": "http://data.archaeology.link/data/cigs/NRB_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "NRB_geom",
+        "type": "geoinstance",
+        "text": "Ish\u1e96\u0101l\u012b Geometry (NRB_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/NRK_geom",
+        "id": "http://data.archaeology.link/data/cigs/NRK_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "NRK_geom",
+        "type": "geoinstance",
+        "text": "Namr\u012bk Geometry (NRK_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/NSB_geom",
+        "id": "http://data.archaeology.link/data/cigs/NSB_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "NSB_geom",
+        "type": "geoinstance",
+        "text": "Tall al-Na\u1e63bah Geometry (NSB_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/NSR_geom",
+        "id": "http://data.archaeology.link/data/cigs/NSR_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "NSR_geom",
+        "type": "geoinstance",
+        "text": "Jamdat Na\u1e63r Geometry (NSR_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/NUZ_geom",
+        "id": "http://data.archaeology.link/data/cigs/NUZ_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "NUZ_geom",
+        "type": "geoinstance",
+        "text": "Y\u016brgh\u0101n Tapah Geometry (NUZ_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/OJA_geom",
+        "id": "http://data.archaeology.link/data/cigs/OJA_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "OJA_geom",
+        "type": "geoinstance",
+        "text": "Ojasar-Ilanda\u011f Geometry (OJA_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ORD_geom",
+        "id": "http://data.archaeology.link/data/cigs/ORD_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "ORD_geom",
+        "type": "geoinstance",
+        "text": "Ortadamla Geometry (ORD_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ORT_geom",
+        "id": "http://data.archaeology.link/data/cigs/ORT_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "ORT_geom",
+        "type": "geoinstance",
+        "text": "Ortak\u00f6y Geometry (ORT_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/OTK_geom",
+        "id": "http://data.archaeology.link/data/cigs/OTK_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "OTK_geom",
+        "type": "geoinstance",
+        "text": "Ortakent Geometry (OTK_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/OYH_geom",
+        "id": "http://data.archaeology.link/data/cigs/OYH_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "OYH_geom",
+        "type": "geoinstance",
+        "text": "Oylum H\u00f6y\u00fck Geometry (OYH_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/OZB_geom",
+        "id": "http://data.archaeology.link/data/cigs/OZB_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "OZB_geom",
+        "type": "geoinstance",
+        "text": "Ozbaki Geometry (OZB_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/PAS_geom",
+        "id": "http://data.archaeology.link/data/cigs/PAS_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "PAS_geom",
+        "type": "geoinstance",
+        "text": "Tall Ab\u016b Sh\u012bjah Geometry (PAS_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/PAT_geom",
+        "id": "http://data.archaeology.link/data/cigs/PAT_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "PAT_geom",
+        "type": "geoinstance",
+        "text": "Patnos Geometry (PAT_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/PDK_geom",
+        "id": "http://data.archaeology.link/data/cigs/PDK_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "PDK_geom",
+        "type": "geoinstance",
+        "text": "Al-\u1e24\u0101\u012b\u1e6d Geometry (PDK_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/PEL_geom",
+        "id": "http://data.archaeology.link/data/cigs/PEL_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "PEL_geom",
+        "type": "geoinstance",
+        "text": "\u1e6cabaqat Fa\u1e25l Geometry (PEL_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/PHG_geom",
+        "id": "http://data.archaeology.link/data/cigs/PHG_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "PHG_geom",
+        "type": "geoinstance",
+        "text": "Fanagorii\u0361a Geometry (PHG_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/PHU_geom",
+        "id": "http://data.archaeology.link/data/cigs/PHU_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "PHU_geom",
+        "type": "geoinstance",
+        "text": "Pir H\u00fcseyin Geometry (PHU_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/PIR_geom",
+        "id": "http://data.archaeology.link/data/cigs/PIR_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "PIR_geom",
+        "type": "geoinstance",
+        "text": "Pirabat Geometry (PIR_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/PLU_geom",
+        "id": "http://data.archaeology.link/data/cigs/PLU_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "PLU_geom",
+        "type": "geoinstance",
+        "text": "Palu Geometry (PLU_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/PRA_geom",
+        "id": "http://data.archaeology.link/data/cigs/PRA_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "PRA_geom",
+        "type": "geoinstance",
+        "text": "B\u0101rah Geometry (PRA_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/PRS_geom",
+        "id": "http://data.archaeology.link/data/cigs/PRS_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "PRS_geom",
+        "type": "geoinstance",
+        "text": "Takht-i Jamsh\u012bd Geometry (PRS_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/PSG_geom",
+        "id": "http://data.archaeology.link/data/cigs/PSG_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "PSG_geom",
+        "type": "geoinstance",
+        "text": "Pasargad Geometry (PSG_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/QAB_geom",
+        "id": "http://data.archaeology.link/data/cigs/QAB_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "QAB_geom",
+        "type": "geoinstance",
+        "text": "Tall Qabr Abu al-\u2019At\u012bq Geometry (QAB_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/QAI_geom",
+        "id": "http://data.archaeology.link/data/cigs/QAI_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "QAI_geom",
+        "type": "geoinstance",
+        "text": "Qal\u2018ah Imam Geometry (QAI_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/QAL_geom",
+        "id": "http://data.archaeology.link/data/cigs/QAL_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "QAL_geom",
+        "type": "geoinstance",
+        "text": "Qalatgah Geometry (QAL_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/QAN_geom",
+        "id": "http://data.archaeology.link/data/cigs/QAN_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "QAN_geom",
+        "type": "geoinstance",
+        "text": "Qa\u1e63r-i Ab\u016bna\u1e63r Geometry (QAN_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/QAT_geom",
+        "id": "http://data.archaeology.link/data/cigs/QAT_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "QAT_geom",
+        "type": "geoinstance",
+        "text": "Tall al-Rimah Geometry (QAT_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/QBR_geom",
+        "id": "http://data.archaeology.link/data/cigs/QBR_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "QBR_geom",
+        "type": "geoinstance",
+        "text": "Tall Ab\u016b Qubur Geometry (QBR_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/QCH_geom",
+        "id": "http://data.archaeology.link/data/cigs/QCH_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "QCH_geom",
+        "type": "geoinstance",
+        "text": "Qarah Jat\u0101n Geometry (QCH_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/QDS_geom",
+        "id": "http://data.archaeology.link/data/cigs/QDS_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "QDS_geom",
+        "type": "geoinstance",
+        "text": "Tall al-Nab\u012b Mand\u016b Geometry (QDS_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/QHD_geom",
+        "id": "http://data.archaeology.link/data/cigs/QHD_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "QHD_geom",
+        "type": "geoinstance",
+        "text": "Tall al-H\u0101d\u012b Geometry (QHD_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/QIT_geom",
+        "id": "http://data.archaeology.link/data/cigs/QIT_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "QIT_geom",
+        "type": "geoinstance",
+        "text": "Tall al-Qi\u1e6dar Geometry (QIT_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/QLD_geom",
+        "id": "http://data.archaeology.link/data/cigs/QLD_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "QLD_geom",
+        "type": "geoinstance",
+        "text": "Qalat-i Dinka Geometry (QLD_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/QNT_geom",
+        "id": "http://data.archaeology.link/data/cigs/QNT_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "QNT_geom",
+        "type": "geoinstance",
+        "text": "Qant\u012br Geometry (QNT_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/QQN_geom",
+        "id": "http://data.archaeology.link/data/cigs/QQN_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "QQN_geom",
+        "type": "geoinstance",
+        "text": "Qaqun Geometry (QQN_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/QSH_geom",
+        "id": "http://data.archaeology.link/data/cigs/QSH_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "QSH_geom",
+        "type": "geoinstance",
+        "text": "Qa\u1e63r Shim\u0101m\u016bk Geometry (QSH_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/QTN_geom",
+        "id": "http://data.archaeology.link/data/cigs/QTN_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "QTN_geom",
+        "type": "geoinstance",
+        "text": "Tall al-Mishrifah Geometry (QTN_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/QUA_geom",
+        "id": "http://data.archaeology.link/data/cigs/QUA_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "QUA_geom",
+        "type": "geoinstance",
+        "text": "Tall Ab\u016b M\u0101riy\u0101 Geometry (QUA_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/QUF_geom",
+        "id": "http://data.archaeology.link/data/cigs/QUF_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "QUF_geom",
+        "type": "geoinstance",
+        "text": "Quf\u1e6d Geometry (QUF_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/RAJ_geom",
+        "id": "http://data.archaeology.link/data/cigs/RAJ_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "RAJ_geom",
+        "type": "geoinstance",
+        "text": "Al-Raj\u012bbah Geometry (RAJ_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/RAZ_geom",
+        "id": "http://data.archaeology.link/data/cigs/RAZ_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "RAZ_geom",
+        "type": "geoinstance",
+        "text": "R\u0101zl\u012bq Geometry (RAZ_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/RBT_geom",
+        "id": "http://data.archaeology.link/data/cigs/RBT_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "RBT_geom",
+        "type": "geoinstance",
+        "text": "Tall \u2018Arb\u012bd Geometry (RBT_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/RKI_geom",
+        "id": "http://data.archaeology.link/data/cigs/RKI_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "RKI_geom",
+        "type": "geoinstance",
+        "text": "Kh\u0101rk Geometry (RKI_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/RQI_geom",
+        "id": "http://data.archaeology.link/data/cigs/RQI_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "RQI_geom",
+        "type": "geoinstance",
+        "text": "Tall al-Raqa\u2018i Geometry (RQI_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/RSL_geom",
+        "id": "http://data.archaeology.link/data/cigs/RSL_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "RSL_geom",
+        "type": "geoinstance",
+        "text": "Yr\u1e7fshlym Geometry (RSL_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/RTA_geom",
+        "id": "http://data.archaeology.link/data/cigs/RTA_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "RTA_geom",
+        "type": "geoinstance",
+        "text": "Rasm al-\u1e6canjara Geometry (RTA_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/RTE_geom",
+        "id": "http://data.archaeology.link/data/cigs/RTE_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "RTE_geom",
+        "type": "geoinstance",
+        "text": "Rabat Tapah Geometry (RTE_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/RUS_geom",
+        "id": "http://data.archaeology.link/data/cigs/RUS_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "RUS_geom",
+        "type": "geoinstance",
+        "text": "Toprakkale Geometry (RUS_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/RUT_geom",
+        "id": "http://data.archaeology.link/data/cigs/RUT_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "RUT_geom",
+        "type": "geoinstance",
+        "text": "Rutschi Tig Geometry (RUT_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SAI_geom",
+        "id": "http://data.archaeology.link/data/cigs/SAI_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "SAI_geom",
+        "type": "geoinstance",
+        "text": "Al-Say\u0101l Geometry (SAI_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SAL_geom",
+        "id": "http://data.archaeology.link/data/cigs/SAL_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "SAL_geom",
+        "type": "geoinstance",
+        "text": "Salmana\u011fa Geometry (SAL_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SAM_geom",
+        "id": "http://data.archaeology.link/data/cigs/SAM_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "SAM_geom",
+        "type": "geoinstance",
+        "text": "Sham\u012bt Geometry (SAM_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SAP_geom",
+        "id": "http://data.archaeology.link/data/cigs/SAP_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "SAP_geom",
+        "type": "geoinstance",
+        "text": "Tall Ab\u016b \u1e24abbah Geometry (SAP_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SAR_geom",
+        "id": "http://data.archaeology.link/data/cigs/SAR_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "SAR_geom",
+        "type": "geoinstance",
+        "text": "Kh\u016brsab\u0101\u1e6d Geometry (SAR_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SAV_geom",
+        "id": "http://data.archaeology.link/data/cigs/SAV_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "SAV_geom",
+        "type": "geoinstance",
+        "text": "Savac\u0131k Geometry (SAV_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SBA_geom",
+        "id": "http://data.archaeology.link/data/cigs/SBA_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "SBA_geom",
+        "type": "geoinstance",
+        "text": "Sab\u0101\u2018a Geometry (SBA_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SBY_geom",
+        "id": "http://data.archaeology.link/data/cigs/SBY_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "SBY_geom",
+        "type": "geoinstance",
+        "text": "Tall \u1e62ab\u012b \u0100biya\u1e0d Geometry (SBY_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SCH_geom",
+        "id": "http://data.archaeology.link/data/cigs/SCH_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "SCH_geom",
+        "type": "geoinstance",
+        "text": "Tall Bal\u0101\u1e6dah Geometry (SCH_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SDM_geom",
+        "id": "http://data.archaeology.link/data/cigs/SDM_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "SDM_geom",
+        "type": "geoinstance",
+        "text": "Surkh Dum Lur\u012b Geometry (SDM_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SDP_geom",
+        "id": "http://data.archaeology.link/data/cigs/SDP_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "SDP_geom",
+        "type": "geoinstance",
+        "text": "Tall \u1e24armal Geometry (SDP_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SEA_geom",
+        "id": "http://data.archaeology.link/data/cigs/SEA_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "SEA_geom",
+        "type": "geoinstance",
+        "text": "Beit She'an Geometry (SEA_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SEC_geom",
+        "id": "http://data.archaeology.link/data/cigs/SEC_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "instance",
-        "text": "SEC_geom",
+        "text": " Geometry (SEC_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SEL_geom",
+        "id": "http://data.archaeology.link/data/cigs/SEL_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "SEL_geom",
+        "type": "geoinstance",
+        "text": "Sil\u016bq\u012bah Geometry (SEL_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SEQ_geom",
+        "id": "http://data.archaeology.link/data/cigs/SEQ_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "SEQ_geom",
+        "type": "geoinstance",
+        "text": "Saqandal Geometry (SEQ_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SER_geom",
+        "id": "http://data.archaeology.link/data/cigs/SER_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "SER_geom",
+        "type": "geoinstance",
+        "text": "Sar\u0101b\u012b\u016bm Geometry (SER_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SFR_geom",
+        "id": "http://data.archaeology.link/data/cigs/SFR_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "SFR_geom",
+        "type": "geoinstance",
+        "text": "Tall al-Sifr Geometry (SFR_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SHA_geom",
+        "id": "http://data.archaeology.link/data/cigs/SHA_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "instance",
-        "text": "SHA_geom",
+        "text": " Geometry (SHA_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SHD_geom",
+        "id": "http://data.archaeology.link/data/cigs/SHD_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "SHD_geom",
+        "type": "geoinstance",
+        "text": "Shahd\u0101d Geometry (SHD_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SHI_geom",
+        "id": "http://data.archaeology.link/data/cigs/SHI_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "SHI_geom",
+        "type": "geoinstance",
+        "text": "Tall Billah Geometry (SHI_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SHP_geom",
+        "id": "http://data.archaeology.link/data/cigs/SHP_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "SHP_geom",
+        "type": "geoinstance",
+        "text": "Shephela Geometry (SHP_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SHY_geom",
+        "id": "http://data.archaeology.link/data/cigs/SHY_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "SHY_geom",
+        "type": "geoinstance",
+        "text": "K\u0101r\u012bbah\u012bn Geometry (SHY_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SHZ_geom",
+        "id": "http://data.archaeology.link/data/cigs/SHZ_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "SHZ_geom",
+        "type": "geoinstance",
+        "text": "Sar\u0131ca Geometry (SHZ_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SID_geom",
+        "id": "http://data.archaeology.link/data/cigs/SID_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "SID_geom",
+        "type": "geoinstance",
+        "text": "\u1e62aiyd\u0101 Geometry (SID_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SIH_geom",
+        "id": "http://data.archaeology.link/data/cigs/SIH_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "SIH_geom",
+        "type": "geoinstance",
+        "text": "Sihke Geometry (SIH_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SIN_geom",
+        "id": "http://data.archaeology.link/data/cigs/SIN_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "SIN_geom",
+        "type": "geoinstance",
+        "text": "Sh\u012bsh\u012bn Geometry (SIN_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SIP_geom",
+        "id": "http://data.archaeology.link/data/cigs/SIP_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "SIP_geom",
+        "type": "geoinstance",
+        "text": "Tall al-Daiyr Geometry (SIP_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SIS_geom",
+        "id": "http://data.archaeology.link/data/cigs/SIS_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "SIS_geom",
+        "type": "geoinstance",
+        "text": "Sh\u012br al-\u1e62an\u0101m Geometry (SIS_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SIT_geom",
+        "id": "http://data.archaeology.link/data/cigs/SIT_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "SIT_geom",
+        "type": "geoinstance",
+        "text": "Tall S\u012btak Geometry (SIT_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SIY_geom",
+        "id": "http://data.archaeology.link/data/cigs/SIY_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "SIY_geom",
+        "type": "geoinstance",
+        "text": "Siyah Chas\u0331mah Geometry (SIY_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SJQ_geom",
+        "id": "http://data.archaeology.link/data/cigs/SJQ_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "SJQ_geom",
+        "type": "geoinstance",
+        "text": "K\u016by S\u012bnj\u0101q Geometry (SJQ_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SJR_geom",
+        "id": "http://data.archaeology.link/data/cigs/SJR_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "SJR_geom",
+        "type": "geoinstance",
+        "text": "Sur Jar'a Geometry (SJR_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SKH_geom",
+        "id": "http://data.archaeology.link/data/cigs/SKH_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "SKH_geom",
+        "type": "geoinstance",
+        "text": "Tall Shar\u012bf Kh\u0101n Geometry (SKH_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SLA_geom",
+        "id": "http://data.archaeology.link/data/cigs/SLA_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "SLA_geom",
+        "type": "geoinstance",
+        "text": "Al-Sila\u2018 Geometry (SLA_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SLB_geom",
+        "id": "http://data.archaeology.link/data/cigs/SLB_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "instance",
-        "text": "SLB_geom",
+        "text": "Tall Ab\u016b \u1e62\u0101lab\u012bkh Geometry (SLB_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SLG_geom",
+        "id": "http://data.archaeology.link/data/cigs/SLG_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "SLG_geom",
+        "type": "geoinstance",
+        "text": "Tas-Sil\u0121 Geometry (SLG_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SMA_geom",
+        "id": "http://data.archaeology.link/data/cigs/SMA_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "SMA_geom",
+        "type": "geoinstance",
+        "text": "Al-S\u0101mirah Geometry (SMA_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SMH_geom",
+        "id": "http://data.archaeology.link/data/cigs/SMH_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "SMH_geom",
+        "type": "geoinstance",
+        "text": "Ish\u0101n al-Sama\u2018a Geometry (SMH_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SMR_geom",
+        "id": "http://data.archaeology.link/data/cigs/SMR_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "SMR_geom",
+        "type": "geoinstance",
+        "text": "S\u0101mmar\u0101 Geometry (SMR_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SNJ_geom",
+        "id": "http://data.archaeology.link/data/cigs/SNJ_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "SNJ_geom",
+        "type": "geoinstance",
+        "text": "Bitw\u0101t\u0101 Geometry (SNJ_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SOK_geom",
+        "id": "http://data.archaeology.link/data/cigs/SOK_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "SOK_geom",
+        "type": "geoinstance",
+        "text": "Shahr-i S\u016bkhta Geometry (SOK_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SOU_geom",
+        "id": "http://data.archaeology.link/data/cigs/SOU_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "SOU_geom",
+        "type": "geoinstance",
+        "text": "Tall Souk\u0101s Geometry (SOU_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SPA_geom",
+        "id": "http://data.archaeology.link/data/cigs/SPA_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "SPA_geom",
+        "type": "geoinstance",
+        "text": "Spandaryan Geometry (SPA_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SPH_geom",
+        "id": "http://data.archaeology.link/data/cigs/SPH_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "SPH_geom",
+        "type": "geoinstance",
+        "text": "Zippori Geometry (SPH_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SPI_geom",
+        "id": "http://data.archaeology.link/data/cigs/SPI_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "SPI_geom",
+        "type": "geoinstance",
+        "text": "Tall-i Sp\u012bd Geometry (SPI_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SQL_geom",
+        "id": "http://data.archaeology.link/data/cigs/SQL_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "SQL_geom",
+        "type": "geoinstance",
+        "text": "Ashkelon Geometry (SQL_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SRD_geom",
+        "id": "http://data.archaeology.link/data/cigs/SRD_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "SRD_geom",
+        "type": "geoinstance",
+        "text": "Sardarapat Geometry (SRD_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SRK_geom",
+        "id": "http://data.archaeology.link/data/cigs/SRK_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "SRK_geom",
+        "type": "geoinstance",
+        "text": "Sar\u0131kam\u0131\u015f Geometry (SRK_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SRM_geom",
+        "id": "http://data.archaeology.link/data/cigs/SRM_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "SRM_geom",
+        "type": "geoinstance",
+        "text": "Sarma\u00e7 Geometry (SRM_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SRP_geom",
+        "id": "http://data.archaeology.link/data/cigs/SRP_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "SRP_geom",
+        "type": "geoinstance",
+        "text": "S\u0101rabt\u0101 Geometry (SRP_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SSH_geom",
+        "id": "http://data.archaeology.link/data/cigs/SSH_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "SSH_geom",
+        "type": "geoinstance",
+        "text": "S\u0331\u012bs\u0331ah Geometry (SSH_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SUH_geom",
+        "id": "http://data.archaeology.link/data/cigs/SUH_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "SUH_geom",
+        "type": "geoinstance",
+        "text": "Suhairy Geometry (SUH_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SUN_geom",
+        "id": "http://data.archaeology.link/data/cigs/SUN_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "SUN_geom",
+        "type": "geoinstance",
+        "text": "S\u00fcng\u00fcta\u015f\u0131 Geometry (SUN_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SUR_geom",
+        "id": "http://data.archaeology.link/data/cigs/SUR_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "SUR_geom",
+        "type": "geoinstance",
+        "text": "Tall F\u0101r\u0101 Geometry (SUR_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SUS_geom",
+        "id": "http://data.archaeology.link/data/cigs/SUS_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "SUS_geom",
+        "type": "geoinstance",
+        "text": "Sh\u016bsh Geometry (SUS_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SWE_geom",
+        "id": "http://data.archaeology.link/data/cigs/SWE_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "SWE_geom",
+        "type": "geoinstance",
+        "text": "Tall Suwaiyhat Geometry (SWE_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SWS_geom",
+        "id": "http://data.archaeology.link/data/cigs/SWS_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "SWS_geom",
+        "type": "geoinstance",
+        "text": "Sa\u2018ad wa Sa\u2018ayd Geometry (SWS_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SYA_geom",
+        "id": "http://data.archaeology.link/data/cigs/SYA_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "SYA_geom",
+        "type": "geoinstance",
+        "text": "Tall Si\u0101n\u016b Geometry (SYA_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SZE_geom",
+        "id": "http://data.archaeology.link/data/cigs/SZE_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "SZE_geom",
+        "type": "geoinstance",
+        "text": "Tall Laiyl\u0101n Geometry (SZE_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/SZU_geom",
+        "id": "http://data.archaeology.link/data/cigs/SZU_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "SZU_geom",
+        "type": "geoinstance",
+        "text": "Tall Shimsh\u0101rah Geometry (SZU_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TAB_geom",
+        "id": "http://data.archaeology.link/data/cigs/TAB_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "TAB_geom",
+        "type": "geoinstance",
+        "text": "Tall \u1e6c\u0101b\u0101n Geometry (TAB_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TAF_geom",
+        "id": "http://data.archaeology.link/data/cigs/TAF_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "TAF_geom",
+        "type": "geoinstance",
+        "text": "Tall Afghan\u012b Geometry (TAF_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TAG_geom",
+        "id": "http://data.archaeology.link/data/cigs/TAG_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "TAG_geom",
+        "type": "geoinstance",
+        "text": "Tall al-\u2018Ag\u0101miyya Geometry (TAG_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TAH_geom",
+        "id": "http://data.archaeology.link/data/cigs/TAH_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "TAH_geom",
+        "type": "geoinstance",
+        "text": "Ta\u015flik H\u00f6y\u00fck Geometry (TAH_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TAN_geom",
+        "id": "http://data.archaeology.link/data/cigs/TAN_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "TAN_geom",
+        "type": "geoinstance",
+        "text": "\u1e62an al-Hagar Geometry (TAN_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TAR_geom",
+        "id": "http://data.archaeology.link/data/cigs/TAR_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "TAR_geom",
+        "type": "geoinstance",
+        "text": "Yal\u0131nd\u00fcz Geometry (TAR_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TAS_geom",
+        "id": "http://data.archaeology.link/data/cigs/TAS_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "TAS_geom",
+        "type": "geoinstance",
+        "text": "Ta\u015fburun Geometry (TAS_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TAT_geom",
+        "id": "http://data.archaeology.link/data/cigs/TAT_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "TAT_geom",
+        "type": "geoinstance",
+        "text": "\u1e6cashtepe Geometry (TAT_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TAW_geom",
+        "id": "http://data.archaeology.link/data/cigs/TAW_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "TAW_geom",
+        "type": "geoinstance",
+        "text": "\u1e6caw\u012bl\u0101n Geometry (TAW_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TAY_geom",
+        "id": "http://data.archaeology.link/data/cigs/TAY_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "TAY_geom",
+        "type": "geoinstance",
+        "text": "Tall \u1e6ca\u2018iyn\u0101t Geometry (TAY_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TBA_geom",
+        "id": "http://data.archaeology.link/data/cigs/TBA_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "TBA_geom",
+        "type": "geoinstance",
+        "text": "Tul\u016bl al-Baqar\u0101t Geometry (TBA_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TBM_geom",
+        "id": "http://data.archaeology.link/data/cigs/TBM_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "TBM_geom",
+        "type": "geoinstance",
+        "text": "Tel Beth Mirsim Geometry (TBM_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TBO_geom",
+        "id": "http://data.archaeology.link/data/cigs/TBO_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "TBO_geom",
+        "type": "geoinstance",
+        "text": "Tapah Barm\u012b Geometry (TBO_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TBP_geom",
+        "id": "http://data.archaeology.link/data/cigs/TBP_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "TBP_geom",
+        "type": "geoinstance",
+        "text": "Tall A\u1e25mar Geometry (TBP_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TBR_geom",
+        "id": "http://data.archaeology.link/data/cigs/TBR_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "TBR_geom",
+        "type": "geoinstance",
+        "text": "Tabor Geometry (TBR_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TBS_geom",
+        "id": "http://data.archaeology.link/data/cigs/TBS_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "TBS_geom",
+        "type": "geoinstance",
+        "text": "Tell Ba'arura Shargi Geometry (TBS_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TBT_geom",
+        "id": "http://data.archaeology.link/data/cigs/TBT_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "TBT_geom",
+        "type": "geoinstance",
+        "text": "Tall \u2018Ab\u1e6dah Geometry (TBT_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TDB_geom",
+        "id": "http://data.archaeology.link/data/cigs/TDB_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "TDB_geom",
+        "type": "geoinstance",
+        "text": "Tall al-Dhiba\u2018i Geometry (TDB_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TDU_geom",
+        "id": "http://data.archaeology.link/data/cigs/TDU_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "TDU_geom",
+        "type": "geoinstance",
+        "text": "Tall \u1e24am\u012bd\u012b Geometry (TDU_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TDW_geom",
+        "id": "http://data.archaeology.link/data/cigs/TDW_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "instance",
-        "text": "TDW_geom",
+        "text": " Geometry (TDW_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TEG_geom",
+        "id": "http://data.archaeology.link/data/cigs/TEG_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "TEG_geom",
+        "type": "geoinstance",
+        "text": "T\u016bl-i G\u012bl\u0101n Geometry (TEG_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TEH_geom",
+        "id": "http://data.archaeology.link/data/cigs/TEH_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "TEH_geom",
+        "type": "geoinstance",
+        "text": "Tel Hadid Geometry (TEH_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TEI_geom",
+        "id": "http://data.archaeology.link/data/cigs/TEI_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "TEI_geom",
+        "type": "geoinstance",
+        "text": "Karmir blur Geometry (TEI_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TEM_geom",
+        "id": "http://data.archaeology.link/data/cigs/TEM_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "TEM_geom",
+        "type": "geoinstance",
+        "text": "Tall al-Maskh\u016b\u1e6da Geometry (TEM_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TFA_geom",
+        "id": "http://data.archaeology.link/data/cigs/TFA_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "TFA_geom",
+        "type": "geoinstance",
+        "text": "Tall al-Far\u1e25a Geometry (TFA_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TFQ_geom",
+        "id": "http://data.archaeology.link/data/cigs/TFQ_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "TFQ_geom",
+        "type": "geoinstance",
+        "text": "Tall Faq\u016bs Geometry (TFQ_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TGA_geom",
+        "id": "http://data.archaeology.link/data/cigs/TGA_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "TGA_geom",
+        "type": "geoinstance",
+        "text": "Tappah G\u0101r\u0101n Geometry (TGA_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/THA_geom",
+        "id": "http://data.archaeology.link/data/cigs/THA_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "THA_geom",
+        "type": "geoinstance",
+        "text": "Ta\u2018nak Geometry (THA_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/THE_geom",
+        "id": "http://data.archaeology.link/data/cigs/THE_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "THE_geom",
+        "type": "geoinstance",
+        "text": "Thiva Geometry (THE_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/THM_geom",
+        "id": "http://data.archaeology.link/data/cigs/THM_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "THM_geom",
+        "type": "geoinstance",
+        "text": "Tall al-\u1e24amm\u0101m Geometry (THM_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/THO_geom",
+        "id": "http://data.archaeology.link/data/cigs/THO_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "THO_geom",
+        "type": "geoinstance",
+        "text": "Turlu H\u00f6y\u00fck Geometry (THO_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/THR_geom",
+        "id": "http://data.archaeology.link/data/cigs/THR_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "THR_geom",
+        "type": "geoinstance",
+        "text": "\u1e6c\u016bz Kh\u016brm\u0101t\u016b Geometry (THR_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/THW_geom",
+        "id": "http://data.archaeology.link/data/cigs/THW_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "THW_geom",
+        "type": "geoinstance",
+        "text": "Tall al-Hawa Geometry (THW_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/THY_geom",
+        "id": "http://data.archaeology.link/data/cigs/THY_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "THY_geom",
+        "type": "geoinstance",
+        "text": "Tilmen H\u00f6y\u00fck Geometry (THY_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TIJ_geom",
+        "id": "http://data.archaeology.link/data/cigs/TIJ_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "TIJ_geom",
+        "type": "geoinstance",
+        "text": "Tall \u2018Atij Geometry (TIJ_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TIK_geom",
+        "id": "http://data.archaeology.link/data/cigs/TIK_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "TIK_geom",
+        "type": "geoinstance",
+        "text": "Tikr\u012bt Geometry (TIK_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TIR_geom",
+        "id": "http://data.archaeology.link/data/cigs/TIR_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "TIR_geom",
+        "type": "geoinstance",
+        "text": "Tiryntha Geometry (TIR_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TJZ_geom",
+        "id": "http://data.archaeology.link/data/cigs/TJZ_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "TJZ_geom",
+        "type": "geoinstance",
+        "text": "Tarj\u0101n Geometry (TJZ_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TKH_geom",
+        "id": "http://data.archaeology.link/data/cigs/TKH_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "TKH_geom",
+        "type": "geoinstance",
+        "text": "Tul\u016bl Kha\u1e6d\u0101b Geometry (TKH_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TKP_geom",
+        "id": "http://data.archaeology.link/data/cigs/TKP_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "TKP_geom",
+        "type": "geoinstance",
+        "text": "Ta\u015fk\u00f6pr\u00fc Geometry (TKP_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TLB_geom",
+        "id": "http://data.archaeology.link/data/cigs/TLB_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "TLB_geom",
+        "type": "geoinstance",
+        "text": "Tilbes H\u00f6y\u00fck Geometry (TLB_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TLH_geom",
+        "id": "http://data.archaeology.link/data/cigs/TLH_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "TLH_geom",
+        "type": "geoinstance",
+        "text": "Tall al-La\u1e25am Geometry (TLH_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TLL_geom",
+        "id": "http://data.archaeology.link/data/cigs/TLL_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "TLL_geom",
+        "type": "geoinstance",
+        "text": "Tul\u016bl al-Lak Geometry (TLL_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TMH_geom",
+        "id": "http://data.archaeology.link/data/cigs/TMH_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "TMH_geom",
+        "type": "geoinstance",
+        "text": "Tall Mu\u1e25amad Geometry (TMH_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TMU_geom",
+        "id": "http://data.archaeology.link/data/cigs/TMU_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "TMU_geom",
+        "type": "geoinstance",
+        "text": "Tappah M\u016bsiy\u0101n Geometry (TMU_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TNA_geom",
+        "id": "http://data.archaeology.link/data/cigs/TNA_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "TNA_geom",
+        "type": "geoinstance",
+        "text": "\u2018Anah Geometry (TNA_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TNH_geom",
+        "id": "http://data.archaeology.link/data/cigs/TNH_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "TNH_geom",
+        "type": "geoinstance",
+        "text": "T\u02bbanahat Geometry (TNH_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TNP_geom",
+        "id": "http://data.archaeology.link/data/cigs/TNP_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "TNP_geom",
+        "type": "geoinstance",
+        "text": "Tall al-A\u2018sh\u0101rnah Geometry (TNP_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TOD_geom",
+        "id": "http://data.archaeology.link/data/cigs/TOD_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "TOD_geom",
+        "type": "geoinstance",
+        "text": "\u1e6c\u016bd Geometry (TOD_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TOP_geom",
+        "id": "http://data.archaeology.link/data/cigs/TOP_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "TOP_geom",
+        "type": "geoinstance",
+        "text": "Kocap\u0131nar Geometry (TOP_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TRM_geom",
+        "id": "http://data.archaeology.link/data/cigs/TRM_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "TRM_geom",
+        "type": "geoinstance",
+        "text": "Alazl\u0131 Geometry (TRM_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TRQ_geom",
+        "id": "http://data.archaeology.link/data/cigs/TRQ_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "TRQ_geom",
+        "type": "geoinstance",
+        "text": "Tall al-Ash\u0101rah Geometry (TRQ_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TRT_geom",
+        "id": "http://data.archaeology.link/data/cigs/TRT_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "TRT_geom",
+        "type": "geoinstance",
+        "text": "\u1e6car\u1e6d\u016bs Geometry (TRT_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TSA_geom",
+        "id": "http://data.archaeology.link/data/cigs/TSA_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "TSA_geom",
+        "type": "geoinstance",
+        "text": "Tall Saka Geometry (TSA_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TSB_geom",
+        "id": "http://data.archaeology.link/data/cigs/TSB_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "TSB_geom",
+        "type": "geoinstance",
+        "text": "Tall Sab\u0101 Geometry (TSB_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TSI_geom",
+        "id": "http://data.archaeology.link/data/cigs/TSI_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "TSI_geom",
+        "type": "geoinstance",
+        "text": "Tapah S\u012byalk Geometry (TSI_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TSO_geom",
+        "id": "http://data.archaeology.link/data/cigs/TSO_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "TSO_geom",
+        "type": "geoinstance",
+        "text": "Tapah Sof\u0101l\u012bn Geometry (TSO_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TSV_geom",
+        "id": "http://data.archaeology.link/data/cigs/TSV_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "TSV_geom",
+        "type": "geoinstance",
+        "text": "\u014cdzaberd Geometry (TSV_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TTA_geom",
+        "id": "http://data.archaeology.link/data/cigs/TTA_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "TTA_geom",
+        "type": "geoinstance",
+        "text": "Tall al-\u1e6c\u0101ya Geometry (TTA_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TTB_geom",
+        "id": "http://data.archaeology.link/data/cigs/TTB_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "TTB_geom",
+        "type": "geoinstance",
+        "text": "Khaf\u0101j\u012b Geometry (TTB_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TTU_geom",
+        "id": "http://data.archaeology.link/data/cigs/TTU_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "TTU_geom",
+        "type": "geoinstance",
+        "text": "Dicle T\u00fcneli Geometry (TTU_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TUH_geom",
+        "id": "http://data.archaeology.link/data/cigs/TUH_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "TUH_geom",
+        "type": "geoinstance",
+        "text": "\u1e6cul\u016bl al-\u1e24umr Geometry (TUH_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TUT_geom",
+        "id": "http://data.archaeology.link/data/cigs/TUT_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "TUT_geom",
+        "type": "geoinstance",
+        "text": "Tall al-B\u012b\u02bba Geometry (TUT_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TVI_geom",
+        "id": "http://data.archaeology.link/data/cigs/TVI_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "TVI_geom",
+        "type": "geoinstance",
+        "text": "Tank\u012bwar Geometry (TVI_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TVK_geom",
+        "id": "http://data.archaeology.link/data/cigs/TVK_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "TVK_geom",
+        "type": "geoinstance",
+        "text": "Tsovak Geometry (TVK_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TYA_geom",
+        "id": "http://data.archaeology.link/data/cigs/TYA_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "TYA_geom",
+        "type": "geoinstance",
+        "text": "Tul\u016bl Yassir Geometry (TYA_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TYM_geom",
+        "id": "http://data.archaeology.link/data/cigs/TYM_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "TYM_geom",
+        "type": "geoinstance",
+        "text": "\u1e6caym\u0101 Geometry (TYM_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TYR_geom",
+        "id": "http://data.archaeology.link/data/cigs/TYR_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "TYR_geom",
+        "type": "geoinstance",
+        "text": "\u1e62\u016br Geometry (TYR_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/TZW_geom",
+        "id": "http://data.archaeology.link/data/cigs/TZW_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "TZW_geom",
+        "type": "geoinstance",
+        "text": "\u1e6c\u016bbz\u0101wah Geometry (TZW_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/UBD_geom",
+        "id": "http://data.archaeology.link/data/cigs/UBD_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "UBD_geom",
+        "type": "geoinstance",
+        "text": "Tall al-\u02bbUba\u012bd Geometry (UBD_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/UCH_geom",
+        "id": "http://data.archaeology.link/data/cigs/UCH_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "UCH_geom",
+        "type": "geoinstance",
+        "text": "Tall al-Maj\u0101til Geometry (UCH_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/UFR_geom",
+        "id": "http://data.archaeology.link/data/cigs/UFR_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "UFR_geom",
+        "type": "geoinstance",
+        "text": "Umm al-\u1e24afriy\u0101t Geometry (UFR_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/UGA_geom",
+        "id": "http://data.archaeology.link/data/cigs/UGA_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "UGA_geom",
+        "type": "geoinstance",
+        "text": "R\u0101s Shamrah Geometry (UGA_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/UMA_geom",
+        "id": "http://data.archaeology.link/data/cigs/UMA_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "UMA_geom",
+        "type": "geoinstance",
+        "text": "Umm al-Marra Geometry (UMA_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/UPI_geom",
+        "id": "http://data.archaeology.link/data/cigs/UPI_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "UPI_geom",
+        "type": "geoinstance",
+        "text": "\u016ab\u012bs Geometry (UPI_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/UQA_geom",
+        "id": "http://data.archaeology.link/data/cigs/UQA_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "UQA_geom",
+        "type": "geoinstance",
+        "text": "Tall \u02bbUqair Geometry (UQA_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/UQR_geom",
+        "id": "http://data.archaeology.link/data/cigs/UQR_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "UQR_geom",
+        "type": "geoinstance",
+        "text": "Tall Umm al-\u02bbAjarib Geometry (UQR_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/URB_geom",
+        "id": "http://data.archaeology.link/data/cigs/URB_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "URB_geom",
+        "type": "geoinstance",
+        "text": "Q\u0101`lah Arb\u012bl Geometry (URB_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/URI_geom",
+        "id": "http://data.archaeology.link/data/cigs/URI_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "URI_geom",
+        "type": "geoinstance",
+        "text": "Tall al-Muqayyar Geometry (URI_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/URK_geom",
+        "id": "http://data.archaeology.link/data/cigs/URK_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "URK_geom",
+        "type": "geoinstance",
+        "text": "Tall M\u016bz\u0101n Geometry (URK_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/URU_geom",
+        "id": "http://data.archaeology.link/data/cigs/URU_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "URU_geom",
+        "type": "geoinstance",
+        "text": "Wark\u0101\u02bc Geometry (URU_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/USH_geom",
+        "id": "http://data.archaeology.link/data/cigs/USH_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "USH_geom",
+        "type": "geoinstance",
+        "text": "Ushakl\u0131 Ho\u0308yu\u0308k Geometry (USH_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/UWW_geom",
+        "id": "http://data.archaeology.link/data/cigs/UWW_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "UWW_geom",
+        "type": "geoinstance",
+        "text": "Umm al-Wawiya Geometry (UWW_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/VAK_geom",
+        "id": "http://data.archaeology.link/data/cigs/VAK_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "VAK_geom",
+        "type": "geoinstance",
+        "text": "Van Geometry (VAK_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/VAN_geom",
+        "id": "http://data.archaeology.link/data/cigs/VAN_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "VAN_geom",
+        "type": "geoinstance",
+        "text": "Van Geometry (VAN_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/VAR_geom",
+        "id": "http://data.archaeology.link/data/cigs/VAR_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "VAR_geom",
+        "type": "geoinstance",
+        "text": "Vardatsor Geometry (VAR_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/WIN_geom",
+        "id": "http://data.archaeology.link/data/cigs/WIN_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "WIN_geom",
+        "type": "geoinstance",
+        "text": "Wingate Geometry (WIN_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/WLS_geom",
+        "id": "http://data.archaeology.link/data/cigs/WLS_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "WLS_geom",
+        "type": "geoinstance",
+        "text": "W\u0101d\u012b al-Sab` Geometry (WLS_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/WRS_geom",
+        "id": "http://data.archaeology.link/data/cigs/WRS_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "WRS_geom",
+        "type": "geoinstance",
+        "text": "Tall War\u012bsh Geometry (WRS_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/XOC_geom",
+        "id": "http://data.archaeology.link/data/cigs/XOC_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "XOC_geom",
+        "type": "geoinstance",
+        "text": "Xocali Geometry (XOC_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/YAH_geom",
+        "id": "http://data.archaeology.link/data/cigs/YAH_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "YAH_geom",
+        "type": "geoinstance",
+        "text": "Tapah Yahiya Geometry (YAH_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/YAL_geom",
+        "id": "http://data.archaeology.link/data/cigs/YAL_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "YAL_geom",
+        "type": "geoinstance",
+        "text": "Yal\u00e7\u0131nkaya Geometry (YAL_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/YAR_geom",
+        "id": "http://data.archaeology.link/data/cigs/YAR_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "YAR_geom",
+        "type": "geoinstance",
+        "text": "Tall Y\u0101rah Geometry (YAR_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/YAS_geom",
+        "id": "http://data.archaeology.link/data/cigs/YAS_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "YAS_geom",
+        "type": "geoinstance",
+        "text": "Yassi H\u00f6y\u00fck Geometry (YAS_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/YAZ_geom",
+        "id": "http://data.archaeology.link/data/cigs/YAZ_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "YAZ_geom",
+        "type": "geoinstance",
+        "text": "Yaz\u0131l\u0131ta\u015f Geometry (YAZ_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/YEL_geom",
+        "id": "http://data.archaeology.link/data/cigs/YEL_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "YEL_geom",
+        "type": "geoinstance",
+        "text": "Yelkhi Geometry (YEL_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/YES_geom",
+        "id": "http://data.archaeology.link/data/cigs/YES_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "YES_geom",
+        "type": "geoinstance",
+        "text": "Ye\u015fila\u011fa\u00e7 Geometry (YES_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/YON_geom",
+        "id": "http://data.archaeology.link/data/cigs/YON_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "YON_geom",
+        "type": "geoinstance",
+        "text": "Yoncali Geometry (YON_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/YSJ_geom",
+        "id": "http://data.archaeology.link/data/cigs/YSJ_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "YSJ_geom",
+        "type": "geoinstance",
+        "text": "Y\u0101s\u016bj Geometry (YSJ_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ZAA_geom",
+        "id": "http://data.archaeology.link/data/cigs/ZAA_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
         "type": "instance",
-        "text": "ZAA_geom",
+        "text": "Za\u2018alah Geometry (ZAA_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ZAB_geom",
+        "id": "http://data.archaeology.link/data/cigs/ZAB_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "ZAB_geom",
+        "type": "geoinstance",
+        "text": "Tall Ibza\u012bykh Geometry (ZAB_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ZBD_geom",
+        "id": "http://data.archaeology.link/data/cigs/ZBD_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "ZBD_geom",
+        "type": "geoinstance",
+        "text": "Tall Zub\u012bd\u012b Geometry (ZBD_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ZCR_geom",
+        "id": "http://data.archaeology.link/data/cigs/ZCR_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "ZCR_geom",
+        "type": "geoinstance",
+        "text": "Zin\u010dirli Geometry (ZCR_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ZIW_geom",
+        "id": "http://data.archaeology.link/data/cigs/ZIW_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "ZIW_geom",
+        "type": "geoinstance",
+        "text": "\u1e94iwyah Geometry (ZIW_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ZLB_geom",
+        "id": "http://data.archaeology.link/data/cigs/ZLB_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "ZLB_geom",
+        "type": "geoinstance",
+        "text": "Z\u0101l\u016bl \u0100b Geometry (ZLB_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ZOH_geom",
+        "id": "http://data.archaeology.link/data/cigs/ZOH_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "ZOH_geom",
+        "type": "geoinstance",
+        "text": "Sar-i Pol-i Zoh\u0101b Geometry (ZOH_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ZTP_geom",
+        "id": "http://data.archaeology.link/data/cigs/ZTP_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "ZTP_geom",
+        "type": "geoinstance",
+        "text": "Ziyaret Tepe Geometry (ZTP_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ZVA_geom",
+        "id": "http://data.archaeology.link/data/cigs/ZVA_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "ZVA_geom",
+        "type": "geoinstance",
+        "text": "Zvart\u02bbnots\u02bb Geometry (ZVA_geom)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/ancientports/ZWY_geom",
+        "id": "http://data.archaeology.link/data/cigs/ZWY_geom",
         "parent": "http://www.opengis.net/ont/sf#Point",
-        "type": "instance",
-        "text": "ZWY_geom",
+        "type": "geoinstance",
+        "text": "Zawiyah Geometry (ZWY_geom)",
         "data": {}
       },
       {
         "id": "http://www.opengis.net/ont/sf#Point",
         "parent": "http://www.opengis.net/ont/geosparql#Geometry",
-        "type": "class",
+        "type": "halfgeoclass",
         "text": "Point (sf:Point) [579]",
-        "data": {}
+        "data": {
+          "to": {
+            "http://www.opengis.net/ont/geosparql#asWKT": {
+              "instancecount": 1
+            },
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
+              "instancecount": 1
+            },
+            "http://www.w3.org/2000/01/rdf-schema#label": {
+              "instancecount": 1
+            }
+          },
+          "from": {
+            "http://www.opengis.net/ont/geosparql#hasGeometry": {
+              "instancecount": 0,
+              "http://www.ancientports.com/ont#CuneiformSite": 1
+            },
+            "http://www.w3.org/2000/01/rdf-schema#member": {
+              "instancecount": 0,
+              "http://www.opengis.net/ont/geosparql#GeometryCollection": 1
+            }
+          }
+        },
+        "instancecount": 3
       },
       {
         "id": "http://www.opengis.net/ont/geosparql#Geometry",
@@ -8175,6 +8233,71 @@ var tree={
         "type": "class",
         "text": "Geometry (gsp:Geometry)",
         "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/cigs/CuneiformSite_collection",
+        "parent": "http://www.opengis.net/ont/geosparql#FeatureCollection",
+        "type": "featurecollection",
+        "text": "CuneiformSite Instances Collection (CuneiformSite_collection)",
+        "data": {}
+      },
+      {
+        "id": "http://www.opengis.net/ont/geosparql#FeatureCollection",
+        "parent": "http://www.opengis.net/ont/geosparql#SpatialObjectCollection",
+        "type": "collectionclass",
+        "text": "FeatureCollection (gsp:FeatureCollection) [1]",
+        "data": {
+          "to": {
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
+              "instancecount": 1
+            },
+            "http://www.w3.org/2000/01/rdf-schema#label": {
+              "instancecount": 1
+            },
+            "http://www.w3.org/2000/01/rdf-schema#member": {
+              "instancecount": 579,
+              "http://www.ancientports.com/ont#CuneiformSite": 579
+            }
+          },
+          "from": {}
+        },
+        "instancecount": 582
+      },
+      {
+        "id": "http://www.opengis.net/ont/geosparql#SpatialObjectCollection",
+        "parent": "#",
+        "type": "collectionclass",
+        "text": "SpatialObjectCollection (gsp:SpatialObjectCollection)",
+        "data": {}
+      },
+      {
+        "id": "http://data.archaeology.link/data/cigs/Point_collection",
+        "parent": "http://www.opengis.net/ont/geosparql#GeometryCollection",
+        "type": "geocollection",
+        "text": "Point Instances Collection (Point_collection)",
+        "data": {}
+      },
+      {
+        "id": "http://www.opengis.net/ont/geosparql#GeometryCollection",
+        "parent": "http://www.opengis.net/ont/geosparql#SpatialObjectCollection",
+        "type": "collectionclass",
+        "text": "GeometryCollection (gsp:GeometryCollection) [1]",
+        "data": {
+          "to": {
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
+              "instancecount": 1
+            },
+            "http://www.w3.org/2000/01/rdf-schema#label": {
+              "instancecount": 1
+            },
+            "http://www.w3.org/2000/01/rdf-schema#member": {
+              "instancecount": 579,
+              "http://www.opengis.net/ont/sf#Point": 579
+            }
+          },
+          "from": {}
+        },
+        "instancecount": 582
       },
       {
         "id": "http://www.opengis.net/ont/geosparql#SpatialObject",
