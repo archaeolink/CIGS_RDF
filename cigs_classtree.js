@@ -4099,7 +4099,7 @@ var tree={
         "id": "http://www.ancientports.com/ont#CuneiformSite",
         "parent": "http://www.opengis.net/ont/geosparql#Feature",
         "type": "halfgeoclass",
-        "text": "CuneiformSite (ns1:CuneiformSite) [579]",
+        "text": "CuneiformSite (ns3:CuneiformSite) [579]",
         "data": {
           "to": {
             "http://purl.org/dc/elements/1.1/created": {
@@ -4124,6 +4124,9 @@ var tree={
             "http://www.w3.org/2002/07/owl#sameAs": {
               "instancecount": 1
             },
+            "http://www.wikidata.org/prop/direct/P1566": {
+              "instancecount": 1
+            },
             "http://www.wikidata.org/prop/direct/P1584": {
               "instancecount": 1
             }
@@ -4135,7 +4138,7 @@ var tree={
             }
           }
         },
-        "instancecount": 9
+        "instancecount": 10
       },
       {
         "id": "http://www.opengis.net/ont/geosparql#Feature",
