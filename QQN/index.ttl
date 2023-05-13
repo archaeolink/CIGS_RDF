@@ -7,12 +7,14 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://data.archaeology.link/data/cigs/QQN> a ns1:CuneiformSite ;
-    rdfs:label "قاقون"@am,
-        "Qaqun"@en ;
+    rdfs:label "قاقون"@ar,
+        "Qaqun"@en,
+        "קאקון"@he ;
     dc:created "2021"^^xsd:gYear ;
     dc:license <http://creativecommons.org/licenses/by/4.0> ;
     dcterms:partOf <http://data.archaeology.link/data/cigs/bib_rattenborg_rune_2021_7330077> ;
     ns1:accuracy "1"^^xsd:string ;
+    ns1:cdli_provenience_id "189"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/QQN_geom> ;
     ns2:P1566 <https://www.geonames.org/10194030> .
 

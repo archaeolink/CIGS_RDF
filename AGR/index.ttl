@@ -8,12 +8,13 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://data.archaeology.link/data/cigs/AGR> a ns1:CuneiformSite ;
-    rdfs:label "تل اجرب"@am,
+    rdfs:label "تل اجرب"@ar,
         "Tall Ajrab"@en ;
     dc:created "2021"^^xsd:gYear ;
     dc:license <http://creativecommons.org/licenses/by/4.0> ;
     dcterms:partOf <http://data.archaeology.link/data/cigs/bib_rattenborg_rune_2021_7330077> ;
     ns1:accuracy "3"^^xsd:string ;
+    ns1:cdli_provenience_id "102"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/AGR_geom> ;
     owl:sameAs <http://entitydata.org/entity/Q1612336> ;
     ns2:P1584 <https://pleiades.stoa.org/places/171585551> .

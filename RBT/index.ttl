@@ -8,12 +8,13 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://data.archaeology.link/data/cigs/RBT> a ns2:CuneiformSite ;
-    rdfs:label "تل عربيد"@am,
+    rdfs:label "تل عربيد"@ar,
         "Tall ‘Arbīd"@en ;
     dc:created "2021"^^xsd:gYear ;
     dc:license <http://creativecommons.org/licenses/by/4.0> ;
     dcterms:partOf <http://data.archaeology.link/data/cigs/bib_rattenborg_rune_2021_7330077> ;
     ns2:accuracy "3"^^xsd:string ;
+    ns2:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/RBT_geom> ;
     owl:sameAs <http://entitydata.org/entity/Q4120177> ;
     ns1:P1566 <https://www.geonames.org/173053> .

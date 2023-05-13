@@ -4,16 +4,19 @@
 @prefix ns1: <http://www.wikidata.org/prop/direct/> .
 @prefix ns2: <http://www.ancientports.com/ont#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://data.archaeology.link/data/cigs/MDB> a ns2:CuneiformSite ;
-    rdfs:label "تل محمد دياب"@am,
+    rdfs:label "تل محمد دياب"@ar,
         "Tall Muḥamad Diyāb"@en ;
     dc:created "2021"^^xsd:gYear ;
     dc:license <http://creativecommons.org/licenses/by/4.0> ;
     dcterms:partOf <http://data.archaeology.link/data/cigs/bib_rattenborg_rune_2021_7330077> ;
     ns2:accuracy "3"^^xsd:string ;
+    ns2:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/MDB_geom> ;
+    skos:altLabel "Azamhul"@ar ;
     ns1:P1566 <https://www.geonames.org/163493> ;
     ns1:P1584 <https://pleiades.stoa.org/places/957515415> .
 

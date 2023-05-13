@@ -8,12 +8,13 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://data.archaeology.link/data/cigs/MGD> a ns1:CuneiformSite ;
-    rdfs:label ""@am,
-        "Megiddo"@en ;
+    rdfs:label "Megiddo"@en,
+        "מגידו"@he ;
     dc:created "2021"^^xsd:gYear ;
     dc:license <http://creativecommons.org/licenses/by/4.0> ;
     dcterms:partOf <http://data.archaeology.link/data/cigs/bib_rattenborg_rune_2021_7330077> ;
     ns1:accuracy "3"^^xsd:string ;
+    ns1:cdli_provenience_id "272"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/MGD_geom> ;
     owl:sameAs <http://entitydata.org/entity/Q208379> ;
     ns2:P1566 <https://www.geonames.org/293357> ;

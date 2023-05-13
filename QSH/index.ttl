@@ -4,15 +4,18 @@
 @prefix ns1: <http://www.ancientports.com/ont#> .
 @prefix ns2: <http://www.wikidata.org/prop/direct/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://data.archaeology.link/data/cigs/QSH> a ns1:CuneiformSite ;
-    rdfs:label "قصر شماموك"@am,
+    rdfs:label "قصر شماموك"@ar,
         "Qaṣr Shimāmūk"@en ;
     dc:created "2021"^^xsd:gYear ;
     dc:license <http://creativecommons.org/licenses/by/4.0> ;
     dcterms:partOf <http://data.archaeology.link/data/cigs/bib_rattenborg_rune_2021_7330077> ;
     ns1:accuracy "3"^^xsd:string ;
+    ns1:cdli_provenience_id "302"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/QSH_geom> ;
+    skos:altLabel "Kilizu"@ar ;
     ns2:P1584 <https://pleiades.stoa.org/places/894027> .
 

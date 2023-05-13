@@ -8,12 +8,13 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://data.archaeology.link/data/cigs/TYR> a ns2:CuneiformSite ;
-    rdfs:label "صور"@am,
+    rdfs:label "صور"@ar,
         "Ṣūr"@en ;
     dc:created "2021"^^xsd:gYear ;
     dc:license <http://creativecommons.org/licenses/by/4.0> ;
     dcterms:partOf <http://data.archaeology.link/data/cigs/bib_rattenborg_rune_2021_7330077> ;
     ns2:accuracy "2"^^xsd:string ;
+    ns2:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/TYR_geom> ;
     owl:sameAs <http://entitydata.org/entity/Q82070> ;
     ns1:P1566 <https://www.geonames.org/267008> ;

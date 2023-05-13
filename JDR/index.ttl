@@ -7,12 +7,13 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://data.archaeology.link/data/cigs/JDR> a ns2:CuneiformSite ;
-    rdfs:label "تل جدر"@am,
+    rdfs:label "تل جدر"@ar,
         "Tall Jidar"@en ;
     dc:created "2021"^^xsd:gYear ;
     dc:license <http://creativecommons.org/licenses/by/4.0> ;
     dcterms:partOf <http://data.archaeology.link/data/cigs/bib_rattenborg_rune_2021_7330077> ;
     ns2:accuracy "2"^^xsd:string ;
+    ns2:cdli_provenience_id "318"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/JDR_geom> ;
     ns1:P1584 <https://pleiades.stoa.org/places/912957> .
 

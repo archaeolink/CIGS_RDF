@@ -46,7 +46,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/ADA",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (ADA)",
+        "text": "Adalar (ADA)",
         "data": {}
       },
       {
@@ -67,7 +67,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/ADI",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (ADI)",
+        "text": "Adilcevaz (ADI)",
         "data": {}
       },
       {
@@ -88,14 +88,14 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/AHT",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (AHT)",
+        "text": "Ahtamar (AHT)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/AIR",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (AIR)",
+        "text": "\u2018Ayn-i R\u016bm (AIR)",
         "data": {}
       },
       {
@@ -130,28 +130,28 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/ALH",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (ALH)",
+        "text": "Ala\u00e7a H\u00f6yuk (ALH)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/ALI",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (ALI)",
+        "text": "Aliler (ALI)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/ALS",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (ALS)",
+        "text": "Ali\u015far H\u00fcy\u00fck (ALS)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/ALT",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (ALT)",
+        "text": "Alt\u0131ntepe (ALT)",
         "data": {}
       },
       {
@@ -179,7 +179,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/ANS",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (ANS)",
+        "text": "Tal-I Maly\u0101n (ANS)",
         "data": {}
       },
       {
@@ -193,14 +193,14 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/ANZ",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (ANZ)",
+        "text": "Dere\u00fcst\u00fc (ANZ)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/APH",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (APH)",
+        "text": "Tel Afek (APH)",
         "data": {}
       },
       {
@@ -214,7 +214,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/ARA",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (ARA)",
+        "text": "Aras (ARA)",
         "data": {}
       },
       {
@@ -228,7 +228,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/ARK",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (ARK)",
+        "text": "Arin\u00e7kus (ARK)",
         "data": {}
       },
       {
@@ -263,7 +263,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/ASA",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (ASA)",
+        "text": "A\u015fa\u011f\u0131 Anzaf (ASA)",
         "data": {}
       },
       {
@@ -291,7 +291,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/AST",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (AST)",
+        "text": "Metsopay-Vank (AST)",
         "data": {}
       },
       {
@@ -319,7 +319,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/AVN",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (AVN)",
+        "text": "G\u00fczelhisar (AVN)",
         "data": {}
       },
       {
@@ -333,28 +333,28 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/AYA",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (AYA)",
+        "text": "Ayan\u0131s (AYA)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/AYC",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (AYC)",
+        "text": "A\u015fa\u011f\u0131 Yar\u0131mca (AYC)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/AZF",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (AZF)",
+        "text": "Yukar\u0131 Anzaf (AZF)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/AZN",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (AZN)",
+        "text": "Aznavurtepe (AZN)",
         "data": {}
       },
       {
@@ -368,28 +368,28 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/BAH",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (BAH)",
+        "text": "Bah\u00e7ecik (BAH)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/BAK",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (BAK)",
+        "text": "Bakra\u00e7l\u0131 (BAK)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/BAL",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (BAL)",
+        "text": "Ba\u011fin (BAL)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/BAM",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (BAM)",
+        "text": "\u039a\u03af\u03c4\u03b9\u03bf\u03bd (BAM)",
         "data": {}
       },
       {
@@ -438,7 +438,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/BBK",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (BBK)",
+        "text": "Ba\u015fbulak (BBK)",
         "data": {}
       },
       {
@@ -452,7 +452,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/BES",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (BES)",
+        "text": "Be\u015f\u00e7atak (BES)",
         "data": {}
       },
       {
@@ -473,21 +473,21 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/BIN",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (BIN)",
+        "text": "Bing\u00f6l Da\u011f (BIN)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/BIS",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (BIS)",
+        "text": "B\u012bsut\u016bn (BIS)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/BIT",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (BIT)",
+        "text": "Bitlis (BIT)",
         "data": {}
       },
       {
@@ -522,7 +522,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/BOS",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (BOS)",
+        "text": "Bostankaya (BOS)",
         "data": {}
       },
       {
@@ -543,7 +543,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/BRM",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (BRM)",
+        "text": "Burmage\u00e7it (BRM)",
         "data": {}
       },
       {
@@ -564,28 +564,28 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/BSH",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (BSH)",
+        "text": "Ben Shemen (BSH)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/BSK",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (BSK)",
+        "text": "Ba\u015fkale (BSK)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/BST",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (BST)",
+        "text": "Qa`la Bast (BST)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/BSV",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (BSV)",
+        "text": "Tel Be'er Sheva (BSV)",
         "data": {}
       },
       {
@@ -599,28 +599,28 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/BTM",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (BTM)",
+        "text": "Bas\u1e6d\u0101m (BTM)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/BTU",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (BTU)",
+        "text": "Kebeli (BTU)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/BUK",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (BUK)",
+        "text": "B\u00fckl\u00fckale (BUK)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/BUL",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (BUL)",
+        "text": "Bulutp\u0131nar (BUL)",
         "data": {}
       },
       {
@@ -655,35 +655,35 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/CAV",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (CAV)",
+        "text": "\u00c7avu\u015ftepe (CAV)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/CEL",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (CEL)",
+        "text": "\u00c7elebiba\u011f\u0131 (CEL)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/CGM",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (CGM)",
+        "text": "Chugh\u0101 M\u012bsh (CGM)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/CGV",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (CGV)",
+        "text": "Chugh\u0101 G\u0101w\u0101nah (CGV)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/CHK",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (CHK)",
+        "text": "Acemh\u00f6y\u00fck (CHK)",
         "data": {}
       },
       {
@@ -697,7 +697,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/CHR",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (CHR)",
+        "text": "Ir\u00e1kleio (CHR)",
         "data": {}
       },
       {
@@ -711,35 +711,35 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/CKK",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (CKK)",
+        "text": "Kalm\u0101karrah (CKK)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/COZ",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (COZ)",
+        "text": "Chugh\u0101 Zanb\u012bl (COZ)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/CPE",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (CPE)",
+        "text": "Chugh\u0101 Pahn (CPE)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/CPW",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (CPW)",
+        "text": "Chugh\u0101 Pahn (CPW)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/CSA",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (CSA)",
+        "text": "Chugh\u0101 Sabz (CSA)",
         "data": {}
       },
       {
@@ -760,7 +760,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/DAS",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (DAS)",
+        "text": "Daskileion (DAS)",
         "data": {}
       },
       {
@@ -774,7 +774,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/DEG",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (DEG)",
+        "text": "De\u011firmenk\u00f6y (DEG)",
         "data": {}
       },
       {
@@ -795,7 +795,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/DEY",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (DEY)",
+        "text": "Tapah Daylam (DEY)",
         "data": {}
       },
       {
@@ -858,7 +858,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/DNO",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (DNO)",
+        "text": "Dah-i N\u016b (DNO)",
         "data": {}
       },
       {
@@ -872,7 +872,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/DON",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (DON)",
+        "text": "Donat\u0131m (DON)",
         "data": {}
       },
       {
@@ -900,7 +900,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/DUZ",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (DUZ)",
+        "text": "D\u00fczceli (DUZ)",
         "data": {}
       },
       {
@@ -928,14 +928,14 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/EDR",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (EDR)",
+        "text": "Edremit (EDR)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/EHA",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (EHA)",
+        "text": "Eskiharran (EHA)",
         "data": {}
       },
       {
@@ -949,7 +949,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/EKY",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (EKY)",
+        "text": "Eskiyapar (EKY)",
         "data": {}
       },
       {
@@ -963,7 +963,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/ELM",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (ELM)",
+        "text": "Elmal\u0131k (ELM)",
         "data": {}
       },
       {
@@ -977,7 +977,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/ERD",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (ERD)",
+        "text": "Erek Da\u01e7 (ERD)",
         "data": {}
       },
       {
@@ -991,14 +991,14 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/ERN",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (ERN)",
+        "text": "Ererin (ERN)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/ERZ",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (ERZ)",
+        "text": "Erzen (ERZ)",
         "data": {}
       },
       {
@@ -1012,7 +1012,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/ESK",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (ESK)",
+        "text": "Ishkaft Salm\u0101n (ESK)",
         "data": {}
       },
       {
@@ -1033,7 +1033,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/FDW",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (FDW)",
+        "text": "Ab\u016b Fanduw\u0101 (FDW)",
         "data": {}
       },
       {
@@ -1047,21 +1047,21 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/FLO",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (FLO)",
+        "text": "Falerii (FLO)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/FRA",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (FRA)",
+        "text": "Tall Fray (FRA)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/FRU",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (FRU)",
+        "text": "Tapah Farukh\u0101b\u0101d (FRU)",
         "data": {}
       },
       {
@@ -1089,7 +1089,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/GCN",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (GCN)",
+        "text": "Giricano (GCN)",
         "data": {}
       },
       {
@@ -1117,7 +1117,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/GJN",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (GJN)",
+        "text": "Ganjn\u0101mah (GJN)",
         "data": {}
       },
       {
@@ -1131,49 +1131,49 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/GNT",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (GNT)",
+        "text": "Go\u0148ur depe (GNT)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/GNZ",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (GNZ)",
+        "text": "Girnavaz (GNZ)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/GOT",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (GOT)",
+        "text": "G\u016bd\u012bn Tapah (GOT)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/GOV",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (GOV)",
+        "text": "G\u00f6velek (GOV)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/GOZ",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (GOZ)",
+        "text": "G\u00f6zl\u00fckule (GOZ)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/GRD",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (GRD)",
+        "text": "Gird-i Rustam (GRD)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/GRL",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (GRL)",
+        "text": "Gherla (GRL)",
         "data": {}
       },
       {
@@ -1194,7 +1194,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/GTV",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (GTV)",
+        "text": "Tapah Gutwand (GTV)",
         "data": {}
       },
       {
@@ -1208,14 +1208,14 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/GUG",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (GUG)",
+        "text": "G\u00fcganis (GUG)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/GUL",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (GUL)",
+        "text": "Shiq\u0101ft-i Gulgul (GUL)",
         "data": {}
       },
       {
@@ -1229,7 +1229,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/GZH",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (GZH)",
+        "text": "Tall Gasir (GZH)",
         "data": {}
       },
       {
@@ -1243,7 +1243,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/HAB",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (HAB)",
+        "text": "Hab\u0131bu\u015fa\u01e7\u0131 (HAB)",
         "data": {}
       },
       {
@@ -1257,7 +1257,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/HAE",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (HAE)",
+        "text": "Hamamk\u00f6y (HAE)",
         "data": {}
       },
       {
@@ -1271,7 +1271,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/HAL",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (HAL)",
+        "text": "\u1f09\u03bb\u03b9\u03ba\u03b1\u03c1\u03bd\u1fb1\u03c3\u03c3\u03cc\u03c2 (HAL)",
         "data": {}
       },
       {
@@ -1292,21 +1292,21 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/HAR",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (HAR)",
+        "text": "Harran (HAR)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/HAS",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (HAS)",
+        "text": "Hasbey (HAS)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/HAT",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (HAT)",
+        "text": "Bo\u011fazkale (HAT)",
         "data": {}
       },
       {
@@ -1320,7 +1320,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/HAZ",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (HAZ)",
+        "text": "Tel Hazor (HAZ)",
         "data": {}
       },
       {
@@ -1334,7 +1334,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/HBR",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (HBR)",
+        "text": "Tel Hebron (HBR)",
         "data": {}
       },
       {
@@ -1383,7 +1383,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/HLT",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (HLT)",
+        "text": "\u03a4\u03b5\u03ba\u03ad\u03c2 \u03a7\u03b1\u03bb\u03ac \u03a3\u03bf\u03c5\u03bb\u03c4\u03ac\u03bd\u03b1\u03c2 (HLT)",
         "data": {}
       },
       {
@@ -1425,14 +1425,14 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/HOR",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (HOR)",
+        "text": "Tepe Horreeye (HOR)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/HPK",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (HPK)",
+        "text": "Hazine Piri Kap\u0131s\u0131 (HPK)",
         "data": {}
       },
       {
@@ -1446,14 +1446,14 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/HRE",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (HRE)",
+        "text": "\u0397eraio Samou (HRE)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/HRP",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (HRP)",
+        "text": "Harput (HRP)",
         "data": {}
       },
       {
@@ -1467,28 +1467,28 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/HSC",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (HSC)",
+        "text": "Hasanc\u0131kl\u0131 (HSC)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/HSI",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (HSI)",
+        "text": "Tel Hesi (HSI)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/HSK",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (HSK)",
+        "text": "Hasankeyf (HSK)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/HSR",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (HSR)",
+        "text": "Tapah \u1e24i\u1e63\u0101r (HSR)",
         "data": {}
       },
       {
@@ -1502,7 +1502,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/HUZ",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (HUZ)",
+        "text": "Sultantepe (HUZ)",
         "data": {}
       },
       {
@@ -1516,7 +1516,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/HYK",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (HYK)",
+        "text": "\u00c7atal H\u00f6y\u00fck (HYK)",
         "data": {}
       },
       {
@@ -1572,7 +1572,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/INA",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (INA)",
+        "text": "\u0130nand\u0131k (INA)",
         "data": {}
       },
       {
@@ -1600,7 +1600,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/JAV",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (JAV)",
+        "text": "Jaw\u0101nqal\u2018h (JAV)",
         "data": {}
       },
       {
@@ -1614,7 +1614,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/JDG",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (JDG)",
+        "text": "Cudi Da\u011f\u0131 (JDG)",
         "data": {}
       },
       {
@@ -1628,7 +1628,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/JMM",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (JMM)",
+        "text": "Tel Gamma (JMM)",
         "data": {}
       },
       {
@@ -1656,7 +1656,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/JRO",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (JRO)",
+        "text": "Jericho (JRO)",
         "data": {}
       },
       {
@@ -1691,21 +1691,21 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/KAD",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (KAD)",
+        "text": "Kadembas (KAD)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/KAH",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (KAH)",
+        "text": "Kahramanmara\u015f (KAH)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/KAI",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (KAI)",
+        "text": "Kaisaran (KAI)",
         "data": {}
       },
       {
@@ -1726,28 +1726,28 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/KAS",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (KAS)",
+        "text": "\u039a\u03b1\u03c3\u03c4\u03c1\u03af (KAS)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/KAY",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (KAY)",
+        "text": "Kayal\u0131p\u0131nar (KAY)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/KAZ",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (KAZ)",
+        "text": "Kazanc\u0131 (KAZ)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/KBL",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (KBL)",
+        "text": "Chaman-i \u1e24az\u0324\u016br\u012b (KBL)",
         "data": {}
       },
       {
@@ -1761,14 +1761,14 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/KCT",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (KCT)",
+        "text": "Ko\u00e7yata\u011f\u0131 (KCT)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/KDH",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (KDH)",
+        "text": "Qandah\u0101r (KDH)",
         "data": {}
       },
       {
@@ -1782,14 +1782,14 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/KEB",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (KEB)",
+        "text": "Kenk Bo\u01e7az\u0131 (KEB)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/KEC",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (KEC)",
+        "text": "Ke\u00e7ik\u0131ran (KEC)",
         "data": {}
       },
       {
@@ -1803,28 +1803,28 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/KEV",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (KEV)",
+        "text": "Kevenli (KEV)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/KFA",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (KFA)",
+        "text": "K\u016blfara\u1e25 (KFA)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/KFI",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (KFI)",
+        "text": "K\u0101mf\u012br\u016bz (KFI)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/KFK",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (KFK)",
+        "text": "Kef Kalesi (KFK)",
         "data": {}
       },
       {
@@ -1838,7 +1838,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/KHI",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (KHI)",
+        "text": "Tapah Kh\u012bbr (KHI)",
         "data": {}
       },
       {
@@ -1873,7 +1873,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/KKH",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (KKH)",
+        "text": "\u00dc\u00e7tepe (KKH)",
         "data": {}
       },
       {
@@ -1887,7 +1887,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/KKU",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (KKU)",
+        "text": "Khirbet Kusiya (KKU)",
         "data": {}
       },
       {
@@ -1901,14 +1901,14 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/KLC",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (KLC)",
+        "text": "Kalecik (KLC)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/KLK",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (KLK)",
+        "text": "Kalek\u00f6y (KLK)",
         "data": {}
       },
       {
@@ -1929,7 +1929,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/KMS",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (KMS)",
+        "text": "Kam\u0131\u015fvan (KMS)",
         "data": {}
       },
       {
@@ -1943,77 +1943,77 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/KNS",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (KNS)",
+        "text": "K\u00fcltepe (KNS)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/KOC",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (KOC)",
+        "text": "Ko\u00e7aklar (KOC)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/KOK",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (KOK)",
+        "text": "K\u00f6\u015fk (KOK)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/KOR",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (KOR)",
+        "text": "K\u00f6rz\u00fct (KOR)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/KOS",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (KOS)",
+        "text": "Kon\u0101r Sandal (KOS)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/KOT",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (KOT)",
+        "text": "Kotanl\u0131 (KOT)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/KOU",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (KOU)",
+        "text": "Ko\u00fa\u03c1\u03b9ov (KOU)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/KRC",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (KRC)",
+        "text": "Karaca\u00f6ren (KRC)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/KRG",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (KRG)",
+        "text": "Karag\u00fcnd\u00fcz (KRG)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/KRH",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (KRH)",
+        "text": "Karahan (KRH)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/KRI",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (KRI)",
+        "text": "Kayseri (KRI)",
         "data": {}
       },
       {
@@ -2027,14 +2027,14 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/KRM",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (KRM)",
+        "text": "Kerm\u0101nsh\u0101h (KRM)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/KRT",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (KRT)",
+        "text": "Karata\u015f (KRT)",
         "data": {}
       },
       {
@@ -2055,21 +2055,21 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/KSK",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (KSK)",
+        "text": "Ku\u015fakl\u0131 (KSK)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/KSM",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (KSM)",
+        "text": "Kas\u0131mo\u011flu (KSM)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/KSN",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (KSN)",
+        "text": "Tel Keisan (KSN)",
         "data": {}
       },
       {
@@ -2083,7 +2083,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/KSX",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (KSX)",
+        "text": "Kuhanak (KSX)",
         "data": {}
       },
       {
@@ -2118,14 +2118,14 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/KUS",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (KUS)",
+        "text": "Ku\u015fsaray (KUS)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/KZK",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (KZK)",
+        "text": "Kizkapanl\u0131 (KZK)",
         "data": {}
       },
       {
@@ -2139,7 +2139,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/KZN",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (KZN)",
+        "text": "Kazane H\u00f6y\u00fck (KZN)",
         "data": {}
       },
       {
@@ -2174,21 +2174,21 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/LIH",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (LIH)",
+        "text": "Lidar H\u00f6y\u00fck (LIH)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/LIY",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (LIY)",
+        "text": "B\u016bs\u0331har (LIY)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/LMA",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (LMA)",
+        "text": "Lam\u0101 (LMA)",
         "data": {}
       },
       {
@@ -2209,7 +2209,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/MAL",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (MAL)",
+        "text": "Malazgirt (MAL)",
         "data": {}
       },
       {
@@ -2223,14 +2223,14 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/MAV",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (MAV)",
+        "text": "Maw\u0101n\u0101 (MAV)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/MCH",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (MCH)",
+        "text": "Mikhmoret (MCH)",
         "data": {}
       },
       {
@@ -2265,42 +2265,42 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/MET",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (MET)",
+        "text": "Metsamor (MET)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/MGD",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (MGD)",
+        "text": "Megiddo (MGD)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/MHD",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (MHD)",
+        "text": "Ma\u1e25m\u016bd \u0100b\u0101d (MHD)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/MHN",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (MHN)",
+        "text": "M\u0101h\u0101n (MHN)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/MHO",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (MHO)",
+        "text": "Ma\u015fat H\u00f6y\u00fck (MHO)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/MHR",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (MHR)",
+        "text": "Meher Kap\u0131s\u0131 (MHR)",
         "data": {}
       },
       {
@@ -2314,14 +2314,14 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/MKA",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (MKA)",
+        "text": "Mergeh Karvan (MKA)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/MLD",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (MLD)",
+        "text": "Arslantepe H\u00f6y\u00fc\u011f\u00fc (MLD)",
         "data": {}
       },
       {
@@ -2342,7 +2342,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/MMG",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (MMG)",
+        "text": "Mila Mergi (MMG)",
         "data": {}
       },
       {
@@ -2377,7 +2377,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/MRL",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (MRL)",
+        "text": "M\u0101rl\u012bk (MRL)",
         "data": {}
       },
       {
@@ -2391,7 +2391,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/MRN",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (MRN)",
+        "text": "Mardin (MRN)",
         "data": {}
       },
       {
@@ -2426,21 +2426,21 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/MUH",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (MUH)",
+        "text": "Muhrapert (MUH)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/MUR",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (MUR)",
+        "text": "Muradiye (MUR)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/MUS",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (MUS)",
+        "text": "Mu\u015f (MUS)",
         "data": {}
       },
       {
@@ -2454,7 +2454,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/MZT",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (MZT)",
+        "text": "Mezraa Teleilat (MZT)",
         "data": {}
       },
       {
@@ -2475,14 +2475,14 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/NAS",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (NAS)",
+        "text": "Nashteban (NAS)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/NAZ",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (NAZ)",
+        "text": "Anaz (NAZ)",
         "data": {}
       },
       {
@@ -2531,7 +2531,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/NJF",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (NJF)",
+        "text": "Najaf\u0101b\u0101d (NJF)",
         "data": {}
       },
       {
@@ -2545,7 +2545,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/NKM",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (NKM)",
+        "text": "\u041d\u043e\u0432\u044b\u0439 \u041a\u0443\u043c\u0430\u043a (NKM)",
         "data": {}
       },
       {
@@ -2566,7 +2566,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/NQS",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (NQS)",
+        "text": "Naqsh Rustam (NQS)",
         "data": {}
       },
       {
@@ -2608,42 +2608,42 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/OJA",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (OJA)",
+        "text": "Ojasar-Ilanda\u011f (OJA)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/ORD",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (ORD)",
+        "text": "Ortadamla (ORD)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/ORT",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (ORT)",
+        "text": "Ortak\u00f6y (ORT)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/OTK",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (OTK)",
+        "text": "Ortakent (OTK)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/OYH",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (OYH)",
+        "text": "Oylum H\u00f6y\u00fck (OYH)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/OZB",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (OZB)",
+        "text": "Ozbaki (OZB)",
         "data": {}
       },
       {
@@ -2657,7 +2657,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/PAT",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (PAT)",
+        "text": "Patnos (PAT)",
         "data": {}
       },
       {
@@ -2678,28 +2678,28 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/PHG",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (PHG)",
+        "text": "Fanagorii\u0361a (PHG)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/PHU",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (PHU)",
+        "text": "Pir H\u00fcseyin (PHU)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/PIR",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (PIR)",
+        "text": "Pirabat (PIR)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/PLU",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (PLU)",
+        "text": "Palu (PLU)",
         "data": {}
       },
       {
@@ -2720,7 +2720,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/PSG",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (PSG)",
+        "text": "Pasargad (PSG)",
         "data": {}
       },
       {
@@ -2734,21 +2734,21 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/QAI",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (QAI)",
+        "text": "Qal\u2018ah Imam (QAI)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/QAL",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (QAL)",
+        "text": "Qalatgah (QAL)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/QAN",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (QAN)",
+        "text": "Qa\u1e63r-i Ab\u016bna\u1e63r (QAN)",
         "data": {}
       },
       {
@@ -2853,7 +2853,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/RAZ",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (RAZ)",
+        "text": "R\u0101zl\u012bq (RAZ)",
         "data": {}
       },
       {
@@ -2902,14 +2902,14 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/RUS",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (RUS)",
+        "text": "Toprakkale (RUS)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/RUT",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (RUT)",
+        "text": "Rutschi Tig (RUT)",
         "data": {}
       },
       {
@@ -2923,7 +2923,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/SAL",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (SAL)",
+        "text": "Salmana\u011fa (SAL)",
         "data": {}
       },
       {
@@ -2951,7 +2951,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/SAV",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (SAV)",
+        "text": "Savac\u0131k (SAV)",
         "data": {}
       },
       {
@@ -2979,7 +2979,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/SDM",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (SDM)",
+        "text": "Surkh Dum Lur\u012b (SDM)",
         "data": {}
       },
       {
@@ -2993,7 +2993,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/SEA",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (SEA)",
+        "text": "Beit She'an (SEA)",
         "data": {}
       },
       {
@@ -3014,7 +3014,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/SEQ",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (SEQ)",
+        "text": "Saqandal (SEQ)",
         "data": {}
       },
       {
@@ -3042,7 +3042,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/SHD",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (SHD)",
+        "text": "Shahd\u0101d (SHD)",
         "data": {}
       },
       {
@@ -3056,7 +3056,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/SHP",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (SHP)",
+        "text": "Shephela (SHP)",
         "data": {}
       },
       {
@@ -3070,7 +3070,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/SHZ",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (SHZ)",
+        "text": "Sar\u0131ca (SHZ)",
         "data": {}
       },
       {
@@ -3084,7 +3084,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/SIH",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (SIH)",
+        "text": "Sihke (SIH)",
         "data": {}
       },
       {
@@ -3119,7 +3119,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/SIY",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (SIY)",
+        "text": "Siyah Chas\u0331mah (SIY)",
         "data": {}
       },
       {
@@ -3133,7 +3133,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/SJR",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (SJR)",
+        "text": "Sur Jar'a (SJR)",
         "data": {}
       },
       {
@@ -3161,7 +3161,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/SLG",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (SLG)",
+        "text": "Tas-Sil\u0121 (SLG)",
         "data": {}
       },
       {
@@ -3196,7 +3196,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/SOK",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (SOK)",
+        "text": "Shahr-i S\u016bkhta (SOK)",
         "data": {}
       },
       {
@@ -3217,21 +3217,21 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/SPH",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (SPH)",
+        "text": "Zippori (SPH)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/SPI",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (SPI)",
+        "text": "Tall-i Sp\u012bd (SPI)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/SQL",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (SQL)",
+        "text": "Ashkelon (SQL)",
         "data": {}
       },
       {
@@ -3245,14 +3245,14 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/SRK",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (SRK)",
+        "text": "Sar\u0131kam\u0131\u015f (SRK)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/SRM",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (SRM)",
+        "text": "Sarma\u00e7 (SRM)",
         "data": {}
       },
       {
@@ -3266,7 +3266,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/SSH",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (SSH)",
+        "text": "S\u0331\u012bs\u0331ah (SSH)",
         "data": {}
       },
       {
@@ -3280,7 +3280,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/SUN",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (SUN)",
+        "text": "S\u00fcng\u00fcta\u015f\u0131 (SUN)",
         "data": {}
       },
       {
@@ -3294,7 +3294,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/SUS",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (SUS)",
+        "text": "Sh\u016bsh (SUS)",
         "data": {}
       },
       {
@@ -3343,7 +3343,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/TAF",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (TAF)",
+        "text": "Tall Afghan\u012b (TAF)",
         "data": {}
       },
       {
@@ -3357,7 +3357,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/TAH",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (TAH)",
+        "text": "Ta\u015flik H\u00f6y\u00fck (TAH)",
         "data": {}
       },
       {
@@ -3371,21 +3371,21 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/TAR",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (TAR)",
+        "text": "Yal\u0131nd\u00fcz (TAR)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/TAS",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (TAS)",
+        "text": "Ta\u015fburun (TAS)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/TAT",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (TAT)",
+        "text": "\u1e6cashtepe (TAT)",
         "data": {}
       },
       {
@@ -3413,7 +3413,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/TBM",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (TBM)",
+        "text": "Tel Beth Mirsim (TBM)",
         "data": {}
       },
       {
@@ -3476,14 +3476,14 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/TEG",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (TEG)",
+        "text": "T\u016bl-i G\u012bl\u0101n (TEG)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/TEH",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (TEH)",
+        "text": "Tel Hadid (TEH)",
         "data": {}
       },
       {
@@ -3518,21 +3518,21 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/TGA",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (TGA)",
+        "text": "Tappah G\u0101r\u0101n (TGA)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/THA",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (THA)",
+        "text": "Ta\u2018nak (THA)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/THE",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (THE)",
+        "text": "Thiva (THE)",
         "data": {}
       },
       {
@@ -3546,7 +3546,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/THO",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (THO)",
+        "text": "Turlu H\u00f6y\u00fck (THO)",
         "data": {}
       },
       {
@@ -3567,7 +3567,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/THY",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (THY)",
+        "text": "Tilmen H\u00f6y\u00fck (THY)",
         "data": {}
       },
       {
@@ -3588,7 +3588,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/TIR",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (TIR)",
+        "text": "Tiryntha (TIR)",
         "data": {}
       },
       {
@@ -3609,14 +3609,14 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/TKP",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (TKP)",
+        "text": "Ta\u015fk\u00f6pr\u00fc (TKP)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/TLB",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (TLB)",
+        "text": "Tilbes H\u00f6y\u00fck (TLB)",
         "data": {}
       },
       {
@@ -3644,7 +3644,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/TMU",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (TMU)",
+        "text": "Tappah M\u016bsiy\u0101n (TMU)",
         "data": {}
       },
       {
@@ -3679,14 +3679,14 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/TOP",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (TOP)",
+        "text": "Kocap\u0131nar (TOP)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/TRM",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (TRM)",
+        "text": "Alazl\u0131 (TRM)",
         "data": {}
       },
       {
@@ -3714,7 +3714,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/TSB",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (TSB)",
+        "text": "Tall Sab\u0101 (TSB)",
         "data": {}
       },
       {
@@ -3728,7 +3728,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/TSO",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (TSO)",
+        "text": "Tapah Sof\u0101l\u012bn (TSO)",
         "data": {}
       },
       {
@@ -3756,7 +3756,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/TTU",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (TTU)",
+        "text": "Dicle T\u00fcneli (TTU)",
         "data": {}
       },
       {
@@ -3777,7 +3777,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/TVI",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (TVI)",
+        "text": "Tank\u012bwar (TVI)",
         "data": {}
       },
       {
@@ -3791,7 +3791,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/TYA",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (TYA)",
+        "text": "Tul\u016bl Yassir (TYA)",
         "data": {}
       },
       {
@@ -3903,28 +3903,28 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/USH",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (USH)",
+        "text": "Ushakl\u0131 Ho\u0308yu\u0308k (USH)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/UWW",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (UWW)",
+        "text": "Umm al-Wawiya (UWW)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/VAK",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (VAK)",
+        "text": "Van (VAK)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/VAN",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (VAN)",
+        "text": "Van (VAN)",
         "data": {}
       },
       {
@@ -3938,7 +3938,7 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/WIN",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (WIN)",
+        "text": "Wingate (WIN)",
         "data": {}
       },
       {
@@ -3959,21 +3959,21 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/XOC",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (XOC)",
+        "text": "Xocali (XOC)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/YAH",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (YAH)",
+        "text": "Tapah Yahiya (YAH)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/YAL",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (YAL)",
+        "text": "Yal\u00e7\u0131nkaya (YAL)",
         "data": {}
       },
       {
@@ -3987,14 +3987,14 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/YAS",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (YAS)",
+        "text": "Yassi H\u00f6y\u00fck (YAS)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/YAZ",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (YAZ)",
+        "text": "Yaz\u0131l\u0131ta\u015f (YAZ)",
         "data": {}
       },
       {
@@ -4008,14 +4008,14 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/YES",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (YES)",
+        "text": "Ye\u015fila\u011fa\u00e7 (YES)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/YON",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (YON)",
+        "text": "Yoncali (YON)",
         "data": {}
       },
       {
@@ -4050,14 +4050,14 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/ZCR",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (ZCR)",
+        "text": "Zin\u010dirli (ZCR)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/ZIW",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (ZIW)",
+        "text": "\u1e94iwyah (ZIW)",
         "data": {}
       },
       {
@@ -4071,14 +4071,14 @@ var tree={
         "id": "http://data.archaeology.link/data/cigs/ZOH",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (ZOH)",
+        "text": "Sar-i Pol-i Zoh\u0101b (ZOH)",
         "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/ZTP",
         "parent": "http://www.ancientports.com/ont#CuneiformSite",
         "type": "geoinstance",
-        "text": " (ZTP)",
+        "text": "Ziyaret Tepe (ZTP)",
         "data": {}
       },
       {
@@ -4099,7 +4099,7 @@ var tree={
         "id": "http://www.ancientports.com/ont#CuneiformSite",
         "parent": "http://www.opengis.net/ont/geosparql#Feature",
         "type": "halfgeoclass",
-        "text": "CuneiformSite (ns3:CuneiformSite) [579]",
+        "text": "CuneiformSite (ns4:CuneiformSite) [579]",
         "data": {
           "to": {
             "http://purl.org/dc/elements/1.1/created": {
@@ -4113,6 +4113,9 @@ var tree={
             "http://www.ancientports.com/ont#accuracy": {
               "instancecount": 1
             },
+            "http://www.ancientports.com/ont#cdli_provenience_id": {
+              "instancecount": 1
+            },
             "http://www.opengis.net/ont/geosparql#hasGeometry": {
               "instancecount": 1,
               "http://www.opengis.net/ont/sf#Point": 1
@@ -4122,6 +4125,18 @@ var tree={
             },
             "http://www.w3.org/2000/01/rdf-schema#label": {
               "instancecount": 2
+            },
+            "http://www.w3.org/2002/07/owl#sameAs": {
+              "instancecount": 1
+            },
+            "http://www.w3.org/2004/02/skos/core#altLabel": {
+              "instancecount": 1
+            },
+            "http://www.wikidata.org/prop/direct/P1566": {
+              "instancecount": 1
+            },
+            "http://www.wikidata.org/prop/direct/P1584": {
+              "instancecount": 1
             }
           },
           "from": {
@@ -4131,7 +4146,7 @@ var tree={
             }
           }
         },
-        "instancecount": 7
+        "instancecount": 12
       },
       {
         "id": "http://www.opengis.net/ont/geosparql#Feature",
@@ -8467,14 +8482,13 @@ var tree={
               "instancecount": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 1,
-              "http://purl.org/ontology/bibo/Document": 1,
-              "http://www.w3.org/ns/dcat#Dataset": 1
+              "instancecount": 6,
+              "http://xmlns.com/foaf/0.1/Person": 6
             }
           },
           "from": {}
         },
-        "instancecount": 3
+        "instancecount": 8
       },
       {
         "id": "http://www.opengis.net/ont/geosparql#SpatialObject",

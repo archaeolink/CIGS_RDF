@@ -6,7 +6,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://data.archaeology.link/data/cigs/RAJ> a ns1:CuneiformSite ;
-    rdfs:label "الرجيبة"@am,
+    rdfs:label "الرجيبة"@ar,
         "Al-Rajībah"@en ;
     dc:created "2021"^^xsd:gYear ;
     dc:license <http://creativecommons.org/licenses/by/4.0> ;

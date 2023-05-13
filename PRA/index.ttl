@@ -7,12 +7,13 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://data.archaeology.link/data/cigs/PRA> a ns2:CuneiformSite ;
-    rdfs:label "بارة"@am,
+    rdfs:label "بارة"@ar,
         "Bārah"@en ;
     dc:created "2021"^^xsd:gYear ;
     dc:license <http://creativecommons.org/licenses/by/4.0> ;
     dcterms:partOf <http://data.archaeology.link/data/cigs/bib_rattenborg_rune_2021_7330077> ;
     ns2:accuracy "1"^^xsd:string ;
+    ns2:cdli_provenience_id "27"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/PRA_geom> ;
     ns1:P1566 <https://www.geonames.org/97982> ;
     ns1:P1584 <https://pleiades.stoa.org/places/914118847> .

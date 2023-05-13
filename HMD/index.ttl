@@ -8,12 +8,13 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://data.archaeology.link/data/cigs/HMD> a ns1:CuneiformSite ;
-    rdfs:label "همدان"@am,
+    rdfs:label "همدان"@ar,
         "Hamadān"@en ;
     dc:created "2021"^^xsd:gYear ;
     dc:license <http://creativecommons.org/licenses/by/4.0> ;
     dcterms:partOf <http://data.archaeology.link/data/cigs/bib_rattenborg_rune_2021_7330077> ;
     ns1:accuracy "3"^^xsd:string ;
+    ns1:cdli_provenience_id "117"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/HMD_geom> ;
     owl:sameAs <http://entitydata.org/entity/Q696193> ;
     ns2:P1584 <https://pleiades.stoa.org/places/903021> .
