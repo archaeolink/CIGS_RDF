@@ -4125,9 +4125,6 @@ var tree={
             },
             "http://www.w3.org/2000/01/rdf-schema#label": {
               "instancecount": 2
-            },
-            "http://www.w3.org/2004/02/skos/core#altLabel": {
-              "instancecount": 1
             }
           },
           "from": {
@@ -4137,7 +4134,7 @@ var tree={
             }
           }
         },
-        "instancecount": 9
+        "instancecount": 8
       },
       {
         "id": "http://www.opengis.net/ont/geosparql#Feature",
