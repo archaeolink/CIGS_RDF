@@ -1,1 +1,1 @@
-{"success": true, "result": ["Document", "Dataset", "Person", "Geometry", "Feature", "SpatialObject"]}
+{"success": true, "result": ["SpatialObject", "Geometry", "Person", "Feature", "Document", "Dataset"]}
