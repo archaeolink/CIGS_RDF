@@ -4129,7 +4129,7 @@ var tree={
             "http://www.w3.org/2002/07/owl#sameAs": {
               "instancecount": 1
             },
-            "http://www.w3.org/2004/02/skos/core#altLabel": {
+            "http://www.wikidata.org/prop/direct/P1566": {
               "instancecount": 1
             }
           },
