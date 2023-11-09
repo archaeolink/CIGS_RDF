@@ -55,20 +55,6 @@ var minivowlresult={
    "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
   },
   {
-   "source": 7,
-   "target": 4,
-   "valueTo": "creator",
-   "propertyTo": "class",
-   "uriTo": "http://purl.org/dc/elements/1.1/creator"
-  },
-  {
-   "source": 6,
-   "target": 4,
-   "valueTo": "creator",
-   "propertyTo": "class",
-   "uriTo": "http://purl.org/dc/elements/1.1/creator"
-  },
-  {
    "source": 0,
    "target": 7,
    "valueTo": "partOf",
@@ -81,6 +67,20 @@ var minivowlresult={
    "valueTo": "partOf",
    "propertyTo": "class",
    "uriTo": "http://purl.org/dc/terms/partOf"
+  },
+  {
+   "source": 7,
+   "target": 4,
+   "valueTo": "creator",
+   "propertyTo": "class",
+   "uriTo": "http://purl.org/dc/elements/1.1/creator"
+  },
+  {
+   "source": 6,
+   "target": 4,
+   "valueTo": "creator",
+   "propertyTo": "class",
+   "uriTo": "http://purl.org/dc/elements/1.1/creator"
   }
  ]
 }
