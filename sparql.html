@@ -6,13 +6,13 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.1.1/themes/default/style.min.css" />
 <link rel="stylesheet" type="text/css" href="style.css" />
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script><script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script><script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
-<script src="cigs_search.js"></script><script src="cigs_classtree.js"></script><script src="proprelations.js"></script>
+<script src="suni_search.js"></script><script src="suni_classtree.js"></script><script src="proprelations.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.3.14/jstree.min.js"></script><script src="https://cdn.jsdelivr.net/npm/rdflib@2.2.19/dist/rdflib.min.js"></script>
 <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
 <script src="startscripts.js"></script></head><div id="mySidenav" class="sidenav" style="overflow:auto;"><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   GeoClasses: <input type="checkbox" id="geoclasses"/><br/>
   Search:<input type="text" id="classsearch"><br/><div id="jstree"></div>
-</div><script>var indexpage=false; var baseurl="http://data.archaeology.link/data/cigs/"; var iconprefixx="";
+</div><script>var indexpage=false; var baseurl="http://www.sparqlunicorn.link/data/"; var iconprefixx="";
 var relativedepth=0</script><body><div id="header"><h1 id="title">SPARQL Query Editor</h1></div><div class="page-resource-uri"><a href=""></a> <b>powered by Static GeoPubby</b> generated using the <a style="color:blue;font-weight:bold" target="_blank" href="https://github.com/sparqlunicorn/sparqlunicornGoesGIS-ontdoc">SPARQLing Unicorn QGIS Plugin OntDoc Script 0.16</a></div>
 </div><div id="rdficon"><span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span></div> <div class="search"><div class="ui-widget">Search: <input id="search" size="25"><button id="gotosearch" onclick="followLink()">Go</button><b>Download Options:</b>&nbsp;Format:<select id="format" onchange="changeDefLink()"><option value="csv">Comma Separated Values (CSV)</option>
 <option value="geojson">(Geo)JSON</option>
@@ -155,5 +155,4 @@ async function queryFile(){
 // Draw results with current plugin
  //yasgui.getTab().yasr.draw()
 }
-  </script><div id="footer"><div class="container-fluid"><span style="float:right;margin-left:auto;margin-right:0px;text-align:right">This work is released under <a rel="license" target="_blank" href="http://creativecommons.org/licenses/by/4.0/">
-            <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png"/></a></span></div></div><script>$(document).ready(function(){setSVGDimensions();})</script></body></html>
+  </script><div id="footer"><div class="container-fluid"></div></div><script>$(document).ready(function(){setSVGDimensions();})</script></body></html>
