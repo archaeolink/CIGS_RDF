@@ -21,15 +21,15 @@ jobs:
     uses: sparqlunicorn/sparqlunicornGoesGIS-ontdoc/.github/workflows/udoc.yml@main
     with: 
         version: v017dev
-        rdffilepath: cigs_result.ttl
-        docpath: docs
-        prefixns: http://data.archaeology.link/data/cigs/
-        prefixnsshort: cigs
-        indexpages: true
-        createcollections: true
-        createnonNSPages: true
-        createVOWL: true
-        metadatatable: true
-        preferredlang: en
-        license: CC BY 4.0
+        #rdffilepath: cigs_result.ttl
+        #docpath: docs
+        #prefixns: http://data.archaeology.link/data/cigs/
+        #prefixnsshort: cigs
+        #indexpages: true
+        #createcollections: true
+        #createnonNSPages: true
+        #createVOWL: true
+        #metadatatable: true
+        #preferredlang: en
+        #license: CC BY 4.0
         ghpages: true
