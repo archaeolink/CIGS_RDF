@@ -12,7 +12,6 @@
     rdfs:label "تل فارا"@ar,
         "Tall Fārā"@en ;
     dc:created "2021"^^xsd:gYear ;
-    dc:license <http://creativecommons.org/licenses/by/4.0> ;
     dcterms:partOf <http://data.archaeology.link/data/cigs/bib_rattenborg_rune_2021_7330077> ;
     ns2:accuracy "3"^^xsd:string ;
     ns2:cdli_provenience_id "54"^^xsd:string ;
