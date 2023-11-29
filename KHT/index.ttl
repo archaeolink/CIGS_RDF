@@ -12,6 +12,7 @@
     rdfs:label "تل بري"@ar,
         "Tall Barri"@en ;
     dc:created "2021"^^xsd:gYear ;
+    dc:license <http://creativecommons.org/licenses/by/4.0> ;
     dcterms:partOf <http://data.archaeology.link/data/cigs/bib_rattenborg_rune_2021_7330077> ;
     ns1:accuracy "3"^^xsd:string ;
     ns1:cdli_provenience_id "300"^^xsd:string ;
