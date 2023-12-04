@@ -19,7 +19,7 @@
     ns2:accuracy "3"^^xsd:string ;
     ns2:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/TEI_geom> ;
-    owl:sameAs <http://entitydata.org/entity/Q1195993> ;
+    owl:sameAs <http://wikidata.org/entity/Q1195993> ;
     skos:altLabel "Teisheba"@ar ;
     ns1:P1566 <https://www.geonames.org/832159> ;
     ns1:P1584 <https://pleiades.stoa.org/places/863822> .

@@ -19,7 +19,7 @@
     ns1:accuracy "3"^^xsd:string ;
     ns1:cdli_provenience_id "133"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/BTB_geom> ;
-    owl:sameAs <http://entitydata.org/entity/Q1372270> ;
+    owl:sameAs <http://wikidata.org/entity/Q1372270> ;
     skos:altLabel "Bad-Tibira"@ar ;
     ns2:P1584 <https://pleiades.stoa.org/places/771224406> .
 

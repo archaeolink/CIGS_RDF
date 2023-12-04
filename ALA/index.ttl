@@ -19,7 +19,7 @@
     ns2:accuracy "3"^^xsd:string ;
     ns2:cdli_provenience_id "162"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/ALA_geom> ;
-    owl:sameAs <http://entitydata.org/entity/Q575249> ;
+    owl:sameAs <http://wikidata.org/entity/Q575249> ;
     skos:altLabel "Alalah"@ar ;
     ns1:P1566 <https://www.geonames.org/438064> ;
     ns1:P1584 <https://pleiades.stoa.org/places/309866128> .

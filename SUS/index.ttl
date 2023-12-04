@@ -19,7 +19,7 @@
     ns2:accuracy "3"^^xsd:string ;
     ns2:cdli_provenience_id "12"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/SUS_geom> ;
-    owl:sameAs <http://entitydata.org/entity/Q180773> ;
+    owl:sameAs <http://wikidata.org/entity/Q180773> ;
     skos:altLabel "Susa"@ar ;
     ns1:P1566 <https://www.geonames.org/6687956> ;
     ns1:P1584 <https://pleiades.stoa.org/places/912936> .

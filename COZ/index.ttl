@@ -19,7 +19,7 @@
     ns2:accuracy "3"^^xsd:string ;
     ns2:cdli_provenience_id "109"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/COZ_geom> ;
-    owl:sameAs <http://entitydata.org/entity/Q4523> ;
+    owl:sameAs <http://wikidata.org/entity/Q4523> ;
     skos:altLabel "Dur-Untaš"@ar ;
     ns1:P1566 <https://www.geonames.org/139000> ;
     ns1:P1584 <https://pleiades.stoa.org/places/459393126> .

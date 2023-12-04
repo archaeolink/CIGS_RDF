@@ -18,7 +18,7 @@
     ns2:accuracy "3"^^xsd:string ;
     ns2:cdli_provenience_id "46"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/HAZ_geom> ;
-    owl:sameAs <http://entitydata.org/entity/Q740138> ;
+    owl:sameAs <http://wikidata.org/entity/Q740138> ;
     ns1:P1566 <https://www.geonames.org/293365> ;
     ns1:P1584 <https://pleiades.stoa.org/places/779967430> .
 

@@ -18,6 +18,6 @@
     ns1:accuracy "3"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/DAB_geom> ;
-    owl:sameAs <http://entitydata.org/entity/Q3517370> ;
+    owl:sameAs <http://wikidata.org/entity/Q3517370> ;
     ns2:P1584 <https://pleiades.stoa.org/places/727080> .
 

@@ -17,6 +17,6 @@
     ns1:accuracy "1"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/HRP_geom> ;
-    owl:sameAs <http://entitydata.org/entity/Q6017381> ;
+    owl:sameAs <http://wikidata.org/entity/Q6017381> ;
     ns2:P1566 <https://www.geonames.org/7467408> .
 

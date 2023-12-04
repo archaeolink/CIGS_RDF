@@ -19,7 +19,7 @@
     ns2:accuracy "3"^^xsd:string ;
     ns2:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/KZL_geom> ;
-    owl:sameAs <http://entitydata.org/entity/Q3398568> ;
+    owl:sameAs <http://wikidata.org/entity/Q3398568> ;
     skos:altLabel "Ṣumur"@ar ;
     ns1:P1566 <https://www.geonames.org/163525> .
 

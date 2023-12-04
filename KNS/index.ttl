@@ -18,7 +18,7 @@
     ns1:accuracy "3"^^xsd:string ;
     ns1:cdli_provenience_id "291"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/KNS_geom> ;
-    owl:sameAs <http://entitydata.org/entity/Q538605> ;
+    owl:sameAs <http://wikidata.org/entity/Q538605> ;
     skos:altLabel "Kanesh"@ar ;
     ns2:P1584 <https://pleiades.stoa.org/places/628923> .
 

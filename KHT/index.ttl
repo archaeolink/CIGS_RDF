@@ -19,7 +19,7 @@
     ns1:accuracy "3"^^xsd:string ;
     ns1:cdli_provenience_id "300"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/KHT_geom> ;
-    owl:sameAs <http://entitydata.org/entity/Q3822951> ;
+    owl:sameAs <http://wikidata.org/entity/Q3822951> ;
     skos:altLabel "Kahat"@ar ;
     ns2:P1566 <https://www.geonames.org/420334> ;
     ns2:P1584 <https://pleiades.stoa.org/places/874732> .

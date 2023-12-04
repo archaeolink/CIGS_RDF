@@ -19,7 +19,7 @@
     ns1:accuracy "3"^^xsd:string ;
     ns1:cdli_provenience_id "135"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/DKA_geom> ;
-    owl:sameAs <http://entitydata.org/entity/Q487614> ;
+    owl:sameAs <http://wikidata.org/entity/Q487614> ;
     skos:altLabel "Dur-Katlimmu"@ar ;
     ns2:P1566 <https://www.geonames.org/164335> ;
     ns2:P1584 <https://pleiades.stoa.org/places/893991> .
