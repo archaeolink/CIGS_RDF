@@ -111,7 +111,7 @@ def processReference(triples,bibmap,key,row,cururi):
         triples.add("<"+str(cururi)+"> <http://www.w3.org/2004/02/skos/core#note> \"\"\""+row[key]+"\"\"\" .\n")
     return triples
 
-def parseCIGSFile(reader,triples,refnotfound,countrynotfound,wikidatacache,baseclass,bibmap,dsuri=None):
+def parseCIGSFile(reader,triples,refnotfound,countrynotfound,baseclass,bibmap,dsuri=None):
     for row in reader:
         #print(row)
         cururi=ns+row["site_id"].replace(",","_")
@@ -153,7 +153,7 @@ def parseCIGSFile(reader,triples,refnotfound,countrynotfound,wikidatacache,basec
         triples.add("<"+str(cururi)+"_geom> <http://www.opengis.net/ont/geosparql#asWKT> \"POINT("+row["lon_wgs1984"].replace(",",".")+" "+row["lat_wgs1984"].replace(",",".")+")\"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .\n")
         triples.add("<"+str(cururi)+"_geom> <http://www.w3.org/2000/01/rdf-schema#label> \"\"\""+str(row["transc_name"]).replace("\"","'")+" Geometry\"\"\"@en .\n")
         triples.add("<"+str(cururi)+"_geom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/sf#Point> .\n")
-    return {"triples":triples,"refnotfound":refnotfound,"countrynotfound":countrynotfound,"wikidatacache":wikidatacache}
+    return {"triples":triples,"refnotfound":refnotfound,"countrynotfound":countrynotfound}
 
 with open('source/cigs.bib',encoding="utf-8") as bibtex_file:
     bib_database = bibtexparser.load(bibtex_file)
@@ -185,24 +185,14 @@ triples.add("<http://www.opengis.net/ont/geosparql#Geometry> <http://www.w3.org/
 triples.add("<http://www.wikidata.org/prop/direct/P1584> <http://www.w3.org/2000/01/rdf-schema#label> \"Pleiades ID\"@en .\n")
 triples.add("<http://www.wikidata.org/prop/direct/P11693> <http://www.w3.org/2000/01/rdf-schema#label> \"OpenStreetMap node ID\"@en .\n")
 triples.add("<http://www.wikidata.org/prop/direct/P1566> <http://www.w3.org/2000/01/rdf-schema#label> \"Geonames ID\"@en .\n")
-wikidatacache={}
-if os.path.exists("ap_wikidata.json"):
-    f = open('ap_wikidata.json')
-    wikidatacache = json.load(f)
-    f.close()
 refnotfound=set()
 countrynotfound=set()
 with open('source/cigs.csv', newline='', encoding="utf-8") as csvfile:
     reader = csv.DictReader(csvfile,delimiter=',')
-    res=parseCIGSFile(reader,triples,refnotfound,countrynotfound,wikidatacache,"<"+str(nsont)+"CuneiformSite>",bibmap,dsuri)
+    res=parseCIGSFile(reader,triples,refnotfound,countrynotfound,"<"+str(nsont)+"CuneiformSite>",bibmap,dsuri)
     triples=res["triples"]
     refnotfound=res["refnotfound"]
     countryfound=res["countrynotfound"]
-    wikidatacache=res["wikidatacache"]
-
-with open("ap_wikidata.json","w",encoding="utf-8") as resfilejs:
-    resfilejs.write(json.dumps(wikidatacache,indent=2))
-    resfilejs.close()
 
 with open("cigs_result.ttl","w",encoding="utf-8") as resfile:
     resfile.write("".join(triples))
