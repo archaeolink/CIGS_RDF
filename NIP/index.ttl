@@ -19,7 +19,7 @@
     ns1:accuracy "3"^^xsd:string ;
     ns1:cdli_provenience_id "22"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/NIP_geom> ;
-    owl:sameAs <http://wikidata.org/entity/Q188395> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q188395> ;
     skos:altLabel "Nippur"@ar ;
     ns2:P1566 <https://www.geonames.org/92882> ;
     ns2:P1584 <https://pleiades.stoa.org/places/912910> .

@@ -19,7 +19,7 @@
     ns2:accuracy "3"^^xsd:string ;
     ns2:cdli_provenience_id "131"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/UGA_geom> ;
-    owl:sameAs <http://wikidata.org/entity/Q191369> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q191369> ;
     skos:altLabel "Ugarit"@ar ;
     ns1:P1566 <https://www.geonames.org/165369> ;
     ns1:P1584 <https://pleiades.stoa.org/places/668295> .

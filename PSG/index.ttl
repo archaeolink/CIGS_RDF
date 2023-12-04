@@ -18,7 +18,7 @@
     ns2:accuracy "3"^^xsd:string ;
     ns2:cdli_provenience_id "198"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/PSG_geom> ;
-    owl:sameAs <http://wikidata.org/entity/Q230025> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q230025> ;
     ns1:P1566 <https://www.geonames.org/121340> ;
     ns1:P1584 <https://pleiades.stoa.org/places/922693> .
 

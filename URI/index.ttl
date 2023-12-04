@@ -19,7 +19,7 @@
     ns2:accuracy "3"^^xsd:string ;
     ns2:cdli_provenience_id "21"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/URI_geom> ;
-    owl:sameAs <http://wikidata.org/entity/Q5699> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5699> ;
     skos:altLabel "Ur"@ar ;
     ns1:P1566 <https://www.geonames.org/93199> ;
     ns1:P1584 <https://pleiades.stoa.org/places/912985> .

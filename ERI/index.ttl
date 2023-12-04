@@ -19,7 +19,7 @@
     ns1:accuracy "3"^^xsd:string ;
     ns1:cdli_provenience_id "59"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/ERI_geom> ;
-    owl:sameAs <http://wikidata.org/entity/Q210065> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q210065> ;
     skos:altLabel "Eridu"@ar ;
     ns2:P1566 <https://www.geonames.org/96834> ;
     ns2:P1584 <https://pleiades.stoa.org/places/912845> .

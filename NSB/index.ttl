@@ -18,5 +18,5 @@
     ns1:accuracy "3"^^xsd:string ;
     ns1:cdli_provenience_id "312"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/NSB_geom> ;
-    owl:sameAs <http://wikidata.org/entity/Q7697543> .
+    owl:sameAs <http://www.wikidata.org/entity/Q7697543> .
 

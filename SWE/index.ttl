@@ -17,5 +17,5 @@
     ns1:accuracy "3"^^xsd:string ;
     ns1:cdli_provenience_id "156"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/SWE_geom> ;
-    owl:sameAs <http://wikidata.org/entity/Q1986456> .
+    owl:sameAs <http://www.wikidata.org/entity/Q1986456> .
 

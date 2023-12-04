@@ -19,7 +19,7 @@
     ns2:accuracy "3"^^xsd:string ;
     ns2:cdli_provenience_id "276"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/HRD_geom> ;
-    owl:sameAs <http://wikidata.org/entity/Q3127717> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q3127717> ;
     skos:altLabel "Haradum"@ar ;
     ns1:P1584 <https://pleiades.stoa.org/places/894003> .
 

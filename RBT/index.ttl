@@ -18,6 +18,6 @@
     ns1:accuracy "3"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/RBT_geom> ;
-    owl:sameAs <http://wikidata.org/entity/Q4120177> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q4120177> ;
     ns2:P1566 <https://www.geonames.org/173053> .
 

@@ -19,7 +19,7 @@
     ns1:accuracy "3"^^xsd:string ;
     ns1:cdli_provenience_id "398"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/SMA_geom> ;
-    owl:sameAs <http://wikidata.org/entity/Q1757438> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1757438> ;
     ns2:P1566 <https://www.geonames.org/282107> ;
     ns2:P1584 <https://pleiades.stoa.org/places/678370> .
 

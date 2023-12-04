@@ -18,6 +18,6 @@
     ns1:accuracy "3"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/TSA_geom> ;
-    owl:sameAs <http://wikidata.org/entity/Q7403017> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q7403017> ;
     ns2:P1566 <https://www.geonames.org/164959> .
 

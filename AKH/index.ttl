@@ -19,7 +19,7 @@
     ns1:accuracy "3"^^xsd:string ;
     ns1:cdli_provenience_id "266"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/AKH_geom> ;
-    owl:sameAs <http://wikidata.org/entity/Q5736> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q5736> ;
     skos:altLabel "Akhetaten"@ar ;
     ns2:P1566 <https://www.geonames.org/12119893> ;
     ns2:P1584 <https://pleiades.stoa.org/places/149576487> .

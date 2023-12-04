@@ -19,7 +19,7 @@
     ns2:accuracy "3"^^xsd:string ;
     ns2:cdli_provenience_id "23"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/GUD_geom> ;
-    owl:sameAs <http://wikidata.org/entity/Q1096108> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q1096108> ;
     skos:altLabel "Gudua"@ar ;
     ns1:P1584 <https://pleiades.stoa.org/places/893977> .
 

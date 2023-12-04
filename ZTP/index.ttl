@@ -18,7 +18,7 @@
     ns1:accuracy "3"^^xsd:string ;
     ns1:cdli_provenience_id "244"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/ZTP_geom> ;
-    owl:sameAs <http://wikidata.org/entity/Q4819172> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q4819172> ;
     skos:altLabel "Tushhan"@ar ;
     ns2:P1566 <https://www.geonames.org/439817> .
 

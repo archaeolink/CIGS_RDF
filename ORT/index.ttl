@@ -18,7 +18,7 @@
     ns1:accuracy "3"^^xsd:string ;
     ns1:cdli_provenience_id "283"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/ORT_geom> ;
-    owl:sameAs <http://wikidata.org/entity/Q3620> ;
+    owl:sameAs <http://www.wikidata.org/entity/Q3620> ;
     skos:altLabel "Sapinuwa"@ar ;
     ns2:P1584 <https://pleiades.stoa.org/places/964671598> .
 
