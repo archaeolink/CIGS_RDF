@@ -4,12 +4,13 @@
 @prefix ns1: <http://www.wikidata.org/prop/direct/> .
 @prefix ns2: <http://www.ancientports.com/ont#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://data.archaeology.link/data/cigs/SUS> a ns2:CuneiformSite ;
+<http://data.archaeology.link/data/cigs/SUS> a ns2:CuneiformSite,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Shūsh"@en,
         "شوش"@fa ;
     dc:created "2021"^^xsd:gYear ;
@@ -18,8 +19,6 @@
     ns2:accuracy "3"^^xsd:string ;
     ns2:cdli_provenience_id "12"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/SUS_geom> ;
-    rdf: <http://www.w3.org/ns/ldp#Resource>,
-        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     owl:sameAs <http://entitydata.org/entity/Q180773> ;
     skos:altLabel "Susa"@ar ;
     ns1:P1566 <https://www.geonames.org/6687956> ;

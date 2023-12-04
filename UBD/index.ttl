@@ -4,11 +4,12 @@
 @prefix ns1: <http://www.ancientports.com/ont#> .
 @prefix ns2: <http://www.wikidata.org/prop/direct/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://data.archaeology.link/data/cigs/UBD> a ns1:CuneiformSite ;
+<http://data.archaeology.link/data/cigs/UBD> a ns1:CuneiformSite,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "تل العبيد"@ar,
         "Tall al-ʻUbaīd"@en ;
     dc:created "2021"^^xsd:gYear ;
@@ -17,8 +18,6 @@
     ns1:accuracy "3"^^xsd:string ;
     ns1:cdli_provenience_id "226"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/UBD_geom> ;
-    rdf: <http://www.w3.org/ns/ldp#Resource>,
-        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     owl:sameAs <http://entitydata.org/entity/Q1317854> ;
     ns2:P1584 <https://pleiades.stoa.org/places/339709658> .
 

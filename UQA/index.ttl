@@ -3,11 +3,12 @@
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
 @prefix ns1: <http://www.ancientports.com/ont#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://data.archaeology.link/data/cigs/UQA> a ns1:CuneiformSite ;
+<http://data.archaeology.link/data/cigs/UQA> a ns1:CuneiformSite,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "تل عقير"@ar,
         "Tall ʻUqair"@en ;
     dc:created "2021"^^xsd:gYear ;
@@ -16,7 +17,5 @@
     ns1:accuracy "3"^^xsd:string ;
     ns1:cdli_provenience_id "72"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/UQA_geom> ;
-    rdf: <http://www.w3.org/ns/ldp#Resource>,
-        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     owl:sameAs <http://entitydata.org/entity/Q1716909> .
 

@@ -1,13 +1,12 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-<http://data.archaeology.link/data/cigs/Person_collection> a skos:Collection ;
+<http://data.archaeology.link/data/cigs/Person_collection> a skos:Collection,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Person Instances Collection" ;
     dc:license <http://creativecommons.org/licenses/by/4.0> ;
-    rdf: <http://www.w3.org/ns/ldp#Resource>,
-        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:member <http://data.archaeology.link/data/cigs/author_Andersson_Jakob>,
         <http://data.archaeology.link/data/cigs/author_Johansson_Carolin>,
         <http://data.archaeology.link/data/cigs/author_Melin_Kronsell>,
