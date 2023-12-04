@@ -145,7 +145,7 @@ def parseCIGSFile(reader,triples,refnotfound,countrynotfound,wikidatacache,basec
         if "geonames_url" in row and row["geonames_url"]!="" and "http" in row["geonames_url"]:
             triples.add("<"+str(cururi)+"> <http://www.wikidata.org/prop/direct/P1566> <"+str(row["geonames_url"])+"> .\n <"+str(row["geonames_url"])+"> <http://www.w3.org/2000/01/rdf-schema#label> \""+str(row["geonames_url"])[str(row["geonames_url"]).rfind('/')+1:]+"\"@en .\n")
         if "wikidata_url" in row and row["wikidata_url"]!="":
-            triples.add("<"+str(cururi)+"> <http://www.w3.org/2002/07/owl#sameAs> <"+str(row["wikidata_url"]).replace("https:","http:").replace("wiki","entity")+"> .\n <"+str(row["wikidata_url"]).replace("https:","http:").replace("wiki","entity")+"> <http://www.w3.org/2000/01/rdf-schema#label> \""+str(row["wikidata_url"])[str(row["wikidata_url"]).rfind('/')+1:]+"\"@en .\n")
+            triples.add("<"+str(cururi)+"> <http://www.w3.org/2002/07/owl#sameAs> <"+str(row["wikidata_url"]).replace("https:","http:").replace("/wiki/","/entity/")+"> .\n <"+str(row["wikidata_url"]).replace("https:","http:").replace("/wiki/","/entity/")+"> <http://www.w3.org/2000/01/rdf-schema#label> \""+str(row["wikidata_url"])[str(row["wikidata_url"]).rfind('/')+1:]+"\"@en .\n")
         if "accuracy" in row and row["accuracy"].strip()!="":
             triples.add("<"+str(cururi)+"> <"+str(nsont)+"accuracy> \""+str(row["accuracy"])+"\"^^<http://www.w3.org/2001/XMLSchema#string> .\n")
         if "cdli_provenience_id" in row and row["cdli_provenience_id"].strip()!="":
