@@ -4099,7 +4099,7 @@ var tree={
         "id": "http://www.ancientports.com/ont#CuneiformSite",
         "parent": "http://www.opengis.net/ont/geosparql#Feature",
         "type": "halfgeoclass",
-        "text": "CuneiformSite (ns1:CuneiformSite) [579]",
+        "text": "CuneiformSite (ns5:CuneiformSite) [579]",
         "data": {
           "to": {
             "http://purl.org/dc/elements/1.1/created": {
@@ -4124,12 +4124,12 @@ var tree={
               "instancecount": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#label": {
-              "instancecount": 2
-            },
-            "http://www.w3.org/2002/07/owl#sameAs": {
-              "instancecount": 1
+              "instancecount": 3
             },
             "http://www.wikidata.org/prop/direct/P1566": {
+              "instancecount": 1
+            },
+            "http://www.wikidata.org/prop/direct/P1584": {
               "instancecount": 1
             }
           },
@@ -4140,7 +4140,7 @@ var tree={
             }
           }
         },
-        "instancecount": 10
+        "instancecount": 11
       },
       {
         "id": "http://www.opengis.net/ont/geosparql#Feature",
@@ -8476,14 +8476,13 @@ var tree={
               "instancecount": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 1,
-              "http://purl.org/ontology/bibo/Document": 1,
-              "http://www.w3.org/ns/dcat#Dataset": 1
+              "instancecount": 6,
+              "http://xmlns.com/foaf/0.1/Person": 6
             }
           },
           "from": {}
         },
-        "instancecount": 3
+        "instancecount": 8
       },
       {
         "id": "http://www.opengis.net/ont/geosparql#SpatialObject",
