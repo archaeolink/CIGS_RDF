@@ -4124,12 +4124,12 @@ var tree={
               "instancecount": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#label": {
-              "instancecount": 3
+              "instancecount": 2
             },
-            "http://www.wikidata.org/prop/direct/P1566": {
+            "http://www.w3.org/2002/07/owl#sameAs": {
               "instancecount": 1
             },
-            "http://www.wikidata.org/prop/direct/P1584": {
+            "http://www.wikidata.org/prop/direct/P1566": {
               "instancecount": 1
             }
           },
@@ -4140,7 +4140,7 @@ var tree={
             }
           }
         },
-        "instancecount": 11
+        "instancecount": 10
       },
       {
         "id": "http://www.opengis.net/ont/geosparql#Feature",
@@ -8476,13 +8476,14 @@ var tree={
               "instancecount": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 6,
-              "http://xmlns.com/foaf/0.1/Person": 6
+              "instancecount": 1,
+              "http://purl.org/ontology/bibo/Document": 1,
+              "http://www.w3.org/ns/dcat#Dataset": 1
             }
           },
           "from": {}
         },
-        "instancecount": 8
+        "instancecount": 3
       },
       {
         "id": "http://www.opengis.net/ont/geosparql#SpatialObject",
