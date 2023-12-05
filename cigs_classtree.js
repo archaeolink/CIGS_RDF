@@ -4126,7 +4126,7 @@ var tree={
             "http://www.w3.org/2000/01/rdf-schema#label": {
               "instancecount": 2
             },
-            "http://www.w3.org/2004/02/skos/core#altLabel": {
+            "http://www.w3.org/2002/07/owl#sameAs": {
               "instancecount": 1
             },
             "http://www.wikidata.org/prop/direct/P1566": {
