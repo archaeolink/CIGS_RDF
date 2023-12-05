@@ -610,7 +610,7 @@
         <http://data.archaeology.link/data/cigs/author_Rattenborg_Rune>,
         <http://data.archaeology.link/data/cigs/author_Smidt_Gustav_Ryberg> .
 
-<http://data.archaeology.link/data/cigs/Point_collection> a geo:GeometryCollection ;
+<http://data.archaeology.link/data/cigs/Point_collection> a skos:Collection ;
     rdfs:label "Point Instances Collection" ;
     rdfs:member <http://data.archaeology.link/data/cigs/ADA_geom>,
         <http://data.archaeology.link/data/cigs/ADB_geom>,
@@ -7789,8 +7789,7 @@
     geo:asWKT "POINT(41.3538 39.9056)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/cigs/HAI_geom> a <http://www.opengis.net/ont/sf#Point> ;
-    rdfs:label " Geometry"@en ;
-    geo:asWKT "POINT( )"^^geo:wktLiteral .
+    rdfs:label " Geometry"@en .
 
 <http://data.archaeology.link/data/cigs/HAL_geom> a <http://www.opengis.net/ont/sf#Point> ;
     rdfs:label "Halicarnassos Geometry"@en ;
@@ -8517,8 +8516,7 @@
     geo:asWKT "POINT(47.9761 34.6527)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/cigs/NKH_geom> a <http://www.opengis.net/ont/sf#Point> ;
-    rdfs:label " Geometry"@en ;
-    geo:asWKT "POINT( )"^^geo:wktLiteral .
+    rdfs:label " Geometry"@en .
 
 <http://data.archaeology.link/data/cigs/NKM_geom> a <http://www.opengis.net/ont/sf#Point> ;
     rdfs:label "Новый Кумак Geometry"@en ;
@@ -8781,8 +8779,7 @@
     geo:asWKT "POINT(35.5030 32.5046)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/cigs/SEC_geom> a <http://www.opengis.net/ont/sf#Point> ;
-    rdfs:label " Geometry"@en ;
-    geo:asWKT "POINT( )"^^geo:wktLiteral .
+    rdfs:label " Geometry"@en .
 
 <http://data.archaeology.link/data/cigs/SEL_geom> a <http://www.opengis.net/ont/sf#Point> ;
     rdfs:label "Silūqīah Geometry"@en ;
@@ -8801,8 +8798,7 @@
     geo:asWKT "POINT(45.9672 31.2946)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/cigs/SHA_geom> a <http://www.opengis.net/ont/sf#Point> ;
-    rdfs:label " Geometry"@en ;
-    geo:asWKT "POINT( )"^^geo:wktLiteral .
+    rdfs:label " Geometry"@en .
 
 <http://data.archaeology.link/data/cigs/SHD_geom> a <http://www.opengis.net/ont/sf#Point> ;
     rdfs:label "Shahdād Geometry"@en ;
@@ -8869,8 +8865,7 @@
     geo:asWKT "POINT(35.5779 30.7823)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/cigs/SLB_geom> a <http://www.opengis.net/ont/sf#Point> ;
-    rdfs:label "Tall Abū Ṣālabīkh Geometry"@en ;
-    geo:asWKT "POINT( )"^^geo:wktLiteral .
+    rdfs:label "Tall Abū Ṣālabīkh Geometry"@en .
 
 <http://data.archaeology.link/data/cigs/SLG_geom> a <http://www.opengis.net/ont/sf#Point> ;
     rdfs:label "Tas-Silġ Geometry"@en ;
@@ -9049,8 +9044,7 @@
     geo:asWKT "POINT(41.1660 36.8160)"^^geo:wktLiteral .
 
 <http://data.archaeology.link/data/cigs/TDW_geom> a <http://www.opengis.net/ont/sf#Point> ;
-    rdfs:label " Geometry"@en ;
-    geo:asWKT "POINT( )"^^geo:wktLiteral .
+    rdfs:label " Geometry"@en .
 
 <http://data.archaeology.link/data/cigs/TEG_geom> a <http://www.opengis.net/ont/sf#Point> ;
     rdfs:label "Tūl-i Gīlān Geometry"@en ;
