@@ -150,7 +150,8 @@ def parseCIGSFile(reader,triples,refnotfound,countrynotfound,baseclass,bibmap,ds
             triples.add("<"+str(cururi)+"> <"+str(nsont)+"accuracy> \""+str(row["accuracy"])+"\"^^<http://www.w3.org/2001/XMLSchema#string> .\n")
         if "cdli_provenience_id" in row and row["cdli_provenience_id"].strip()!="":
             triples.add("<"+str(cururi)+"> <"+str(nsont)+"cdli_provenience_id> \""+str(row["cdli_provenience_id"])+"\"^^<http://www.w3.org/2001/XMLSchema#string> .\n") 
-        triples.add("<"+str(cururi)+"_geom> <http://www.opengis.net/ont/geosparql#asWKT> \"POINT("+row["lon_wgs1984"].replace(",",".")+" "+row["lat_wgs1984"].replace(",",".")+")\"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .\n")
+        if row["lon_wgs1984"]!="" and row["lat_wgs1984"]!="":
+            triples.add("<"+str(cururi)+"_geom> <http://www.opengis.net/ont/geosparql#asWKT> \"POINT("+row["lon_wgs1984"].replace(",",".")+" "+row["lat_wgs1984"].replace(",",".")+")\"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .\n")
         triples.add("<"+str(cururi)+"_geom> <http://www.w3.org/2000/01/rdf-schema#label> \"\"\""+str(row["transc_name"]).replace("\"","'")+" Geometry\"\"\"@en .\n")
         triples.add("<"+str(cururi)+"_geom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/sf#Point> .\n")
     return {"triples":triples,"refnotfound":refnotfound,"countrynotfound":countrynotfound}
