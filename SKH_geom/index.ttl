@@ -2,9 +2,7 @@
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-<http://data.archaeology.link/data/cigs/SKH_geom> a <http://www.opengis.net/ont/sf#Point>,
-        <http://www.w3.org/ns/ldp#Resource>,
-        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+<http://data.archaeology.link/data/cigs/SKH_geom> a <http://www.opengis.net/ont/sf#Point> ;
     rdfs:label "Tall Sharīf Khān Geometry"@en ;
     dc:license <http://creativecommons.org/licenses/by/4.0> ;
     geo:asWKT "POINT(43.0774 36.4089)"^^geo:wktLiteral .

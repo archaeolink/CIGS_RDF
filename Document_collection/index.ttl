@@ -2,9 +2,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-<http://data.archaeology.link/data/cigs/Document_collection> a skos:Collection,
-        <http://www.w3.org/ns/ldp#Resource>,
-        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+<http://data.archaeology.link/data/cigs/Document_collection> a skos:Collection ;
     rdfs:label "Document Instances Collection" ;
     dc:license <http://creativecommons.org/licenses/by/4.0> ;
     rdfs:member <http://data.archaeology.link/data/cigs/bib_rattenborg_rune_2021_7330077> .
