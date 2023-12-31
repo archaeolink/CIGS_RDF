@@ -42,7 +42,7 @@ var relativedepth=0</script><body><div id="header"><h1 id="title"><a href="https
     var baselayers={"OpenStreetMap (OSM)": {"url": "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", "default": true, "type": "tile"}}
     var featurecolls = ["nonns_298387.geojson"]
     var ajax=true
-    var epsg="{{epsg}}"
+    var epsg="EPSG:4326"
     var dateatt=""
     var map = L.map('map',{fullscreenControl: true,fullscreenControlOptions: {position: 'topleft'}}).setView([51.505, -0.09], 13);
     var baseMaps = {};

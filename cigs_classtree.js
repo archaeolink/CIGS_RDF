@@ -4124,7 +4124,7 @@ var tree={
               "instancecount": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#label": {
-              "instancecount": 1
+              "instancecount": 2
             }
           },
           "from": {
@@ -4134,7 +4134,7 @@ var tree={
             }
           }
         },
-        "instancecount": 7
+        "instancecount": 8
       },
       {
         "id": "http://www.opengis.net/ont/geosparql#Feature",
@@ -8373,7 +8373,7 @@ var tree={
       {
         "id": "http://data.archaeology.link/data/cigs/CuneiformSite_collection",
         "parent": "http://www.opengis.net/ont/geosparql#FeatureCollection",
-        "type": "featurecollection",
+        "type": "instance",
         "text": "CuneiformSite Instances Collection (CuneiformSite_collection)",
         "data": {}
       },
@@ -8448,14 +8448,13 @@ var tree={
               "instancecount": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 1,
-              "http://purl.org/ontology/bibo/Document": 1,
-              "http://www.w3.org/ns/dcat#Dataset": 1
+              "instancecount": 6,
+              "http://xmlns.com/foaf/0.1/Person": 6
             }
           },
           "from": {}
         },
-        "instancecount": 3
+        "instancecount": 9
       },
       {
         "id": "http://www.opengis.net/ont/geosparql#SpatialObject",
