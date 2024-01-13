@@ -4124,6 +4124,12 @@ var tree={
               "instancecount": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#label": {
+              "instancecount": 2
+            },
+            "http://www.wikidata.org/prop/direct/P1566": {
+              "instancecount": 1
+            },
+            "http://www.wikidata.org/prop/direct/P1584": {
               "instancecount": 1
             }
           },
@@ -4134,7 +4140,7 @@ var tree={
             }
           }
         },
-        "instancecount": 7
+        "instancecount": 10
       },
       {
         "id": "http://www.opengis.net/ont/geosparql#Feature",
@@ -8448,13 +8454,13 @@ var tree={
               "instancecount": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 6,
-              "http://xmlns.com/foaf/0.1/Person": 6
+              "instancecount": 579,
+              "http://www.opengis.net/ont/sf#Point": 579
             }
           },
           "from": {}
         },
-        "instancecount": 9
+        "instancecount": 582
       },
       {
         "id": "http://www.opengis.net/ont/geosparql#SpatialObject",
