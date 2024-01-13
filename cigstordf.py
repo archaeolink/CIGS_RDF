@@ -113,7 +113,7 @@ def processReference(triples,bibmap,key,row,cururi):
         triples.add("<"+str(cururi)+"> <http://www.w3.org/2004/02/skos/core#note> \"\"\""+row[key]+"\"\"\" .\n")
     return triples
 
-def parseCIGSFile(reader,triples,refnotfound,countrynotfound,wikidatacache,baseclass,bibmap,dsuri=None):
+def parseCIGSFile(reader,triples,refnotfound,countrynotfound,baseclass,bibmap,dsuri=None):
     for row in reader:
         #print(row)
         cururi=ns+row["site_id"].replace(",","_")
@@ -124,7 +124,20 @@ def parseCIGSFile(reader,triples,refnotfound,countrynotfound,wikidatacache,basec
         triples.add("<"+str(cururi)+"> <http://purl.org/dc/elements/1.1/created> \"2021\"^^<http://www.w3.org/2001/XMLSchema#gYear> .\n")
         triples.add("<"+str(cururi)+"> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> "+str(baseclass)+" .\n")
         triples.add("<"+str(cururi)+"> <http://www.w3.org/2000/01/rdf-schema#label> \"\"\""+str(row["transc_name"]).replace("\"","'")+"\"\"\"@en .\n")
-        triples.add("<"+str(cururi)+"> <http://www.w3.org/2000/01/rdf-schema#label> \"\"\""+str(row["ara_name"]).replace("\"","'")+"\"\"\"@am .\n")
+        if str(row["anc_name"]).strip()!="":
+            triples.add("<"+str(cururi)+"> <http://www.w3.org/2004/02/skos/core#altLabel> \"\"\""+str(row["anc_name"]).replace("\"","'")+"\"\"\"@ar .\n")
+        if str(row["ara_name"]).strip()!="":
+            triples.add("<"+str(cururi)+"> <http://www.w3.org/2000/01/rdf-schema#label> \"\"\""+str(row["ara_name"]).replace("\"","'")+"\"\"\"@ar .\n")
+        if str(row["arm_name"]).strip()!="":
+            triples.add("<"+str(cururi)+"> <http://www.w3.org/2000/01/rdf-schema#label> \"\"\""+str(row["ara_name"]).replace("\"","'")+"\"\"\"@arc .\n")
+        if str(row["fas_name"]).strip()!="":
+            triples.add("<"+str(cururi)+"> <http://www.w3.org/2000/01/rdf-schema#label> \"\"\""+str(row["fas_name"]).replace("\"","'")+"\"\"\"@fa .\n")
+        if str(row["gre_name"]).strip()!="":
+            triples.add("<"+str(cururi)+"> <http://www.w3.org/2000/01/rdf-schema#label> \"\"\""+str(row["gre_name"]).replace("\"","'")+"\"\"\"@el .\n")
+        if str(row["heb_name"]).strip()!="":
+            triples.add("<"+str(cururi)+"> <http://www.w3.org/2000/01/rdf-schema#label> \"\"\""+str(row["heb_name"]).replace("\"","'")+"\"\"\"@he .\n")
+        if str(row["rus_name"]).strip()!="":
+            triples.add("<"+str(cururi)+"> <http://www.w3.org/2000/01/rdf-schema#label> \"\"\""+str(row["rus_name"]).replace("\"","'")+"\"\"\"@ru .\n")
         if dsuri!=None:
             triples.add("<"+str(cururi)+"> <http://purl.org/dc/terms/partOf> <"+str(dsuri)+"> .\n")
         if "openstreetmap_url" in row and row["openstreetmap_url"]!="" and "http" in row["openstreetmap_url"]:
@@ -134,13 +147,16 @@ def parseCIGSFile(reader,triples,refnotfound,countrynotfound,wikidatacache,basec
         if "geonames_url" in row and row["geonames_url"]!="" and "http" in row["geonames_url"]:
             triples.add("<"+str(cururi)+"> <http://www.wikidata.org/prop/direct/P1566> <"+str(row["geonames_url"])+"> .\n <"+str(row["geonames_url"])+"> <http://www.w3.org/2000/01/rdf-schema#label> \""+str(row["geonames_url"])[str(row["geonames_url"]).rfind('/')+1:]+"\"@en .\n")
         if "wikidata_url" in row and row["wikidata_url"]!="":
-            triples.add("<"+str(cururi)+"> <http://www.w3.org/2002/07/owl#sameAs> <"+str(row["wikidata_url"]).replace("https:","http:").replace("wiki","entity")+"> .\n <"+str(row["wikidata_url"]).replace("https:","http:").replace("wiki","entity")+"> <http://www.w3.org/2000/01/rdf-schema#label> \""+str(row["wikidata_url"])[str(row["wikidata_url"]).rfind('/')+1:]+"\"@en .\n")
+            triples.add("<"+str(cururi)+"> <http://www.w3.org/2002/07/owl#sameAs> <"+str(row["wikidata_url"]).replace("https://wikidata.org","http://www.wikidata.org").replace("/wiki/","/entity/")+"> .\n <"+str(row["wikidata_url"]).replace("https://wikidata.org","http://www.wikidata.org").replace("/wiki/","/entity/")+"> <http://www.w3.org/2000/01/rdf-schema#label> \""+str(row["wikidata_url"])[str(row["wikidata_url"]).rfind('/')+1:]+"\"@en .\n")
         if "accuracy" in row and row["accuracy"].strip()!="":
             triples.add("<"+str(cururi)+"> <"+str(nsont)+"accuracy> \""+str(row["accuracy"])+"\"^^<http://www.w3.org/2001/XMLSchema#string> .\n")
-        triples.add("<"+str(cururi)+"_geom> <http://www.opengis.net/ont/geosparql#asWKT> \"POINT("+row["lon_wgs1984"].replace(",",".")+" "+row["lat_wgs1984"].replace(",",".")+")\"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .\n")
+        if "cdli_provenience_id" in row and row["cdli_provenience_id"].strip()!="":
+            triples.add("<"+str(cururi)+"> <"+str(nsont)+"cdli_provenience_id> \""+str(row["cdli_provenience_id"])+"\"^^<http://www.w3.org/2001/XMLSchema#string> .\n") 
+        if row["lon_wgs1984"]!="" and row["lat_wgs1984"]!="":
+            triples.add("<"+str(cururi)+"_geom> <http://www.opengis.net/ont/geosparql#asWKT> \"POINT("+row["lon_wgs1984"].replace(",",".")+" "+row["lat_wgs1984"].replace(",",".")+")\"^^<http://www.opengis.net/ont/geosparql#wktLiteral> .\n")
         triples.add("<"+str(cururi)+"_geom> <http://www.w3.org/2000/01/rdf-schema#label> \"\"\""+str(row["transc_name"]).replace("\"","'")+" Geometry\"\"\"@en .\n")
         triples.add("<"+str(cururi)+"_geom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.opengis.net/ont/sf#Point> .\n")
-    return {"triples":triples,"refnotfound":refnotfound,"countrynotfound":countrynotfound,"wikidatacache":wikidatacache}
+    return {"triples":triples,"refnotfound":refnotfound,"countrynotfound":countrynotfound}
 
 with open('source/cigs.bib',encoding="utf-8") as bibtex_file:
     bib_database = bibtexparser.load(bibtex_file)
@@ -172,24 +188,14 @@ triples.add("<http://www.opengis.net/ont/geosparql#Geometry> <http://www.w3.org/
 triples.add("<http://www.wikidata.org/prop/direct/P1584> <http://www.w3.org/2000/01/rdf-schema#label> \"Pleiades ID\"@en .\n")
 triples.add("<http://www.wikidata.org/prop/direct/P11693> <http://www.w3.org/2000/01/rdf-schema#label> \"OpenStreetMap node ID\"@en .\n")
 triples.add("<http://www.wikidata.org/prop/direct/P1566> <http://www.w3.org/2000/01/rdf-schema#label> \"Geonames ID\"@en .\n")
-wikidatacache={}
-if os.path.exists("ap_wikidata.json"):
-    f = open('ap_wikidata.json')
-    wikidatacache = json.load(f)
-    f.close()
 refnotfound=set()
 countrynotfound=set()
 with open('source/cigs.csv', newline='', encoding="utf-8") as csvfile:
     reader = csv.DictReader(csvfile,delimiter=',')
-    res=parseCIGSFile(reader,triples,refnotfound,countrynotfound,wikidatacache,"<"+str(nsont)+"CuneiformSite>",bibmap,dsuri)
+    res=parseCIGSFile(reader,triples,refnotfound,countrynotfound,"<"+str(nsont)+"CuneiformSite>",bibmap,dsuri)
     triples=res["triples"]
     refnotfound=res["refnotfound"]
     countryfound=res["countrynotfound"]
-    wikidatacache=res["wikidatacache"]
-
-with open("ap_wikidata.json","w",encoding="utf-8") as resfilejs:
-    resfilejs.write(json.dumps(wikidatacache,indent=2))
-    resfilejs.close()
 
 with open("cigs_result.ttl","w",encoding="utf-8") as resfile:
     resfile.write("".join(triples))
