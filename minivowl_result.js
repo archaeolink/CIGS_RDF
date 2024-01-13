@@ -49,13 +49,6 @@ var minivowlresult={
  "links": [
   {
    "source": 0,
-   "target": 3,
-   "valueTo": "hasGeometry",
-   "propertyTo": "class",
-   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
-  },
-  {
-   "source": 0,
    "target": 7,
    "valueTo": "partOf",
    "propertyTo": "class",
@@ -81,6 +74,13 @@ var minivowlresult={
    "valueTo": "creator",
    "propertyTo": "class",
    "uriTo": "http://purl.org/dc/elements/1.1/creator"
+  },
+  {
+   "source": 0,
+   "target": 3,
+   "valueTo": "hasGeometry",
+   "propertyTo": "class",
+   "uriTo": "http://www.opengis.net/ont/geosparql#hasGeometry"
   }
  ]
 }
