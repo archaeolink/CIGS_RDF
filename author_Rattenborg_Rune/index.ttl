@@ -1,13 +1,12 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
 <http://data.archaeology.link/data/cigs/author_Rattenborg_Rune> a <http://www.w3.org/ns/ldp#Resource>,
         foaf:Person,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Rattenborg, Rune"@en ;
     dc:license <http://creativecommons.org/licenses/by/4.0> ;
-    skos:familyName "Rattenborg"@en ;
-    skos:firstName "Rune"@en .
+    foaf:familyName "Rattenborg"@en ;
+    foaf:firstName "Rune"@en .
 

@@ -12896,48 +12896,48 @@
         <http://www.w3.org/ns/ldp#Resource>,
         foaf:Person ;
     rdfs:label "Andersson, Jakob"@en ;
-    skos:familyName "Andersson"@en ;
-    skos:firstName "Jakob"@en .
+    foaf:familyName "Andersson"@en ;
+    foaf:firstName "Jakob"@en .
 
 <http://data.archaeology.link/data/cigs/author_Johansson_Carolin> a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
         foaf:Person ;
     rdfs:label "Johansson, Carolin"@en ;
-    skos:familyName "Johansson"@en ;
-    skos:firstName "Carolin"@en .
+    foaf:familyName "Johansson"@en ;
+    foaf:firstName "Carolin"@en .
 
 <http://data.archaeology.link/data/cigs/author_Melin_Kronsell> a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
         foaf:Person ;
     rdfs:label "Melin, Kronsell"@en ;
-    skos:familyName "Melin"@en ;
-    skos:firstName "Kronsell"@en .
+    foaf:familyName "Melin"@en ;
+    foaf:firstName "Kronsell"@en .
 
 <http://data.archaeology.link/data/cigs/author_Nett_Seraina> a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
         foaf:Person ;
     rdfs:label "Nett, Seraina"@en ;
-    skos:familyName "Nett"@en ;
-    skos:firstName "Seraina"@en .
+    foaf:familyName "Nett"@en ;
+    foaf:firstName "Seraina"@en .
 
 <http://data.archaeology.link/data/cigs/author_Rattenborg_Rune> a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
         foaf:Person ;
     rdfs:label "Rattenborg, Rune"@en ;
-    skos:familyName "Rattenborg"@en ;
-    skos:firstName "Rune"@en .
+    foaf:familyName "Rattenborg"@en ;
+    foaf:firstName "Rune"@en .
 
 <http://data.archaeology.link/data/cigs/author_Smidt_Gustav_Ryberg> a <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource>,
         foaf:Person ;
     rdfs:label "Smidt, Gustav Ryberg"@en ;
-    skos:familyName "Smidt"@en ;
-    skos:firstName "Gustav Ryberg"@en .
+    foaf:familyName "Smidt"@en ;
+    foaf:firstName "Gustav Ryberg"@en .
 
 <http://data.archaeology.link/data/cigs/bib_rattenborg_rune_2021_7330077> a ns3:Document,
         dcat:Dataset,

@@ -4124,7 +4124,7 @@ var tree={
               "instancecount": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#label": {
-              "instancecount": 2
+              "instancecount": 1
             }
           },
           "from": {
@@ -4134,7 +4134,7 @@ var tree={
             }
           }
         },
-        "instancecount": 8
+        "instancecount": 7
       },
       {
         "id": "http://www.opengis.net/ont/geosparql#Feature",
@@ -8288,10 +8288,10 @@ var tree={
             "http://www.w3.org/2000/01/rdf-schema#label": {
               "instancecount": 1
             },
-            "http://www.w3.org/2004/02/skos/core#familyName": {
+            "http://xmlns.com/foaf/0.1/familyName": {
               "instancecount": 1
             },
-            "http://www.w3.org/2004/02/skos/core#firstName": {
+            "http://xmlns.com/foaf/0.1/firstName": {
               "instancecount": 1
             }
           },
@@ -8448,14 +8448,13 @@ var tree={
               "instancecount": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 1,
-              "http://purl.org/ontology/bibo/Document": 1,
-              "http://www.w3.org/ns/dcat#Dataset": 1
+              "instancecount": 6,
+              "http://xmlns.com/foaf/0.1/Person": 6
             }
           },
           "from": {}
         },
-        "instancecount": 4
+        "instancecount": 9
       },
       {
         "id": "http://www.opengis.net/ont/geosparql#SpatialObject",
