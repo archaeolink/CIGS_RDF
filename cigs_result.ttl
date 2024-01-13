@@ -7666,32 +7666,32 @@ ns5:P1584 rdfs:label "Pleiades ID"@en .
 
 <http://data.archaeology.link/data/cigs/author_Andersson_Jakob> a ns6:Person ;
     rdfs:label "Andersson, Jakob"@en ;
-    ns6:family_Name "Andersson"@en ;
+    ns6:familyName "Andersson"@en ;
     ns6:firstName "Jakob"@en .
 
 <http://data.archaeology.link/data/cigs/author_Johansson_Carolin> a ns6:Person ;
     rdfs:label "Johansson, Carolin"@en ;
-    ns6:family_Name "Johansson"@en ;
+    ns6:familyName "Johansson"@en ;
     ns6:firstName "Carolin"@en .
 
 <http://data.archaeology.link/data/cigs/author_Melin_Kronsell> a ns6:Person ;
     rdfs:label "Melin, Kronsell"@en ;
-    ns6:family_Name "Melin"@en ;
+    ns6:familyName "Melin"@en ;
     ns6:firstName "Kronsell"@en .
 
 <http://data.archaeology.link/data/cigs/author_Nett_Seraina> a ns6:Person ;
     rdfs:label "Nett, Seraina"@en ;
-    ns6:family_Name "Nett"@en ;
+    ns6:familyName "Nett"@en ;
     ns6:firstName "Seraina"@en .
 
 <http://data.archaeology.link/data/cigs/author_Rattenborg_Rune> a ns6:Person ;
     rdfs:label "Rattenborg, Rune"@en ;
-    ns6:family_Name "Rattenborg"@en ;
+    ns6:familyName "Rattenborg"@en ;
     ns6:firstName "Rune"@en .
 
 <http://data.archaeology.link/data/cigs/author_Smidt_Gustav_Ryberg> a ns6:Person ;
     rdfs:label "Smidt, Gustav Ryberg"@en ;
-    ns6:family_Name "Smidt"@en ;
+    ns6:familyName "Smidt"@en ;
     ns6:firstName "Gustav Ryberg"@en .
 
 <http://entitydata.org/entity/Q1025825> rdfs:label "Q1025825"@en .

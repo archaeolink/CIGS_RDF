@@ -26,6 +26,8 @@ def bibtexToRDF(triples,entries,ns,nsont,creatormode=None):
         if creatormode!=None:
            triples.add("<"+ns+"bib_"+str(entry["ID"])+"> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/dcat#Dataset> .\n")
            dsuri=ns+"bib_"+str(entry["ID"])
+        else:
+            triples.add("<"+ns+"bib_"+str(entry["ID"])+"> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <"+str(typeToURI[entry["ENTRYTYPE"]])+"> .\n")
         triples.add("<"+ns+"bib_"+str(entry["ID"])+"> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <"+str(typeToURI[entry["ENTRYTYPE"]])+"> .\n")
         triples.add("<"+ns+"bib_"+str(entry["ID"])+"> <http://purl.org/dc/elements/1.1/title> \""+str(entry["title"]).replace("\"","'")+"\"@en .\n") 
         if "issn" in entry:
@@ -67,7 +69,7 @@ def bibtexToRDF(triples,entries,ns,nsont,creatormode=None):
                     authoruri=authoruri.strip()
                     triples.add("<"+ns+"author_"+str(authoruri)+"> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .\n")
                     triples.add("<"+ns+"author_"+str(authoruri)+"> <http://www.w3.org/2000/01/rdf-schema#label> \""+str(author).strip()+"\"@en .\n")
-                    triples.add("<"+ns+"author_"+str(authoruri)+"> <http://xmlns.com/foaf/0.1/family_Name> \""+str(author)[0:str(author).rfind(',')].strip()+"\"@en .\n")
+                    triples.add("<"+ns+"author_"+str(authoruri)+"> <http://xmlns.com/foaf/0.1/familyName> \""+str(author)[0:str(author).rfind(',')].strip()+"\"@en .\n")
                     triples.add("<"+ns+"author_"+str(authoruri)+"> <http://xmlns.com/foaf/0.1/firstName> \""+str(author)[str(author).rfind(',')+1:].strip()+"\"@en .\n")
                     triples.add("<"+ns+"bib_"+str(entry["ID"])+"> <http://purl.org/dc/elements/1.1/creator> <"+ns+"author_"+str(authoruri)+"> .\n")
         else:
