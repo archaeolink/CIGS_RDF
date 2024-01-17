@@ -5,7 +5,8 @@
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
 @prefix ns1: <http://www.ancientports.com/ont#> .
 @prefix ns2: <http://www.wikidata.org/prop/direct/> .
-@prefix ns3: <http://purl.org/ontology/bibo/> .
+@prefix ns3: <http://www.w3.org/2006/vcard/ns#> .
+@prefix ns4: <http://purl.org/ontology/bibo/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
@@ -15,7 +16,7 @@
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
-    rdfs:label "CuneiformSite Instances Collection" ;
+    rdfs:label "CuneiformSite Instances Collection"@en ;
     rdfs:member <http://data.archaeology.link/data/cigs/ADA>,
         <http://data.archaeology.link/data/cigs/ADB>,
         <http://data.archaeology.link/data/cigs/ADH>,
@@ -596,26 +597,26 @@
         <http://data.archaeology.link/data/cigs/ZVA>,
         <http://data.archaeology.link/data/cigs/ZWY> .
 
-<http://data.archaeology.link/data/cigs/Dataset_collection> a skos:Collection,
+<http://data.archaeology.link/data/cigs/Dataset_collection> a <http://www.w3.org/ns/ldp#BasicContainer>,
+        <http://www.w3.org/ns/ldp#Container>,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <http://www.w3.org/ns/lemon/lime#Catalog> ;
+    rdfs:label "Dataset Instances Collection"@en ;
+    dcat:dataset <http://data.archaeology.link/data/cigs/bib_rattenborg_rune_2021_7330077> .
+
+<http://data.archaeology.link/data/cigs/Document_collection> a ns4:Collection,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
-    rdfs:label "Dataset Instances Collection" ;
+    rdfs:label "Document Instances Collection"@en ;
     rdfs:member <http://data.archaeology.link/data/cigs/bib_rattenborg_rune_2021_7330077> .
 
-<http://data.archaeology.link/data/cigs/Document_collection> a skos:Collection,
+<http://data.archaeology.link/data/cigs/Person_collection> a ns3:Group,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
-    rdfs:label "Document Instances Collection" ;
-    rdfs:member <http://data.archaeology.link/data/cigs/bib_rattenborg_rune_2021_7330077> .
-
-<http://data.archaeology.link/data/cigs/Person_collection> a skos:Collection,
-        <http://www.w3.org/ns/ldp#BasicContainer>,
-        <http://www.w3.org/ns/ldp#Container>,
-        <http://www.w3.org/ns/ldp#Resource> ;
-    rdfs:label "Person Instances Collection" ;
-    rdfs:member <http://data.archaeology.link/data/cigs/author_Andersson_Jakob>,
+    rdfs:label "Person Instances Collection"@en ;
+    ns3:hasMember <http://data.archaeology.link/data/cigs/author_Andersson_Jakob>,
         <http://data.archaeology.link/data/cigs/author_Johansson_Carolin>,
         <http://data.archaeology.link/data/cigs/author_Melin_Kronsell>,
         <http://data.archaeology.link/data/cigs/author_Nett_Seraina>,
@@ -626,7 +627,7 @@
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
-    rdfs:label "Point Instances Collection" ;
+    rdfs:label "Point Instances Collection"@en ;
     rdfs:member <http://data.archaeology.link/data/cigs/ADA_geom>,
         <http://data.archaeology.link/data/cigs/ADB_geom>,
         <http://data.archaeology.link/data/cigs/ADH_geom>,
@@ -12939,7 +12940,7 @@
     foaf:familyName "Smidt"@en ;
     foaf:firstName "Gustav Ryberg"@en .
 
-<http://data.archaeology.link/data/cigs/bib_rattenborg_rune_2021_7330077> a ns3:Document,
+<http://data.archaeology.link/data/cigs/bib_rattenborg_rune_2021_7330077> a ns4:Document,
         dcat:Dataset,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
@@ -12953,5 +12954,5 @@
         <http://data.archaeology.link/data/cigs/author_Smidt_Gustav_Ryberg> ;
     dc:title "Cuneiform Inscriptions Geographical Site Index (CIGS)"@en ;
     dcterms:publisher "Zenodo" ;
-    ns3:doi "10.5281/zenodo.7330077"^^xsd:string .
+    ns4:doi "10.5281/zenodo.7330077"^^xsd:string .
 

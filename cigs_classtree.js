@@ -4126,6 +4126,9 @@ var tree={
             "http://www.w3.org/2000/01/rdf-schema#label": {
               "instancecount": 2
             },
+            "http://www.w3.org/2002/07/owl#sameAs": {
+              "instancecount": 1
+            },
             "http://www.wikidata.org/prop/direct/P1566": {
               "instancecount": 1
             },
@@ -4140,7 +4143,7 @@ var tree={
             }
           }
         },
-        "instancecount": 10
+        "instancecount": 11
       },
       {
         "id": "http://www.opengis.net/ont/geosparql#Feature",
@@ -8307,9 +8310,9 @@ var tree={
               "http://purl.org/ontology/bibo/Document": 1,
               "http://www.w3.org/ns/dcat#Dataset": 1
             },
-            "http://www.w3.org/2000/01/rdf-schema#member": {
+            "http://www.w3.org/2006/vcard/ns#hasMember": {
               "instancecount": 0,
-              "http://www.w3.org/2004/02/skos/core#Collection": 1
+              "http://www.w3.org/2006/vcard/ns#Group": 1
             }
           }
         },
@@ -8370,7 +8373,11 @@ var tree={
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 0,
-              "http://www.w3.org/2004/02/skos/core#Collection": 2
+              "http://purl.org/ontology/bibo/Collection": 1
+            },
+            "http://www.w3.org/ns/dcat#dataset": {
+              "instancecount": 0,
+              "http://www.w3.org/ns/lemon/lime#Catalog": 1
             }
           }
         },
@@ -8420,31 +8427,68 @@ var tree={
         "data": {}
       },
       {
+        "id": "http://www.w3.org/2004/02/skos/core#Collection",
+        "parent": "#",
+        "type": "collectionclass",
+        "text": "Collection (ns6:Collection) [1]",
+        "data": {
+          "to": {
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
+              "instancecount": 1
+            },
+            "http://www.w3.org/2000/01/rdf-schema#label": {
+              "instancecount": 1
+            },
+            "http://www.w3.org/2000/01/rdf-schema#member": {
+              "instancecount": 579,
+              "http://www.opengis.net/ont/sf#Point": 579
+            }
+          },
+          "from": {}
+        },
+        "instancecount": 582
+      },
+      {
         "id": "http://data.archaeology.link/data/cigs/Person_collection",
-        "parent": "http://www.w3.org/2004/02/skos/core#Collection",
+        "parent": "http://www.w3.org/2006/vcard/ns#Group",
         "type": "instance",
         "text": "Person Instances Collection (Person_collection)",
         "data": {}
       },
       {
+        "id": "http://www.w3.org/2006/vcard/ns#Group",
+        "parent": "#",
+        "type": "collectionclass",
+        "text": "Group [1]",
+        "data": {
+          "to": {
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
+              "instancecount": 1
+            },
+            "http://www.w3.org/2000/01/rdf-schema#label": {
+              "instancecount": 1
+            },
+            "http://www.w3.org/2006/vcard/ns#hasMember": {
+              "instancecount": 6,
+              "http://xmlns.com/foaf/0.1/Person": 6
+            }
+          },
+          "from": {}
+        },
+        "instancecount": 9
+      },
+      {
         "id": "http://data.archaeology.link/data/cigs/Document_collection",
-        "parent": "http://www.w3.org/2004/02/skos/core#Collection",
+        "parent": "http://purl.org/ontology/bibo/Collection",
         "type": "instance",
         "text": "Document Instances Collection (Document_collection)",
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/cigs/Dataset_collection",
-        "parent": "http://www.w3.org/2004/02/skos/core#Collection",
-        "type": "instance",
-        "text": "Dataset Instances Collection (Dataset_collection)",
-        "data": {}
-      },
-      {
-        "id": "http://www.w3.org/2004/02/skos/core#Collection",
+        "id": "http://purl.org/ontology/bibo/Collection",
         "parent": "#",
         "type": "collectionclass",
-        "text": "Collection (ns6:Collection) [4]",
+        "text": "Collection (ns8:Collection) [1]",
         "data": {
           "to": {
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
@@ -8462,6 +8506,36 @@ var tree={
           "from": {}
         },
         "instancecount": 4
+      },
+      {
+        "id": "http://data.archaeology.link/data/cigs/Dataset_collection",
+        "parent": "http://www.w3.org/ns/lemon/lime#Catalog",
+        "type": "instance",
+        "text": "Dataset Instances Collection (Dataset_collection)",
+        "data": {}
+      },
+      {
+        "id": "http://www.w3.org/ns/lemon/lime#Catalog",
+        "parent": "#",
+        "type": "class",
+        "text": "Catalog [1]",
+        "data": {
+          "to": {
+            "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
+              "instancecount": 1
+            },
+            "http://www.w3.org/2000/01/rdf-schema#label": {
+              "instancecount": 1
+            },
+            "http://www.w3.org/ns/dcat#dataset": {
+              "instancecount": 1,
+              "http://purl.org/ontology/bibo/Document": 1,
+              "http://www.w3.org/ns/dcat#Dataset": 1
+            }
+          },
+          "from": {}
+        },
+        "instancecount": 3
       },
       {
         "id": "http://www.opengis.net/ont/geosparql#SpatialObject",
