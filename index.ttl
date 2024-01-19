@@ -12897,7 +12897,7 @@
         <http://www.w3.org/ns/ldp#Resource>,
         foaf:Person ;
     rdfs:label "Andersson, Jakob"@en ;
-    foaf:familyName "Andersson"@en ;
+    foaf:family_Name "Andersson"@en ;
     foaf:firstName "Jakob"@en .
 
 <http://data.archaeology.link/data/cigs/author_Johansson_Carolin> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -12905,7 +12905,7 @@
         <http://www.w3.org/ns/ldp#Resource>,
         foaf:Person ;
     rdfs:label "Johansson, Carolin"@en ;
-    foaf:familyName "Johansson"@en ;
+    foaf:family_Name "Johansson"@en ;
     foaf:firstName "Carolin"@en .
 
 <http://data.archaeology.link/data/cigs/author_Melin_Kronsell> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -12913,7 +12913,7 @@
         <http://www.w3.org/ns/ldp#Resource>,
         foaf:Person ;
     rdfs:label "Melin, Kronsell"@en ;
-    foaf:familyName "Melin"@en ;
+    foaf:family_Name "Melin"@en ;
     foaf:firstName "Kronsell"@en .
 
 <http://data.archaeology.link/data/cigs/author_Nett_Seraina> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -12921,7 +12921,7 @@
         <http://www.w3.org/ns/ldp#Resource>,
         foaf:Person ;
     rdfs:label "Nett, Seraina"@en ;
-    foaf:familyName "Nett"@en ;
+    foaf:family_Name "Nett"@en ;
     foaf:firstName "Seraina"@en .
 
 <http://data.archaeology.link/data/cigs/author_Rattenborg_Rune> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -12929,7 +12929,7 @@
         <http://www.w3.org/ns/ldp#Resource>,
         foaf:Person ;
     rdfs:label "Rattenborg, Rune"@en ;
-    foaf:familyName "Rattenborg"@en ;
+    foaf:family_Name "Rattenborg"@en ;
     foaf:firstName "Rune"@en .
 
 <http://data.archaeology.link/data/cigs/author_Smidt_Gustav_Ryberg> a <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -12937,7 +12937,7 @@
         <http://www.w3.org/ns/ldp#Resource>,
         foaf:Person ;
     rdfs:label "Smidt, Gustav Ryberg"@en ;
-    foaf:familyName "Smidt"@en ;
+    foaf:family_Name "Smidt"@en ;
     foaf:firstName "Gustav Ryberg"@en .
 
 <http://data.archaeology.link/data/cigs/bib_rattenborg_rune_2021_7330077> a ns4:Document,

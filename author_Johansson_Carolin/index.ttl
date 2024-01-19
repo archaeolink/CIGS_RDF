@@ -7,6 +7,6 @@
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Johansson, Carolin"@en ;
     dc:license <http://creativecommons.org/licenses/by/4.0> ;
-    foaf:familyName "Johansson"@en ;
+    foaf:family_Name "Johansson"@en ;
     foaf:firstName "Carolin"@en .
 
