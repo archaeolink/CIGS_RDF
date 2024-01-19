@@ -4124,12 +4124,9 @@ var tree={
               "instancecount": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#label": {
-              "instancecount": 1
+              "instancecount": 2
             },
-            "http://www.w3.org/2004/02/skos/core#altLabel": {
-              "instancecount": 1
-            },
-            "http://www.wikidata.org/prop/direct/P1584": {
+            "http://www.wikidata.org/prop/direct/P1566": {
               "instancecount": 1
             }
           },
@@ -8294,7 +8291,7 @@ var tree={
             "http://www.w3.org/2000/01/rdf-schema#label": {
               "instancecount": 1
             },
-            "http://xmlns.com/foaf/0.1/family_Name": {
+            "http://xmlns.com/foaf/0.1/familyName": {
               "instancecount": 1
             },
             "http://xmlns.com/foaf/0.1/firstName": {
