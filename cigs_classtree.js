@@ -4129,6 +4129,9 @@ var tree={
             "http://www.w3.org/2002/07/owl#sameAs": {
               "instancecount": 1
             },
+            "http://www.w3.org/2004/02/skos/core#altLabel": {
+              "instancecount": 1
+            },
             "http://www.wikidata.org/prop/direct/P1566": {
               "instancecount": 1
             },
@@ -4143,7 +4146,7 @@ var tree={
             }
           }
         },
-        "instancecount": 11
+        "instancecount": 12
       },
       {
         "id": "http://www.opengis.net/ont/geosparql#Feature",
@@ -8457,7 +8460,7 @@ var tree={
       },
       {
         "id": "http://www.w3.org/2006/vcard/ns#Group",
-        "parent": "#",
+        "parent": "http://www.w3.org/2004/02/skos/core#Collection",
         "type": "collectionclass",
         "text": "Group [1]",
         "data": {
@@ -8486,7 +8489,7 @@ var tree={
       },
       {
         "id": "http://purl.org/ontology/bibo/Collection",
-        "parent": "#",
+        "parent": "http://www.w3.org/2004/02/skos/core#Collection",
         "type": "collectionclass",
         "text": "Collection (ns8:Collection) [1]",
         "data": {
@@ -8516,7 +8519,7 @@ var tree={
       },
       {
         "id": "http://www.w3.org/ns/lemon/lime#Catalog",
-        "parent": "#",
+        "parent": "http://www.w3.org/2004/02/skos/core#Collection",
         "type": "class",
         "text": "Catalog [1]",
         "data": {

@@ -1795,10 +1795,11 @@
 <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#CSA_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
     ns1:instance <https://archaeolink.github.io/CIGS_RDF/CSA_geom> .
 
-<https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#Catalog> ns1:forClass <#> ;
+<https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#Catalog> ns1:forClass skos:Collection ;
     ns1:instance <https://archaeolink.github.io/CIGS_RDF/Catalog> .
 
-<https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#Collection> ns1:forClass <#> ;
+<https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#Collection> ns1:forClass <#>,
+        skos:Collection ;
     ns1:instance <https://archaeolink.github.io/CIGS_RDF/Collection> .
 
 <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#CuneiformSite> ns1:forClass geo:Feature ;
@@ -2254,7 +2255,7 @@
 <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#Geometry> ns1:forClass <#> ;
     ns1:instance <https://archaeolink.github.io/CIGS_RDF/Geometry> .
 
-<https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#Group> ns1:forClass <#> ;
+<https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#Group> ns1:forClass skos:Collection ;
     ns1:instance <https://archaeolink.github.io/CIGS_RDF/Group> .
 
 <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#HAB> ns1:forClass <http://www.ancientports.com/ont#CuneiformSite> ;
