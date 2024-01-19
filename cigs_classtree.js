@@ -4124,6 +4124,12 @@ var tree={
               "instancecount": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#label": {
+              "instancecount": 2
+            },
+            "http://www.w3.org/2002/07/owl#sameAs": {
+              "instancecount": 1
+            },
+            "http://www.wikidata.org/prop/direct/P1584": {
               "instancecount": 1
             }
           },
@@ -4134,7 +4140,7 @@ var tree={
             }
           }
         },
-        "instancecount": 7
+        "instancecount": 10
       },
       {
         "id": "http://www.opengis.net/ont/geosparql#Feature",
@@ -8368,7 +8374,7 @@ var tree={
             },
             "http://www.w3.org/ns/dcat#dataset": {
               "instancecount": 0,
-              "http://www.w3.org/ns/lemon/lime#Catalog": 1
+              "http://www.w3.org/ns/dcat#Catalog": 1
             }
           }
         },
@@ -8500,16 +8506,16 @@ var tree={
       },
       {
         "id": "http://data.archaeology.link/data/cigs/Dataset_collection",
-        "parent": "http://www.w3.org/ns/lemon/lime#Catalog",
+        "parent": "http://www.w3.org/ns/dcat#Catalog",
         "type": "instance",
         "text": "Dataset Instances Collection (Dataset_collection)",
         "data": {}
       },
       {
-        "id": "http://www.w3.org/ns/lemon/lime#Catalog",
+        "id": "http://www.w3.org/ns/dcat#Catalog",
         "parent": "http://www.w3.org/2004/02/skos/core#Collection",
-        "type": "class",
-        "text": "Catalog (lime:Catalog) [1]",
+        "type": "collectionclass",
+        "text": "Catalog (dcat:Catalog) [1]",
         "data": {
           "to": {
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
@@ -8526,7 +8532,7 @@ var tree={
           },
           "from": {}
         },
-        "instancecount": 3
+        "instancecount": 4
       },
       {
         "id": "http://www.opengis.net/ont/geosparql#SpatialObject",
