@@ -4124,9 +4124,6 @@ var tree={
               "instancecount": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#label": {
-              "instancecount": 2
-            },
-            "http://www.w3.org/2002/07/owl#sameAs": {
               "instancecount": 1
             },
             "http://www.wikidata.org/prop/direct/P1584": {
@@ -4140,7 +4137,7 @@ var tree={
             }
           }
         },
-        "instancecount": 10
+        "instancecount": 8
       },
       {
         "id": "http://www.opengis.net/ont/geosparql#Feature",
@@ -8226,7 +8223,7 @@ var tree={
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 0,
-              "http://www.w3.org/2004/02/skos/core#Collection": 1
+              "http://www.opengis.net/ont/geosparql#GeometryCollection": 1
             }
           }
         },
@@ -8418,16 +8415,16 @@ var tree={
       },
       {
         "id": "http://data.archaeology.link/data/cigs/Point_collection",
-        "parent": "http://www.w3.org/2004/02/skos/core#Collection",
-        "type": "geoinstance",
+        "parent": "http://www.opengis.net/ont/geosparql#GeometryCollection",
+        "type": "geocollection",
         "text": "Point Instances Collection (Point_collection)",
         "data": {}
       },
       {
-        "id": "http://www.w3.org/2004/02/skos/core#Collection",
-        "parent": "#",
+        "id": "http://www.opengis.net/ont/geosparql#GeometryCollection",
+        "parent": "http://www.w3.org/2004/02/skos/core#Collection",
         "type": "collectionclass",
-        "text": "Collection (skos:Collection) [1]",
+        "text": "GeometryCollection (gsp:GeometryCollection) [1]",
         "data": {
           "to": {
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
@@ -8444,6 +8441,13 @@ var tree={
           "from": {}
         },
         "instancecount": 582
+      },
+      {
+        "id": "http://www.w3.org/2004/02/skos/core#Collection",
+        "parent": "#",
+        "type": "collectionclass",
+        "text": "Collection (skos:Collection)",
+        "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/Person_collection",

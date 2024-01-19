@@ -363,6 +363,7 @@
         <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#GZR>,
         <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#GZR_geom>,
         <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#Geometry>,
+        <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#GeometryCollection>,
         <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#Group>,
         <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#HAB>,
         <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#HAB_geom>,
@@ -2255,6 +2256,9 @@
 <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#Geometry> ns1:forClass <#> ;
     ns1:instance <https://archaeolink.github.io/CIGS_RDF/Geometry> .
 
+<https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#GeometryCollection> ns1:forClass skos:Collection ;
+    ns1:instance <https://archaeolink.github.io/CIGS_RDF/GeometryCollection> .
+
 <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#Group> ns1:forClass skos:Collection ;
     ns1:instance <https://archaeolink.github.io/CIGS_RDF/Group> .
 
@@ -3539,7 +3543,7 @@
 <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#Point> ns1:forClass geo:Geometry ;
     ns1:instance <https://archaeolink.github.io/CIGS_RDF/Point> .
 
-<https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#Point_collection> ns1:forClass skos:Collection ;
+<https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#Point_collection> ns1:forClass geo:GeometryCollection ;
     ns1:instance <https://archaeolink.github.io/CIGS_RDF/Point_collection> .
 
 <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#QAB> ns1:forClass <http://www.ancientports.com/ont#CuneiformSite> ;
