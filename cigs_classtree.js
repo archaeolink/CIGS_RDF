@@ -4126,6 +4126,9 @@ var tree={
             "http://www.w3.org/2000/01/rdf-schema#label": {
               "instancecount": 2
             },
+            "http://www.wikidata.org/prop/direct/P1566": {
+              "instancecount": 1
+            },
             "http://www.wikidata.org/prop/direct/P1584": {
               "instancecount": 1
             }
@@ -4137,13 +4140,13 @@ var tree={
             }
           }
         },
-        "instancecount": 9
+        "instancecount": 10
       },
       {
         "id": "http://www.opengis.net/ont/geosparql#Feature",
         "parent": "#",
         "type": "class",
-        "text": "Feature (ns1:Feature)",
+        "text": "Feature (gsp:Feature)",
         "data": {}
       },
       {
@@ -8203,7 +8206,7 @@ var tree={
         "id": "http://www.opengis.net/ont/sf#Point",
         "parent": "http://www.opengis.net/ont/geosparql#Geometry",
         "type": "halfgeoclass",
-        "text": "Point [579]",
+        "text": "Point (sf:Point) [579]",
         "data": {
           "to": {
             "http://www.opengis.net/ont/geosparql#asWKT": {
@@ -8233,7 +8236,7 @@ var tree={
         "id": "http://www.opengis.net/ont/geosparql#Geometry",
         "parent": "#",
         "type": "class",
-        "text": "Geometry (ns1:Geometry)",
+        "text": "Geometry (gsp:Geometry)",
         "data": {}
       },
       {
@@ -8282,7 +8285,7 @@ var tree={
         "id": "http://xmlns.com/foaf/0.1/Person",
         "parent": "#",
         "type": "class",
-        "text": "Person (ns7:Person) [6]",
+        "text": "Person (foaf:Person) [6]",
         "data": {
           "to": {
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
@@ -8323,7 +8326,7 @@ var tree={
         "id": "http://purl.org/ontology/bibo/Document",
         "parent": "#",
         "type": "class",
-        "text": "Document (ns8:Document) [1]",
+        "text": "Document (bibo:Document) [1]",
         "data": {}
       },
       {
@@ -8388,7 +8391,7 @@ var tree={
         "id": "http://www.opengis.net/ont/geosparql#FeatureCollection",
         "parent": "http://www.opengis.net/ont/geosparql#SpatialObjectCollection",
         "type": "collectionclass",
-        "text": "FeatureCollection (ns1:FeatureCollection) [1]",
+        "text": "FeatureCollection (gsp:FeatureCollection) [1]",
         "data": {
           "to": {
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
@@ -8410,7 +8413,7 @@ var tree={
         "id": "http://www.opengis.net/ont/geosparql#SpatialObjectCollection",
         "parent": "#",
         "type": "collectionclass",
-        "text": "SpatialObjectCollection (ns1:SpatialObjectCollection)",
+        "text": "SpatialObjectCollection (gsp:SpatialObjectCollection)",
         "data": {}
       },
       {
@@ -8424,7 +8427,7 @@ var tree={
         "id": "http://www.w3.org/2004/02/skos/core#Collection",
         "parent": "#",
         "type": "collectionclass",
-        "text": "Collection (ns6:Collection) [1]",
+        "text": "Collection (skos:Collection) [1]",
         "data": {
           "to": {
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
@@ -8453,7 +8456,7 @@ var tree={
         "id": "http://www.w3.org/2006/vcard/ns#Group",
         "parent": "http://www.w3.org/2004/02/skos/core#Collection",
         "type": "collectionclass",
-        "text": "Group [1]",
+        "text": "Group (vcard2006:Group) [1]",
         "data": {
           "to": {
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
@@ -8482,7 +8485,7 @@ var tree={
         "id": "http://purl.org/ontology/bibo/Collection",
         "parent": "http://www.w3.org/2004/02/skos/core#Collection",
         "type": "collectionclass",
-        "text": "Collection (ns8:Collection) [1]",
+        "text": "Collection (bibo:Collection) [1]",
         "data": {
           "to": {
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
@@ -8512,7 +8515,7 @@ var tree={
         "id": "http://www.w3.org/ns/lemon/lime#Catalog",
         "parent": "http://www.w3.org/2004/02/skos/core#Collection",
         "type": "class",
-        "text": "Catalog [1]",
+        "text": "Catalog (lime:Catalog) [1]",
         "data": {
           "to": {
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
@@ -8535,7 +8538,7 @@ var tree={
         "id": "http://www.opengis.net/ont/geosparql#SpatialObject",
         "parent": "#",
         "type": "class",
-        "text": "SpatialObject (ns1:SpatialObject)",
+        "text": "SpatialObject (gsp:SpatialObject)",
         "data": {}
       }
     ]
