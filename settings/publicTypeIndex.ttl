@@ -2256,7 +2256,7 @@
 <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#Geometry> ns1:forClass <#> ;
     ns1:instance <https://archaeolink.github.io/CIGS_RDF/Geometry> .
 
-<https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#GeometryCollection> ns1:forClass skos:Collection ;
+<https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#GeometryCollection> ns1:forClass geo:SpatialObjectCollection ;
     ns1:instance <https://archaeolink.github.io/CIGS_RDF/GeometryCollection> .
 
 <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#Group> ns1:forClass skos:Collection ;
