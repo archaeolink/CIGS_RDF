@@ -200,6 +200,20 @@ with open("cigs_result.ttl","w",encoding="utf-8") as resfile:
     resfile.close()
 
 g=Graph()
+g.bind("geo", "http://www.opengis.net/ont/geosparql#")
+g.bind("sf", "http://www.opengis.net/ont/sf#")
+g.bind("wdt", "http://www.wikidata.org/prop/direct/")
+g.bind("rdfs", "http://www.w3.org/2000/01/rdf-schema#")
+g.bind("owl", "http://www.w3.org/2002/07/owl#")
+g.bind("rdf", "http://www.w3.org/1999/02/22-rdf-syntax-ns#")
+g.bind("ap", "http://www.ancientports.com/ont#")
+g.bind("dce", "http://purl.org/dc/elements/1.1/")
+g.bind("skos", "http://www.w3.org/2004/02/skos/core#")
+g.bind("foaf", "http://xmlns.com/foaf/0.1/")
+g.bind("bibo", "http://purl.org/ontology/bibo/")
+g.bind("dcterms", "http://purl.org/dc/terms/")
+
+
 g.parse("cigs_result.ttl")
 g.serialize("cigs_result.ttl")
 
