@@ -79,7 +79,7 @@ def bibtexToRDF(triples,entries,ns,nsont,creatormode=None):
             authoruri=authoruri.strip()
             triples.add("<"+ns+"author_"+str(authoruri)+"> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .\n")
             triples.add("<"+ns+"author_"+str(authoruri)+"> <http://www.w3.org/2000/01/rdf-schema#label> \""+str(entry["author"]).strip()+"\"@en .\n")
-            triples.add("<"+ns+"author_"+str(authoruri)+"> <http://xmlns.com/foaf/0.1/family_Name> \""+str(entry["author"])[0:str(entry["author"]).rfind(',')].strip()+"\"@en .\n")
+            triples.add("<"+ns+"author_"+str(authoruri)+"> <http://xmlns.com/foaf/0.1/familyName> \""+str(entry["author"])[0:str(entry["author"]).rfind(',')].strip()+"\"@en .\n")
             triples.add("<"+ns+"author_"+str(authoruri)+"> <http://xmlns.com/foaf/0.1/firstName> \""+str(entry["author"])[str(entry["author"]).rfind(',')+1:].strip()+"\"@en .\n")
             triples.add("<"+ns+"bib_"+str(entry["ID"])+"> <http://purl.org/dc/elements/1.1/creator> <"+ns+"author_"+str(authoruri)+"> .\n")
         triples.add("<"+ns+"bib_"+str(entry["ID"])+"> <http://purl.org/dc/elements/1.1/created> \""+str(entry["year"])+"\"^^<http://www.w3.org/2001/XMLSchema#gYear> .\n")

@@ -8233,32 +8233,32 @@ wdt:P1584 rdfs:label "Pleiades ID"@en .
 
 <http://data.archaeology.link/data/cigs/author_Andersson_Jakob> a foaf:Person ;
     rdfs:label "Andersson, Jakob"@en ;
-    foaf:family_Name "Andersson"@en ;
+    foaf:familyName "Andersson"@en ;
     foaf:firstName "Jakob"@en .
 
 <http://data.archaeology.link/data/cigs/author_Johansson_Carolin> a foaf:Person ;
     rdfs:label "Johansson, Carolin"@en ;
-    foaf:family_Name "Johansson"@en ;
+    foaf:familyName "Johansson"@en ;
     foaf:firstName "Carolin"@en .
 
 <http://data.archaeology.link/data/cigs/author_Melin_Kronsell> a foaf:Person ;
     rdfs:label "Melin, Kronsell"@en ;
-    foaf:family_Name "Melin"@en ;
+    foaf:familyName "Melin"@en ;
     foaf:firstName "Kronsell"@en .
 
 <http://data.archaeology.link/data/cigs/author_Nett_Seraina> a foaf:Person ;
     rdfs:label "Nett, Seraina"@en ;
-    foaf:family_Name "Nett"@en ;
+    foaf:familyName "Nett"@en ;
     foaf:firstName "Seraina"@en .
 
 <http://data.archaeology.link/data/cigs/author_Rattenborg_Rune> a foaf:Person ;
     rdfs:label "Rattenborg, Rune"@en ;
-    foaf:family_Name "Rattenborg"@en ;
+    foaf:familyName "Rattenborg"@en ;
     foaf:firstName "Rune"@en .
 
 <http://data.archaeology.link/data/cigs/author_Smidt_Gustav_Ryberg> a foaf:Person ;
     rdfs:label "Smidt, Gustav Ryberg"@en ;
-    foaf:family_Name "Smidt"@en ;
+    foaf:familyName "Smidt"@en ;
     foaf:firstName "Gustav Ryberg"@en .
 
 geo:Feature rdfs:label "feature"@en ;
