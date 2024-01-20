@@ -31,14 +31,17 @@
 <http:/data.archaeology.link/data/cigs/theds> a void:Dataset ;
     rdfs:label ""@en ;
     dcterms:license <http://creativecommons.org/licenses/by/4.0> ;
-    dcterms:modified "2024-01-20T02:09:26"^^xsd:dateTime ;
+    dcterms:modified "2024-01-20T02:33:40"^^xsd:dateTime ;
+    dcterms:subject <http://www.wikidata.org/entity/Q121810372>,
+        foaf:Person ;
     dcterms:title ""@en ;
     void:classes 1185 ;
     void:dataDump <https://archaeolink.github.io/CIGS_RDF/index.ttl> ;
     void:distinctObjects 0 ;
     void:distinctSubjects 1883 ;
     void:entities 1170 ;
-    void:feature <http://www.w3.org/ns/formats/Turtle> ;
+    void:feature <http://www.w3.org/ns/formats/RDFa>,
+        <http://www.w3.org/ns/formats/Turtle> ;
     void:properties 19 ;
     void:triples 8980 ;
     void:uriSpace "http:/data.archaeology.link/data/cigs/"^^xsd:string ;
