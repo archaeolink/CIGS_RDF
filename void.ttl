@@ -31,8 +31,9 @@
 <http:/data.archaeology.link/data/cigs/theds> a void:Dataset ;
     rdfs:label ""@en ;
     dcterms:license <http://creativecommons.org/licenses/by/4.0> ;
-    dcterms:modified "2024-01-20T03:00:21"^^xsd:dateTime ;
-    dcterms:subject <http://www.wikidata.org/entity/Q121810372>,
+    dcterms:modified "2024-01-20T03:25:17"^^xsd:dateTime ;
+    dcterms:subject <http://dbpedia.org/resource/Location>,
+        <http://www.wikidata.org/entity/Q121810372>,
         foaf:Person ;
     dcterms:title ""@en ;
     void:classes 1185 ;
@@ -40,9 +41,11 @@
     void:distinctObjects 4501 ;
     void:distinctSubjects 1883 ;
     void:entities 1170 ;
+    void:exampleResource <> ;
     void:feature <http://www.w3.org/ns/formats/RDFa>,
         <http://www.w3.org/ns/formats/Turtle> ;
     void:properties 19 ;
+    void:rootResource <> ;
     void:triples 8980 ;
     void:uriSpace "http:/data.archaeology.link/data/cigs/"^^xsd:string ;
     void:vocabulary dcam:,
