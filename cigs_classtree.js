@@ -4124,7 +4124,7 @@ var tree={
               "instancecount": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#label": {
-              "instancecount": 1
+              "instancecount": 2
             }
           },
           "from": {
@@ -4134,7 +4134,7 @@ var tree={
             }
           }
         },
-        "instancecount": 7
+        "instancecount": 8
       },
       {
         "id": "http://www.opengis.net/ont/geosparql#Feature",
