@@ -4132,6 +4132,9 @@ var tree={
             },
             "http://www.wikidata.org/prop/direct/P1566": {
               "instancecount": 1
+            },
+            "http://www.wikidata.org/prop/direct/P1584": {
+              "instancecount": 1
             }
           },
           "from": {
@@ -4141,7 +4144,7 @@ var tree={
             }
           }
         },
-        "instancecount": 10
+        "instancecount": 11
       },
       {
         "id": "http://www.opengis.net/ont/geosparql#Feature",
@@ -8287,10 +8290,10 @@ var tree={
         "data": {}
       },
       {
-        "id": "http://xmlns.com/foaf/0.1/Person",
+        "id": "http://data.archaeology.link/data/cigs/nonns_Person.html",
         "parent": "#",
         "type": "class",
-        "text": "Person (foaf:Person) [6]",
+        "text": "Person (foaf:Person)",
         "data": {
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
