@@ -30,9 +30,9 @@
 
 <http://data.archaeology.link/data/cigs/dataset> a void:Dataset ;
     rdfs:label "dataset"@en ;
-    dc: <http://www.lexvo.org/page/iso639-1/en> ;
+    dc:language <http://www.lexvo.org/page/iso639-1/en> ;
     dcterms:license <http://creativecommons.org/licenses/by/4.0> ;
-    dcterms:modified "2024-01-21T19:44:20"^^xsd:dateTime ;
+    dcterms:modified "2024-01-21T21:30:49"^^xsd:dateTime ;
     dcterms:subject <http://dbpedia.org/resource/Location>,
         <http://www.wikidata.org/entity/Q121810372>,
         foaf:Person ;
