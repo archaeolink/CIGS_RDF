@@ -31,7 +31,7 @@
 <http://data.archaeology.link/data/cigs/theds> a void:Dataset ;
     rdfs:label "theds"@en ;
     dcterms:license <http://creativecommons.org/licenses/by/4.0> ;
-    dcterms:modified "2024-01-21T16:48:04"^^xsd:dateTime ;
+    dcterms:modified "2024-01-21T18:26:59"^^xsd:dateTime ;
     dcterms:subject <http://dbpedia.org/resource/Location>,
         <http://www.wikidata.org/entity/Q121810372>,
         foaf:Person ;
