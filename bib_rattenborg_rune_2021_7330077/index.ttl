@@ -2,6 +2,7 @@
 @prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix ns1: <http://purl.org/ontology/bibo/> .
+@prefix void: <http://rdfs.org/ns/void#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://data.archaeology.link/data/cigs/bib_rattenborg_rune_2021_7330077> a ns1:Document,
@@ -18,5 +19,6 @@
     dc:license <http://creativecommons.org/licenses/by/4.0> ;
     dc:title "Cuneiform Inscriptions Geographical Site Index (CIGS)"@en ;
     dcterms:publisher "Zenodo" ;
-    ns1:doi "10.5281/zenodo.7330077"^^xsd:string .
+    ns1:doi "10.5281/zenodo.7330077"^^xsd:string ;
+    void:inDataset <http://data.archaeology.link/data/cigs/dataset> .
 

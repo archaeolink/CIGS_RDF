@@ -4110,6 +4110,9 @@ var tree={
               "http://purl.org/ontology/bibo/Document": 1,
               "http://www.w3.org/ns/dcat#Dataset": 1
             },
+            "http://rdfs.org/ns/void#inDataset": {
+              "instancecount": 1
+            },
             "http://www.ancientports.com/ont#accuracy": {
               "instancecount": 1
             },
@@ -4126,6 +4129,12 @@ var tree={
             "http://www.w3.org/2000/01/rdf-schema#label": {
               "instancecount": 2
             },
+            "http://www.w3.org/2002/07/owl#sameAs": {
+              "instancecount": 1
+            },
+            "http://www.wikidata.org/prop/direct/P1566": {
+              "instancecount": 1
+            },
             "http://www.wikidata.org/prop/direct/P1584": {
               "instancecount": 1
             }
@@ -4137,7 +4146,7 @@ var tree={
             }
           }
         },
-        "instancecount": 9
+        "instancecount": 12
       },
       {
         "id": "http://www.opengis.net/ont/geosparql#Feature",
@@ -8206,6 +8215,9 @@ var tree={
         "text": "Point (sf:Point) [579]",
         "data": {
           "to": {
+            "http://rdfs.org/ns/void#inDataset": {
+              "instancecount": 1
+            },
             "http://www.opengis.net/ont/geosparql#asWKT": {
               "instancecount": 1
             },
@@ -8227,7 +8239,7 @@ var tree={
             }
           }
         },
-        "instancecount": 3
+        "instancecount": 4
       },
       {
         "id": "http://www.opengis.net/ont/geosparql#Geometry",
@@ -8285,6 +8297,9 @@ var tree={
         "text": "Person (foaf:Person) [6]",
         "data": {
           "to": {
+            "http://rdfs.org/ns/void#inDataset": {
+              "instancecount": 1
+            },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 1
             },
@@ -8310,7 +8325,7 @@ var tree={
             }
           }
         },
-        "instancecount": 4
+        "instancecount": 5
       },
       {
         "id": "http://data.archaeology.link/data/cigs/bib_rattenborg_rune_2021_7330077_suniv0_",
@@ -8356,6 +8371,9 @@ var tree={
             "http://purl.org/ontology/bibo/doi": {
               "instancecount": 1
             },
+            "http://rdfs.org/ns/void#inDataset": {
+              "instancecount": 1
+            },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 2
             }
@@ -8375,7 +8393,7 @@ var tree={
             }
           }
         },
-        "instancecount": 12
+        "instancecount": 13
       },
       {
         "id": "http://data.archaeology.link/data/cigs/CuneiformSite_collection",
@@ -8391,6 +8409,9 @@ var tree={
         "text": "FeatureCollection (gsp:FeatureCollection) [1]",
         "data": {
           "to": {
+            "http://rdfs.org/ns/void#inDataset": {
+              "instancecount": 1
+            },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 1
             },
@@ -8404,7 +8425,7 @@ var tree={
           },
           "from": {}
         },
-        "instancecount": 582
+        "instancecount": 583
       },
       {
         "id": "http://www.opengis.net/ont/geosparql#SpatialObjectCollection",
@@ -8427,6 +8448,9 @@ var tree={
         "text": "GeometryCollection (gsp:GeometryCollection) [1]",
         "data": {
           "to": {
+            "http://rdfs.org/ns/void#inDataset": {
+              "instancecount": 1
+            },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 1
             },
@@ -8440,7 +8464,7 @@ var tree={
           },
           "from": {}
         },
-        "instancecount": 582
+        "instancecount": 583
       },
       {
         "id": "http://data.archaeology.link/data/cigs/Person_collection",
@@ -8456,6 +8480,9 @@ var tree={
         "text": "Group (vcard2006:Group) [1]",
         "data": {
           "to": {
+            "http://rdfs.org/ns/void#inDataset": {
+              "instancecount": 1
+            },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 1
             },
@@ -8469,7 +8496,7 @@ var tree={
           },
           "from": {}
         },
-        "instancecount": 9
+        "instancecount": 10
       },
       {
         "id": "http://www.w3.org/2004/02/skos/core#Collection",
@@ -8492,6 +8519,9 @@ var tree={
         "text": "Collection (bibo:Collection) [1]",
         "data": {
           "to": {
+            "http://rdfs.org/ns/void#inDataset": {
+              "instancecount": 1
+            },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 1
             },
@@ -8506,7 +8536,7 @@ var tree={
           },
           "from": {}
         },
-        "instancecount": 4
+        "instancecount": 5
       },
       {
         "id": "http://data.archaeology.link/data/cigs/Dataset_collection",
@@ -8522,6 +8552,9 @@ var tree={
         "text": "Catalog (dcat:Catalog) [1]",
         "data": {
           "to": {
+            "http://rdfs.org/ns/void#inDataset": {
+              "instancecount": 1
+            },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 1
             },
@@ -8536,7 +8569,7 @@ var tree={
           },
           "from": {}
         },
-        "instancecount": 4
+        "instancecount": 5
       },
       {
         "id": "http://www.opengis.net/ont/geosparql#SpatialObject",

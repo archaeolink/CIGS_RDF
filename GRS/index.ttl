@@ -4,6 +4,7 @@
 @prefix ns1: <http://www.ancientports.com/ont#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix void: <http://rdfs.org/ns/void#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://data.archaeology.link/data/cigs/GRS> a ns1:CuneiformSite,
@@ -14,6 +15,7 @@
     dc:created "2021"^^xsd:gYear ;
     dc:license <http://creativecommons.org/licenses/by/4.0> ;
     dcterms:partOf <http://data.archaeology.link/data/cigs/bib_rattenborg_rune_2021_7330077> ;
+    void:inDataset <http://data.archaeology.link/data/cigs/dataset> ;
     ns1:accuracy "3"^^xsd:string ;
     ns1:cdli_provenience_id "38"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/GRS_geom> ;

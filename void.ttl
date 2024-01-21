@@ -28,14 +28,14 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://data.archaeology.link/data/cigs/theds> a void:Dataset ;
-    rdfs:label "theds"@en ;
+<http://data.archaeology.link/data/cigs/dataset> a void:Dataset ;
+    rdfs:label "dataset"@en ;
     dcterms:license <http://creativecommons.org/licenses/by/4.0> ;
-    dcterms:modified "2024-01-21T18:26:59"^^xsd:dateTime ;
+    dcterms:modified "2024-01-21T19:16:49"^^xsd:dateTime ;
     dcterms:subject <http://dbpedia.org/resource/Location>,
         <http://www.wikidata.org/entity/Q121810372>,
         foaf:Person ;
-    dcterms:title "theds"@en ;
+    dcterms:title "dataset"@en ;
     void:classes 15 ;
     void:dataDump <https://archaeolink.github.io/CIGS_RDF/index.ttl> ;
     void:distinctObjects 4501 ;
@@ -46,7 +46,7 @@
         <http://www.w3.org/ns/formats/Turtle> ;
     void:properties 19 ;
     void:rootResource <> ;
-    void:triples 8980 ;
+    void:triples 10150 ;
     void:uriSpace "http://data.archaeology.link/data/cigs/"^^xsd:string ;
     void:vocabulary dcam:,
         dcmitype:,
