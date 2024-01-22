@@ -32,7 +32,7 @@
     rdfs:label "dataset"@en ;
     dc:language <http://www.lexvo.org/page/iso639-1/en> ;
     dcterms:license <http://creativecommons.org/licenses/by/4.0> ;
-    dcterms:modified "2024-01-22T00:56:07"^^xsd:dateTime ;
+    dcterms:modified "2024-01-22T01:16:42"^^xsd:dateTime ;
     dcterms:subject <http://dbpedia.org/resource/Location>,
         <http://www.wikidata.org/entity/Q121810372>,
         foaf:Person ;
@@ -114,34 +114,35 @@
     foaf:homepage <https://archaeolink.github.io/CIGS_RDF> ;
     foaf:page <https://archaeolink.github.io/CIGS_RDF/index.html> .
 
-<http://data.archaeology.link/data/cigs/dataset_Catalog> void:class <class> ;
+<http://data.archaeology.link/data/cigs/dataset_Catalog> void:class dcat:Catalog ;
     void:entities 1171 .
 
-<http://data.archaeology.link/data/cigs/dataset_Collection> void:class <class> ;
+<http://data.archaeology.link/data/cigs/dataset_Collection> void:class <http://purl.org/ontology/bibo/Collection>,
+        skos:Collection ;
     void:entities 1171 .
 
-<http://data.archaeology.link/data/cigs/dataset_CuneiformSite> void:class <class> ;
+<http://data.archaeology.link/data/cigs/dataset_CuneiformSite> void:class <http://www.ancientports.com/ont#CuneiformSite> ;
     void:entities 1171 .
 
-<http://data.archaeology.link/data/cigs/dataset_Dataset> void:class <class> ;
+<http://data.archaeology.link/data/cigs/dataset_Dataset> void:class dcat:Dataset ;
     void:entities 1171 .
 
-<http://data.archaeology.link/data/cigs/dataset_Document> void:class <class> ;
+<http://data.archaeology.link/data/cigs/dataset_Document> void:class <http://purl.org/ontology/bibo/Document> ;
     void:entities 1171 .
 
-<http://data.archaeology.link/data/cigs/dataset_Feature> void:class <class> ;
+<http://data.archaeology.link/data/cigs/dataset_Feature> void:class geo:Feature ;
     void:entities 1171 .
 
-<http://data.archaeology.link/data/cigs/dataset_FeatureCollection> void:class <class> ;
+<http://data.archaeology.link/data/cigs/dataset_FeatureCollection> void:class geo:FeatureCollection ;
     void:entities 1171 .
 
-<http://data.archaeology.link/data/cigs/dataset_Geometry> void:class <class> ;
+<http://data.archaeology.link/data/cigs/dataset_Geometry> void:class geo:Geometry ;
     void:entities 1171 .
 
-<http://data.archaeology.link/data/cigs/dataset_GeometryCollection> void:class <class> ;
+<http://data.archaeology.link/data/cigs/dataset_GeometryCollection> void:class geo:GeometryCollection ;
     void:entities 1171 .
 
-<http://data.archaeology.link/data/cigs/dataset_Group> void:class <class> ;
+<http://data.archaeology.link/data/cigs/dataset_Group> void:class <http://www.w3.org/2006/vcard/ns#Group> ;
     void:entities 1171 .
 
 <http://data.archaeology.link/data/cigs/dataset_P1566> void:property <http://www.wikidata.org/prop/direct/P1566> ;
@@ -150,16 +151,16 @@
 <http://data.archaeology.link/data/cigs/dataset_P1584> void:property <http://www.wikidata.org/prop/direct/P1584> ;
     void:triples 259 .
 
-<http://data.archaeology.link/data/cigs/dataset_Person> void:class <class> ;
+<http://data.archaeology.link/data/cigs/dataset_Person> void:class foaf:Person ;
     void:entities 1171 .
 
-<http://data.archaeology.link/data/cigs/dataset_Point> void:class <class> ;
+<http://data.archaeology.link/data/cigs/dataset_Point> void:class <http://www.opengis.net/ont/sf#Point> ;
     void:entities 1171 .
 
-<http://data.archaeology.link/data/cigs/dataset_SpatialObject> void:class <class> ;
+<http://data.archaeology.link/data/cigs/dataset_SpatialObject> void:class geo:SpatialObject ;
     void:entities 1171 .
 
-<http://data.archaeology.link/data/cigs/dataset_SpatialObjectCollection> void:class <class> ;
+<http://data.archaeology.link/data/cigs/dataset_SpatialObjectCollection> void:class geo:SpatialObjectCollection ;
     void:entities 1171 .
 
 <http://data.archaeology.link/data/cigs/dataset_accuracy> void:property <http://www.ancientports.com/ont#accuracy> ;
