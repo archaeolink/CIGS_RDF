@@ -4130,7 +4130,7 @@ var tree={
             "http://www.w3.org/2000/01/rdf-schema#label": {
               "instancecount": 2
             },
-            "http://www.wikidata.org/prop/direct/P1566": {
+            "http://www.wikidata.org/prop/direct/P1584": {
               "instancecount": 1
             }
           },
