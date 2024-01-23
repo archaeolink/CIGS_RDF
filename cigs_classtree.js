@@ -4096,10 +4096,10 @@ var tree={
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/cigs/nonns_CuneiformSite.html",
+        "id": "http://www.ancientports.com/ont#CuneiformSite",
         "parent": "http://www.opengis.net/ont/geosparql#Feature",
         "type": "halfgeoclass",
-        "text": "CuneiformSite (ap:CuneiformSite)",
+        "text": "CuneiformSite (ap:CuneiformSite) [579]",
         "data": {
           "to": {
             "http://purl.org/dc/elements/1.1/created": {
@@ -4129,6 +4129,18 @@ var tree={
             },
             "http://www.w3.org/2000/01/rdf-schema#label": {
               "instancecount": 2
+            },
+            "http://www.w3.org/2002/07/owl#sameAs": {
+              "instancecount": 1
+            },
+            "http://www.w3.org/2004/02/skos/core#altLabel": {
+              "instancecount": 1
+            },
+            "http://www.wikidata.org/prop/direct/P1566": {
+              "instancecount": 1
+            },
+            "http://www.wikidata.org/prop/direct/P1584": {
+              "instancecount": 1
             }
           },
           "from": {
@@ -4138,13 +4150,13 @@ var tree={
             }
           }
         },
-        "instancecount": 9
+        "instancecount": 13
       },
       {
-        "id": "http://data.archaeology.link/data/cigs/nonns_Feature.html",
+        "id": "http://www.opengis.net/ont/geosparql#Feature",
         "parent": "#",
         "type": "class",
-        "text": "feature (gsp:Feature)",
+        "text": "Feature (gsp:Feature)",
         "data": {}
       },
       {
@@ -8201,10 +8213,10 @@ var tree={
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/cigs/nonns_Point.html",
+        "id": "http://www.opengis.net/ont/sf#Point",
         "parent": "http://www.opengis.net/ont/geosparql#Geometry",
         "type": "halfgeoclass",
-        "text": "Point (sf:Point)",
+        "text": "Point (sf:Point) [579]",
         "data": {
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
@@ -8235,10 +8247,10 @@ var tree={
         "instancecount": 4
       },
       {
-        "id": "http://data.archaeology.link/data/cigs/nonns_Geometry.html",
+        "id": "http://www.opengis.net/ont/geosparql#Geometry",
         "parent": "#",
         "type": "class",
-        "text": "geometry (gsp:Geometry)",
+        "text": "Geometry (gsp:Geometry)",
         "data": {}
       },
       {
@@ -8329,10 +8341,10 @@ var tree={
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/cigs/nonns_Document.html",
+        "id": "http://purl.org/ontology/bibo/Document",
         "parent": "#",
         "type": "class",
-        "text": "Document (bibo:Document)",
+        "text": "Document (bibo:Document) [1]",
         "data": {}
       },
       {
@@ -8343,10 +8355,10 @@ var tree={
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/cigs/nonns_Dataset.html",
+        "id": "http://www.w3.org/ns/dcat#Dataset",
         "parent": "#",
         "type": "class",
-        "text": "Dataset (dcat:Dataset)",
+        "text": "Dataset (dcat:Dataset) [1]",
         "data": {
           "to": {
             "http://purl.org/dc/elements/1.1/created": {
@@ -8398,10 +8410,10 @@ var tree={
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/cigs/nonns_FeatureCollection.html",
+        "id": "http://www.opengis.net/ont/geosparql#FeatureCollection",
         "parent": "http://www.opengis.net/ont/geosparql#SpatialObjectCollection",
         "type": "collectionclass",
-        "text": "FeatureCollection (gsp:FeatureCollection)",
+        "text": "FeatureCollection (gsp:FeatureCollection) [1]",
         "data": {
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
@@ -8424,7 +8436,7 @@ var tree={
         "instancecount": 583
       },
       {
-        "id": "http://data.archaeology.link/data/cigs/nonns_SpatialObjectCollection.html",
+        "id": "http://www.opengis.net/ont/geosparql#SpatialObjectCollection",
         "parent": "#",
         "type": "collectionclass",
         "text": "SpatialObjectCollection (gsp:SpatialObjectCollection)",
@@ -8438,10 +8450,10 @@ var tree={
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/cigs/nonns_GeometryCollection.html",
+        "id": "http://www.opengis.net/ont/geosparql#GeometryCollection",
         "parent": "http://www.opengis.net/ont/geosparql#SpatialObjectCollection",
         "type": "collectionclass",
-        "text": "GeometryCollection (gsp:GeometryCollection)",
+        "text": "GeometryCollection (gsp:GeometryCollection) [1]",
         "data": {
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
@@ -8471,10 +8483,10 @@ var tree={
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/cigs/nonns_Group.html",
+        "id": "http://www.w3.org/2006/vcard/ns#Group",
         "parent": "http://www.w3.org/2004/02/skos/core#Collection",
         "type": "collectionclass",
-        "text": "Group (vcard2006:Group)",
+        "text": "Group (vcard2006:Group) [1]",
         "data": {
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
@@ -8497,7 +8509,7 @@ var tree={
         "instancecount": 10
       },
       {
-        "id": "http://data.archaeology.link/data/cigs/nonns_Collection.html",
+        "id": "http://www.w3.org/2004/02/skos/core#Collection",
         "parent": "#",
         "type": "collectionclass",
         "text": "Collection (skos:Collection)",
@@ -8511,10 +8523,10 @@ var tree={
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/cigs/nonns_Collection.html",
+        "id": "http://purl.org/ontology/bibo/Collection",
         "parent": "http://www.w3.org/2004/02/skos/core#Collection",
         "type": "collectionclass",
-        "text": "Collection (bibo:Collection)",
+        "text": "Collection (bibo:Collection) [1]",
         "data": {
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
@@ -8545,10 +8557,10 @@ var tree={
         "data": {}
       },
       {
-        "id": "http://data.archaeology.link/data/cigs/nonns_Catalog.html",
+        "id": "http://www.w3.org/ns/dcat#Catalog",
         "parent": "http://www.w3.org/2004/02/skos/core#Collection",
         "type": "collectionclass",
-        "text": "Catalog (dcat:Catalog)",
+        "text": "Catalog (dcat:Catalog) [1]",
         "data": {
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
@@ -8572,10 +8584,10 @@ var tree={
         "instancecount": 5
       },
       {
-        "id": "http://data.archaeology.link/data/cigs/nonns_SpatialObject.html",
+        "id": "http://www.opengis.net/ont/geosparql#SpatialObject",
         "parent": "#",
         "type": "class",
-        "text": "spatial object (gsp:SpatialObject)",
+        "text": "SpatialObject (gsp:SpatialObject)",
         "data": {}
       }
     ]

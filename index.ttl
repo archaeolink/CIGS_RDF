@@ -10,8 +10,8 @@
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
 @prefix ns1: <http://www.ancientports.com/ont#> .
 @prefix ns2: <http://www.wikidata.org/prop/direct/> .
-@prefix ns3: <http://purl.org/ontology/bibo/> .
-@prefix ns4: <http://www.w3.org/2006/vcard/ns#> .
+@prefix ns3: <http://www.w3.org/2006/vcard/ns#> .
+@prefix ns4: <http://purl.org/ontology/bibo/> .
 @prefix odrl: <http://www.w3.org/ns/odrl/2/> .
 @prefix org: <http://www.w3.org/ns/org#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
@@ -626,7 +626,7 @@
     void:inDataset <http://data.archaeology.link/data/cigs/dataset> ;
     dcat:dataset <http://data.archaeology.link/data/cigs/bib_rattenborg_rune_2021_7330077> .
 
-<http://data.archaeology.link/data/cigs/Document_collection> a ns3:Collection,
+<http://data.archaeology.link/data/cigs/Document_collection> a ns4:Collection,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
@@ -634,13 +634,13 @@
     void:inDataset <http://data.archaeology.link/data/cigs/dataset> ;
     rdfs:member <http://data.archaeology.link/data/cigs/bib_rattenborg_rune_2021_7330077> .
 
-<http://data.archaeology.link/data/cigs/Person_collection> a ns4:Group,
+<http://data.archaeology.link/data/cigs/Person_collection> a ns3:Group,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Person Instances Collection"@en ;
     void:inDataset <http://data.archaeology.link/data/cigs/dataset> ;
-    ns4:hasMember <http://data.archaeology.link/data/cigs/author_Andersson_Jakob>,
+    ns3:hasMember <http://data.archaeology.link/data/cigs/author_Andersson_Jakob>,
         <http://data.archaeology.link/data/cigs/author_Johansson_Carolin>,
         <http://data.archaeology.link/data/cigs/author_Melin_Kronsell>,
         <http://data.archaeology.link/data/cigs/author_Nett_Seraina>,
@@ -1232,72 +1232,6 @@
         <http://data.archaeology.link/data/cigs/ZTP_geom>,
         <http://data.archaeology.link/data/cigs/ZVA_geom>,
         <http://data.archaeology.link/data/cigs/ZWY_geom> .
-
-<http://data.archaeology.link/data/cigs/dataset_> a void:Linkset,
-        <http://www.w3.org/ns/ldp#BasicContainer>,
-        <http://www.w3.org/ns/ldp#Container>,
-        <http://www.w3.org/ns/ldp#Resource> ;
-    rdfs:label "Linkset: dataset - "@en ;
-    void:linkPredicate rdf:type ;
-    void:objectsTarget ns1:,
-        geo:,
-        <http://www.opengis.net/ont/sf#>,
-        ns4:,
-        dcat: ;
-    void:subjectsTarget <http://data.archaeology.link/data/cigs/dataset> ;
-    void:triples 1,
-        2,
-        579 .
-
-<http://data.archaeology.link/data/cigs/dataset_0.1> a void:Linkset,
-        <http://www.w3.org/ns/ldp#BasicContainer>,
-        <http://www.w3.org/ns/ldp#Container>,
-        <http://www.w3.org/ns/ldp#Resource> ;
-    rdfs:label "Linkset: dataset - 0.1"@en ;
-    void:linkPredicate rdf:type ;
-    void:objectsTarget foaf: ;
-    void:subjectsTarget <http://data.archaeology.link/data/cigs/dataset> ;
-    void:triples 6 .
-
-<http://data.archaeology.link/data/cigs/dataset_bibo> a void:Linkset,
-        <http://www.w3.org/ns/ldp#BasicContainer>,
-        <http://www.w3.org/ns/ldp#Container>,
-        <http://www.w3.org/ns/ldp#Resource> ;
-    rdfs:label "Linkset: dataset - bibo"@en ;
-    void:linkPredicate rdf:type ;
-    void:objectsTarget ns3: ;
-    void:subjectsTarget <http://data.archaeology.link/data/cigs/dataset> ;
-    void:triples 2 .
-
-<http://data.archaeology.link/data/cigs/dataset_entity> a void:Linkset,
-        <http://www.w3.org/ns/ldp#BasicContainer>,
-        <http://www.w3.org/ns/ldp#Container>,
-        <http://www.w3.org/ns/ldp#Resource> ;
-    rdfs:label "Linkset: dataset - entity"@en ;
-    void:linkPredicate owl:sameAs ;
-    void:objectsTarget <http://www.wikidata.org/entity/> ;
-    void:subjectsTarget <http://data.archaeology.link/data/cigs/dataset> ;
-    void:triples 154 .
-
-<http://data.archaeology.link/data/cigs/dataset_places> a void:Linkset,
-        <http://www.w3.org/ns/ldp#BasicContainer>,
-        <http://www.w3.org/ns/ldp#Container>,
-        <http://www.w3.org/ns/ldp#Resource> ;
-    rdfs:label "Linkset: dataset - places"@en ;
-    void:linkPredicate ns2:P1584 ;
-    void:objectsTarget <https://pleiades.stoa.org/places/> ;
-    void:subjectsTarget <http://data.archaeology.link/data/cigs/dataset> ;
-    void:triples 259 .
-
-<http://data.archaeology.link/data/cigs/dataset_www.geonames.org> a void:Linkset,
-        <http://www.w3.org/ns/ldp#BasicContainer>,
-        <http://www.w3.org/ns/ldp#Container>,
-        <http://www.w3.org/ns/ldp#Resource> ;
-    rdfs:label "Linkset: dataset - www.geonames.org"@en ;
-    void:linkPredicate ns2:P1566 ;
-    void:objectsTarget <https://www.geonames.org/> ;
-    void:subjectsTarget <http://data.archaeology.link/data/cigs/dataset> ;
-    void:triples 284 .
 
 <http://data.archaeology.link/data/cigs/ADA> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -9515,267 +9449,6 @@
     geo:hasGeometry <http://data.archaeology.link/data/cigs/ZWY_geom> ;
     ns2:P1584 <https://pleiades.stoa.org/places/767486703> .
 
-<http://data.archaeology.link/data/cigs/dataset_Catalog> a void:Dataset,
-        <http://www.w3.org/ns/ldp#BasicContainer>,
-        <http://www.w3.org/ns/ldp#Container>,
-        <http://www.w3.org/ns/ldp#Resource> ;
-    rdfs:label "Class Partition: Catalog"@en ;
-    void:class dcat:Catalog ;
-    void:entities 1 .
-
-<http://data.archaeology.link/data/cigs/dataset_Collection> a void:Dataset,
-        <http://www.w3.org/ns/ldp#BasicContainer>,
-        <http://www.w3.org/ns/ldp#Container>,
-        <http://www.w3.org/ns/ldp#Resource> ;
-    rdfs:label "Class Partition: Collection"@en ;
-    void:class ns3:Collection,
-        skos:Collection ;
-    void:entities 1 .
-
-<http://data.archaeology.link/data/cigs/dataset_CuneiformSite> a void:Dataset,
-        <http://www.w3.org/ns/ldp#BasicContainer>,
-        <http://www.w3.org/ns/ldp#Container>,
-        <http://www.w3.org/ns/ldp#Resource> ;
-    rdfs:label "Class Partition: CuneiformSite"@en ;
-    void:class ns1:CuneiformSite ;
-    void:entities 579 .
-
-<http://data.archaeology.link/data/cigs/dataset_Dataset> a void:Dataset,
-        <http://www.w3.org/ns/ldp#BasicContainer>,
-        <http://www.w3.org/ns/ldp#Container>,
-        <http://www.w3.org/ns/ldp#Resource> ;
-    rdfs:label "Class Partition: Dataset"@en ;
-    void:class dcat:Dataset ;
-    void:entities 1 .
-
-<http://data.archaeology.link/data/cigs/dataset_Document> a void:Dataset,
-        <http://www.w3.org/ns/ldp#BasicContainer>,
-        <http://www.w3.org/ns/ldp#Container>,
-        <http://www.w3.org/ns/ldp#Resource> ;
-    rdfs:label "Class Partition: Document"@en ;
-    void:class ns3:Document ;
-    void:entities 1 .
-
-<http://data.archaeology.link/data/cigs/dataset_Feature> a void:Dataset,
-        <http://www.w3.org/ns/ldp#BasicContainer>,
-        <http://www.w3.org/ns/ldp#Container>,
-        <http://www.w3.org/ns/ldp#Resource> ;
-    rdfs:label "Class Partition: Feature"@en ;
-    void:class geo:Feature .
-
-<http://data.archaeology.link/data/cigs/dataset_FeatureCollection> a void:Dataset,
-        <http://www.w3.org/ns/ldp#BasicContainer>,
-        <http://www.w3.org/ns/ldp#Container>,
-        <http://www.w3.org/ns/ldp#Resource> ;
-    rdfs:label "Class Partition: FeatureCollection"@en ;
-    void:class geo:FeatureCollection ;
-    void:entities 1 .
-
-<http://data.archaeology.link/data/cigs/dataset_Geometry> a void:Dataset,
-        <http://www.w3.org/ns/ldp#BasicContainer>,
-        <http://www.w3.org/ns/ldp#Container>,
-        <http://www.w3.org/ns/ldp#Resource> ;
-    rdfs:label "Class Partition: Geometry"@en ;
-    void:class geo:Geometry .
-
-<http://data.archaeology.link/data/cigs/dataset_GeometryCollection> a void:Dataset,
-        <http://www.w3.org/ns/ldp#BasicContainer>,
-        <http://www.w3.org/ns/ldp#Container>,
-        <http://www.w3.org/ns/ldp#Resource> ;
-    rdfs:label "Class Partition: GeometryCollection"@en ;
-    void:class geo:GeometryCollection ;
-    void:entities 1 .
-
-<http://data.archaeology.link/data/cigs/dataset_Group> a void:Dataset,
-        <http://www.w3.org/ns/ldp#BasicContainer>,
-        <http://www.w3.org/ns/ldp#Container>,
-        <http://www.w3.org/ns/ldp#Resource> ;
-    rdfs:label "Class Partition: Group"@en ;
-    void:class ns4:Group ;
-    void:entities 1 .
-
-<http://data.archaeology.link/data/cigs/dataset_P1566> a void:Dataset,
-        <http://www.w3.org/ns/ldp#BasicContainer>,
-        <http://www.w3.org/ns/ldp#Container>,
-        <http://www.w3.org/ns/ldp#Resource> ;
-    rdfs:label "Property Partition: P1566"@en ;
-    void:property ns2:P1566 ;
-    void:triples 284 .
-
-<http://data.archaeology.link/data/cigs/dataset_P1584> a void:Dataset,
-        <http://www.w3.org/ns/ldp#BasicContainer>,
-        <http://www.w3.org/ns/ldp#Container>,
-        <http://www.w3.org/ns/ldp#Resource> ;
-    rdfs:label "Property Partition: P1584"@en ;
-    void:property ns2:P1584 ;
-    void:triples 259 .
-
-<http://data.archaeology.link/data/cigs/dataset_Person> a void:Dataset,
-        <http://www.w3.org/ns/ldp#BasicContainer>,
-        <http://www.w3.org/ns/ldp#Container>,
-        <http://www.w3.org/ns/ldp#Resource> ;
-    rdfs:label "Class Partition: Person"@en ;
-    void:class foaf:Person ;
-    void:entities 6 .
-
-<http://data.archaeology.link/data/cigs/dataset_Point> a void:Dataset,
-        <http://www.w3.org/ns/ldp#BasicContainer>,
-        <http://www.w3.org/ns/ldp#Container>,
-        <http://www.w3.org/ns/ldp#Resource> ;
-    rdfs:label "Class Partition: Point"@en ;
-    void:class <http://www.opengis.net/ont/sf#Point> ;
-    void:entities 579 .
-
-<http://data.archaeology.link/data/cigs/dataset_SpatialObject> a void:Dataset,
-        <http://www.w3.org/ns/ldp#BasicContainer>,
-        <http://www.w3.org/ns/ldp#Container>,
-        <http://www.w3.org/ns/ldp#Resource> ;
-    rdfs:label "Class Partition: SpatialObject"@en ;
-    void:class geo:SpatialObject .
-
-<http://data.archaeology.link/data/cigs/dataset_SpatialObjectCollection> a void:Dataset,
-        <http://www.w3.org/ns/ldp#BasicContainer>,
-        <http://www.w3.org/ns/ldp#Container>,
-        <http://www.w3.org/ns/ldp#Resource> ;
-    rdfs:label "Class Partition: SpatialObjectCollection"@en ;
-    void:class geo:SpatialObjectCollection .
-
-<http://data.archaeology.link/data/cigs/dataset_accuracy> a void:Dataset,
-        <http://www.w3.org/ns/ldp#BasicContainer>,
-        <http://www.w3.org/ns/ldp#Container>,
-        <http://www.w3.org/ns/ldp#Resource> ;
-    rdfs:label "Property Partition: accuracy"@en ;
-    void:property ns1:accuracy ;
-    void:triples 579 .
-
-<http://data.archaeology.link/data/cigs/dataset_altLabel> a void:Dataset,
-        <http://www.w3.org/ns/ldp#BasicContainer>,
-        <http://www.w3.org/ns/ldp#Container>,
-        <http://www.w3.org/ns/ldp#Resource> ;
-    rdfs:label "Property Partition: altLabel"@en ;
-    void:property skos:altLabel ;
-    void:triples 144 .
-
-<http://data.archaeology.link/data/cigs/dataset_asWKT> a void:Dataset,
-        <http://www.w3.org/ns/ldp#BasicContainer>,
-        <http://www.w3.org/ns/ldp#Container>,
-        <http://www.w3.org/ns/ldp#Resource> ;
-    rdfs:label "Property Partition: asWKT"@en ;
-    void:property geo:asWKT ;
-    void:triples 573 .
-
-<http://data.archaeology.link/data/cigs/dataset_cdli_provenience_id> a void:Dataset,
-        <http://www.w3.org/ns/ldp#BasicContainer>,
-        <http://www.w3.org/ns/ldp#Container>,
-        <http://www.w3.org/ns/ldp#Resource> ;
-    rdfs:label "Property Partition: cdli_provenience_id"@en ;
-    void:property ns1:cdli_provenience_id ;
-    void:triples 578 .
-
-<http://data.archaeology.link/data/cigs/dataset_created> a void:Dataset,
-        <http://www.w3.org/ns/ldp#BasicContainer>,
-        <http://www.w3.org/ns/ldp#Container>,
-        <http://www.w3.org/ns/ldp#Resource> ;
-    rdfs:label "Property Partition: created"@en ;
-    void:property dc:created ;
-    void:triples 580 .
-
-<http://data.archaeology.link/data/cigs/dataset_creator> a void:Dataset,
-        <http://www.w3.org/ns/ldp#BasicContainer>,
-        <http://www.w3.org/ns/ldp#Container>,
-        <http://www.w3.org/ns/ldp#Resource> ;
-    rdfs:label "Property Partition: creator"@en ;
-    void:property dc:creator ;
-    void:triples 6 .
-
-<http://data.archaeology.link/data/cigs/dataset_doi> a void:Dataset,
-        <http://www.w3.org/ns/ldp#BasicContainer>,
-        <http://www.w3.org/ns/ldp#Container>,
-        <http://www.w3.org/ns/ldp#Resource> ;
-    rdfs:label "Property Partition: doi"@en ;
-    void:property ns3:doi ;
-    void:triples 1 .
-
-<http://data.archaeology.link/data/cigs/dataset_familyName> a void:Dataset,
-        <http://www.w3.org/ns/ldp#BasicContainer>,
-        <http://www.w3.org/ns/ldp#Container>,
-        <http://www.w3.org/ns/ldp#Resource> ;
-    rdfs:label "Property Partition: familyName"@en ;
-    void:property foaf:familyName ;
-    void:triples 6 .
-
-<http://data.archaeology.link/data/cigs/dataset_firstName> a void:Dataset,
-        <http://www.w3.org/ns/ldp#BasicContainer>,
-        <http://www.w3.org/ns/ldp#Container>,
-        <http://www.w3.org/ns/ldp#Resource> ;
-    rdfs:label "Property Partition: firstName"@en ;
-    void:property foaf:firstName ;
-    void:triples 6 .
-
-<http://data.archaeology.link/data/cigs/dataset_hasGeometry> a void:Dataset,
-        <http://www.w3.org/ns/ldp#BasicContainer>,
-        <http://www.w3.org/ns/ldp#Container>,
-        <http://www.w3.org/ns/ldp#Resource> ;
-    rdfs:label "Property Partition: hasGeometry"@en ;
-    void:property geo:hasGeometry ;
-    void:triples 579 .
-
-<http://data.archaeology.link/data/cigs/dataset_label> a void:Dataset,
-        <http://www.w3.org/ns/ldp#BasicContainer>,
-        <http://www.w3.org/ns/ldp#Container>,
-        <http://www.w3.org/ns/ldp#Resource> ;
-    rdfs:label "Property Partition: label"@en ;
-    void:property rdfs:label ;
-    void:triples 2295 .
-
-<http://data.archaeology.link/data/cigs/dataset_partOf> a void:Dataset,
-        <http://www.w3.org/ns/ldp#BasicContainer>,
-        <http://www.w3.org/ns/ldp#Container>,
-        <http://www.w3.org/ns/ldp#Resource> ;
-    rdfs:label "Property Partition: partOf"@en ;
-    void:property dcterms:partOf ;
-    void:triples 579 .
-
-<http://data.archaeology.link/data/cigs/dataset_publisher> a void:Dataset,
-        <http://www.w3.org/ns/ldp#BasicContainer>,
-        <http://www.w3.org/ns/ldp#Container>,
-        <http://www.w3.org/ns/ldp#Resource> ;
-    rdfs:label "Property Partition: publisher"@en ;
-    void:property dcterms:publisher ;
-    void:triples 1 .
-
-<http://data.archaeology.link/data/cigs/dataset_sameAs> a void:Dataset,
-        <http://www.w3.org/ns/ldp#BasicContainer>,
-        <http://www.w3.org/ns/ldp#Container>,
-        <http://www.w3.org/ns/ldp#Resource> ;
-    rdfs:label "Property Partition: sameAs"@en ;
-    void:property owl:sameAs ;
-    void:triples 154 .
-
-<http://data.archaeology.link/data/cigs/dataset_subClassOf> a void:Dataset,
-        <http://www.w3.org/ns/ldp#BasicContainer>,
-        <http://www.w3.org/ns/ldp#Container>,
-        <http://www.w3.org/ns/ldp#Resource> ;
-    rdfs:label "Property Partition: subClassOf"@en ;
-    void:property rdfs:subClassOf ;
-    void:triples 4 .
-
-<http://data.archaeology.link/data/cigs/dataset_title> a void:Dataset,
-        <http://www.w3.org/ns/ldp#BasicContainer>,
-        <http://www.w3.org/ns/ldp#Container>,
-        <http://www.w3.org/ns/ldp#Resource> ;
-    rdfs:label "Property Partition: title"@en ;
-    void:property dc:title ;
-    void:triples 1 .
-
-<http://data.archaeology.link/data/cigs/dataset_type> a void:Dataset,
-        <http://www.w3.org/ns/ldp#BasicContainer>,
-        <http://www.w3.org/ns/ldp#Container>,
-        <http://www.w3.org/ns/ldp#Resource> ;
-    rdfs:label "Property Partition: type"@en ;
-    void:property rdf:type ;
-    void:triples 1169 .
-
 <http://data.archaeology.link/data/cigs/ADA_geom> a <http://www.opengis.net/ont/sf#Point>,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
@@ -14456,7 +14129,7 @@
     foaf:familyName "Smidt"@en ;
     foaf:firstName "Gustav Ryberg"@en .
 
-<http://data.archaeology.link/data/cigs/bib_rattenborg_rune_2021_7330077> a ns3:Document,
+<http://data.archaeology.link/data/cigs/bib_rattenborg_rune_2021_7330077> a ns4:Document,
         dcat:Dataset,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
@@ -14470,7 +14143,7 @@
         <http://data.archaeology.link/data/cigs/author_Smidt_Gustav_Ryberg> ;
     dc:title "Cuneiform Inscriptions Geographical Site Index (CIGS)"@en ;
     dcterms:publisher "Zenodo" ;
-    ns3:doi "10.5281/zenodo.7330077"^^xsd:string ;
+    ns4:doi "10.5281/zenodo.7330077"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/cigs/dataset> .
 
 <http://data.archaeology.link/data/cigs/dataset> a void:Dataset,
@@ -14480,7 +14153,7 @@
     rdfs:label "dataset"@en ;
     dc:language <http://www.lexvo.org/page/iso639-1/en> ;
     dcterms:license <http://creativecommons.org/licenses/by/4.0> ;
-    dcterms:modified "2024-01-23T19:20:13"^^xsd:dateTime ;
+    dcterms:modified "2024-01-23T22:07:59"^^xsd:dateTime ;
     dcterms:subject <http://dbpedia.org/resource/Location>,
         <http://www.wikidata.org/entity/Q121810372>,
         foaf:Person ;
