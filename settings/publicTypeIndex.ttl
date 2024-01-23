@@ -210,9 +210,6 @@
         <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#CPW_geom>,
         <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#CSA>,
         <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#CSA_geom>,
-        <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#Catalog>,
-        <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#Collection>,
-        <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#CuneiformSite>,
         <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#CuneiformSite_collection>,
         <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#DAB>,
         <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#DAB_geom>,
@@ -262,9 +259,7 @@
         <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#DUZ_geom>,
         <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#DWL>,
         <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#DWL_geom>,
-        <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#Dataset>,
         <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#Dataset_collection>,
-        <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#Document>,
         <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#Document_collection>,
         <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#EBA>,
         <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#EBA_geom>,
@@ -312,8 +307,6 @@
         <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#FRU_geom>,
         <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#FSN>,
         <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#FSN_geom>,
-        <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#Feature>,
-        <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#FeatureCollection>,
         <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#GAR>,
         <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#GAR_geom>,
         <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#GAV>,
@@ -362,9 +355,6 @@
         <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#GZH_geom>,
         <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#GZR>,
         <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#GZR_geom>,
-        <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#Geometry>,
-        <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#GeometryCollection>,
-        <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#Group>,
         <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#HAB>,
         <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#HAB_geom>,
         <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#HAD>,
@@ -790,7 +780,6 @@
         <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#PSG>,
         <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#PSG_geom>,
         <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#Person_collection>,
-        <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#Point>,
         <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#Point_collection>,
         <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#QAB>,
         <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#QAB_geom>,
@@ -966,8 +955,6 @@
         <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#SZE_geom>,
         <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#SZU>,
         <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#SZU_geom>,
-        <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#SpatialObject>,
-        <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#SpatialObjectCollection>,
         <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#TAB>,
         <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#TAB_geom>,
         <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#TAF>,
@@ -1194,7 +1181,20 @@
         <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#author_Smidt_Gustav_Ryberg>,
         <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#bib_rattenborg_rune_2021_7330077_suniv0_>,
         <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#bib_rattenborg_rune_2021_7330077_suniv1_>,
-        <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#nonns_Person.html> .
+        <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#nonns_Catalog.html>,
+        <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#nonns_Collection.html>,
+        <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#nonns_CuneiformSite.html>,
+        <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#nonns_Dataset.html>,
+        <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#nonns_Document.html>,
+        <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#nonns_Feature.html>,
+        <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#nonns_FeatureCollection.html>,
+        <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#nonns_Geometry.html>,
+        <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#nonns_GeometryCollection.html>,
+        <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#nonns_Group.html>,
+        <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#nonns_Person.html>,
+        <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#nonns_Point.html>,
+        <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#nonns_SpatialObject.html>,
+        <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#nonns_SpatialObjectCollection.html> .
 
 <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#ADA> ns1:forClass <http://www.ancientports.com/ont#CuneiformSite> ;
     ns1:instance <https://archaeolink.github.io/CIGS_RDF/ADA> .
@@ -1796,16 +1796,6 @@
 <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#CSA_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
     ns1:instance <https://archaeolink.github.io/CIGS_RDF/CSA_geom> .
 
-<https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#Catalog> ns1:forClass skos:Collection ;
-    ns1:instance <https://archaeolink.github.io/CIGS_RDF/Catalog> .
-
-<https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#Collection> ns1:forClass <#>,
-        skos:Collection ;
-    ns1:instance <https://archaeolink.github.io/CIGS_RDF/Collection> .
-
-<https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#CuneiformSite> ns1:forClass geo:Feature ;
-    ns1:instance <https://archaeolink.github.io/CIGS_RDF/CuneiformSite> .
-
 <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#CuneiformSite_collection> ns1:forClass geo:FeatureCollection ;
     ns1:instance <https://archaeolink.github.io/CIGS_RDF/CuneiformSite_collection> .
 
@@ -1953,14 +1943,8 @@
 <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#DWL_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
     ns1:instance <https://archaeolink.github.io/CIGS_RDF/DWL_geom> .
 
-<https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#Dataset> ns1:forClass <#> ;
-    ns1:instance <https://archaeolink.github.io/CIGS_RDF/Dataset> .
-
 <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#Dataset_collection> ns1:forClass dcat:Catalog ;
     ns1:instance <https://archaeolink.github.io/CIGS_RDF/Dataset_collection> .
-
-<https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#Document> ns1:forClass <#> ;
-    ns1:instance <https://archaeolink.github.io/CIGS_RDF/Document> .
 
 <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#Document_collection> ns1:forClass <http://purl.org/ontology/bibo/Collection> ;
     ns1:instance <https://archaeolink.github.io/CIGS_RDF/Document_collection> .
@@ -2102,12 +2086,6 @@
 
 <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#FSN_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
     ns1:instance <https://archaeolink.github.io/CIGS_RDF/FSN_geom> .
-
-<https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#Feature> ns1:forClass <#> ;
-    ns1:instance <https://archaeolink.github.io/CIGS_RDF/Feature> .
-
-<https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#FeatureCollection> ns1:forClass geo:SpatialObjectCollection ;
-    ns1:instance <https://archaeolink.github.io/CIGS_RDF/FeatureCollection> .
 
 <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#GAR> ns1:forClass <http://www.ancientports.com/ont#CuneiformSite> ;
     ns1:instance <https://archaeolink.github.io/CIGS_RDF/GAR> .
@@ -2252,15 +2230,6 @@
 
 <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#GZR_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
     ns1:instance <https://archaeolink.github.io/CIGS_RDF/GZR_geom> .
-
-<https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#Geometry> ns1:forClass <#> ;
-    ns1:instance <https://archaeolink.github.io/CIGS_RDF/Geometry> .
-
-<https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#GeometryCollection> ns1:forClass geo:SpatialObjectCollection ;
-    ns1:instance <https://archaeolink.github.io/CIGS_RDF/GeometryCollection> .
-
-<https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#Group> ns1:forClass skos:Collection ;
-    ns1:instance <https://archaeolink.github.io/CIGS_RDF/Group> .
 
 <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#HAB> ns1:forClass <http://www.ancientports.com/ont#CuneiformSite> ;
     ns1:instance <https://archaeolink.github.io/CIGS_RDF/HAB> .
@@ -3537,9 +3506,6 @@
 <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#Person_collection> ns1:forClass <http://www.w3.org/2006/vcard/ns#Group> ;
     ns1:instance <https://archaeolink.github.io/CIGS_RDF/Person_collection> .
 
-<https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#Point> ns1:forClass geo:Geometry ;
-    ns1:instance <https://archaeolink.github.io/CIGS_RDF/Point> .
-
 <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#Point_collection> ns1:forClass geo:GeometryCollection ;
     ns1:instance <https://archaeolink.github.io/CIGS_RDF/Point_collection> .
 
@@ -4064,12 +4030,6 @@
 
 <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#SZU_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
     ns1:instance <https://archaeolink.github.io/CIGS_RDF/SZU_geom> .
-
-<https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#SpatialObject> ns1:forClass <#> ;
-    ns1:instance <https://archaeolink.github.io/CIGS_RDF/SpatialObject> .
-
-<https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#SpatialObjectCollection> ns1:forClass <#> ;
-    ns1:instance <https://archaeolink.github.io/CIGS_RDF/SpatialObjectCollection> .
 
 <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#TAB> ns1:forClass <http://www.ancientports.com/ont#CuneiformSite> ;
     ns1:instance <https://archaeolink.github.io/CIGS_RDF/TAB> .
@@ -4749,6 +4709,46 @@
 <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#bib_rattenborg_rune_2021_7330077_suniv1_> ns1:forClass dcat:Dataset ;
     ns1:instance <https://archaeolink.github.io/CIGS_RDF/bib_rattenborg_rune_2021_7330077_suniv1_> .
 
+<https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#nonns_Catalog.html> ns1:forClass skos:Collection ;
+    ns1:instance <https://archaeolink.github.io/CIGS_RDF/nonns_Catalog.html> .
+
+<https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#nonns_Collection.html> ns1:forClass <#>,
+        skos:Collection ;
+    ns1:instance <https://archaeolink.github.io/CIGS_RDF/nonns_Collection.html> .
+
+<https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#nonns_CuneiformSite.html> ns1:forClass geo:Feature ;
+    ns1:instance <https://archaeolink.github.io/CIGS_RDF/nonns_CuneiformSite.html> .
+
+<https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#nonns_Dataset.html> ns1:forClass <#> ;
+    ns1:instance <https://archaeolink.github.io/CIGS_RDF/nonns_Dataset.html> .
+
+<https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#nonns_Document.html> ns1:forClass <#> ;
+    ns1:instance <https://archaeolink.github.io/CIGS_RDF/nonns_Document.html> .
+
+<https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#nonns_Feature.html> ns1:forClass <#> ;
+    ns1:instance <https://archaeolink.github.io/CIGS_RDF/nonns_Feature.html> .
+
+<https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#nonns_FeatureCollection.html> ns1:forClass geo:SpatialObjectCollection ;
+    ns1:instance <https://archaeolink.github.io/CIGS_RDF/nonns_FeatureCollection.html> .
+
+<https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#nonns_Geometry.html> ns1:forClass <#> ;
+    ns1:instance <https://archaeolink.github.io/CIGS_RDF/nonns_Geometry.html> .
+
+<https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#nonns_GeometryCollection.html> ns1:forClass geo:SpatialObjectCollection ;
+    ns1:instance <https://archaeolink.github.io/CIGS_RDF/nonns_GeometryCollection.html> .
+
+<https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#nonns_Group.html> ns1:forClass skos:Collection ;
+    ns1:instance <https://archaeolink.github.io/CIGS_RDF/nonns_Group.html> .
+
 <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#nonns_Person.html> ns1:forClass <#> ;
     ns1:instance <https://archaeolink.github.io/CIGS_RDF/nonns_Person.html> .
+
+<https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#nonns_Point.html> ns1:forClass geo:Geometry ;
+    ns1:instance <https://archaeolink.github.io/CIGS_RDF/nonns_Point.html> .
+
+<https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#nonns_SpatialObject.html> ns1:forClass <#> ;
+    ns1:instance <https://archaeolink.github.io/CIGS_RDF/nonns_SpatialObject.html> .
+
+<https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#nonns_SpatialObjectCollection.html> ns1:forClass <#> ;
+    ns1:instance <https://archaeolink.github.io/CIGS_RDF/nonns_SpatialObjectCollection.html> .
 
