@@ -29,6 +29,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://data.archaeology.link/data/cigs/dataset_> a void:Linkset ;
+    void:linkPredicate rdf:type ;
     void:objectsTarget <http://www.ancientports.com/ont#>,
         geo:,
         <http://www.opengis.net/ont/sf#>,
@@ -40,26 +41,31 @@
         579 .
 
 <http://data.archaeology.link/data/cigs/dataset_0.1> a void:Linkset ;
+    void:linkPredicate rdf:type ;
     void:objectsTarget foaf: ;
     void:subjectsTarget <http://data.archaeology.link/data/cigs/dataset> ;
     void:triples 6 .
 
 <http://data.archaeology.link/data/cigs/dataset_bibo> a void:Linkset ;
+    void:linkPredicate rdf:type ;
     void:objectsTarget <http://purl.org/ontology/bibo/> ;
     void:subjectsTarget <http://data.archaeology.link/data/cigs/dataset> ;
     void:triples 2 .
 
 <http://data.archaeology.link/data/cigs/dataset_entity> a void:Linkset ;
+    void:linkPredicate owl:sameAs ;
     void:objectsTarget <http://www.wikidata.org/entity/> ;
     void:subjectsTarget <http://data.archaeology.link/data/cigs/dataset> ;
     void:triples 154 .
 
 <http://data.archaeology.link/data/cigs/dataset_places> a void:Linkset ;
+    void:linkPredicate <http://www.wikidata.org/prop/direct/P1584> ;
     void:objectsTarget <https://pleiades.stoa.org/places/> ;
     void:subjectsTarget <http://data.archaeology.link/data/cigs/dataset> ;
     void:triples 259 .
 
 <http://data.archaeology.link/data/cigs/dataset_www.geonames.org> a void:Linkset ;
+    void:linkPredicate <http://www.wikidata.org/prop/direct/P1566> ;
     void:objectsTarget <https://www.geonames.org/> ;
     void:subjectsTarget <http://data.archaeology.link/data/cigs/dataset> ;
     void:triples 284 .
@@ -201,7 +207,7 @@
     rdfs:label "dataset"@en ;
     dc:language <http://www.lexvo.org/page/iso639-1/en> ;
     dcterms:license <http://creativecommons.org/licenses/by/4.0> ;
-    dcterms:modified "2024-01-23T01:33:23"^^xsd:dateTime ;
+    dcterms:modified "2024-01-23T01:48:06"^^xsd:dateTime ;
     dcterms:subject <http://dbpedia.org/resource/Location>,
         <http://www.wikidata.org/entity/Q121810372>,
         foaf:Person ;
