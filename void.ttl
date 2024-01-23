@@ -72,44 +72,42 @@
 
 <http://data.archaeology.link/data/cigs/dataset_Catalog> a void:Dataset ;
     void:class dcat:Catalog ;
-    void:entities 1171 .
+    void:entities 1 .
 
 <http://data.archaeology.link/data/cigs/dataset_Collection> a void:Dataset ;
     void:class <http://purl.org/ontology/bibo/Collection>,
         skos:Collection ;
-    void:entities 1171 .
+    void:entities 1 .
 
 <http://data.archaeology.link/data/cigs/dataset_CuneiformSite> a void:Dataset ;
     void:class <http://www.ancientports.com/ont#CuneiformSite> ;
-    void:entities 1171 .
+    void:entities 579 .
 
 <http://data.archaeology.link/data/cigs/dataset_Dataset> a void:Dataset ;
     void:class dcat:Dataset ;
-    void:entities 1171 .
+    void:entities 1 .
 
 <http://data.archaeology.link/data/cigs/dataset_Document> a void:Dataset ;
     void:class <http://purl.org/ontology/bibo/Document> ;
-    void:entities 1171 .
+    void:entities 1 .
 
 <http://data.archaeology.link/data/cigs/dataset_Feature> a void:Dataset ;
-    void:class geo:Feature ;
-    void:entities 1171 .
+    void:class geo:Feature .
 
 <http://data.archaeology.link/data/cigs/dataset_FeatureCollection> a void:Dataset ;
     void:class geo:FeatureCollection ;
-    void:entities 1171 .
+    void:entities 1 .
 
 <http://data.archaeology.link/data/cigs/dataset_Geometry> a void:Dataset ;
-    void:class geo:Geometry ;
-    void:entities 1171 .
+    void:class geo:Geometry .
 
 <http://data.archaeology.link/data/cigs/dataset_GeometryCollection> a void:Dataset ;
     void:class geo:GeometryCollection ;
-    void:entities 1171 .
+    void:entities 1 .
 
 <http://data.archaeology.link/data/cigs/dataset_Group> a void:Dataset ;
     void:class <http://www.w3.org/2006/vcard/ns#Group> ;
-    void:entities 1171 .
+    void:entities 1 .
 
 <http://data.archaeology.link/data/cigs/dataset_P1566> a void:Dataset ;
     void:property <http://www.wikidata.org/prop/direct/P1566> ;
@@ -121,19 +119,17 @@
 
 <http://data.archaeology.link/data/cigs/dataset_Person> a void:Dataset ;
     void:class foaf:Person ;
-    void:entities 1171 .
+    void:entities 6 .
 
 <http://data.archaeology.link/data/cigs/dataset_Point> a void:Dataset ;
     void:class <http://www.opengis.net/ont/sf#Point> ;
-    void:entities 1171 .
+    void:entities 579 .
 
 <http://data.archaeology.link/data/cigs/dataset_SpatialObject> a void:Dataset ;
-    void:class geo:SpatialObject ;
-    void:entities 1171 .
+    void:class geo:SpatialObject .
 
 <http://data.archaeology.link/data/cigs/dataset_SpatialObjectCollection> a void:Dataset ;
-    void:class geo:SpatialObjectCollection ;
-    void:entities 1171 .
+    void:class geo:SpatialObjectCollection .
 
 <http://data.archaeology.link/data/cigs/dataset_accuracy> a void:Dataset ;
     void:property <http://www.ancientports.com/ont#accuracy> ;
@@ -207,7 +203,7 @@
     rdfs:label "dataset"@en ;
     dc:language <http://www.lexvo.org/page/iso639-1/en> ;
     dcterms:license <http://creativecommons.org/licenses/by/4.0> ;
-    dcterms:modified "2024-01-23T01:48:06"^^xsd:dateTime ;
+    dcterms:modified "2024-01-23T02:09:22"^^xsd:dateTime ;
     dcterms:subject <http://dbpedia.org/resource/Location>,
         <http://www.wikidata.org/entity/Q121810372>,
         foaf:Person ;
