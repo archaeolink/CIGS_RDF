@@ -28,91 +28,41 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://data.archaeology.link/data/cigs/dataset> a void:Dataset ;
-    rdfs:label "dataset"@en ;
-    dc:language <http://www.lexvo.org/page/iso639-1/en> ;
-    dcterms:license <http://creativecommons.org/licenses/by/4.0> ;
-    dcterms:modified "2024-01-22T02:43:39"^^xsd:dateTime ;
-    dcterms:subject <http://dbpedia.org/resource/Location>,
-        <http://www.wikidata.org/entity/Q121810372>,
-        foaf:Person ;
-    dcterms:title "dataset"@en ;
-    void:classPartition <http://data.archaeology.link/data/cigs/dataset_Catalog>,
-        <http://data.archaeology.link/data/cigs/dataset_Collection>,
-        <http://data.archaeology.link/data/cigs/dataset_CuneiformSite>,
-        <http://data.archaeology.link/data/cigs/dataset_Dataset>,
-        <http://data.archaeology.link/data/cigs/dataset_Document>,
-        <http://data.archaeology.link/data/cigs/dataset_Feature>,
-        <http://data.archaeology.link/data/cigs/dataset_FeatureCollection>,
-        <http://data.archaeology.link/data/cigs/dataset_Geometry>,
-        <http://data.archaeology.link/data/cigs/dataset_GeometryCollection>,
-        <http://data.archaeology.link/data/cigs/dataset_Group>,
-        <http://data.archaeology.link/data/cigs/dataset_Person>,
-        <http://data.archaeology.link/data/cigs/dataset_Point>,
-        <http://data.archaeology.link/data/cigs/dataset_SpatialObject>,
-        <http://data.archaeology.link/data/cigs/dataset_SpatialObjectCollection> ;
-    void:classes 15 ;
-    void:dataDump <https://archaeolink.github.io/CIGS_RDF/index.ttl> ;
-    void:distinctObjects 4501 ;
-    void:distinctSubjects 1883 ;
-    void:entities 1171 ;
-    void:exampleResource <> ;
-    void:feature <http://www.w3.org/ns/formats/RDFa>,
-        <http://www.w3.org/ns/formats/Turtle> ;
-    void:properties 19 ;
-    void:propertyPartition <http://data.archaeology.link/data/cigs/dataset_P1566>,
-        <http://data.archaeology.link/data/cigs/dataset_P1584>,
-        <http://data.archaeology.link/data/cigs/dataset_accuracy>,
-        <http://data.archaeology.link/data/cigs/dataset_altLabel>,
-        <http://data.archaeology.link/data/cigs/dataset_asWKT>,
-        <http://data.archaeology.link/data/cigs/dataset_cdli_provenience_id>,
-        <http://data.archaeology.link/data/cigs/dataset_created>,
-        <http://data.archaeology.link/data/cigs/dataset_creator>,
-        <http://data.archaeology.link/data/cigs/dataset_doi>,
-        <http://data.archaeology.link/data/cigs/dataset_familyName>,
-        <http://data.archaeology.link/data/cigs/dataset_firstName>,
-        <http://data.archaeology.link/data/cigs/dataset_hasGeometry>,
-        <http://data.archaeology.link/data/cigs/dataset_label>,
-        <http://data.archaeology.link/data/cigs/dataset_partOf>,
-        <http://data.archaeology.link/data/cigs/dataset_publisher>,
-        <http://data.archaeology.link/data/cigs/dataset_sameAs>,
-        <http://data.archaeology.link/data/cigs/dataset_subClassOf>,
-        <http://data.archaeology.link/data/cigs/dataset_title>,
-        <http://data.archaeology.link/data/cigs/dataset_type> ;
-    void:rootResource <> ;
-    void:triples 10150 ;
-    void:uriSpace "http://data.archaeology.link/data/cigs/"^^xsd:string ;
-    void:vocabulary dcam:,
-        dcmitype:,
-        dc:,
-        dcterms:,
-        qb:,
-        vann:,
-        void:,
-        doap:,
+<http://data.archaeology.link/data/cigs/dataset_> a void:Linkset ;
+    void:objectsTarget <http://www.ancientports.com/ont#>,
         geo:,
-        rdf:,
-        rdfs:,
-        xsd:,
-        owl:,
-        skos:,
-        time:,
-        xml:,
-        csvw:,
-        dcat:,
-        prof:,
-        odrl:,
-        org:,
-        prov:,
-        sh:,
-        sosa:,
-        ssn:,
-        foaf:,
-        brick:,
-        schema:,
-        wgs: ;
-    foaf:homepage <https://archaeolink.github.io/CIGS_RDF> ;
-    foaf:page <https://archaeolink.github.io/CIGS_RDF/index.html> .
+        <http://www.opengis.net/ont/sf#>,
+        <http://www.w3.org/2006/vcard/ns#>,
+        dcat: ;
+    void:subjectsTarget <http://data.archaeology.link/data/cigs/dataset> ;
+    void:triples 1,
+        2,
+        579 .
+
+<http://data.archaeology.link/data/cigs/dataset_0.1> a void:Linkset ;
+    void:objectsTarget foaf: ;
+    void:subjectsTarget <http://data.archaeology.link/data/cigs/dataset> ;
+    void:triples 6 .
+
+<http://data.archaeology.link/data/cigs/dataset_bibo> a void:Linkset ;
+    void:objectsTarget <http://purl.org/ontology/bibo/> ;
+    void:subjectsTarget <http://data.archaeology.link/data/cigs/dataset> ;
+    void:triples 2 .
+
+<http://data.archaeology.link/data/cigs/dataset_entity> a void:Linkset ;
+    void:objectsTarget <http://www.wikidata.org/entity/> ;
+    void:subjectsTarget <http://data.archaeology.link/data/cigs/dataset> ;
+    void:triples 154 .
+
+<http://data.archaeology.link/data/cigs/dataset_places> a void:Linkset ;
+    void:objectsTarget <https://pleiades.stoa.org/places/> ;
+    void:subjectsTarget <http://data.archaeology.link/data/cigs/dataset> ;
+    void:triples 259 .
+
+<http://data.archaeology.link/data/cigs/dataset_www.geonames.org> a void:Linkset ;
+    void:objectsTarget <https://www.geonames.org/> ;
+    void:subjectsTarget <http://data.archaeology.link/data/cigs/dataset> ;
+    void:triples 284 .
 
 <http://data.archaeology.link/data/cigs/dataset_Catalog> a void:Dataset ;
     void:class dcat:Catalog ;
@@ -246,4 +196,90 @@
 <http://data.archaeology.link/data/cigs/dataset_type> a void:Dataset ;
     void:property rdf:type ;
     void:triples 1169 .
+
+<http://data.archaeology.link/data/cigs/dataset> a void:Dataset ;
+    rdfs:label "dataset"@en ;
+    dc:language <http://www.lexvo.org/page/iso639-1/en> ;
+    dcterms:license <http://creativecommons.org/licenses/by/4.0> ;
+    dcterms:modified "2024-01-23T01:33:23"^^xsd:dateTime ;
+    dcterms:subject <http://dbpedia.org/resource/Location>,
+        <http://www.wikidata.org/entity/Q121810372>,
+        foaf:Person ;
+    dcterms:title "dataset"@en ;
+    void:classPartition <http://data.archaeology.link/data/cigs/dataset_Catalog>,
+        <http://data.archaeology.link/data/cigs/dataset_Collection>,
+        <http://data.archaeology.link/data/cigs/dataset_CuneiformSite>,
+        <http://data.archaeology.link/data/cigs/dataset_Dataset>,
+        <http://data.archaeology.link/data/cigs/dataset_Document>,
+        <http://data.archaeology.link/data/cigs/dataset_Feature>,
+        <http://data.archaeology.link/data/cigs/dataset_FeatureCollection>,
+        <http://data.archaeology.link/data/cigs/dataset_Geometry>,
+        <http://data.archaeology.link/data/cigs/dataset_GeometryCollection>,
+        <http://data.archaeology.link/data/cigs/dataset_Group>,
+        <http://data.archaeology.link/data/cigs/dataset_Person>,
+        <http://data.archaeology.link/data/cigs/dataset_Point>,
+        <http://data.archaeology.link/data/cigs/dataset_SpatialObject>,
+        <http://data.archaeology.link/data/cigs/dataset_SpatialObjectCollection> ;
+    void:classes 15 ;
+    void:dataDump <https://archaeolink.github.io/CIGS_RDF/index.ttl> ;
+    void:distinctObjects 4501 ;
+    void:distinctSubjects 1883 ;
+    void:entities 1171 ;
+    void:exampleResource <> ;
+    void:feature <http://www.w3.org/ns/formats/RDFa>,
+        <http://www.w3.org/ns/formats/Turtle> ;
+    void:properties 19 ;
+    void:propertyPartition <http://data.archaeology.link/data/cigs/dataset_P1566>,
+        <http://data.archaeology.link/data/cigs/dataset_P1584>,
+        <http://data.archaeology.link/data/cigs/dataset_accuracy>,
+        <http://data.archaeology.link/data/cigs/dataset_altLabel>,
+        <http://data.archaeology.link/data/cigs/dataset_asWKT>,
+        <http://data.archaeology.link/data/cigs/dataset_cdli_provenience_id>,
+        <http://data.archaeology.link/data/cigs/dataset_created>,
+        <http://data.archaeology.link/data/cigs/dataset_creator>,
+        <http://data.archaeology.link/data/cigs/dataset_doi>,
+        <http://data.archaeology.link/data/cigs/dataset_familyName>,
+        <http://data.archaeology.link/data/cigs/dataset_firstName>,
+        <http://data.archaeology.link/data/cigs/dataset_hasGeometry>,
+        <http://data.archaeology.link/data/cigs/dataset_label>,
+        <http://data.archaeology.link/data/cigs/dataset_partOf>,
+        <http://data.archaeology.link/data/cigs/dataset_publisher>,
+        <http://data.archaeology.link/data/cigs/dataset_sameAs>,
+        <http://data.archaeology.link/data/cigs/dataset_subClassOf>,
+        <http://data.archaeology.link/data/cigs/dataset_title>,
+        <http://data.archaeology.link/data/cigs/dataset_type> ;
+    void:rootResource <> ;
+    void:triples 10150 ;
+    void:uriSpace "http://data.archaeology.link/data/cigs/"^^xsd:string ;
+    void:vocabulary dcam:,
+        dcmitype:,
+        dc:,
+        dcterms:,
+        qb:,
+        vann:,
+        void:,
+        doap:,
+        geo:,
+        rdf:,
+        rdfs:,
+        xsd:,
+        owl:,
+        skos:,
+        time:,
+        xml:,
+        csvw:,
+        dcat:,
+        prof:,
+        odrl:,
+        org:,
+        prov:,
+        sh:,
+        sosa:,
+        ssn:,
+        foaf:,
+        brick:,
+        schema:,
+        wgs: ;
+    foaf:homepage <https://archaeolink.github.io/CIGS_RDF> ;
+    foaf:page <https://archaeolink.github.io/CIGS_RDF/index.html> .
 
