@@ -28,53 +28,75 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://data.archaeology.link/data/cigs/dataset_> a void:Linkset ;
-    rdfs:label "Linkset: dataset - "@en ;
-    void:linkPredicate rdf:type ;
-    void:objectsTarget <http://www.ancientports.com/ont#>,
-        geo:,
-        <http://www.opengis.net/ont/sf#>,
-        <http://www.w3.org/2006/vcard/ns#>,
-        dcat: ;
-    void:subjectsTarget <http://data.archaeology.link/data/cigs/dataset> ;
-    void:triples 1,
-        2,
-        579 .
-
-<http://data.archaeology.link/data/cigs/dataset_0.1> a void:Linkset ;
-    rdfs:label "Linkset: dataset - 0.1"@en ;
-    void:linkPredicate rdf:type ;
-    void:objectsTarget foaf: ;
-    void:subjectsTarget <http://data.archaeology.link/data/cigs/dataset> ;
-    void:triples 6 .
-
-<http://data.archaeology.link/data/cigs/dataset_bibo> a void:Linkset ;
-    rdfs:label "Linkset: dataset - bibo"@en ;
-    void:linkPredicate rdf:type ;
-    void:objectsTarget <http://purl.org/ontology/bibo/> ;
-    void:subjectsTarget <http://data.archaeology.link/data/cigs/dataset> ;
-    void:triples 2 .
-
-<http://data.archaeology.link/data/cigs/dataset_entity> a void:Linkset ;
-    rdfs:label "Linkset: dataset - entity"@en ;
-    void:linkPredicate owl:sameAs ;
-    void:objectsTarget <http://www.wikidata.org/entity/> ;
-    void:subjectsTarget <http://data.archaeology.link/data/cigs/dataset> ;
-    void:triples 154 .
-
-<http://data.archaeology.link/data/cigs/dataset_places> a void:Linkset ;
+<http://data.archaeology.link/data/cigs/dataset_pleiades.stoa.org_places_> a void:Linkset ;
     rdfs:label "Linkset: dataset - places"@en ;
     void:linkPredicate <http://www.wikidata.org/prop/direct/P1584> ;
     void:objectsTarget <https://pleiades.stoa.org/places/> ;
     void:subjectsTarget <http://data.archaeology.link/data/cigs/dataset> ;
     void:triples 259 .
 
-<http://data.archaeology.link/data/cigs/dataset_www.geonames.org> a void:Linkset ;
+<http://data.archaeology.link/data/cigs/dataset_purl.org_ontology_bibo_> a void:Linkset ;
+    rdfs:label "Linkset: dataset - bibo"@en ;
+    void:linkPredicate rdf:type ;
+    void:objectsTarget <http://purl.org/ontology/bibo/> ;
+    void:subjectsTarget <http://data.archaeology.link/data/cigs/dataset> ;
+    void:triples 2 .
+
+<http://data.archaeology.link/data/cigs/dataset_www.ancientports.com_ont#> a void:Linkset ;
+    rdfs:label "Linkset: dataset - "@en ;
+    void:linkPredicate rdf:type ;
+    void:objectsTarget <http://www.ancientports.com/ont#> ;
+    void:subjectsTarget <http://data.archaeology.link/data/cigs/dataset> ;
+    void:triples 579 .
+
+<http://data.archaeology.link/data/cigs/dataset_www.geonames.org_> a void:Linkset ;
     rdfs:label "Linkset: dataset - www.geonames.org"@en ;
     void:linkPredicate <http://www.wikidata.org/prop/direct/P1566> ;
     void:objectsTarget <https://www.geonames.org/> ;
     void:subjectsTarget <http://data.archaeology.link/data/cigs/dataset> ;
     void:triples 284 .
+
+<http://data.archaeology.link/data/cigs/dataset_www.opengis.net_ont_geosparql#> a void:Linkset ;
+    rdfs:label "Linkset: dataset - "@en ;
+    void:linkPredicate rdf:type ;
+    void:objectsTarget geo: ;
+    void:subjectsTarget <http://data.archaeology.link/data/cigs/dataset> ;
+    void:triples 2 .
+
+<http://data.archaeology.link/data/cigs/dataset_www.opengis.net_ont_sf#> a void:Linkset ;
+    rdfs:label "Linkset: dataset - "@en ;
+    void:linkPredicate rdf:type ;
+    void:objectsTarget <http://www.opengis.net/ont/sf#> ;
+    void:subjectsTarget <http://data.archaeology.link/data/cigs/dataset> ;
+    void:triples 579 .
+
+<http://data.archaeology.link/data/cigs/dataset_www.w3.org_2006_vcard_ns#> a void:Linkset ;
+    rdfs:label "Linkset: dataset - "@en ;
+    void:linkPredicate rdf:type ;
+    void:objectsTarget <http://www.w3.org/2006/vcard/ns#> ;
+    void:subjectsTarget <http://data.archaeology.link/data/cigs/dataset> ;
+    void:triples 1 .
+
+<http://data.archaeology.link/data/cigs/dataset_www.w3.org_ns_dcat#> a void:Linkset ;
+    rdfs:label "Linkset: dataset - "@en ;
+    void:linkPredicate rdf:type ;
+    void:objectsTarget dcat: ;
+    void:subjectsTarget <http://data.archaeology.link/data/cigs/dataset> ;
+    void:triples 2 .
+
+<http://data.archaeology.link/data/cigs/dataset_www.wikidata.org_entity_> a void:Linkset ;
+    rdfs:label "Linkset: dataset - entity"@en ;
+    void:linkPredicate owl:sameAs ;
+    void:objectsTarget <http://www.wikidata.org/entity/> ;
+    void:subjectsTarget <http://data.archaeology.link/data/cigs/dataset> ;
+    void:triples 154 .
+
+<http://data.archaeology.link/data/cigs/dataset_xmlns.com_foaf_0.1_> a void:Linkset ;
+    rdfs:label "Linkset: dataset - 0.1"@en ;
+    void:linkPredicate rdf:type ;
+    void:objectsTarget foaf: ;
+    void:subjectsTarget <http://data.archaeology.link/data/cigs/dataset> ;
+    void:triples 6 .
 
 <http://data.archaeology.link/data/cigs/dataset_Catalog> a void:Dataset ;
     rdfs:label "Class Partition: Catalog"@en ;
@@ -242,7 +264,7 @@
     rdfs:label "dataset"@en ;
     dc:language <http://www.lexvo.org/page/iso639-1/en> ;
     dcterms:license <http://creativecommons.org/licenses/by/4.0> ;
-    dcterms:modified "2024-01-24T01:45:46"^^xsd:dateTime ;
+    dcterms:modified "2024-01-24T12:15:53"^^xsd:dateTime ;
     dcterms:subject <http://dbpedia.org/resource/Location>,
         <http://www.wikidata.org/entity/Q121810372>,
         foaf:Person ;
