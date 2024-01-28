@@ -14405,7 +14405,7 @@
     rdfs:label "dataset"@en ;
     dc:language <http://www.lexvo.org/page/iso639-1/en> ;
     dcterms:license <http://creativecommons.org/licenses/by/4.0> ;
-    dcterms:modified "2024-01-28T02:45:46"^^xsd:dateTime ;
+    dcterms:modified "2024-01-28T02:49:54"^^xsd:dateTime ;
     dcterms:subject <http://dbpedia.org/resource/Location>,
         <http://dbpedia.org/resource/OGC_GeoSPARQL>,
         <http://www.wikidata.org/entity/Q121810372>,
@@ -14430,7 +14430,6 @@
     void:distinctObjects 4501 ;
     void:distinctSubjects 1883 ;
     void:entities 1171 ;
-    void:exampleResource <> ;
     void:feature <http://www.w3.org/ns/formats/RDFa>,
         <http://www.w3.org/ns/formats/Turtle> ;
     void:properties 19 ;
@@ -14453,7 +14452,6 @@
         <http://data.archaeology.link/data/cigs/dataset_subClassOf>,
         <http://data.archaeology.link/data/cigs/dataset_title>,
         <http://data.archaeology.link/data/cigs/dataset_type> ;
-    void:rootResource <> ;
     void:triples 10150 ;
     void:uriSpace "http://data.archaeology.link/data/cigs/"^^xsd:string ;
     void:vocabulary dcam:,
