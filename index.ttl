@@ -1253,7 +1253,7 @@
     void:subjectsTarget <http://data.archaeology.link/data/cigs/dataset> ;
     void:triples 2 .
 
-<http://data.archaeology.link/data/cigs/dataset_www.ancientports.com_ont#> a void:Linkset,
+<http://data.archaeology.link/data/cigs/dataset_www.ancientports.com_ont_> a void:Linkset,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
@@ -1273,7 +1273,7 @@
     void:subjectsTarget <http://data.archaeology.link/data/cigs/dataset> ;
     void:triples 284 .
 
-<http://data.archaeology.link/data/cigs/dataset_www.opengis.net_ont_geosparql#> a void:Linkset,
+<http://data.archaeology.link/data/cigs/dataset_www.opengis.net_ont_geosparql_> a void:Linkset,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
@@ -1283,7 +1283,7 @@
     void:subjectsTarget <http://data.archaeology.link/data/cigs/dataset> ;
     void:triples 2 .
 
-<http://data.archaeology.link/data/cigs/dataset_www.opengis.net_ont_sf#> a void:Linkset,
+<http://data.archaeology.link/data/cigs/dataset_www.opengis.net_ont_sf_> a void:Linkset,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
@@ -1293,7 +1293,7 @@
     void:subjectsTarget <http://data.archaeology.link/data/cigs/dataset> ;
     void:triples 579 .
 
-<http://data.archaeology.link/data/cigs/dataset_www.w3.org_2006_vcard_ns#> a void:Linkset,
+<http://data.archaeology.link/data/cigs/dataset_www.w3.org_2006_vcard_ns_> a void:Linkset,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
@@ -1303,7 +1303,7 @@
     void:subjectsTarget <http://data.archaeology.link/data/cigs/dataset> ;
     void:triples 1 .
 
-<http://data.archaeology.link/data/cigs/dataset_www.w3.org_ns_dcat#> a void:Linkset,
+<http://data.archaeology.link/data/cigs/dataset_www.w3.org_ns_dcat_> a void:Linkset,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
@@ -14405,9 +14405,10 @@
     rdfs:label "dataset"@en ;
     dc:language <http://www.lexvo.org/page/iso639-1/en> ;
     dcterms:license <http://creativecommons.org/licenses/by/4.0> ;
-    dcterms:modified "2024-01-28T03:38:56"^^xsd:dateTime ;
+    dcterms:modified "2024-01-29T21:40:43"^^xsd:dateTime ;
     dcterms:subject <http://dbpedia.org/resource/Location>,
         <http://dbpedia.org/resource/OGC_GeoSPARQL>,
+        <http://dbpedia.org/resource/Time>,
         <http://www.wikidata.org/entity/Q121810372>,
         foaf:Person ;
     dcterms:title "dataset"@en ;
