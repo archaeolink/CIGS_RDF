@@ -34,7 +34,9 @@
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "dataset"@en ;
     ns1:averageLiteralLength 9 ;
+    ns1:averageObjectIRILength 45 ;
     ns1:averagePropertyIRILength 40 ;
+    ns1:averageSubjectIRILength 44 ;
     ns1:datatypes 3 ;
     ns1:distinctBlankNodes 0 ;
     ns1:distinctIRIReferences 6403 ;
@@ -45,7 +47,7 @@
     dc:language <http://www.lexvo.org/page/iso639-1/en> ;
     dc:license <http://creativecommons.org/licenses/by/4.0> ;
     dcterms:license <http://creativecommons.org/licenses/by/4.0> ;
-    dcterms:modified "2024-01-31T17:32:32"^^xsd:dateTime ;
+    dcterms:modified "2024-01-31T17:58:16"^^xsd:dateTime ;
     dcterms:subject <http://dbpedia.org/resource/Location>,
         <http://dbpedia.org/resource/OGC_GeoSPARQL>,
         <http://dbpedia.org/resource/Time>,
