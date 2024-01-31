@@ -33,16 +33,19 @@
         <http://www.w3.org/ns/ldp#Resource>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "dataset"@en ;
+    ns1:averageLiteralLength 0.10677801412852228 ;
+    ns1:averagePropertyIRILength "0.02490170380078637"^^xsd:integer ;
     ns1:datatypes 3 ;
     ns1:distinctBlankNodes 0 ;
     ns1:distinctIRIReferences 6403 ;
     ns1:distinctLiterals 2510 ;
     ns1:distinctRDFNodes 8913 ;
     ns1:languages 7 ;
+    ns1:propertyClasses 0 ;
     dc:language <http://www.lexvo.org/page/iso639-1/en> ;
     dc:license <http://creativecommons.org/licenses/by/4.0> ;
     dcterms:license <http://creativecommons.org/licenses/by/4.0> ;
-    dcterms:modified "2024-01-29T23:22:36"^^xsd:dateTime ;
+    dcterms:modified "2024-01-31T17:25:29"^^xsd:dateTime ;
     dcterms:subject <http://dbpedia.org/resource/Location>,
         <http://dbpedia.org/resource/OGC_GeoSPARQL>,
         <http://dbpedia.org/resource/Time>,
