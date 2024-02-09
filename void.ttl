@@ -275,7 +275,7 @@ dcam: a ns1:Vocabulary ;
 
 dcam:_dataset_occ a ns1:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://purl.org/dc/dcam/ in dataset" ;
-    ns1:inDataset <dataset> ;
+    ns1:inDataset <http://data.archaeology.link/data/cigs/dataset> ;
     ns1:occurrences 0 .
 
 dcmitype: a ns1:Vocabulary ;
@@ -285,7 +285,7 @@ dcmitype: a ns1:Vocabulary ;
 
 dcmitype:_dataset_occ a ns1:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://purl.org/dc/dcmitype/ in dataset" ;
-    ns1:inDataset <dataset> ;
+    ns1:inDataset <http://data.archaeology.link/data/cigs/dataset> ;
     ns1:occurrences 0 .
 
 dc: a ns1:Vocabulary ;
@@ -295,7 +295,7 @@ dc: a ns1:Vocabulary ;
 
 dc:_dataset_occ a ns1:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://purl.org/dc/elements/1.1/ in dataset" ;
-    ns1:inDataset <dataset> ;
+    ns1:inDataset <http://data.archaeology.link/data/cigs/dataset> ;
     ns1:occurrences 0 .
 
 dcterms: a ns1:Vocabulary ;
@@ -305,7 +305,7 @@ dcterms: a ns1:Vocabulary ;
 
 dcterms:_dataset_occ a ns1:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://purl.org/dc/terms/ in dataset" ;
-    ns1:inDataset <dataset> ;
+    ns1:inDataset <http://data.archaeology.link/data/cigs/dataset> ;
     ns1:occurrences 0 .
 
 qb: a ns1:Vocabulary ;
@@ -315,7 +315,7 @@ qb: a ns1:Vocabulary ;
 
 qb:_dataset_occ a ns1:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://purl.org/linked-data/cube# in dataset" ;
-    ns1:inDataset <dataset> ;
+    ns1:inDataset <http://data.archaeology.link/data/cigs/dataset> ;
     ns1:occurrences 0 .
 
 vann: a ns1:Vocabulary ;
@@ -325,7 +325,7 @@ vann: a ns1:Vocabulary ;
 
 vann:_dataset_occ a ns1:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://purl.org/vocab/vann/ in dataset" ;
-    ns1:inDataset <dataset> ;
+    ns1:inDataset <http://data.archaeology.link/data/cigs/dataset> ;
     ns1:occurrences 0 .
 
 void: a ns1:Vocabulary ;
@@ -335,7 +335,7 @@ void: a ns1:Vocabulary ;
 
 void:_dataset_occ a ns1:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://rdfs.org/ns/void# in dataset" ;
-    ns1:inDataset <dataset> ;
+    ns1:inDataset <http://data.archaeology.link/data/cigs/dataset> ;
     ns1:occurrences 0 .
 
 doap: a ns1:Vocabulary ;
@@ -345,12 +345,12 @@ doap: a ns1:Vocabulary ;
 
 doap:_dataset_occ a ns1:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://usefulinc.com/ns/doap# in dataset" ;
-    ns1:inDataset <dataset> ;
+    ns1:inDataset <http://data.archaeology.link/data/cigs/dataset> ;
     ns1:occurrences 0 .
 
 geo:_dataset_occ a ns1:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://www.opengis.net/ont/geosparql# in dataset" ;
-    ns1:inDataset <dataset> ;
+    ns1:inDataset <http://data.archaeology.link/data/cigs/dataset> ;
     ns1:occurrences 0 .
 
 rdf: a ns1:Vocabulary ;
@@ -360,7 +360,7 @@ rdf: a ns1:Vocabulary ;
 
 rdf:_dataset_occ a ns1:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://www.w3.org/1999/02/22-rdf-syntax-ns# in dataset" ;
-    ns1:inDataset <dataset> ;
+    ns1:inDataset <http://data.archaeology.link/data/cigs/dataset> ;
     ns1:occurrences 0 .
 
 rdfs: a ns1:Vocabulary ;
@@ -370,7 +370,7 @@ rdfs: a ns1:Vocabulary ;
 
 rdfs:_dataset_occ a ns1:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://www.w3.org/2000/01/rdf-schema# in dataset" ;
-    ns1:inDataset <dataset> ;
+    ns1:inDataset <http://data.archaeology.link/data/cigs/dataset> ;
     ns1:occurrences 0 .
 
 xsd: a ns1:Vocabulary ;
@@ -380,7 +380,7 @@ xsd: a ns1:Vocabulary ;
 
 xsd:_dataset_occ a ns1:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://www.w3.org/2001/XMLSchema# in dataset" ;
-    ns1:inDataset <dataset> ;
+    ns1:inDataset <http://data.archaeology.link/data/cigs/dataset> ;
     ns1:occurrences 0 .
 
 owl: a ns1:Vocabulary ;
@@ -390,7 +390,7 @@ owl: a ns1:Vocabulary ;
 
 owl:_dataset_occ a ns1:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://www.w3.org/2002/07/owl# in dataset" ;
-    ns1:inDataset <dataset> ;
+    ns1:inDataset <http://data.archaeology.link/data/cigs/dataset> ;
     ns1:occurrences 0 .
 
 skos: a ns1:Vocabulary ;
@@ -400,7 +400,7 @@ skos: a ns1:Vocabulary ;
 
 skos:_dataset_occ a ns1:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://www.w3.org/2004/02/skos/core# in dataset" ;
-    ns1:inDataset <dataset> ;
+    ns1:inDataset <http://data.archaeology.link/data/cigs/dataset> ;
     ns1:occurrences 0 .
 
 time: a ns1:Vocabulary ;
@@ -410,7 +410,7 @@ time: a ns1:Vocabulary ;
 
 time:_dataset_occ a ns1:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://www.w3.org/2006/time# in dataset" ;
-    ns1:inDataset <dataset> ;
+    ns1:inDataset <http://data.archaeology.link/data/cigs/dataset> ;
     ns1:occurrences 0 .
 
 xml: a ns1:Vocabulary ;
@@ -420,7 +420,7 @@ xml: a ns1:Vocabulary ;
 
 xml:_dataset_occ a ns1:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://www.w3.org/XML/1998/namespace in dataset" ;
-    ns1:inDataset <dataset> ;
+    ns1:inDataset <http://data.archaeology.link/data/cigs/dataset> ;
     ns1:occurrences 0 .
 
 csvw: a ns1:Vocabulary ;
@@ -430,12 +430,12 @@ csvw: a ns1:Vocabulary ;
 
 csvw:_dataset_occ a ns1:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/csvw# in dataset" ;
-    ns1:inDataset <dataset> ;
+    ns1:inDataset <http://data.archaeology.link/data/cigs/dataset> ;
     ns1:occurrences 0 .
 
 dcat:_dataset_occ a ns1:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/dcat# in dataset" ;
-    ns1:inDataset <dataset> ;
+    ns1:inDataset <http://data.archaeology.link/data/cigs/dataset> ;
     ns1:occurrences 0 .
 
 prof: a ns1:Vocabulary ;
@@ -445,7 +445,7 @@ prof: a ns1:Vocabulary ;
 
 prof:_dataset_occ a ns1:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/dx/prof/ in dataset" ;
-    ns1:inDataset <dataset> ;
+    ns1:inDataset <http://data.archaeology.link/data/cigs/dataset> ;
     ns1:occurrences 0 .
 
 odrl: a ns1:Vocabulary ;
@@ -455,7 +455,7 @@ odrl: a ns1:Vocabulary ;
 
 odrl:_dataset_occ a ns1:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/odrl/2/ in dataset" ;
-    ns1:inDataset <dataset> ;
+    ns1:inDataset <http://data.archaeology.link/data/cigs/dataset> ;
     ns1:occurrences 0 .
 
 org: a ns1:Vocabulary ;
@@ -465,7 +465,7 @@ org: a ns1:Vocabulary ;
 
 org:_dataset_occ a ns1:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/org# in dataset" ;
-    ns1:inDataset <dataset> ;
+    ns1:inDataset <http://data.archaeology.link/data/cigs/dataset> ;
     ns1:occurrences 0 .
 
 prov: a ns1:Vocabulary ;
@@ -475,7 +475,7 @@ prov: a ns1:Vocabulary ;
 
 prov:_dataset_occ a ns1:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/prov# in dataset" ;
-    ns1:inDataset <dataset> ;
+    ns1:inDataset <http://data.archaeology.link/data/cigs/dataset> ;
     ns1:occurrences 0 .
 
 sh: a ns1:Vocabulary ;
@@ -485,7 +485,7 @@ sh: a ns1:Vocabulary ;
 
 sh:_dataset_occ a ns1:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/shacl# in dataset" ;
-    ns1:inDataset <dataset> ;
+    ns1:inDataset <http://data.archaeology.link/data/cigs/dataset> ;
     ns1:occurrences 0 .
 
 sosa: a ns1:Vocabulary ;
@@ -495,7 +495,7 @@ sosa: a ns1:Vocabulary ;
 
 sosa:_dataset_occ a ns1:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/sosa/ in dataset" ;
-    ns1:inDataset <dataset> ;
+    ns1:inDataset <http://data.archaeology.link/data/cigs/dataset> ;
     ns1:occurrences 0 .
 
 ssn: a ns1:Vocabulary ;
@@ -505,14 +505,14 @@ ssn: a ns1:Vocabulary ;
 
 ssn:_dataset_occ a ns1:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/ssn/ in dataset" ;
-    ns1:inDataset <dataset> ;
+    ns1:inDataset <http://data.archaeology.link/data/cigs/dataset> ;
     ns1:occurrences 0 .
 
 <http://www.wikidata.org/entity/Q121810372> rdfs:label "geospatial data"@en .
 
 foaf:_dataset_occ a ns1:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://xmlns.com/foaf/0.1/ in dataset" ;
-    ns1:inDataset <dataset> ;
+    ns1:inDataset <http://data.archaeology.link/data/cigs/dataset> ;
     ns1:occurrences 0 .
 
 brick: a ns1:Vocabulary ;
@@ -522,7 +522,7 @@ brick: a ns1:Vocabulary ;
 
 brick:_dataset_occ a ns1:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary https://brickschema.org/schema/Brick# in dataset" ;
-    ns1:inDataset <dataset> ;
+    ns1:inDataset <http://data.archaeology.link/data/cigs/dataset> ;
     ns1:occurrences 0 .
 
 schema: a ns1:Vocabulary ;
@@ -532,7 +532,7 @@ schema: a ns1:Vocabulary ;
 
 schema:_dataset_occ a ns1:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary https://schema.org/ in dataset" ;
-    ns1:inDataset <dataset> ;
+    ns1:inDataset <http://data.archaeology.link/data/cigs/dataset> ;
     ns1:occurrences 0 .
 
 wgs: a ns1:Vocabulary ;
@@ -542,7 +542,7 @@ wgs: a ns1:Vocabulary ;
 
 wgs:_dataset_occ a ns1:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary https://www.w3.org/2003/01/geo/wgs84_pos# in dataset" ;
-    ns1:inDataset <dataset> ;
+    ns1:inDataset <http://data.archaeology.link/data/cigs/dataset> ;
     ns1:occurrences 0 .
 
 geo: a ns1:Vocabulary ;
@@ -577,7 +577,7 @@ foaf:Person rdfs:label "Person"@en .
     ns2:propertyClasses 0 ;
     dc:language <http://www.lexvo.org/page/iso639-1/en> ;
     dcterms:license <http://creativecommons.org/licenses/by/4.0> ;
-    dcterms:modified "2024-02-09T22:47:17"^^xsd:dateTime ;
+    dcterms:modified "2024-02-09T22:52:47"^^xsd:dateTime ;
     dcterms:subject <http://dbpedia.org/resource/Location>,
         <http://dbpedia.org/resource/OGC_GeoSPARQL>,
         <http://dbpedia.org/resource/Time>,
