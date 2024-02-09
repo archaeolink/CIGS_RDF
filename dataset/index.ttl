@@ -47,7 +47,7 @@
     dc:language <http://www.lexvo.org/page/iso639-1/en> ;
     dc:license <http://creativecommons.org/licenses/by/4.0> ;
     dcterms:license <http://creativecommons.org/licenses/by/4.0> ;
-    dcterms:modified "2024-02-09T22:52:47"^^xsd:dateTime ;
+    dcterms:modified "2024-02-09T22:57:46"^^xsd:dateTime ;
     dcterms:subject <http://dbpedia.org/resource/Location>,
         <http://dbpedia.org/resource/OGC_GeoSPARQL>,
         <http://dbpedia.org/resource/Time>,
@@ -97,12 +97,14 @@
         <http://data.archaeology.link/data/cigs/dataset_type> ;
     void:triples 10150 ;
     void:uriSpace "http://data.archaeology.link/data/cigs/"^^xsd:string ;
-    void:vocabulary dcam:,
+    void:vocabulary ns1:,
+        dcam:,
         dcmitype:,
         dc:,
         dcterms:,
         qb:,
         vann:,
+        <http://purl.org/vocommons/voaf#>,
         void:,
         doap:,
         geo:,
