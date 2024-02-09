@@ -269,6 +269,8 @@
 <http://dbpedia.org/resource/Time> rdfs:label "Time Data"@en .
 
 dcam: a ns1:Vocabulary ;
+    vann:preferredNamespacePrefix "dcam"^^xsd:anyURI ;
+    vann:preferredNamespaceUri "http://purl.org/dc/dcam/"^^xsd:anyURI ;
     ns1:usageInDataset dcam:_dataset_occ .
 
 dcam:_dataset_occ a ns1:DatasetOccurrence ;
@@ -277,6 +279,8 @@ dcam:_dataset_occ a ns1:DatasetOccurrence ;
     ns1:occurrences 0 .
 
 dcmitype: a ns1:Vocabulary ;
+    vann:preferredNamespacePrefix "dcmitype"^^xsd:anyURI ;
+    vann:preferredNamespaceUri "http://purl.org/dc/dcmitype/"^^xsd:anyURI ;
     ns1:usageInDataset dcmitype:_dataset_occ .
 
 dcmitype:_dataset_occ a ns1:DatasetOccurrence ;
@@ -285,6 +289,8 @@ dcmitype:_dataset_occ a ns1:DatasetOccurrence ;
     ns1:occurrences 0 .
 
 dc: a ns1:Vocabulary ;
+    vann:preferredNamespacePrefix "dc"^^xsd:anyURI ;
+    vann:preferredNamespaceUri "http://purl.org/dc/elements/1.1/"^^xsd:anyURI ;
     ns1:usageInDataset dc:_dataset_occ .
 
 dc:_dataset_occ a ns1:DatasetOccurrence ;
@@ -293,6 +299,8 @@ dc:_dataset_occ a ns1:DatasetOccurrence ;
     ns1:occurrences 0 .
 
 dcterms: a ns1:Vocabulary ;
+    vann:preferredNamespacePrefix "dcterms"^^xsd:anyURI ;
+    vann:preferredNamespaceUri "http://purl.org/dc/terms/"^^xsd:anyURI ;
     ns1:usageInDataset dcterms:_dataset_occ .
 
 dcterms:_dataset_occ a ns1:DatasetOccurrence ;
@@ -301,6 +309,8 @@ dcterms:_dataset_occ a ns1:DatasetOccurrence ;
     ns1:occurrences 0 .
 
 qb: a ns1:Vocabulary ;
+    vann:preferredNamespacePrefix "qb"^^xsd:anyURI ;
+    vann:preferredNamespaceUri "http://purl.org/linked-data/cube#"^^xsd:anyURI ;
     ns1:usageInDataset qb:_dataset_occ .
 
 qb:_dataset_occ a ns1:DatasetOccurrence ;
@@ -309,6 +319,8 @@ qb:_dataset_occ a ns1:DatasetOccurrence ;
     ns1:occurrences 0 .
 
 vann: a ns1:Vocabulary ;
+    vann:preferredNamespacePrefix "vann"^^xsd:anyURI ;
+    vann:preferredNamespaceUri "http://purl.org/vocab/vann/"^^xsd:anyURI ;
     ns1:usageInDataset vann:_dataset_occ .
 
 vann:_dataset_occ a ns1:DatasetOccurrence ;
@@ -317,6 +329,8 @@ vann:_dataset_occ a ns1:DatasetOccurrence ;
     ns1:occurrences 0 .
 
 void: a ns1:Vocabulary ;
+    vann:preferredNamespacePrefix "void"^^xsd:anyURI ;
+    vann:preferredNamespaceUri "http://rdfs.org/ns/void#"^^xsd:anyURI ;
     ns1:usageInDataset void:_dataset_occ .
 
 void:_dataset_occ a ns1:DatasetOccurrence ;
@@ -325,6 +339,8 @@ void:_dataset_occ a ns1:DatasetOccurrence ;
     ns1:occurrences 0 .
 
 doap: a ns1:Vocabulary ;
+    vann:preferredNamespacePrefix "doap"^^xsd:anyURI ;
+    vann:preferredNamespaceUri "http://usefulinc.com/ns/doap#"^^xsd:anyURI ;
     ns1:usageInDataset doap:_dataset_occ .
 
 doap:_dataset_occ a ns1:DatasetOccurrence ;
@@ -338,6 +354,8 @@ geo:_dataset_occ a ns1:DatasetOccurrence ;
     ns1:occurrences 0 .
 
 rdf: a ns1:Vocabulary ;
+    vann:preferredNamespacePrefix "rdf"^^xsd:anyURI ;
+    vann:preferredNamespaceUri "http://www.w3.org/1999/02/22-rdf-syntax-ns#"^^xsd:anyURI ;
     ns1:usageInDataset rdf:_dataset_occ .
 
 rdf:_dataset_occ a ns1:DatasetOccurrence ;
@@ -346,6 +364,8 @@ rdf:_dataset_occ a ns1:DatasetOccurrence ;
     ns1:occurrences 0 .
 
 rdfs: a ns1:Vocabulary ;
+    vann:preferredNamespacePrefix "rdfs"^^xsd:anyURI ;
+    vann:preferredNamespaceUri "http://www.w3.org/2000/01/rdf-schema#"^^xsd:anyURI ;
     ns1:usageInDataset rdfs:_dataset_occ .
 
 rdfs:_dataset_occ a ns1:DatasetOccurrence ;
@@ -354,6 +374,8 @@ rdfs:_dataset_occ a ns1:DatasetOccurrence ;
     ns1:occurrences 0 .
 
 xsd: a ns1:Vocabulary ;
+    vann:preferredNamespacePrefix "xsd"^^xsd:anyURI ;
+    vann:preferredNamespaceUri "http://www.w3.org/2001/XMLSchema#"^^xsd:anyURI ;
     ns1:usageInDataset xsd:_dataset_occ .
 
 xsd:_dataset_occ a ns1:DatasetOccurrence ;
@@ -362,6 +384,8 @@ xsd:_dataset_occ a ns1:DatasetOccurrence ;
     ns1:occurrences 0 .
 
 owl: a ns1:Vocabulary ;
+    vann:preferredNamespacePrefix "owl"^^xsd:anyURI ;
+    vann:preferredNamespaceUri "http://www.w3.org/2002/07/owl#"^^xsd:anyURI ;
     ns1:usageInDataset owl:_dataset_occ .
 
 owl:_dataset_occ a ns1:DatasetOccurrence ;
@@ -370,6 +394,8 @@ owl:_dataset_occ a ns1:DatasetOccurrence ;
     ns1:occurrences 0 .
 
 skos: a ns1:Vocabulary ;
+    vann:preferredNamespacePrefix "skos"^^xsd:anyURI ;
+    vann:preferredNamespaceUri "http://www.w3.org/2004/02/skos/core#"^^xsd:anyURI ;
     ns1:usageInDataset skos:_dataset_occ .
 
 skos:_dataset_occ a ns1:DatasetOccurrence ;
@@ -378,6 +404,8 @@ skos:_dataset_occ a ns1:DatasetOccurrence ;
     ns1:occurrences 0 .
 
 time: a ns1:Vocabulary ;
+    vann:preferredNamespacePrefix "time"^^xsd:anyURI ;
+    vann:preferredNamespaceUri "http://www.w3.org/2006/time#"^^xsd:anyURI ;
     ns1:usageInDataset time:_dataset_occ .
 
 time:_dataset_occ a ns1:DatasetOccurrence ;
@@ -386,6 +414,8 @@ time:_dataset_occ a ns1:DatasetOccurrence ;
     ns1:occurrences 0 .
 
 xml: a ns1:Vocabulary ;
+    vann:preferredNamespacePrefix "xml"^^xsd:anyURI ;
+    vann:preferredNamespaceUri "http://www.w3.org/XML/1998/namespace"^^xsd:anyURI ;
     ns1:usageInDataset xml:_dataset_occ .
 
 xml:_dataset_occ a ns1:DatasetOccurrence ;
@@ -394,6 +424,8 @@ xml:_dataset_occ a ns1:DatasetOccurrence ;
     ns1:occurrences 0 .
 
 csvw: a ns1:Vocabulary ;
+    vann:preferredNamespacePrefix "csvw"^^xsd:anyURI ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/csvw#"^^xsd:anyURI ;
     ns1:usageInDataset csvw:_dataset_occ .
 
 csvw:_dataset_occ a ns1:DatasetOccurrence ;
@@ -407,6 +439,8 @@ dcat:_dataset_occ a ns1:DatasetOccurrence ;
     ns1:occurrences 0 .
 
 prof: a ns1:Vocabulary ;
+    vann:preferredNamespacePrefix "prof"^^xsd:anyURI ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/dx/prof/"^^xsd:anyURI ;
     ns1:usageInDataset prof:_dataset_occ .
 
 prof:_dataset_occ a ns1:DatasetOccurrence ;
@@ -415,6 +449,8 @@ prof:_dataset_occ a ns1:DatasetOccurrence ;
     ns1:occurrences 0 .
 
 odrl: a ns1:Vocabulary ;
+    vann:preferredNamespacePrefix "odrl"^^xsd:anyURI ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/odrl/2/"^^xsd:anyURI ;
     ns1:usageInDataset odrl:_dataset_occ .
 
 odrl:_dataset_occ a ns1:DatasetOccurrence ;
@@ -423,6 +459,8 @@ odrl:_dataset_occ a ns1:DatasetOccurrence ;
     ns1:occurrences 0 .
 
 org: a ns1:Vocabulary ;
+    vann:preferredNamespacePrefix "org"^^xsd:anyURI ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/org#"^^xsd:anyURI ;
     ns1:usageInDataset org:_dataset_occ .
 
 org:_dataset_occ a ns1:DatasetOccurrence ;
@@ -431,6 +469,8 @@ org:_dataset_occ a ns1:DatasetOccurrence ;
     ns1:occurrences 0 .
 
 prov: a ns1:Vocabulary ;
+    vann:preferredNamespacePrefix "prov"^^xsd:anyURI ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/prov#"^^xsd:anyURI ;
     ns1:usageInDataset prov:_dataset_occ .
 
 prov:_dataset_occ a ns1:DatasetOccurrence ;
@@ -439,6 +479,8 @@ prov:_dataset_occ a ns1:DatasetOccurrence ;
     ns1:occurrences 0 .
 
 sh: a ns1:Vocabulary ;
+    vann:preferredNamespacePrefix "sh"^^xsd:anyURI ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/shacl#"^^xsd:anyURI ;
     ns1:usageInDataset sh:_dataset_occ .
 
 sh:_dataset_occ a ns1:DatasetOccurrence ;
@@ -447,6 +489,8 @@ sh:_dataset_occ a ns1:DatasetOccurrence ;
     ns1:occurrences 0 .
 
 sosa: a ns1:Vocabulary ;
+    vann:preferredNamespacePrefix "sosa"^^xsd:anyURI ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/sosa/"^^xsd:anyURI ;
     ns1:usageInDataset sosa:_dataset_occ .
 
 sosa:_dataset_occ a ns1:DatasetOccurrence ;
@@ -455,6 +499,8 @@ sosa:_dataset_occ a ns1:DatasetOccurrence ;
     ns1:occurrences 0 .
 
 ssn: a ns1:Vocabulary ;
+    vann:preferredNamespacePrefix "ssn"^^xsd:anyURI ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/ssn/"^^xsd:anyURI ;
     ns1:usageInDataset ssn:_dataset_occ .
 
 ssn:_dataset_occ a ns1:DatasetOccurrence ;
@@ -470,6 +516,8 @@ foaf:_dataset_occ a ns1:DatasetOccurrence ;
     ns1:occurrences 0 .
 
 brick: a ns1:Vocabulary ;
+    vann:preferredNamespacePrefix "brick"^^xsd:anyURI ;
+    vann:preferredNamespaceUri "https://brickschema.org/schema/Brick#"^^xsd:anyURI ;
     ns1:usageInDataset brick:_dataset_occ .
 
 brick:_dataset_occ a ns1:DatasetOccurrence ;
@@ -478,6 +526,8 @@ brick:_dataset_occ a ns1:DatasetOccurrence ;
     ns1:occurrences 0 .
 
 schema: a ns1:Vocabulary ;
+    vann:preferredNamespacePrefix "schema"^^xsd:anyURI ;
+    vann:preferredNamespaceUri "https://schema.org/"^^xsd:anyURI ;
     ns1:usageInDataset schema:_dataset_occ .
 
 schema:_dataset_occ a ns1:DatasetOccurrence ;
@@ -486,6 +536,8 @@ schema:_dataset_occ a ns1:DatasetOccurrence ;
     ns1:occurrences 0 .
 
 wgs: a ns1:Vocabulary ;
+    vann:preferredNamespacePrefix "wgs"^^xsd:anyURI ;
+    vann:preferredNamespaceUri "https://www.w3.org/2003/01/geo/wgs84_pos#"^^xsd:anyURI ;
     ns1:usageInDataset wgs:_dataset_occ .
 
 wgs:_dataset_occ a ns1:DatasetOccurrence ;
@@ -494,12 +546,18 @@ wgs:_dataset_occ a ns1:DatasetOccurrence ;
     ns1:occurrences 0 .
 
 geo: a ns1:Vocabulary ;
+    vann:preferredNamespacePrefix "geo"^^xsd:anyURI ;
+    vann:preferredNamespaceUri "http://www.opengis.net/ont/geosparql#"^^xsd:anyURI ;
     ns1:usageInDataset geo:_dataset_occ .
 
 dcat: a ns1:Vocabulary ;
+    vann:preferredNamespacePrefix "dcat"^^xsd:anyURI ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/dcat#"^^xsd:anyURI ;
     ns1:usageInDataset dcat:_dataset_occ .
 
 foaf: a ns1:Vocabulary ;
+    vann:preferredNamespacePrefix "foaf"^^xsd:anyURI ;
+    vann:preferredNamespaceUri "http://xmlns.com/foaf/0.1/"^^xsd:anyURI ;
     ns1:usageInDataset foaf:_dataset_occ .
 
 foaf:Person rdfs:label "Person"@en .
@@ -519,7 +577,7 @@ foaf:Person rdfs:label "Person"@en .
     ns2:propertyClasses 0 ;
     dc:language <http://www.lexvo.org/page/iso639-1/en> ;
     dcterms:license <http://creativecommons.org/licenses/by/4.0> ;
-    dcterms:modified "2024-02-09T20:28:40"^^xsd:dateTime ;
+    dcterms:modified "2024-02-09T22:47:17"^^xsd:dateTime ;
     dcterms:subject <http://dbpedia.org/resource/Location>,
         <http://dbpedia.org/resource/OGC_GeoSPARQL>,
         <http://dbpedia.org/resource/Time>,
