@@ -4112,6 +4112,7 @@ var tree={
             },
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 1,
+              "http://www.w3.org/ns/adms#Asset": 1,
               "http://rdfs.org/ns/void#Dataset": 1
             },
             "http://www.ancientports.com/ont#accuracy": {
@@ -4130,12 +4131,6 @@ var tree={
             "http://www.w3.org/2000/01/rdf-schema#label": {
               "instancecount": 2
             },
-            "http://www.w3.org/2002/07/owl#sameAs": {
-              "instancecount": 1
-            },
-            "http://www.w3.org/2004/02/skos/core#altLabel": {
-              "instancecount": 1
-            },
             "http://www.wikidata.org/prop/direct/P1566": {
               "instancecount": 1
             },
@@ -4150,7 +4145,7 @@ var tree={
             }
           }
         },
-        "instancecount": 13
+        "instancecount": 11
       },
       {
         "id": "http://www.opengis.net/ont/geosparql#Feature",
@@ -8221,6 +8216,7 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 1,
+              "http://www.w3.org/ns/adms#Asset": 1,
               "http://rdfs.org/ns/void#Dataset": 1
             },
             "http://www.opengis.net/ont/geosparql#asWKT": {
@@ -8304,6 +8300,7 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 1,
+              "http://www.w3.org/ns/adms#Asset": 1,
               "http://rdfs.org/ns/void#Dataset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
@@ -8379,6 +8376,7 @@ var tree={
             },
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 1,
+              "http://www.w3.org/ns/adms#Asset": 1,
               "http://rdfs.org/ns/void#Dataset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
@@ -8418,6 +8416,7 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 1,
+              "http://www.w3.org/ns/adms#Asset": 1,
               "http://rdfs.org/ns/void#Dataset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
@@ -8458,6 +8457,7 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 1,
+              "http://www.w3.org/ns/adms#Asset": 1,
               "http://rdfs.org/ns/void#Dataset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
@@ -8491,6 +8491,7 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 1,
+              "http://www.w3.org/ns/adms#Asset": 1,
               "http://rdfs.org/ns/void#Dataset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
@@ -8531,6 +8532,7 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 1,
+              "http://www.w3.org/ns/adms#Asset": 1,
               "http://rdfs.org/ns/void#Dataset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
@@ -8565,6 +8567,7 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 1,
+              "http://www.w3.org/ns/adms#Asset": 1,
               "http://rdfs.org/ns/void#Dataset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
@@ -8591,5 +8594,44 @@ var tree={
         "data": {}
       }
     ]
+  },
+  "@context": {
+    "@version": 1.1,
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "ct": "http://www.github.com/sparqlsuni/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "icon": "foaf:image",
+    "id": "@id",
+    "parent": "rdfs:subClassOf",
+    "halfgeoclass": "ct:HalfGeoClass",
+    "geoclass": {
+      "@type": "ct:icontype",
+      "@id": "ct:GeoClass"
+    },
+    "collectionclass": {
+      "@type": "ct:icontype",
+      "@id": "ct:CollectionClass"
+    },
+    "featurecollectionclass": {
+      "@type": "ct:icontype",
+      "@id": "ct:FeatureCollectionClass"
+    },
+    "class": "owl:Class",
+    "instance": "owl:NamedIndividual",
+    "geoinstance": {
+      "@type": "ct:Icontype",
+      "@id": "ct:GeoNamedIndividual"
+    },
+    "text": "rdfs:label",
+    "type": "ct:icontype",
+    "types": "ct:icontypes",
+    "core": {
+      "@type": "ct:TreeConfig",
+      "@id": "@nest"
+    },
+    "data": {
+      "@id": "ct:treeitem",
+      "@type": "ct:TreeItem"
+    }
   }
 }

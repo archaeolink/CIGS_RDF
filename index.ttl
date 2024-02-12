@@ -14400,6 +14400,7 @@
     void:inDataset <http://data.archaeology.link/data/cigs/dataset> .
 
 <http://data.archaeology.link/data/cigs/dataset> a void:Dataset,
+        <http://www.w3.org/ns/adms#Asset>,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
@@ -14417,7 +14418,7 @@
     ns3:propertyClasses 0 ;
     dc:language <http://www.lexvo.org/page/iso639-1/en> ;
     dcterms:license <http://creativecommons.org/licenses/by/4.0> ;
-    dcterms:modified "2024-02-09T22:57:46"^^xsd:dateTime ;
+    dcterms:modified "2024-02-12T16:42:34"^^xsd:dateTime ;
     dcterms:subject <http://dbpedia.org/resource/Location>,
         <http://dbpedia.org/resource/OGC_GeoSPARQL>,
         <http://dbpedia.org/resource/Time>,
@@ -14485,6 +14486,7 @@
         skos:,
         time:,
         xml:,
+        <http://www.w3.org/ns/adms#>,
         csvw:,
         dcat:,
         prof:,
