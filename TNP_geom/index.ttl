@@ -8,6 +8,6 @@
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Tall al-A‘shārnah Geometry"@en ;
     dc:license <http://creativecommons.org/licenses/by/4.0> ;
-    void:inDataset <http://data.archaeology.link/data/cigs/dataset> ;
+    void:inDataset <http://data.archaeology.link/data/cigs/cigs> ;
     geo:asWKT "POINT(36.3959 35.2877)"^^geo:wktLiteral .
 

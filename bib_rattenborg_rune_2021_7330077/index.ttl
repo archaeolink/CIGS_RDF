@@ -20,5 +20,5 @@
     dc:title "Cuneiform Inscriptions Geographical Site Index (CIGS)"@en ;
     dcterms:publisher "Zenodo" ;
     ns1:doi "10.5281/zenodo.7330077"^^xsd:string ;
-    void:inDataset <http://data.archaeology.link/data/cigs/dataset> .
+    void:inDataset <http://data.archaeology.link/data/cigs/cigs> .
 

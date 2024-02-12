@@ -8,6 +8,6 @@
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Hazine Piri Kapısı Geometry"@en ;
     dc:license <http://creativecommons.org/licenses/by/4.0> ;
-    void:inDataset <http://data.archaeology.link/data/cigs/dataset> ;
+    void:inDataset <http://data.archaeology.link/data/cigs/cigs> ;
     geo:asWKT "POINT(43.3045 38.4069)"^^geo:wktLiteral .
 

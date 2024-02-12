@@ -8,7 +8,7 @@
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Person Instances Collection"@en ;
     dc:license <http://creativecommons.org/licenses/by/4.0> ;
-    void:inDataset <http://data.archaeology.link/data/cigs/dataset> ;
+    void:inDataset <http://data.archaeology.link/data/cigs/cigs> ;
     ns1:hasMember <http://data.archaeology.link/data/cigs/author_Andersson_Jakob>,
         <http://data.archaeology.link/data/cigs/author_Johansson_Carolin>,
         <http://data.archaeology.link/data/cigs/author_Melin_Kronsell>,

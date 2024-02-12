@@ -4131,6 +4131,12 @@ var tree={
             "http://www.w3.org/2000/01/rdf-schema#label": {
               "instancecount": 2
             },
+            "http://www.w3.org/2002/07/owl#sameAs": {
+              "instancecount": 1
+            },
+            "http://www.w3.org/2004/02/skos/core#altLabel": {
+              "instancecount": 1
+            },
             "http://www.wikidata.org/prop/direct/P1566": {
               "instancecount": 1
             },
@@ -4145,7 +4151,7 @@ var tree={
             }
           }
         },
-        "instancecount": 11
+        "instancecount": 13
       },
       {
         "id": "http://www.opengis.net/ont/geosparql#Feature",
@@ -8598,7 +8604,7 @@ var tree={
   "@context": {
     "@version": 1.1,
     "foaf": "http://xmlns.com/foaf/0.1/",
-    "ct": "http://www.github.com/sparqlsuni/",
+    "ct": "http://purl.org/vocab/classtree/",
     "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
     "icon": "foaf:image",
     "id": "@id",

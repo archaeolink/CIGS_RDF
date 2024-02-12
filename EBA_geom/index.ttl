@@ -8,6 +8,6 @@
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Tall Mardīkh Geometry"@en ;
     dc:license <http://creativecommons.org/licenses/by/4.0> ;
-    void:inDataset <http://data.archaeology.link/data/cigs/dataset> ;
+    void:inDataset <http://data.archaeology.link/data/cigs/cigs> ;
     geo:asWKT "POINT(36.7983 35.7990)"^^geo:wktLiteral .
 
