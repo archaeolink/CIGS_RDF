@@ -1,13 +1,13 @@
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
-@prefix ns1: <http://www.ancientports.com/ont#> .
-@prefix ns2: <http://www.wikidata.org/prop/direct/> .
+@prefix ns1: <http://www.wikidata.org/prop/direct/> .
+@prefix ns2: <http://www.ancientports.com/ont#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix void: <http://rdfs.org/ns/void#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://data.archaeology.link/data/cigs/BMB> a ns1:CuneiformSite,
+<http://data.archaeology.link/data/cigs/BMB> a ns2:CuneiformSite,
         <http://www.w3.org/ns/ldp#Resource>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label ""@arc,
@@ -16,8 +16,8 @@
     dc:license <http://creativecommons.org/licenses/by/4.0> ;
     dcterms:partOf <http://data.archaeology.link/data/cigs/bib_rattenborg_rune_2021_7330077> ;
     void:inDataset <http://data.archaeology.link/data/cigs/cigs_dataset> ;
-    ns1:accuracy "2"^^xsd:string ;
-    ns1:cdli_provenience_id "0"^^xsd:string ;
+    ns2:accuracy "2"^^xsd:string ;
+    ns2:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/BMB_geom> ;
-    ns2:P1566 <https://www.geonames.org/616823> .
+    ns1:P1566 <https://www.geonames.org/616823> .
 
