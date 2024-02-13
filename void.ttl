@@ -124,7 +124,7 @@
 <http://data.archaeology.link/data/cigs/dcat_cigs_dataset_occ> a voaf:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/dcat# in cigs_dataset" ;
     voaf:inDataset <http://data.archaeology.link/data/cigs/cigs_dataset> ;
-    voaf:occurrences 2 .
+    voaf:occurrences 4 .
 
 <http://data.archaeology.link/data/cigs/dcmitype_cigs_dataset_occ> a voaf:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://purl.org/dc/dcmitype/ in cigs_dataset" ;
@@ -141,12 +141,12 @@
 <http://data.archaeology.link/data/cigs/foaf_cigs_dataset_occ> a voaf:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://xmlns.com/foaf/0.1/ in cigs_dataset" ;
     voaf:inDataset <http://data.archaeology.link/data/cigs/cigs_dataset> ;
-    voaf:occurrences 6 .
+    voaf:occurrences 12 .
 
 <http://data.archaeology.link/data/cigs/geo_cigs_dataset_occ> a voaf:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://www.opengis.net/ont/geosparql# in cigs_dataset" ;
     voaf:inDataset <http://data.archaeology.link/data/cigs/cigs_dataset> ;
-    voaf:occurrences 2 .
+    voaf:occurrences 4 .
 
 <http://data.archaeology.link/data/cigs/odrl_cigs_dataset_occ> a voaf:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/odrl/2/ in cigs_dataset" ;
@@ -622,7 +622,7 @@ foaf:Person rdfs:label "Person"@en .
     vext:propertyClasses 0 ;
     dc:language <http://www.lexvo.org/page/iso639-1/en> ;
     dcterms:license <http://creativecommons.org/licenses/by/4.0> ;
-    dcterms:modified "2024-02-13T02:59:41"^^xsd:dateTime ;
+    dcterms:modified "2024-02-13T03:35:53"^^xsd:dateTime ;
     dcterms:subject <http://dbpedia.org/resource/Location>,
         <http://dbpedia.org/resource/OGC_GeoSPARQL>,
         <http://dbpedia.org/resource/Time>,
