@@ -287,8 +287,7 @@ vext: a voaf:Vocabulary ;
 
 vext:_cigs_dataset_occ a voaf:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://ldf.fi/void-ext# in cigs_dataset" ;
-    voaf:inDataset <http://data.archaeology.link/data/cigs/cigs_dataset> ;
-    voaf:occurrences 0 .
+    voaf:inDataset <http://data.archaeology.link/data/cigs/cigs_dataset> .
 
 dcam: a voaf:Vocabulary ;
     rdfs:label "dcam Vocabulary"@en ;
@@ -298,8 +297,7 @@ dcam: a voaf:Vocabulary ;
 
 dcam:_cigs_dataset_occ a voaf:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://purl.org/dc/dcam/ in cigs_dataset" ;
-    voaf:inDataset <http://data.archaeology.link/data/cigs/cigs_dataset> ;
-    voaf:occurrences 0 .
+    voaf:inDataset <http://data.archaeology.link/data/cigs/cigs_dataset> .
 
 dcmitype: a voaf:Vocabulary ;
     rdfs:label "dcmitype Vocabulary"@en ;
@@ -309,8 +307,7 @@ dcmitype: a voaf:Vocabulary ;
 
 dcmitype:_cigs_dataset_occ a voaf:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://purl.org/dc/dcmitype/ in cigs_dataset" ;
-    voaf:inDataset <http://data.archaeology.link/data/cigs/cigs_dataset> ;
-    voaf:occurrences 0 .
+    voaf:inDataset <http://data.archaeology.link/data/cigs/cigs_dataset> .
 
 dc: a voaf:Vocabulary ;
     rdfs:label "dc Vocabulary"@en ;
@@ -320,8 +317,7 @@ dc: a voaf:Vocabulary ;
 
 dc:_cigs_dataset_occ a voaf:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://purl.org/dc/elements/1.1/ in cigs_dataset" ;
-    voaf:inDataset <http://data.archaeology.link/data/cigs/cigs_dataset> ;
-    voaf:occurrences 0 .
+    voaf:inDataset <http://data.archaeology.link/data/cigs/cigs_dataset> .
 
 dcterms: a voaf:Vocabulary ;
     rdfs:label "dcterms Vocabulary"@en ;
@@ -331,8 +327,7 @@ dcterms: a voaf:Vocabulary ;
 
 dcterms:_cigs_dataset_occ a voaf:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://purl.org/dc/terms/ in cigs_dataset" ;
-    voaf:inDataset <http://data.archaeology.link/data/cigs/cigs_dataset> ;
-    voaf:occurrences 0 .
+    voaf:inDataset <http://data.archaeology.link/data/cigs/cigs_dataset> .
 
 qb: a voaf:Vocabulary ;
     rdfs:label "qb Vocabulary"@en ;
@@ -342,8 +337,7 @@ qb: a voaf:Vocabulary ;
 
 qb:_cigs_dataset_occ a voaf:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://purl.org/linked-data/cube# in cigs_dataset" ;
-    voaf:inDataset <http://data.archaeology.link/data/cigs/cigs_dataset> ;
-    voaf:occurrences 0 .
+    voaf:inDataset <http://data.archaeology.link/data/cigs/cigs_dataset> .
 
 vann: a voaf:Vocabulary ;
     rdfs:label "vann Vocabulary"@en ;
@@ -353,8 +347,7 @@ vann: a voaf:Vocabulary ;
 
 vann:_cigs_dataset_occ a voaf:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://purl.org/vocab/vann/ in cigs_dataset" ;
-    voaf:inDataset <http://data.archaeology.link/data/cigs/cigs_dataset> ;
-    voaf:occurrences 0 .
+    voaf:inDataset <http://data.archaeology.link/data/cigs/cigs_dataset> .
 
 voaf: a voaf:Vocabulary ;
     rdfs:label "voaf Vocabulary"@en ;
@@ -364,8 +357,7 @@ voaf: a voaf:Vocabulary ;
 
 voaf:_cigs_dataset_occ a voaf:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://purl.org/vocommons/voaf# in cigs_dataset" ;
-    voaf:inDataset <http://data.archaeology.link/data/cigs/cigs_dataset> ;
-    voaf:occurrences 0 .
+    voaf:inDataset <http://data.archaeology.link/data/cigs/cigs_dataset> .
 
 void: a voaf:Vocabulary ;
     rdfs:label "Vocabulary of Interlinked Datasets (VoID)"@en ;
@@ -375,8 +367,7 @@ void: a voaf:Vocabulary ;
 
 void:_cigs_dataset_occ a voaf:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://rdfs.org/ns/void# in cigs_dataset" ;
-    voaf:inDataset <http://data.archaeology.link/data/cigs/cigs_dataset> ;
-    voaf:occurrences 0 .
+    voaf:inDataset <http://data.archaeology.link/data/cigs/cigs_dataset> .
 
 doap: a voaf:Vocabulary ;
     rdfs:label "doap Vocabulary"@en ;
@@ -386,13 +377,12 @@ doap: a voaf:Vocabulary ;
 
 doap:_cigs_dataset_occ a voaf:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://usefulinc.com/ns/doap# in cigs_dataset" ;
-    voaf:inDataset <http://data.archaeology.link/data/cigs/cigs_dataset> ;
-    voaf:occurrences 0 .
+    voaf:inDataset <http://data.archaeology.link/data/cigs/cigs_dataset> .
 
 geo:_cigs_dataset_occ a voaf:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://www.opengis.net/ont/geosparql# in cigs_dataset" ;
     voaf:inDataset <http://data.archaeology.link/data/cigs/cigs_dataset> ;
-    voaf:occurrences 0 .
+    voaf:occurrences 2 .
 
 rdf: a voaf:Vocabulary ;
     rdfs:label "The RDF Concepts Vocabulary (RDF)"@en ;
@@ -402,8 +392,7 @@ rdf: a voaf:Vocabulary ;
 
 rdf:_cigs_dataset_occ a voaf:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://www.w3.org/1999/02/22-rdf-syntax-ns# in cigs_dataset" ;
-    voaf:inDataset <http://data.archaeology.link/data/cigs/cigs_dataset> ;
-    voaf:occurrences 0 .
+    voaf:inDataset <http://data.archaeology.link/data/cigs/cigs_dataset> .
 
 rdfs: a voaf:Vocabulary ;
     rdfs:label "The RDF Schema vocabulary (RDFS)"@en ;
@@ -413,8 +402,7 @@ rdfs: a voaf:Vocabulary ;
 
 rdfs:_cigs_dataset_occ a voaf:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://www.w3.org/2000/01/rdf-schema# in cigs_dataset" ;
-    voaf:inDataset <http://data.archaeology.link/data/cigs/cigs_dataset> ;
-    voaf:occurrences 0 .
+    voaf:inDataset <http://data.archaeology.link/data/cigs/cigs_dataset> .
 
 xsd: a voaf:Vocabulary ;
     rdfs:label "XML Schema"@en ;
@@ -424,8 +412,7 @@ xsd: a voaf:Vocabulary ;
 
 xsd:_cigs_dataset_occ a voaf:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://www.w3.org/2001/XMLSchema# in cigs_dataset" ;
-    voaf:inDataset <http://data.archaeology.link/data/cigs/cigs_dataset> ;
-    voaf:occurrences 0 .
+    voaf:inDataset <http://data.archaeology.link/data/cigs/cigs_dataset> .
 
 owl: a voaf:Vocabulary ;
     rdfs:label "Web Ontology Language 2 Vocabulary"@en ;
@@ -435,8 +422,7 @@ owl: a voaf:Vocabulary ;
 
 owl:_cigs_dataset_occ a voaf:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://www.w3.org/2002/07/owl# in cigs_dataset" ;
-    voaf:inDataset <http://data.archaeology.link/data/cigs/cigs_dataset> ;
-    voaf:occurrences 0 .
+    voaf:inDataset <http://data.archaeology.link/data/cigs/cigs_dataset> .
 
 skos: a voaf:Vocabulary ;
     rdfs:label "skos Vocabulary"@en ;
@@ -446,8 +432,7 @@ skos: a voaf:Vocabulary ;
 
 skos:_cigs_dataset_occ a voaf:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://www.w3.org/2004/02/skos/core# in cigs_dataset" ;
-    voaf:inDataset <http://data.archaeology.link/data/cigs/cigs_dataset> ;
-    voaf:occurrences 0 .
+    voaf:inDataset <http://data.archaeology.link/data/cigs/cigs_dataset> .
 
 time: a voaf:Vocabulary ;
     rdfs:label "time Vocabulary"@en ;
@@ -457,8 +442,7 @@ time: a voaf:Vocabulary ;
 
 time:_cigs_dataset_occ a voaf:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://www.w3.org/2006/time# in cigs_dataset" ;
-    voaf:inDataset <http://data.archaeology.link/data/cigs/cigs_dataset> ;
-    voaf:occurrences 0 .
+    voaf:inDataset <http://data.archaeology.link/data/cigs/cigs_dataset> .
 
 xml: a voaf:Vocabulary ;
     rdfs:label "xml Vocabulary"@en ;
@@ -468,8 +452,7 @@ xml: a voaf:Vocabulary ;
 
 xml:_cigs_dataset_occ a voaf:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://www.w3.org/XML/1998/namespace in cigs_dataset" ;
-    voaf:inDataset <http://data.archaeology.link/data/cigs/cigs_dataset> ;
-    voaf:occurrences 0 .
+    voaf:inDataset <http://data.archaeology.link/data/cigs/cigs_dataset> .
 
 adms: a voaf:Vocabulary ;
     rdfs:label "adms Vocabulary"@en ;
@@ -479,8 +462,7 @@ adms: a voaf:Vocabulary ;
 
 adms:_cigs_dataset_occ a voaf:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/adms# in cigs_dataset" ;
-    voaf:inDataset <http://data.archaeology.link/data/cigs/cigs_dataset> ;
-    voaf:occurrences 0 .
+    voaf:inDataset <http://data.archaeology.link/data/cigs/cigs_dataset> .
 
 csvw: a voaf:Vocabulary ;
     rdfs:label "csvw Vocabulary"@en ;
@@ -490,13 +472,12 @@ csvw: a voaf:Vocabulary ;
 
 csvw:_cigs_dataset_occ a voaf:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/csvw# in cigs_dataset" ;
-    voaf:inDataset <http://data.archaeology.link/data/cigs/cigs_dataset> ;
-    voaf:occurrences 0 .
+    voaf:inDataset <http://data.archaeology.link/data/cigs/cigs_dataset> .
 
 dcat:_cigs_dataset_occ a voaf:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/dcat# in cigs_dataset" ;
     voaf:inDataset <http://data.archaeology.link/data/cigs/cigs_dataset> ;
-    voaf:occurrences 0 .
+    voaf:occurrences 2 .
 
 prof: a voaf:Vocabulary ;
     rdfs:label "prof Vocabulary"@en ;
@@ -506,8 +487,7 @@ prof: a voaf:Vocabulary ;
 
 prof:_cigs_dataset_occ a voaf:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/dx/prof/ in cigs_dataset" ;
-    voaf:inDataset <http://data.archaeology.link/data/cigs/cigs_dataset> ;
-    voaf:occurrences 0 .
+    voaf:inDataset <http://data.archaeology.link/data/cigs/cigs_dataset> .
 
 odrl: a voaf:Vocabulary ;
     rdfs:label "odrl Vocabulary"@en ;
@@ -517,8 +497,7 @@ odrl: a voaf:Vocabulary ;
 
 odrl:_cigs_dataset_occ a voaf:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/odrl/2/ in cigs_dataset" ;
-    voaf:inDataset <http://data.archaeology.link/data/cigs/cigs_dataset> ;
-    voaf:occurrences 0 .
+    voaf:inDataset <http://data.archaeology.link/data/cigs/cigs_dataset> .
 
 org: a voaf:Vocabulary ;
     rdfs:label "org Vocabulary"@en ;
@@ -528,8 +507,7 @@ org: a voaf:Vocabulary ;
 
 org:_cigs_dataset_occ a voaf:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/org# in cigs_dataset" ;
-    voaf:inDataset <http://data.archaeology.link/data/cigs/cigs_dataset> ;
-    voaf:occurrences 0 .
+    voaf:inDataset <http://data.archaeology.link/data/cigs/cigs_dataset> .
 
 prov: a voaf:Vocabulary ;
     rdfs:label "W3C Provenance Ontology"@en ;
@@ -539,8 +517,7 @@ prov: a voaf:Vocabulary ;
 
 prov:_cigs_dataset_occ a voaf:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/prov# in cigs_dataset" ;
-    voaf:inDataset <http://data.archaeology.link/data/cigs/cigs_dataset> ;
-    voaf:occurrences 0 .
+    voaf:inDataset <http://data.archaeology.link/data/cigs/cigs_dataset> .
 
 sh: a voaf:Vocabulary ;
     rdfs:label "Shapes Constraint Language (SHACL)"@en ;
@@ -550,8 +527,7 @@ sh: a voaf:Vocabulary ;
 
 sh:_cigs_dataset_occ a voaf:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/shacl# in cigs_dataset" ;
-    voaf:inDataset <http://data.archaeology.link/data/cigs/cigs_dataset> ;
-    voaf:occurrences 0 .
+    voaf:inDataset <http://data.archaeology.link/data/cigs/cigs_dataset> .
 
 sosa: a voaf:Vocabulary ;
     rdfs:label "Sensor, Observation, Sample, and Actuator (SOSA) Ontology"@en ;
@@ -561,8 +537,7 @@ sosa: a voaf:Vocabulary ;
 
 sosa:_cigs_dataset_occ a voaf:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/sosa/ in cigs_dataset" ;
-    voaf:inDataset <http://data.archaeology.link/data/cigs/cigs_dataset> ;
-    voaf:occurrences 0 .
+    voaf:inDataset <http://data.archaeology.link/data/cigs/cigs_dataset> .
 
 ssn: a voaf:Vocabulary ;
     rdfs:label "ssn Vocabulary"@en ;
@@ -572,15 +547,14 @@ ssn: a voaf:Vocabulary ;
 
 ssn:_cigs_dataset_occ a voaf:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/ssn/ in cigs_dataset" ;
-    voaf:inDataset <http://data.archaeology.link/data/cigs/cigs_dataset> ;
-    voaf:occurrences 0 .
+    voaf:inDataset <http://data.archaeology.link/data/cigs/cigs_dataset> .
 
 <http://www.wikidata.org/entity/Q121810372> rdfs:label "geospatial data"@en .
 
 foaf:_cigs_dataset_occ a voaf:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://xmlns.com/foaf/0.1/ in cigs_dataset" ;
     voaf:inDataset <http://data.archaeology.link/data/cigs/cigs_dataset> ;
-    voaf:occurrences 0 .
+    voaf:occurrences 6 .
 
 brick: a voaf:Vocabulary ;
     rdfs:label "brick Vocabulary"@en ;
@@ -590,8 +564,7 @@ brick: a voaf:Vocabulary ;
 
 brick:_cigs_dataset_occ a voaf:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary https://brickschema.org/schema/Brick# in cigs_dataset" ;
-    voaf:inDataset <http://data.archaeology.link/data/cigs/cigs_dataset> ;
-    voaf:occurrences 0 .
+    voaf:inDataset <http://data.archaeology.link/data/cigs/cigs_dataset> .
 
 schema: a voaf:Vocabulary ;
     rdfs:label "schema Vocabulary"@en ;
@@ -601,8 +574,7 @@ schema: a voaf:Vocabulary ;
 
 schema:_cigs_dataset_occ a voaf:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary https://schema.org/ in cigs_dataset" ;
-    voaf:inDataset <http://data.archaeology.link/data/cigs/cigs_dataset> ;
-    voaf:occurrences 0 .
+    voaf:inDataset <http://data.archaeology.link/data/cigs/cigs_dataset> .
 
 wgs: a voaf:Vocabulary ;
     rdfs:label "wgs Vocabulary"@en ;
@@ -612,8 +584,7 @@ wgs: a voaf:Vocabulary ;
 
 wgs:_cigs_dataset_occ a voaf:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary https://www.w3.org/2003/01/geo/wgs84_pos# in cigs_dataset" ;
-    voaf:inDataset <http://data.archaeology.link/data/cigs/cigs_dataset> ;
-    voaf:occurrences 0 .
+    voaf:inDataset <http://data.archaeology.link/data/cigs/cigs_dataset> .
 
 geo: a voaf:Vocabulary ;
     rdfs:label "The GeoSPARQL Ontology"@en ;
@@ -651,7 +622,7 @@ foaf:Person rdfs:label "Person"@en .
     vext:propertyClasses 0 ;
     dc:language <http://www.lexvo.org/page/iso639-1/en> ;
     dcterms:license <http://creativecommons.org/licenses/by/4.0> ;
-    dcterms:modified "2024-02-13T02:29:03"^^xsd:dateTime ;
+    dcterms:modified "2024-02-13T02:49:18"^^xsd:dateTime ;
     dcterms:subject <http://dbpedia.org/resource/Location>,
         <http://dbpedia.org/resource/OGC_GeoSPARQL>,
         <http://dbpedia.org/resource/Time>,
