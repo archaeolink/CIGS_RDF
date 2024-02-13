@@ -213,6 +213,11 @@
     void:property dc:creator ;
     void:triples 6 .
 
+<http://data.archaeology.link/data/cigs/cigs_dataset_dist_ttl> a adms:AssetDistribution ;
+    rdfs:label "cigs_dataset TTL Distribution"@en ;
+    dcat:downloadURL "https://archaeolink.github.io/CIGS_RDF/index.ttl"^^xsd:anyURI ;
+    dcat:mediaType <http://www.w3.org/ns/formats/Turtle> .
+
 <http://data.archaeology.link/data/cigs/cigs_dataset_doi> a void:Dataset ;
     rdfs:label "Property Partition: doi"@en ;
     void:property <http://purl.org/ontology/bibo/doi> ;
@@ -267,11 +272,6 @@
     rdfs:label "Property Partition: type"@en ;
     void:property rdf:type ;
     void:triples 1169 .
-
-<http://data.archaeology.link/data/cigs/cigs_datasetdist_ttl> a adms:AssetDistribution ;
-    rdfs:label "cigs_dataset TTL Distribution"@en ;
-    dcat:downloadURL "https://archaeolink.github.io/CIGS_RDF/index.ttl"^^xsd:anyURI ;
-    dcat:mediaType <http://www.w3.org/ns/formats/Turtle> .
 
 <http://dbpedia.org/resource/Location> rdfs:label "Location"@en .
 
@@ -639,7 +639,7 @@ foaf:Person rdfs:label "Person"@en .
         adms:Asset ;
     rdfs:label "cigs_dataset"@en ;
     vext:averageLiteralLength 9 ;
-    vext:averageObjectIRILength 45 ;
+    vext:averageObjectIRILength 47 ;
     vext:averagePropertyIRILength 40 ;
     vext:averageSubjectIRILength 44 ;
     vext:datatypes 3 ;
@@ -651,7 +651,7 @@ foaf:Person rdfs:label "Person"@en .
     vext:propertyClasses 0 ;
     dc:language <http://www.lexvo.org/page/iso639-1/en> ;
     dcterms:license <http://creativecommons.org/licenses/by/4.0> ;
-    dcterms:modified "2024-02-13T02:08:57"^^xsd:dateTime ;
+    dcterms:modified "2024-02-13T02:17:01"^^xsd:dateTime ;
     dcterms:subject <http://dbpedia.org/resource/Location>,
         <http://dbpedia.org/resource/OGC_GeoSPARQL>,
         <http://dbpedia.org/resource/Time>,
@@ -735,7 +735,7 @@ foaf:Person rdfs:label "Person"@en .
         brick:,
         schema:,
         wgs: ;
-    dcat:distribution <http://data.archaeology.link/data/cigs/cigs_datasetdist_ttl> ;
+    dcat:distribution <http://data.archaeology.link/data/cigs/cigs_dataset_dist_ttl> ;
     dcat:keyword "Location"@en,
         "OGC GeoSPARQL"@en,
         "Person"@en,
