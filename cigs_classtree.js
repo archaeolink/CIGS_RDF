@@ -4130,9 +4130,6 @@ var tree={
             },
             "http://www.w3.org/2000/01/rdf-schema#label": {
               "instancecount": 1
-            },
-            "http://www.wikidata.org/prop/direct/P1566": {
-              "instancecount": 1
             }
           },
           "from": {
@@ -4142,7 +4139,7 @@ var tree={
             }
           }
         },
-        "instancecount": 9
+        "instancecount": 8
       },
       {
         "id": "http://www.opengis.net/ont/geosparql#Feature",
