@@ -1,0 +1,24 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://purl.org/ontology/bibo/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://data.archaeology.link/data/cigs/bib_rattenborg_rune_2021_7330077> a ns1:Document,
+        dcat:Dataset,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    dc:created "2021"^^xsd:gYear ;
+    dc:creator <http://data.archaeology.link/data/cigs/author_Andersson_Jakob>,
+        <http://data.archaeology.link/data/cigs/author_Johansson_Carolin>,
+        <http://data.archaeology.link/data/cigs/author_Melin_Kronsell>,
+        <http://data.archaeology.link/data/cigs/author_Nett_Seraina>,
+        <http://data.archaeology.link/data/cigs/author_Rattenborg_Rune>,
+        <http://data.archaeology.link/data/cigs/author_Smidt_Gustav_Ryberg> ;
+    dc:license <> ;
+    dc:title "Cuneiform Inscriptions Geographical Site Index (CIGS)"@en ;
+    dcterms:publisher "Zenodo" ;
+    ns1:doi "10.5281/zenodo.7330077"^^xsd:string ;
+    void:inDataset <http://data.archaeology.link/data/cigs/cigs_dataset> .
+

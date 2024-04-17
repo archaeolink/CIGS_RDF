@@ -1,0 +1,12 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+
+<http://data.archaeology.link/data/cigs/Document_collection> a <http://purl.org/ontology/bibo/Collection>,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Document Instances Collection"@en ;
+    dc:license <> ;
+    void:inDataset <http://data.archaeology.link/data/cigs/cigs_dataset> ;
+    rdfs:member <http://data.archaeology.link/data/cigs/bib_rattenborg_rune_2021_7330077> .
+
