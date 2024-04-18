@@ -786,7 +786,6 @@
         <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#PRS_geom>,
         <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#PSG>,
         <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#PSG_geom>,
-        <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#Person>,
         <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#Person_collection>,
         <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#Point>,
         <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#Point_collection>,
@@ -1190,7 +1189,8 @@
         <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#author_Rattenborg_Rune>,
         <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#author_Smidt_Gustav_Ryberg>,
         <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#bib_rattenborg_rune_2021_7330077_suniv0_>,
-        <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#bib_rattenborg_rune_2021_7330077_suniv1_> .
+        <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#bib_rattenborg_rune_2021_7330077_suniv1_>,
+        <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#nonns_Person.html> .
 
 <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#ADA> ns1:forClass <http://www.ancientports.com/ont#CuneiformSite> ;
     ns1:instance <https://archaeolink.github.io/CIGS_RDF/ADA> .
@@ -3523,9 +3523,6 @@
 <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#PSG_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
     ns1:instance <https://archaeolink.github.io/CIGS_RDF/PSG_geom> .
 
-<https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#Person> ns1:forClass <#> ;
-    ns1:instance <https://archaeolink.github.io/CIGS_RDF/Person> .
-
 <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#Person_collection> ns1:forClass <http://www.w3.org/2006/vcard/ns#Group> ;
     ns1:instance <https://archaeolink.github.io/CIGS_RDF/Person_collection> .
 
@@ -4737,4 +4734,7 @@
 
 <https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#bib_rattenborg_rune_2021_7330077_suniv1_> ns1:forClass dcat:Dataset ;
     ns1:instance <https://archaeolink.github.io/CIGS_RDF/bib_rattenborg_rune_2021_7330077_suniv1_> .
+
+<https://archaeolink.github.io/CIGS_RDF/settings/publicTypeIndex.ttl#nonns_Person.html> ns1:forClass <#> ;
+    ns1:instance <https://archaeolink.github.io/CIGS_RDF/nonns_Person.html> .
 
