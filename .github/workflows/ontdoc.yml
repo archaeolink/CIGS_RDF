@@ -28,7 +28,6 @@ jobs:
         indexpages: true
         createcollections: true
         createnonNSPages: true
-        createIndexPages: true
         createVOWL: true
         metadatatable: true
         preferredlang: en
