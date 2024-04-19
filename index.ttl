@@ -10,8 +10,8 @@
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
 @prefix ns1: <http://www.wikidata.org/prop/direct/> .
 @prefix ns2: <http://www.ancientports.com/ont#> .
-@prefix ns3: <http://ldf.fi/void-ext#> .
-@prefix ns4: <http://www.w3.org/2006/vcard/ns#> .
+@prefix ns3: <http://www.w3.org/2006/vcard/ns#> .
+@prefix ns4: <http://ldf.fi/void-ext#> .
 @prefix ns5: <http://purl.org/ontology/bibo/> .
 @prefix odrl: <http://www.w3.org/ns/odrl/2/> .
 @prefix org: <http://www.w3.org/ns/org#> .
@@ -635,13 +635,13 @@
     void:inDataset <http://data.archaeology.link/data/cigs/cigs_dataset> ;
     rdfs:member <http://data.archaeology.link/data/cigs/bib_rattenborg_rune_2021_7330077> .
 
-<http://data.archaeology.link/data/cigs/Person_collection> a ns4:Group,
+<http://data.archaeology.link/data/cigs/Person_collection> a ns3:Group,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Person Instances Collection"@en ;
     void:inDataset <http://data.archaeology.link/data/cigs/cigs_dataset> ;
-    ns4:hasMember <http://data.archaeology.link/data/cigs/author_Andersson_Jakob>,
+    ns3:hasMember <http://data.archaeology.link/data/cigs/author_Andersson_Jakob>,
         <http://data.archaeology.link/data/cigs/author_Johansson_Carolin>,
         <http://data.archaeology.link/data/cigs/author_Melin_Kronsell>,
         <http://data.archaeology.link/data/cigs/author_Nett_Seraina>,
@@ -1300,7 +1300,7 @@
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Linkset: cigs_dataset - Vcard Vocabulary (vcard2006:)"@en ;
     void:linkPredicate rdf:type ;
-    void:objectsTarget ns4: ;
+    void:objectsTarget ns3: ;
     void:subjectsTarget <http://data.archaeology.link/data/cigs/cigs_dataset> ;
     void:triples 1 .
 
@@ -9659,7 +9659,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Property Partition: hasMember"@en ;
-    void:property ns4:hasMember ;
+    void:property ns3:hasMember ;
     void:triples 6 .
 
 <http://data.archaeology.link/data/cigs/cigs_dataset_label> a void:Dataset,
@@ -14429,20 +14429,20 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "cigs_dataset"@en ;
-    ns3:averageLiteralLength 9 ;
-    ns3:averageObjectIRILength 47 ;
-    ns3:averagePropertyIRILength 40 ;
-    ns3:averageSubjectIRILength 44 ;
-    ns3:datatypes 3 ;
-    ns3:distinctBlankNodes 0 ;
-    ns3:distinctIRIReferences 6997 ;
-    ns3:distinctLiterals 2510 ;
-    ns3:distinctRDFNodes 9507 ;
-    ns3:languages 7 ;
-    ns3:propertyClasses 0 ;
+    ns4:averageLiteralLength 9 ;
+    ns4:averageObjectIRILength 47 ;
+    ns4:averagePropertyIRILength 40 ;
+    ns4:averageSubjectIRILength 44 ;
+    ns4:datatypes 3 ;
+    ns4:distinctBlankNodes 0 ;
+    ns4:distinctIRIReferences 6997 ;
+    ns4:distinctLiterals 2510 ;
+    ns4:distinctRDFNodes 9507 ;
+    ns4:languages 7 ;
+    ns4:propertyClasses 0 ;
     dc:language <http://www.lexvo.org/page/iso639-1/en> ;
     dcterms:license <http://creativecommons.org/licenses/by/4.0> ;
-    dcterms:modified "2024-04-18T01:23:19"^^xsd:dateTime ;
+    dcterms:modified "2024-04-19T14:36:10"^^xsd:dateTime ;
     dcterms:subject <http://dbpedia.org/resource/Location>,
         <http://dbpedia.org/resource/OGC_GeoSPARQL>,
         <http://dbpedia.org/resource/Time>,
@@ -14494,7 +14494,7 @@
         <http://data.archaeology.link/data/cigs/cigs_dataset_type> ;
     void:triples 10150 ;
     void:uriSpace "http://data.archaeology.link/data/cigs/"^^xsd:string ;
-    void:vocabulary ns3:,
+    void:vocabulary ns4:,
         dcam:,
         dcmitype:,
         dc:,
