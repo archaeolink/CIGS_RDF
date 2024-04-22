@@ -4129,7 +4129,10 @@ var tree={
               "instancecount": 1
             },
             "http://www.w3.org/2000/01/rdf-schema#label": {
-              "instancecount": 2
+              "instancecount": 1
+            },
+            "http://www.w3.org/2004/02/skos/core#altLabel": {
+              "instancecount": 1
             }
           },
           "from": {
