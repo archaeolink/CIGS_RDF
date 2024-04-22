@@ -9,7 +9,7 @@
         <http://www.w3.org/ns/ldp#Resource>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Linkset: cigs_dataset - DCAT Vocabulary (dcat:)"@en ;
-    dc:license <> ;
+    dc:license <http://creativecommons.org/licenses/by/4.0> ;
     void:linkPredicate rdf:type ;
     void:objectsTarget dcat: ;
     void:subjectsTarget <http://data.archaeology.link/data/cigs/cigs_dataset> ;

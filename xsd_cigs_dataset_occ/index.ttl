@@ -6,6 +6,6 @@
         <http://www.w3.org/ns/ldp#Resource>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Occurrences of vocabulary http://www.w3.org/2001/XMLSchema# in cigs_dataset" ;
-    dc:license <> ;
+    dc:license <http://creativecommons.org/licenses/by/4.0> ;
     ns1:inDataset <http://data.archaeology.link/data/cigs/cigs_dataset> .
 

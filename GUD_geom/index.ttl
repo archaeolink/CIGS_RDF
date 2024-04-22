@@ -7,7 +7,7 @@
         <http://www.w3.org/ns/ldp#Resource>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Tall Ībrāhīm Geometry"@en ;
-    dc:license <> ;
+    dc:license <http://creativecommons.org/licenses/by/4.0> ;
     void:inDataset <http://data.archaeology.link/data/cigs/cigs_dataset> ;
     geo:asWKT "POINT(44.6112 32.7605)"^^geo:wktLiteral .
 

@@ -7,7 +7,7 @@
         <http://www.w3.org/ns/ldp#Resource>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Tall al-Muqayyar Geometry"@en ;
-    dc:license <> ;
+    dc:license <http://creativecommons.org/licenses/by/4.0> ;
     void:inDataset <http://data.archaeology.link/data/cigs/cigs_dataset> ;
     geo:asWKT "POINT(46.1063 30.9607)"^^geo:wktLiteral .
 

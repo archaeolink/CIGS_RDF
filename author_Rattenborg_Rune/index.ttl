@@ -7,7 +7,7 @@
         foaf:Person,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Rattenborg, Rune"@en ;
-    dc:license <> ;
+    dc:license <http://creativecommons.org/licenses/by/4.0> ;
     void:inDataset <http://data.archaeology.link/data/cigs/cigs_dataset> ;
     foaf:familyName "Rattenborg"@en ;
     foaf:firstName "Rune"@en .

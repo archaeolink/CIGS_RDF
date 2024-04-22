@@ -7,7 +7,7 @@
         <http://www.w3.org/ns/ldp#Resource>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Property Partition: P1566"@en ;
-    dc:license <> ;
+    dc:license <http://creativecommons.org/licenses/by/4.0> ;
     void:property <http://www.wikidata.org/prop/direct/P1566> ;
     void:triples 284 .
 

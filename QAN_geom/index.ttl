@@ -7,7 +7,7 @@
         <http://www.w3.org/ns/ldp#Resource>,
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Qaṣr-i Abūnaṣr Geometry"@en ;
-    dc:license <> ;
+    dc:license <http://creativecommons.org/licenses/by/4.0> ;
     void:inDataset <http://data.archaeology.link/data/cigs/cigs_dataset> ;
     geo:asWKT "POINT(52.6252 29.5848)"^^geo:wktLiteral .
 

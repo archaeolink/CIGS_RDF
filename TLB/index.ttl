@@ -11,7 +11,7 @@
         <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
     rdfs:label "Tilbes Höyük"@en ;
     dc:created "2021"^^xsd:gYear ;
-    dc:license <> ;
+    dc:license <http://creativecommons.org/licenses/by/4.0> ;
     dcterms:partOf <http://data.archaeology.link/data/cigs/bib_rattenborg_rune_2021_7330077> ;
     void:inDataset <http://data.archaeology.link/data/cigs/cigs_dataset> ;
     ns1:accuracy "2"^^xsd:string ;
