@@ -9,10 +9,10 @@
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.opengis.net/ont/geosparql#> .
 @prefix ns1: <http://www.ancientports.com/ont#> .
-@prefix ns2: <http://www.wikidata.org/prop/direct/> .
-@prefix ns3: <http://purl.org/ontology/bibo/> .
-@prefix ns4: <http://ldf.fi/void-ext#> .
-@prefix ns5: <http://www.w3.org/2006/vcard/ns#> .
+@prefix ns2: <http://ldf.fi/void-ext#> .
+@prefix ns3: <http://www.wikidata.org/prop/direct/> .
+@prefix ns4: <http://www.w3.org/2006/vcard/ns#> .
+@prefix ns5: <http://purl.org/ontology/bibo/> .
 @prefix odrl: <http://www.w3.org/ns/odrl/2/> .
 @prefix org: <http://www.w3.org/ns/org#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
@@ -627,7 +627,7 @@
     void:inDataset <http://data.archaeology.link/data/cigs/cigs_dataset> ;
     dcat:dataset <http://data.archaeology.link/data/cigs/bib_rattenborg_rune_2021_7330077> .
 
-<http://data.archaeology.link/data/cigs/Document_collection> a ns3:Collection,
+<http://data.archaeology.link/data/cigs/Document_collection> a ns5:Collection,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
@@ -635,13 +635,13 @@
     void:inDataset <http://data.archaeology.link/data/cigs/cigs_dataset> ;
     rdfs:member <http://data.archaeology.link/data/cigs/bib_rattenborg_rune_2021_7330077> .
 
-<http://data.archaeology.link/data/cigs/Person_collection> a ns5:Group,
+<http://data.archaeology.link/data/cigs/Person_collection> a ns4:Group,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Person Instances Collection"@en ;
     void:inDataset <http://data.archaeology.link/data/cigs/cigs_dataset> ;
-    ns5:hasMember <http://data.archaeology.link/data/cigs/author_Andersson_Jakob>,
+    ns4:hasMember <http://data.archaeology.link/data/cigs/author_Andersson_Jakob>,
         <http://data.archaeology.link/data/cigs/author_Johansson_Carolin>,
         <http://data.archaeology.link/data/cigs/author_Melin_Kronsell>,
         <http://data.archaeology.link/data/cigs/author_Nett_Seraina>,
@@ -1239,7 +1239,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Linkset: cigs_dataset - places"@en ;
-    void:linkPredicate ns2:P1584 ;
+    void:linkPredicate ns3:P1584 ;
     void:objectsTarget <https://pleiades.stoa.org/places/> ;
     void:subjectsTarget <http://data.archaeology.link/data/cigs/cigs_dataset> ;
     void:triples 259 .
@@ -1250,7 +1250,7 @@
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Linkset: cigs_dataset - Bibliography Ontology (bibo:)"@en ;
     void:linkPredicate rdf:type ;
-    void:objectsTarget ns3: ;
+    void:objectsTarget ns5: ;
     void:subjectsTarget <http://data.archaeology.link/data/cigs/cigs_dataset> ;
     void:triples 2 .
 
@@ -1269,7 +1269,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Linkset: cigs_dataset - www.geonames.org"@en ;
-    void:linkPredicate ns2:P1566 ;
+    void:linkPredicate ns3:P1566 ;
     void:objectsTarget <https://www.geonames.org/> ;
     void:subjectsTarget <http://data.archaeology.link/data/cigs/cigs_dataset> ;
     void:triples 284 .
@@ -1300,7 +1300,7 @@
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Linkset: cigs_dataset - Vcard Vocabulary (vcard2006:)"@en ;
     void:linkPredicate rdf:type ;
-    void:objectsTarget ns5: ;
+    void:objectsTarget ns4: ;
     void:subjectsTarget <http://data.archaeology.link/data/cigs/cigs_dataset> ;
     void:triples 1 .
 
@@ -1360,7 +1360,7 @@
     geo:hasGeometry <http://data.archaeology.link/data/cigs/ADB_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q346445> ;
     skos:altLabel "Adab"@ar ;
-    ns2:P1584 <https://pleiades.stoa.org/places/787747618> .
+    ns3:P1584 <https://pleiades.stoa.org/places/787747618> .
 
 <http://data.archaeology.link/data/cigs/ADH> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1374,7 +1374,7 @@
     ns1:accuracy "1"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/ADH_geom> ;
-    ns2:P1566 <https://www.geonames.org/91040> .
+    ns3:P1566 <https://www.geonames.org/91040> .
 
 <http://data.archaeology.link/data/cigs/ADI> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1414,7 +1414,7 @@
     ns1:cdli_provenience_id "102"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/AGR_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q1612336> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/171585551> .
+    ns3:P1584 <https://pleiades.stoa.org/places/171585551> .
 
 <http://data.archaeology.link/data/cigs/AHT> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1427,7 +1427,7 @@
     ns1:accuracy "2"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/AHT_geom> ;
-    ns2:P1566 <https://www.geonames.org/324757> .
+    ns3:P1566 <https://www.geonames.org/324757> .
 
 <http://data.archaeology.link/data/cigs/AIR> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1441,7 +1441,7 @@
     ns1:accuracy "1"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/AIR_geom> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/874307> .
+    ns3:P1584 <https://pleiades.stoa.org/places/874307> .
 
 <http://data.archaeology.link/data/cigs/AJA> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1455,7 +1455,7 @@
     ns1:accuracy "1"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/AJA_geom> ;
-    ns2:P1566 <https://www.geonames.org/6787705> .
+    ns3:P1566 <https://www.geonames.org/6787705> .
 
 <http://data.archaeology.link/data/cigs/AJJ> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1470,7 +1470,7 @@
     ns1:cdli_provenience_id "118"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/AJJ_geom> ;
     skos:altLabel "Shaddikanni"@ar ;
-    ns2:P1584 <https://pleiades.stoa.org/places/874688> .
+    ns3:P1584 <https://pleiades.stoa.org/places/874688> .
 
 <http://data.archaeology.link/data/cigs/AKH> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1486,8 +1486,8 @@
     geo:hasGeometry <http://data.archaeology.link/data/cigs/AKH_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q5736> ;
     skos:altLabel "Akhetaten"@ar ;
-    ns2:P1566 <https://www.geonames.org/12119893> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/149576487> .
+    ns3:P1566 <https://www.geonames.org/12119893> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/149576487> .
 
 <http://data.archaeology.link/data/cigs/ALA> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1503,8 +1503,8 @@
     geo:hasGeometry <http://data.archaeology.link/data/cigs/ALA_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q575249> ;
     skos:altLabel "Alalah"@ar ;
-    ns2:P1566 <https://www.geonames.org/438064> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/309866128> .
+    ns3:P1566 <https://www.geonames.org/438064> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/309866128> .
 
 <http://data.archaeology.link/data/cigs/ALH> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1518,8 +1518,8 @@
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/ALH_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q558861> ;
-    ns2:P1566 <https://www.geonames.org/745464> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/991964195> .
+    ns3:P1566 <https://www.geonames.org/745464> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/991964195> .
 
 <http://data.archaeology.link/data/cigs/ALI> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1532,7 +1532,7 @@
     ns1:accuracy "2"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/ALI_geom> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/291498921> .
+    ns3:P1584 <https://pleiades.stoa.org/places/291498921> .
 
 <http://data.archaeology.link/data/cigs/ALS> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1546,7 +1546,7 @@
     ns1:cdli_provenience_id "227"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/ALS_geom> ;
     skos:altLabel "Ankuwa"@ar ;
-    ns2:P1584 <https://pleiades.stoa.org/places/650309285> .
+    ns3:P1584 <https://pleiades.stoa.org/places/650309285> .
 
 <http://data.archaeology.link/data/cigs/ALT> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1559,7 +1559,7 @@
     ns1:accuracy "3"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/ALT_geom> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/874316> .
+    ns3:P1584 <https://pleiades.stoa.org/places/874316> .
 
 <http://data.archaeology.link/data/cigs/AMC> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1586,7 +1586,7 @@
     ns1:accuracy "1"^^xsd:string ;
     ns1:cdli_provenience_id "179"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/AMD_geom> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/874318> .
+    ns3:P1584 <https://pleiades.stoa.org/places/874318> .
 
 <http://data.archaeology.link/data/cigs/AMM> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1614,8 +1614,8 @@
     ns1:cdli_provenience_id "286"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/ANS_geom> ;
     skos:altLabel "Anšan"@ar ;
-    ns2:P1566 <https://www.geonames.org/125047> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/922729> .
+    ns3:P1566 <https://www.geonames.org/125047> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/922729> .
 
 <http://data.archaeology.link/data/cigs/ANT> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1642,7 +1642,7 @@
     ns1:accuracy "2"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/ANZ_geom> ;
-    ns2:P1566 <https://www.geonames.org/316914> .
+    ns3:P1566 <https://www.geonames.org/316914> .
 
 <http://data.archaeology.link/data/cigs/APH> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1658,8 +1658,8 @@
     geo:hasGeometry <http://data.archaeology.link/data/cigs/APH_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q682612> ;
     skos:altLabel "Antipatris"@ar ;
-    ns2:P1566 <https://www.geonames.org/295746> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/687996> .
+    ns3:P1566 <https://www.geonames.org/295746> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/687996> .
 
 <http://data.archaeology.link/data/cigs/AQA> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1675,8 +1675,8 @@
     geo:hasGeometry <http://data.archaeology.link/data/cigs/AQA_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q622719> ;
     skos:altLabel "Dur-Kurigalzu"@ar ;
-    ns2:P1566 <https://www.geonames.org/6647830> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/893988> .
+    ns3:P1566 <https://www.geonames.org/6647830> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/893988> .
 
 <http://data.archaeology.link/data/cigs/ARA> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1689,7 +1689,7 @@
     ns1:accuracy "1"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/ARA_geom> ;
-    ns2:P1566 <https://www.geonames.org/323694> .
+    ns3:P1566 <https://www.geonames.org/323694> .
 
 <http://data.archaeology.link/data/cigs/ARI> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1705,8 +1705,8 @@
     geo:hasGeometry <http://data.archaeology.link/data/cigs/ARI_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q733610> ;
     skos:altLabel "Erebuni"@ar ;
-    ns2:P1566 <https://www.geonames.org/11336806> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/863785> .
+    ns3:P1566 <https://www.geonames.org/11336806> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/863785> .
 
 <http://data.archaeology.link/data/cigs/ARK> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1750,7 +1750,7 @@
     geo:hasGeometry <http://data.archaeology.link/data/cigs/ARR_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q672905> ;
     skos:altLabel "Arrapha"@ar ;
-    ns2:P1584 <https://pleiades.stoa.org/places/893941> .
+    ns3:P1584 <https://pleiades.stoa.org/places/893941> .
 
 <http://data.archaeology.link/data/cigs/ART> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1765,8 +1765,8 @@
     ns1:cdli_provenience_id "35"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/ART_geom> ;
     skos:altLabel "Ḫadatu"@ar ;
-    ns2:P1566 <https://www.geonames.org/172902> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/658399> .
+    ns3:P1566 <https://www.geonames.org/172902> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/658399> .
 
 <http://data.archaeology.link/data/cigs/ARU> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1780,7 +1780,7 @@
     ns1:accuracy "1"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/ARU_geom> ;
-    ns2:P1566 <https://www.geonames.org/823790> .
+    ns3:P1566 <https://www.geonames.org/823790> .
 
 <http://data.archaeology.link/data/cigs/ASA> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1808,8 +1808,8 @@
     ns1:cdli_provenience_id "364"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/ASD_geom> ;
     skos:altLabel "Asdûdu"@ar ;
-    ns2:P1566 <https://www.geonames.org/293402> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/687838> .
+    ns3:P1566 <https://www.geonames.org/293402> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/687838> .
 
 <http://data.archaeology.link/data/cigs/ASK> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1824,7 +1824,7 @@
     ns1:cdli_provenience_id "73"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/ASK_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q195128> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/912950> .
+    ns3:P1584 <https://pleiades.stoa.org/places/912950> .
 
 <http://data.archaeology.link/data/cigs/ASS> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1840,7 +1840,7 @@
     geo:hasGeometry <http://data.archaeology.link/data/cigs/ASS_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q200200> ;
     skos:altLabel "Assur"@ar ;
-    ns2:P1584 <https://pleiades.stoa.org/places/893945> .
+    ns3:P1584 <https://pleiades.stoa.org/places/893945> .
 
 <http://data.archaeology.link/data/cigs/AST> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1867,8 +1867,8 @@
     ns1:cdli_provenience_id "136"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/ASZ_geom> ;
     skos:altLabel "Ašnakkum"@ar ;
-    ns2:P1566 <https://www.geonames.org/169251> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/480215077> .
+    ns3:P1566 <https://www.geonames.org/169251> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/480215077> .
 
 <http://data.archaeology.link/data/cigs/ATB> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1896,7 +1896,7 @@
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/AUS_geom> ;
     skos:altLabel "Pitru"@ar ;
-    ns2:P1584 <https://pleiades.stoa.org/places/771224407> .
+    ns3:P1584 <https://pleiades.stoa.org/places/771224407> .
 
 <http://data.archaeology.link/data/cigs/AVN> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1909,7 +1909,7 @@
     ns1:accuracy "2"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/AVN_geom> ;
-    ns2:P1566 <https://www.geonames.org/313233> .
+    ns3:P1566 <https://www.geonames.org/313233> .
 
 <http://data.archaeology.link/data/cigs/AWA> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1923,7 +1923,7 @@
     ns1:accuracy "2"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/AWA_geom> ;
-    ns2:P1566 <https://www.geonames.org/89760> .
+    ns3:P1566 <https://www.geonames.org/89760> .
 
 <http://data.archaeology.link/data/cigs/AYA> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1949,7 +1949,7 @@
     ns1:accuracy "3"^^xsd:string ;
     ns1:cdli_provenience_id "310"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/AYC_geom> ;
-    ns2:P1566 <https://www.geonames.org/436411> .
+    ns3:P1566 <https://www.geonames.org/436411> .
 
 <http://data.archaeology.link/data/cigs/AZF> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1989,8 +1989,8 @@
     ns1:cdli_provenience_id "200 : 299"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/BAB_geom> ;
     skos:altLabel "Babylon"@ar ;
-    ns2:P1566 <https://www.geonames.org/98228> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/893951> .
+    ns3:P1566 <https://www.geonames.org/98228> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/893951> .
 
 <http://data.archaeology.link/data/cigs/BAH> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2015,7 +2015,7 @@
     ns1:accuracy "2"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/BAK_geom> ;
-    ns2:P1566 <https://www.geonames.org/322242> .
+    ns3:P1566 <https://www.geonames.org/322242> .
 
 <http://data.archaeology.link/data/cigs/BAL> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2028,7 +2028,7 @@
     ns1:accuracy "1"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/BAL_geom> ;
-    ns2:P1566 <https://www.geonames.org/314984> .
+    ns3:P1566 <https://www.geonames.org/314984> .
 
 <http://data.archaeology.link/data/cigs/BAM> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2043,8 +2043,8 @@
     ns1:cdli_provenience_id "417"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/BAM_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q1743884> ;
-    ns2:P1566 <https://www.geonames.org/11919539> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/707534> .
+    ns3:P1566 <https://www.geonames.org/11919539> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/707534> .
 
 <http://data.archaeology.link/data/cigs/BAQ> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2059,7 +2059,7 @@
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/BAQ_geom> ;
     skos:altLabel "Bit-Adad-eriba"@ar ;
-    ns2:P1584 <https://pleiades.stoa.org/places/977603753> .
+    ns3:P1584 <https://pleiades.stoa.org/places/977603753> .
 
 <http://data.archaeology.link/data/cigs/BAR> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2074,7 +2074,7 @@
     ns1:cdli_provenience_id "361"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/BAR_geom> ;
     skos:altLabel "Girumu"@ar ;
-    ns2:P1584 <https://pleiades.stoa.org/places/894000> .
+    ns3:P1584 <https://pleiades.stoa.org/places/894000> .
 
 <http://data.archaeology.link/data/cigs/BAS> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2104,7 +2104,7 @@
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/BAW_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q42897132> ;
-    ns2:P1566 <https://www.geonames.org/98118> .
+    ns3:P1566 <https://www.geonames.org/98118> .
 
 <http://data.archaeology.link/data/cigs/BAY> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2144,7 +2144,7 @@
     ns1:accuracy "2"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/BBK_geom> ;
-    ns2:P1566 <https://www.geonames.org/320457> .
+    ns3:P1566 <https://www.geonames.org/320457> .
 
 <http://data.archaeology.link/data/cigs/BDI> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2159,7 +2159,7 @@
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/BDI_geom> ;
     skos:altLabel "Dur-Aššur-ketti-lešer"@ar ;
-    ns2:P1566 <https://www.geonames.org/171243> .
+    ns3:P1566 <https://www.geonames.org/171243> .
 
 <http://data.archaeology.link/data/cigs/BES> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2172,7 +2172,7 @@
     ns1:accuracy "2"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/BES_geom> ;
-    ns2:P1566 <https://www.geonames.org/9815294> .
+    ns3:P1566 <https://www.geonames.org/9815294> .
 
 <http://data.archaeology.link/data/cigs/BHN> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2199,7 +2199,7 @@
     ns1:accuracy "1"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/BHS_geom> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/912818> .
+    ns3:P1584 <https://pleiades.stoa.org/places/912818> .
 
 <http://data.archaeology.link/data/cigs/BIN> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2225,7 +2225,7 @@
     ns1:accuracy "3"^^xsd:string ;
     ns1:cdli_provenience_id "237"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/BIS_geom> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/903002> .
+    ns3:P1584 <https://pleiades.stoa.org/places/903002> .
 
 <http://data.archaeology.link/data/cigs/BIT> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2238,8 +2238,8 @@
     ns1:accuracy "2"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/BIT_geom> ;
-    ns2:P1566 <https://www.geonames.org/321025> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/874438> .
+    ns3:P1566 <https://www.geonames.org/321025> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/874438> .
 
 <http://data.archaeology.link/data/cigs/BLQ> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2268,7 +2268,7 @@
     geo:hasGeometry <http://data.archaeology.link/data/cigs/BLW_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q1659846> ;
     skos:altLabel "Imgur-Enlil"@ar ;
-    ns2:P1584 <https://pleiades.stoa.org/places/90032637> .
+    ns3:P1584 <https://pleiades.stoa.org/places/90032637> .
 
 <http://data.archaeology.link/data/cigs/BMB> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2282,7 +2282,7 @@
     ns1:accuracy "2"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/BMB_geom> ;
-    ns2:P1566 <https://www.geonames.org/616823> .
+    ns3:P1566 <https://www.geonames.org/616823> .
 
 <http://data.archaeology.link/data/cigs/BOR> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2298,8 +2298,8 @@
     geo:hasGeometry <http://data.archaeology.link/data/cigs/BOR_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q625134> ;
     skos:altLabel "Borsippa"@ar ;
-    ns2:P1566 <https://www.geonames.org/448143> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/893964> .
+    ns3:P1566 <https://www.geonames.org/448143> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/893964> .
 
 <http://data.archaeology.link/data/cigs/BOS> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2312,7 +2312,7 @@
     ns1:accuracy "2"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/BOS_geom> ;
-    ns2:P1566 <https://www.geonames.org/320821> .
+    ns3:P1566 <https://www.geonames.org/320821> .
 
 <http://data.archaeology.link/data/cigs/BRD> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2326,7 +2326,7 @@
     ns1:accuracy "3"^^xsd:string ;
     ns1:cdli_provenience_id "431"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/BRD_geom> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/894127> .
+    ns3:P1584 <https://pleiades.stoa.org/places/894127> .
 
 <http://data.archaeology.link/data/cigs/BRK> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2342,8 +2342,8 @@
     geo:hasGeometry <http://data.archaeology.link/data/cigs/BRK_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q978443> ;
     skos:altLabel "Nagar"@ar ;
-    ns2:P1566 <https://www.geonames.org/171437> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/874735> .
+    ns3:P1566 <https://www.geonames.org/171437> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/874735> .
 
 <http://data.archaeology.link/data/cigs/BRM> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2369,7 +2369,7 @@
     ns1:accuracy "1"^^xsd:string ;
     ns1:cdli_provenience_id "408"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/BRS_geom> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/809004346> .
+    ns3:P1584 <https://pleiades.stoa.org/places/809004346> .
 
 <http://data.archaeology.link/data/cigs/BSE> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2384,8 +2384,8 @@
     ns1:accuracy "3"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/BSE_geom> ;
-    ns2:P1566 <https://www.geonames.org/293386> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/432223402> .
+    ns3:P1566 <https://www.geonames.org/293386> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/432223402> .
 
 <http://data.archaeology.link/data/cigs/BSH> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2399,7 +2399,7 @@
     ns1:accuracy "1"^^xsd:string ;
     ns1:cdli_provenience_id "111"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/BSH_geom> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/413309736> .
+    ns3:P1584 <https://pleiades.stoa.org/places/413309736> .
 
 <http://data.archaeology.link/data/cigs/BSK> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2412,8 +2412,8 @@
     ns1:accuracy "1"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/BSK_geom> ;
-    ns2:P1566 <https://www.geonames.org/321940> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/874315> .
+    ns3:P1566 <https://www.geonames.org/321940> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/874315> .
 
 <http://data.archaeology.link/data/cigs/BST> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2428,7 +2428,7 @@
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/BST_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q20182301> ;
-    ns2:P1566 <https://www.geonames.org/1425376> .
+    ns3:P1566 <https://www.geonames.org/1425376> .
 
 <http://data.archaeology.link/data/cigs/BSV> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2443,8 +2443,8 @@
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/BSV_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q534596> ;
-    ns2:P1566 <https://www.geonames.org/293389> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/687846> .
+    ns3:P1566 <https://www.geonames.org/293389> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/687846> .
 
 <http://data.archaeology.link/data/cigs/BTB> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2460,7 +2460,7 @@
     geo:hasGeometry <http://data.archaeology.link/data/cigs/BTB_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q1372270> ;
     skos:altLabel "Bad-Tibira"@ar ;
-    ns2:P1584 <https://pleiades.stoa.org/places/771224406> .
+    ns3:P1584 <https://pleiades.stoa.org/places/771224406> .
 
 <http://data.archaeology.link/data/cigs/BTM> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2475,7 +2475,7 @@
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/BTM_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q605408> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/874396> .
+    ns3:P1584 <https://pleiades.stoa.org/places/874396> .
 
 <http://data.archaeology.link/data/cigs/BTU> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2488,7 +2488,7 @@
     ns1:accuracy "3"^^xsd:string ;
     ns1:cdli_provenience_id "66"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/BTU_geom> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/708232008> .
+    ns3:P1584 <https://pleiades.stoa.org/places/708232008> .
 
 <http://data.archaeology.link/data/cigs/BUK> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2513,7 +2513,7 @@
     ns1:accuracy "2"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/BUL_geom> ;
-    ns2:P1566 <https://www.geonames.org/320410> .
+    ns3:P1566 <https://www.geonames.org/320410> .
 
 <http://data.archaeology.link/data/cigs/BUR> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2528,7 +2528,7 @@
     ns1:cdli_provenience_id "365"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/BUR_geom> ;
     skos:altLabel "Burmarina"@ar ;
-    ns2:P1566 <https://www.geonames.org/10304605> .
+    ns3:P1566 <https://www.geonames.org/10304605> .
 
 <http://data.archaeology.link/data/cigs/BVI> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2543,7 +2543,7 @@
     ns1:cdli_provenience_id "240"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/BVI_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q104874183> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/874398> .
+    ns3:P1584 <https://pleiades.stoa.org/places/874398> .
 
 <http://data.archaeology.link/data/cigs/BYB> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2559,7 +2559,7 @@
     geo:hasGeometry <http://data.archaeology.link/data/cigs/BYB_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q173532> ;
     skos:altLabel "Gubla"@ar ;
-    ns2:P1584 <https://pleiades.stoa.org/places/668216> .
+    ns3:P1584 <https://pleiades.stoa.org/places/668216> .
 
 <http://data.archaeology.link/data/cigs/BZM> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2574,8 +2574,8 @@
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/BZM_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q7697385> ;
-    ns2:P1566 <https://www.geonames.org/97731> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/532748467> .
+    ns3:P1566 <https://www.geonames.org/97731> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/532748467> .
 
 <http://data.archaeology.link/data/cigs/CAV> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2589,8 +2589,8 @@
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/CAV_geom> ;
     skos:altLabel "Sardurihinili"@ar ;
-    ns2:P1566 <https://www.geonames.org/6987233> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/825333700> .
+    ns3:P1566 <https://www.geonames.org/6987233> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/825333700> .
 
 <http://data.archaeology.link/data/cigs/CEL> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2603,7 +2603,7 @@
     ns1:accuracy "2"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/CEL_geom> ;
-    ns2:P1566 <https://www.geonames.org/318923> .
+    ns3:P1566 <https://www.geonames.org/318923> .
 
 <http://data.archaeology.link/data/cigs/CGM> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2617,8 +2617,8 @@
     ns1:accuracy "3"^^xsd:string ;
     ns1:cdli_provenience_id "137"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/CGM_geom> ;
-    ns2:P1566 <https://www.geonames.org/138866> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/912829> .
+    ns3:P1566 <https://www.geonames.org/138866> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/912829> .
 
 <http://data.archaeology.link/data/cigs/CGV> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2645,7 +2645,7 @@
     ns1:accuracy "3"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/CHK_geom> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/804216207> .
+    ns3:P1584 <https://pleiades.stoa.org/places/804216207> .
 
 <http://data.archaeology.link/data/cigs/CHM> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2671,8 +2671,8 @@
     ns1:accuracy "1"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/CHR_geom> ;
-    ns2:P1566 <https://www.geonames.org/261745> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/589802> .
+    ns3:P1566 <https://www.geonames.org/261745> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/589802> .
 
 <http://data.archaeology.link/data/cigs/CHU> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2688,7 +2688,7 @@
     geo:hasGeometry <http://data.archaeology.link/data/cigs/CHU_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q1693787> ;
     skos:altLabel "Ḫarbe"@ar ;
-    ns2:P1584 <https://pleiades.stoa.org/places/677382294> .
+    ns3:P1584 <https://pleiades.stoa.org/places/677382294> .
 
 <http://data.archaeology.link/data/cigs/CKK> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2717,8 +2717,8 @@
     geo:hasGeometry <http://data.archaeology.link/data/cigs/COZ_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q4523> ;
     skos:altLabel "Dur-Untaš"@ar ;
-    ns2:P1566 <https://www.geonames.org/139000> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/459393126> .
+    ns3:P1566 <https://www.geonames.org/139000> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/459393126> .
 
 <http://data.archaeology.link/data/cigs/CPE> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2772,7 +2772,7 @@
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/DAB_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q3517370> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/727080> .
+    ns3:P1584 <https://pleiades.stoa.org/places/727080> .
 
 <http://data.archaeology.link/data/cigs/DAM> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2787,7 +2787,7 @@
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/DAM_geom> ;
     skos:altLabel "Adama"@ar ;
-    ns2:P1566 <https://www.geonames.org/249738> .
+    ns3:P1566 <https://www.geonames.org/249738> .
 
 <http://data.archaeology.link/data/cigs/DAS> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2800,7 +2800,7 @@
     ns1:accuracy "3"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/DAS_geom> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/511225> .
+    ns3:P1584 <https://pleiades.stoa.org/places/511225> .
 
 <http://data.archaeology.link/data/cigs/DEF> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2814,7 +2814,7 @@
     ns1:accuracy "3"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/DEF_geom> ;
-    ns2:P1566 <https://www.geonames.org/358515> .
+    ns3:P1566 <https://www.geonames.org/358515> .
 
 <http://data.archaeology.link/data/cigs/DEG> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2827,7 +2827,7 @@
     ns1:accuracy "2"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/DEG_geom> ;
-    ns2:P1566 <https://www.geonames.org/317435> .
+    ns3:P1566 <https://www.geonames.org/317435> .
 
 <http://data.archaeology.link/data/cigs/DEP> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2843,8 +2843,8 @@
     geo:hasGeometry <http://data.archaeology.link/data/cigs/DEP_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q464266> ;
     skos:altLabel "Dura-Europos"@ar ;
-    ns2:P1566 <https://www.geonames.org/172481> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/893990> .
+    ns3:P1566 <https://www.geonames.org/172481> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/893990> .
 
 <http://data.archaeology.link/data/cigs/DER> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2860,7 +2860,7 @@
     geo:hasGeometry <http://data.archaeology.link/data/cigs/DER_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q262432> ;
     skos:altLabel "Der"@ar ;
-    ns2:P1584 <https://pleiades.stoa.org/places/903013> .
+    ns3:P1584 <https://pleiades.stoa.org/places/903013> .
 
 <http://data.archaeology.link/data/cigs/DEY> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2900,7 +2900,7 @@
     ns1:accuracy "1"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/DIB_geom> ;
-    ns2:P1566 <https://www.geonames.org/288760> .
+    ns3:P1566 <https://www.geonames.org/288760> .
 
 <http://data.archaeology.link/data/cigs/DIL> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2930,8 +2930,8 @@
     geo:hasGeometry <http://data.archaeology.link/data/cigs/DKA_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q487614> ;
     skos:altLabel "Dur-Katlimmu"@ar ;
-    ns2:P1566 <https://www.geonames.org/164335> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/893991> .
+    ns3:P1566 <https://www.geonames.org/164335> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/893991> .
 
 <http://data.archaeology.link/data/cigs/DLB> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2946,7 +2946,7 @@
     ns1:cdli_provenience_id "253"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/DLB_geom> ;
     skos:altLabel "Dilbat"@ar ;
-    ns2:P1584 <https://pleiades.stoa.org/places/893987> .
+    ns3:P1584 <https://pleiades.stoa.org/places/893987> .
 
 <http://data.archaeology.link/data/cigs/DLH> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2961,7 +2961,7 @@
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/DLH_geom> ;
     skos:altLabel "Tummal"@ar ;
-    ns2:P1566 <https://www.geonames.org/6731733> .
+    ns3:P1566 <https://www.geonames.org/6731733> .
 
 <http://data.archaeology.link/data/cigs/DLM> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2977,8 +2977,8 @@
     geo:hasGeometry <http://data.archaeology.link/data/cigs/DLM_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q740104> ;
     skos:altLabel "Dilmun"@ar ;
-    ns2:P1566 <https://www.geonames.org/6942066> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/932478> .
+    ns3:P1566 <https://www.geonames.org/6942066> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/932478> .
 
 <http://data.archaeology.link/data/cigs/DMU> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -2993,8 +2993,8 @@
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/DMU_geom> ;
     skos:altLabel "Admannu"@ar ;
-    ns2:P1566 <https://www.geonames.org/6770327> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/532748466> .
+    ns3:P1566 <https://www.geonames.org/6770327> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/532748466> .
 
 <http://data.archaeology.link/data/cigs/DNO> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3008,7 +3008,7 @@
     ns1:accuracy "3"^^xsd:string ;
     ns1:cdli_provenience_id "206"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/DNO_geom> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/903011> .
+    ns3:P1584 <https://pleiades.stoa.org/places/903011> .
 
 <http://data.archaeology.link/data/cigs/DOH> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3022,7 +3022,7 @@
     ns1:accuracy "1"^^xsd:string ;
     ns1:cdli_provenience_id "164"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/DOH_geom> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/955792756> .
+    ns3:P1584 <https://pleiades.stoa.org/places/955792756> .
 
 <http://data.archaeology.link/data/cigs/DON> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3048,7 +3048,7 @@
     ns1:accuracy "3"^^xsd:string ;
     ns1:cdli_provenience_id "153"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/DQD_geom> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/138636347> .
+    ns3:P1584 <https://pleiades.stoa.org/places/138636347> .
 
 <http://data.archaeology.link/data/cigs/DRE> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3063,8 +3063,8 @@
     ns1:cdli_provenience_id "160"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/DRE_geom> ;
     skos:altLabel "Puzriš-Dagan"@ar ;
-    ns2:P1566 <https://www.geonames.org/6739300> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/359215729> .
+    ns3:P1566 <https://www.geonames.org/6739300> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/359215729> .
 
 <http://data.archaeology.link/data/cigs/DUB> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3090,7 +3090,7 @@
     ns1:accuracy "2"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/DUZ_geom> ;
-    ns2:P1566 <https://www.geonames.org/316045> .
+    ns3:P1566 <https://www.geonames.org/316045> .
 
 <http://data.archaeology.link/data/cigs/DWL> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3104,7 +3104,7 @@
     ns1:accuracy "2"^^xsd:string ;
     ns1:cdli_provenience_id "277"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/DWL_geom> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/945906723> .
+    ns3:P1584 <https://pleiades.stoa.org/places/945906723> .
 
 <http://data.archaeology.link/data/cigs/EBA> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3120,8 +3120,8 @@
     geo:hasGeometry <http://data.archaeology.link/data/cigs/EBA_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q5743> ;
     skos:altLabel "Ebla"@ar ;
-    ns2:P1566 <https://www.geonames.org/167248> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/869702586> .
+    ns3:P1566 <https://www.geonames.org/167248> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/869702586> .
 
 <http://data.archaeology.link/data/cigs/EDF> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3135,8 +3135,8 @@
     ns1:accuracy "2"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/EDF_geom> ;
-    ns2:P1566 <https://www.geonames.org/355635> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/785974> .
+    ns3:P1566 <https://www.geonames.org/355635> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/785974> .
 
 <http://data.archaeology.link/data/cigs/EDR> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3149,8 +3149,8 @@
     ns1:accuracy "2"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/EDR_geom> ;
-    ns2:P1566 <https://www.geonames.org/301529> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/874362> .
+    ns3:P1566 <https://www.geonames.org/301529> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/874362> .
 
 <http://data.archaeology.link/data/cigs/EHA> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3163,7 +3163,7 @@
     ns1:accuracy "1"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/EHA_geom> ;
-    ns2:P1566 <https://www.geonames.org/315256> .
+    ns3:P1566 <https://www.geonames.org/315256> .
 
 <http://data.archaeology.link/data/cigs/EKA> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3179,7 +3179,7 @@
     geo:hasGeometry <http://data.archaeology.link/data/cigs/EKA_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q1952563> ;
     skos:altLabel "Ekalte"@ar ;
-    ns2:P1584 <https://pleiades.stoa.org/places/703315102> .
+    ns3:P1584 <https://pleiades.stoa.org/places/703315102> .
 
 <http://data.archaeology.link/data/cigs/EKY> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3192,7 +3192,7 @@
     ns1:accuracy "3"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/EKY_geom> ;
-    ns2:P1566 <https://www.geonames.org/747252> .
+    ns3:P1566 <https://www.geonames.org/747252> .
 
 <http://data.archaeology.link/data/cigs/ELA> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3218,8 +3218,8 @@
     ns1:accuracy "2"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/ELM_geom> ;
-    ns2:P1566 <https://www.geonames.org/315691> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/464766952> .
+    ns3:P1566 <https://www.geonames.org/315691> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/464766952> .
 
 <http://data.archaeology.link/data/cigs/EMR> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3235,7 +3235,7 @@
     geo:hasGeometry <http://data.archaeology.link/data/cigs/EMR_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q1196243> ;
     skos:altLabel "Emar"@ar ;
-    ns2:P1584 <https://pleiades.stoa.org/places/279984092> .
+    ns3:P1584 <https://pleiades.stoa.org/places/279984092> .
 
 <http://data.archaeology.link/data/cigs/ERD> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3249,7 +3249,7 @@
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/ERD_geom> ;
     skos:altLabel "KURQilbani"@ar ;
-    ns2:P1584 <https://pleiades.stoa.org/places/356811079> .
+    ns3:P1584 <https://pleiades.stoa.org/places/356811079> .
 
 <http://data.archaeology.link/data/cigs/ERI> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3265,8 +3265,8 @@
     geo:hasGeometry <http://data.archaeology.link/data/cigs/ERI_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q210065> ;
     skos:altLabel "Eridu"@ar ;
-    ns2:P1566 <https://www.geonames.org/96834> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/912845> .
+    ns3:P1566 <https://www.geonames.org/96834> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/912845> .
 
 <http://data.archaeology.link/data/cigs/ERN> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3279,7 +3279,7 @@
     ns1:accuracy "2"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/ERN_geom> ;
-    ns2:P1566 <https://www.geonames.org/317744> .
+    ns3:P1566 <https://www.geonames.org/317744> .
 
 <http://data.archaeology.link/data/cigs/ERZ> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3308,8 +3308,8 @@
     geo:hasGeometry <http://data.archaeology.link/data/cigs/ESH_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q375685> ;
     skos:altLabel "Ešnuna"@ar ;
-    ns2:P1566 <https://www.geonames.org/12084455> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/90720956> .
+    ns3:P1566 <https://www.geonames.org/12084455> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/90720956> .
 
 <http://data.archaeology.link/data/cigs/ESK> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3323,7 +3323,7 @@
     ns1:accuracy "2"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/ESK_geom> ;
-    ns2:P1566 <https://www.geonames.org/7549570> .
+    ns3:P1566 <https://www.geonames.org/7549570> .
 
 <http://data.archaeology.link/data/cigs/FAK> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3338,7 +3338,7 @@
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/FAK_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q2740784> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/574198886> .
+    ns3:P1584 <https://pleiades.stoa.org/places/574198886> .
 
 <http://data.archaeology.link/data/cigs/FAQ> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3352,7 +3352,7 @@
     ns1:accuracy "2"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/FAQ_geom> ;
-    ns2:P1566 <https://www.geonames.org/356989> .
+    ns3:P1566 <https://www.geonames.org/356989> .
 
 <http://data.archaeology.link/data/cigs/FDW> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3380,7 +3380,7 @@
     ns1:cdli_provenience_id "32"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/FKR_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q1149666> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/572048102> .
+    ns3:P1584 <https://pleiades.stoa.org/places/572048102> .
 
 <http://data.archaeology.link/data/cigs/FLO> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3445,8 +3445,8 @@
     ns1:accuracy "2"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/GAR_geom> ;
-    ns2:P1566 <https://www.geonames.org/11336259> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/976360689> .
+    ns3:P1566 <https://www.geonames.org/11336259> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/976360689> .
 
 <http://data.archaeology.link/data/cigs/GAV> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3461,7 +3461,7 @@
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/GAV_geom> ;
     skos:altLabel "DHaldiei URU"@ar ;
-    ns2:P1584 <https://pleiades.stoa.org/places/863819> .
+    ns3:P1584 <https://pleiades.stoa.org/places/863819> .
 
 <http://data.archaeology.link/data/cigs/GCN> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3474,7 +3474,7 @@
     ns1:accuracy "3"^^xsd:string ;
     ns1:cdli_provenience_id "150"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/GCN_geom> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/293088342> .
+    ns3:P1584 <https://pleiades.stoa.org/places/293088342> .
 
 <http://data.archaeology.link/data/cigs/GDR> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3516,8 +3516,8 @@
     geo:hasGeometry <http://data.archaeology.link/data/cigs/GIR_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q853946> ;
     skos:altLabel "Girsu"@ar ;
-    ns2:P1566 <https://www.geonames.org/93976> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/912855> .
+    ns3:P1566 <https://www.geonames.org/93976> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/912855> .
 
 <http://data.archaeology.link/data/cigs/GJN> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3531,8 +3531,8 @@
     ns1:accuracy "2"^^xsd:string ;
     ns1:cdli_provenience_id "420"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/GJN_geom> ;
-    ns2:P1566 <https://www.geonames.org/134125> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/903032> .
+    ns3:P1566 <https://www.geonames.org/134125> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/903032> .
 
 <http://data.archaeology.link/data/cigs/GLA> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3546,7 +3546,7 @@
     ns1:accuracy "2"^^xsd:string ;
     ns1:cdli_provenience_id "173"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/GLA_geom> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/223856812> .
+    ns3:P1584 <https://pleiades.stoa.org/places/223856812> .
 
 <http://data.archaeology.link/data/cigs/GNT> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3560,7 +3560,7 @@
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/GNT_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q3110595> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/391537222> .
+    ns3:P1584 <https://pleiades.stoa.org/places/391537222> .
 
 <http://data.archaeology.link/data/cigs/GNZ> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3573,7 +3573,7 @@
     ns1:accuracy "3"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/GNZ_geom> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/539776278> .
+    ns3:P1584 <https://pleiades.stoa.org/places/539776278> .
 
 <http://data.archaeology.link/data/cigs/GOT> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3588,7 +3588,7 @@
     ns1:cdli_provenience_id "97"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/GOT_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q774339> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/903035> .
+    ns3:P1584 <https://pleiades.stoa.org/places/903035> .
 
 <http://data.archaeology.link/data/cigs/GOV> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3601,7 +3601,7 @@
     ns1:accuracy "2"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/GOV_geom> ;
-    ns2:P1566 <https://www.geonames.org/313908> .
+    ns3:P1566 <https://www.geonames.org/313908> .
 
 <http://data.archaeology.link/data/cigs/GOZ> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3616,7 +3616,7 @@
     geo:hasGeometry <http://data.archaeology.link/data/cigs/GOZ_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q5626760> ;
     skos:altLabel "Tarsus"@ar ;
-    ns2:P1584 <https://pleiades.stoa.org/places/648789> .
+    ns3:P1584 <https://pleiades.stoa.org/places/648789> .
 
 <http://data.archaeology.link/data/cigs/GRD> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3642,8 +3642,8 @@
     ns1:accuracy "1"^^xsd:string ;
     ns1:cdli_provenience_id "412"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/GRL_geom> ;
-    ns2:P1566 <https://www.geonames.org/677429> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/207133> .
+    ns3:P1566 <https://www.geonames.org/677429> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/207133> .
 
 <http://data.archaeology.link/data/cigs/GRO> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3699,7 +3699,7 @@
     geo:hasGeometry <http://data.archaeology.link/data/cigs/GUD_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q1096108> ;
     skos:altLabel "Gudua"@ar ;
-    ns2:P1584 <https://pleiades.stoa.org/places/893977> .
+    ns3:P1584 <https://pleiades.stoa.org/places/893977> .
 
 <http://data.archaeology.link/data/cigs/GUG> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3740,7 +3740,7 @@
     ns1:cdli_provenience_id "285"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/GWR_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q607583> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/944606650> .
+    ns3:P1584 <https://pleiades.stoa.org/places/944606650> .
 
 <http://data.archaeology.link/data/cigs/GZH> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3769,8 +3769,8 @@
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/GZR_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q1466687> ;
-    ns2:P1566 <https://www.geonames.org/293376> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/68790> .
+    ns3:P1566 <https://www.geonames.org/293376> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/68790> .
 
 <http://data.archaeology.link/data/cigs/HAB> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3783,8 +3783,8 @@
     ns1:accuracy "1"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/HAB_geom> ;
-    ns2:P1566 <https://www.geonames.org/10903894> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/887556001> .
+    ns3:P1566 <https://www.geonames.org/10903894> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/887556001> .
 
 <http://data.archaeology.link/data/cigs/HAD> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3798,7 +3798,7 @@
     ns1:accuracy "3"^^xsd:string ;
     ns1:cdli_provenience_id "248"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/HAD_geom> ;
-    ns2:P1566 <https://www.geonames.org/9060> .
+    ns3:P1566 <https://www.geonames.org/9060> .
 
 <http://data.archaeology.link/data/cigs/HAE> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3811,7 +3811,7 @@
     ns1:accuracy "1"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/HAE_geom> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/887415955> .
+    ns3:P1584 <https://pleiades.stoa.org/places/887415955> .
 
 <http://data.archaeology.link/data/cigs/HAI> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3839,8 +3839,8 @@
     ns1:cdli_provenience_id "382"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/HAL_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q45368> ;
-    ns2:P1566 <https://www.geonames.org/11962350> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/461581651> .
+    ns3:P1566 <https://www.geonames.org/11962350> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/461581651> .
 
 <http://data.archaeology.link/data/cigs/HAM> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3855,7 +3855,7 @@
     ns1:cdli_provenience_id "384"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/HAM_geom> ;
     skos:altLabel "Hamath"@ar ;
-    ns2:P1566 <https://www.geonames.org/170017> .
+    ns3:P1566 <https://www.geonames.org/170017> .
 
 <http://data.archaeology.link/data/cigs/HAN> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3882,7 +3882,7 @@
     ns1:cdli_provenience_id "202"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/HAR_geom> ;
     skos:altLabel "Harran"@ar ;
-    ns2:P1584 <https://pleiades.stoa.org/places/658427> .
+    ns3:P1584 <https://pleiades.stoa.org/places/658427> .
 
 <http://data.archaeology.link/data/cigs/HAS> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3895,7 +3895,7 @@
     ns1:accuracy "2"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/HAS_geom> ;
-    ns2:P1566 <https://www.geonames.org/312439> .
+    ns3:P1566 <https://www.geonames.org/312439> .
 
 <http://data.archaeology.link/data/cigs/HAT> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3910,8 +3910,8 @@
     geo:hasGeometry <http://data.archaeology.link/data/cigs/HAT_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q181007> ;
     skos:altLabel "Ḫattusa"@ar ;
-    ns2:P1566 <https://www.geonames.org/9609567> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/283602441> .
+    ns3:P1566 <https://www.geonames.org/9609567> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/283602441> .
 
 <http://data.archaeology.link/data/cigs/HAY> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3925,7 +3925,7 @@
     ns1:accuracy "1"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/HAY_geom> ;
-    ns2:P1566 <https://www.geonames.org/616845> .
+    ns3:P1566 <https://www.geonames.org/616845> .
 
 <http://data.archaeology.link/data/cigs/HAZ> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3940,8 +3940,8 @@
     ns1:cdli_provenience_id "46"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/HAZ_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q740138> ;
-    ns2:P1566 <https://www.geonames.org/293365> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/779967430> .
+    ns3:P1566 <https://www.geonames.org/293365> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/779967430> .
 
 <http://data.archaeology.link/data/cigs/HBK> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3956,7 +3956,7 @@
     ns1:cdli_provenience_id "44"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/HBK_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q1567031> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/923122730> .
+    ns3:P1584 <https://pleiades.stoa.org/places/923122730> .
 
 <http://data.archaeology.link/data/cigs/HBR> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3970,7 +3970,7 @@
     ns1:accuracy "3"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/HBR_geom> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/687915> .
+    ns3:P1584 <https://pleiades.stoa.org/places/687915> .
 
 <http://data.archaeology.link/data/cigs/HBS> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -3998,7 +3998,7 @@
     ns1:cdli_provenience_id "149"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/HDD_geom> ;
     skos:altLabel "Me-Turran"@ar ;
-    ns2:P1584 <https://pleiades.stoa.org/places/894042> .
+    ns3:P1584 <https://pleiades.stoa.org/places/894042> .
 
 <http://data.archaeology.link/data/cigs/HFR> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4025,7 +4025,7 @@
     ns1:accuracy "2"^^xsd:string ;
     ns1:cdli_provenience_id "53"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/HIL_geom> ;
-    ns2:P1566 <https://www.geonames.org/99347> .
+    ns3:P1566 <https://www.geonames.org/99347> .
 
 <http://data.archaeology.link/data/cigs/HJR> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4039,7 +4039,7 @@
     ns1:accuracy "3"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/HJR_geom> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/932429> .
+    ns3:P1584 <https://pleiades.stoa.org/places/932429> .
 
 <http://data.archaeology.link/data/cigs/HLF> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4054,7 +4054,7 @@
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/HLF_geom> ;
     skos:altLabel "Guzana"@ar ;
-    ns2:P1584 <https://pleiades.stoa.org/places/874739> .
+    ns3:P1584 <https://pleiades.stoa.org/places/874739> .
 
 <http://data.archaeology.link/data/cigs/HLT> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4081,7 +4081,7 @@
     ns1:accuracy "3"^^xsd:string ;
     ns1:cdli_provenience_id "235"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/HLW_geom> ;
-    ns2:P1566 <https://www.geonames.org/6647836> .
+    ns3:P1566 <https://www.geonames.org/6647836> .
 
 <http://data.archaeology.link/data/cigs/HMD> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4096,7 +4096,7 @@
     ns1:cdli_provenience_id "117"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/HMD_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q696193> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/903021> .
+    ns3:P1584 <https://pleiades.stoa.org/places/903021> .
 
 <http://data.archaeology.link/data/cigs/HMM> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4123,7 +4123,7 @@
     ns1:accuracy "3"^^xsd:string ;
     ns1:cdli_provenience_id "174"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/HMR_geom> ;
-    ns2:P1566 <https://www.geonames.org/98776> .
+    ns3:P1566 <https://www.geonames.org/98776> .
 
 <http://data.archaeology.link/data/cigs/HMT> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4138,8 +4138,8 @@
     ns1:cdli_provenience_id "36"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/HMT_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q21513167> ;
-    ns2:P1566 <https://www.geonames.org/169978> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/874741> .
+    ns3:P1566 <https://www.geonames.org/169978> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/874741> .
 
 <http://data.archaeology.link/data/cigs/HOR> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4180,7 +4180,7 @@
     geo:hasGeometry <http://data.archaeology.link/data/cigs/HRD_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q3127717> ;
     skos:altLabel "Haradum"@ar ;
-    ns2:P1584 <https://pleiades.stoa.org/places/894003> .
+    ns3:P1584 <https://pleiades.stoa.org/places/894003> .
 
 <http://data.archaeology.link/data/cigs/HRE> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4194,8 +4194,8 @@
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/HRE_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q841207> ;
-    ns2:P1566 <https://www.geonames.org/9535175> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/599641> .
+    ns3:P1566 <https://www.geonames.org/9535175> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/599641> .
 
 <http://data.archaeology.link/data/cigs/HRP> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4209,7 +4209,7 @@
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/HRP_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q6017381> ;
-    ns2:P1566 <https://www.geonames.org/7467408> .
+    ns3:P1566 <https://www.geonames.org/7467408> .
 
 <http://data.archaeology.link/data/cigs/HRT> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4223,8 +4223,8 @@
     ns1:accuracy "1"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/HRT_geom> ;
-    ns2:P1566 <https://www.geonames.org/1140026> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/961874> .
+    ns3:P1566 <https://www.geonames.org/1140026> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/961874> .
 
 <http://data.archaeology.link/data/cigs/HSC> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4237,7 +4237,7 @@
     ns1:accuracy "1"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/HSC_geom> ;
-    ns2:P1566 <https://www.geonames.org/10632543> .
+    ns3:P1566 <https://www.geonames.org/10632543> .
 
 <http://data.archaeology.link/data/cigs/HSI> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4252,7 +4252,7 @@
     ns1:cdli_provenience_id "437"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/HSI_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q2067518> ;
-    ns2:P1566 <https://www.geonames.org/293367> .
+    ns3:P1566 <https://www.geonames.org/293367> .
 
 <http://data.archaeology.link/data/cigs/HSK> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4265,8 +4265,8 @@
     ns1:accuracy "1"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/HSK_geom> ;
-    ns2:P1566 <https://www.geonames.org/312479> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/874664> .
+    ns3:P1566 <https://www.geonames.org/312479> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/874664> .
 
 <http://data.archaeology.link/data/cigs/HSR> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4281,8 +4281,8 @@
     ns1:cdli_provenience_id "4"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/HSR_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q1484199> ;
-    ns2:P1566 <https://www.geonames.org/7108432> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/942329> .
+    ns3:P1566 <https://www.geonames.org/7108432> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/942329> .
 
 <http://data.archaeology.link/data/cigs/HUM> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4310,8 +4310,8 @@
     geo:hasGeometry <http://data.archaeology.link/data/cigs/HUZ_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q1347916> ;
     skos:altLabel "Huzirina"@ar ;
-    ns2:P1566 <https://www.geonames.org/300175> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/249509021> .
+    ns3:P1566 <https://www.geonames.org/300175> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/249509021> .
 
 <http://data.archaeology.link/data/cigs/HWS> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4338,8 +4338,8 @@
     ns1:accuracy "3"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/HYK_geom> ;
-    ns2:P1566 <https://www.geonames.org/438338> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/572486151> .
+    ns3:P1566 <https://www.geonames.org/438338> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/572486151> .
 
 <http://data.archaeology.link/data/cigs/IBA> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4353,7 +4353,7 @@
     ns1:accuracy "3"^^xsd:string ;
     ns1:cdli_provenience_id "264"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/IBA_geom> ;
-    ns2:P1566 <https://www.geonames.org/6869902> .
+    ns3:P1566 <https://www.geonames.org/6869902> .
 
 <http://data.archaeology.link/data/cigs/IDH> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4382,7 +4382,7 @@
     geo:hasGeometry <http://data.archaeology.link/data/cigs/IDU_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q15876602> ;
     skos:altLabel "Idu"@ar ;
-    ns2:P1566 <https://www.geonames.org/91451> .
+    ns3:P1566 <https://www.geonames.org/91451> .
 
 <http://data.archaeology.link/data/cigs/IHF> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4410,8 +4410,8 @@
     ns1:cdli_provenience_id "94"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/IHN_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q1438447> ;
-    ns2:P1566 <https://www.geonames.org/8472225> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/668262> .
+    ns3:P1566 <https://www.geonames.org/8472225> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/668262> .
 
 <http://data.archaeology.link/data/cigs/IKA> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4478,8 +4478,8 @@
     geo:hasGeometry <http://data.archaeology.link/data/cigs/ISN_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q501259> ;
     skos:altLabel "Isin"@ar ;
-    ns2:P1566 <https://www.geonames.org/6731770> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/912868> .
+    ns3:P1566 <https://www.geonames.org/6731770> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/912868> .
 
 <http://data.archaeology.link/data/cigs/JAN> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4493,7 +4493,7 @@
     ns1:accuracy "2"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/JAN_geom> ;
-    ns2:P1566 <https://www.geonames.org/616735> .
+    ns3:P1566 <https://www.geonames.org/616735> .
 
 <http://data.archaeology.link/data/cigs/JAV> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4520,7 +4520,7 @@
     ns1:accuracy "1"^^xsd:string ;
     ns1:cdli_provenience_id "93"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/JDD_geom> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/945906724> .
+    ns3:P1584 <https://pleiades.stoa.org/places/945906724> .
 
 <http://data.archaeology.link/data/cigs/JDG> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4533,8 +4533,8 @@
     ns1:accuracy "1"^^xsd:string ;
     ns1:cdli_provenience_id "224"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/JDG_geom> ;
-    ns2:P1566 <https://www.geonames.org/317981> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/471828778> .
+    ns3:P1566 <https://www.geonames.org/317981> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/471828778> .
 
 <http://data.archaeology.link/data/cigs/JDR> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4548,7 +4548,7 @@
     ns1:accuracy "2"^^xsd:string ;
     ns1:cdli_provenience_id "318"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/JDR_geom> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/912957> .
+    ns3:P1584 <https://pleiades.stoa.org/places/912957> .
 
 <http://data.archaeology.link/data/cigs/JMM> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4563,8 +4563,8 @@
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/JMM_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q1301002> ;
-    ns2:P1566 <https://www.geonames.org/293380> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/309101265> .
+    ns3:P1566 <https://www.geonames.org/293380> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/309101265> .
 
 <http://data.archaeology.link/data/cigs/JOK> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4579,8 +4579,8 @@
     ns1:cdli_provenience_id "154"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/JOK_geom> ;
     skos:altLabel "Umma"@ar ;
-    ns2:P1566 <https://www.geonames.org/95090> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/44626252> .
+    ns3:P1566 <https://www.geonames.org/95090> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/44626252> .
 
 <http://data.archaeology.link/data/cigs/JOR> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4621,8 +4621,8 @@
     ns1:cdli_provenience_id "646"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/JRO_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q2402267> ;
-    ns2:P1566 <https://www.geonames.org/8067647> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/687917> .
+    ns3:P1566 <https://www.geonames.org/8067647> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/687917> .
 
 <http://data.archaeology.link/data/cigs/JRW> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4637,7 +4637,7 @@
     ns1:cdli_provenience_id "142"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/JRW_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q17064815> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/248782116> .
+    ns3:P1584 <https://pleiades.stoa.org/places/248782116> .
 
 <http://data.archaeology.link/data/cigs/JUH> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4664,8 +4664,8 @@
     ns1:accuracy "3"^^xsd:string ;
     ns1:cdli_provenience_id "121"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/JWN_geom> ;
-    ns2:P1566 <https://www.geonames.org/6806251> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/894161> .
+    ns3:P1566 <https://www.geonames.org/6806251> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/894161> .
 
 <http://data.archaeology.link/data/cigs/KAB> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4704,8 +4704,8 @@
     ns1:cdli_provenience_id "394"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/KAH_geom> ;
     skos:altLabel "Marqasi"@ar ;
-    ns2:P1566 <https://www.geonames.org/310859> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/658474> .
+    ns3:P1566 <https://www.geonames.org/310859> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/658474> .
 
 <http://data.archaeology.link/data/cigs/KAI> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4745,8 +4745,8 @@
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/KAR_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q522862> ;
-    ns2:P1566 <https://www.geonames.org/9073433> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/786050> .
+    ns3:P1566 <https://www.geonames.org/9073433> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/786050> .
 
 <http://data.archaeology.link/data/cigs/KAS> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4760,7 +4760,7 @@
     ns1:accuracy "1"^^xsd:string ;
     ns1:cdli_provenience_id "415"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/KAS_geom> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/570400> .
+    ns3:P1584 <https://pleiades.stoa.org/places/570400> .
 
 <http://data.archaeology.link/data/cigs/KAY> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4786,7 +4786,7 @@
     ns1:accuracy "1"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/KAZ_geom> ;
-    ns2:P1566 <https://www.geonames.org/743613> .
+    ns3:P1566 <https://www.geonames.org/743613> .
 
 <http://data.archaeology.link/data/cigs/KBL> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4801,7 +4801,7 @@
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/KBL_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q55887438> ;
-    ns2:P1566 <https://www.geonames.org/9166131> .
+    ns3:P1566 <https://www.geonames.org/9166131> .
 
 <http://data.archaeology.link/data/cigs/KBN> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4817,7 +4817,7 @@
     geo:hasGeometry <http://data.archaeology.link/data/cigs/KBN_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q1266141> ;
     skos:altLabel "Kabnak"@ar ;
-    ns2:P1584 <https://pleiades.stoa.org/places/379400932> .
+    ns3:P1584 <https://pleiades.stoa.org/places/379400932> .
 
 <http://data.archaeology.link/data/cigs/KCT> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4844,7 +4844,7 @@
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/KDH_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q7084310> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/59669> .
+    ns3:P1584 <https://pleiades.stoa.org/places/59669> .
 
 <http://data.archaeology.link/data/cigs/KDR> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4870,7 +4870,7 @@
     ns1:accuracy "2"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/KEB_geom> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/842949950> .
+    ns3:P1584 <https://pleiades.stoa.org/places/842949950> .
 
 <http://data.archaeology.link/data/cigs/KEC> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4883,7 +4883,7 @@
     ns1:accuracy "2"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/KEC_geom> ;
-    ns2:P1566 <https://www.geonames.org/6969127> .
+    ns3:P1566 <https://www.geonames.org/6969127> .
 
 <http://data.archaeology.link/data/cigs/KEL> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4897,7 +4897,7 @@
     ns1:accuracy "1"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/KEL_geom> ;
-    ns2:P1566 <https://www.geonames.org/93750> .
+    ns3:P1566 <https://www.geonames.org/93750> .
 
 <http://data.archaeology.link/data/cigs/KEV> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4910,7 +4910,7 @@
     ns1:accuracy "2"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/KEV_geom> ;
-    ns2:P1566 <https://www.geonames.org/307979> .
+    ns3:P1566 <https://www.geonames.org/307979> .
 
 <http://data.archaeology.link/data/cigs/KFA> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4924,7 +4924,7 @@
     ns1:accuracy "1"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/KFA_geom> ;
-    ns2:P1566 <https://www.geonames.org/126291> .
+    ns3:P1566 <https://www.geonames.org/126291> .
 
 <http://data.archaeology.link/data/cigs/KFI> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4976,7 +4976,7 @@
     ns1:accuracy "3"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/KHI_geom> ;
-    ns2:P1566 <https://www.geonames.org/6684057> .
+    ns3:P1566 <https://www.geonames.org/6684057> .
 
 <http://data.archaeology.link/data/cigs/KHR> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -4990,8 +4990,8 @@
     ns1:accuracy "2"^^xsd:string ;
     ns1:cdli_provenience_id "409"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/KHR_geom> ;
-    ns2:P1566 <https://www.geonames.org/353686> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/776181> .
+    ns3:P1566 <https://www.geonames.org/353686> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/776181> .
 
 <http://data.archaeology.link/data/cigs/KHT> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -5007,8 +5007,8 @@
     geo:hasGeometry <http://data.archaeology.link/data/cigs/KHT_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q3822951> ;
     skos:altLabel "Kahat"@ar ;
-    ns2:P1566 <https://www.geonames.org/420334> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/874732> .
+    ns3:P1566 <https://www.geonames.org/420334> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/874732> .
 
 <http://data.archaeology.link/data/cigs/KHW> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -5047,7 +5047,7 @@
     ns1:accuracy "3"^^xsd:string ;
     ns1:cdli_provenience_id "230"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/KKH_geom> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/874418> .
+    ns3:P1584 <https://pleiades.stoa.org/places/874418> .
 
 <http://data.archaeology.link/data/cigs/KKL> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -5061,7 +5061,7 @@
     ns1:accuracy "1"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/KKL_geom> ;
-    ns2:P1566 <https://www.geonames.org/616584> .
+    ns3:P1566 <https://www.geonames.org/616584> .
 
 <http://data.archaeology.link/data/cigs/KKU> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -5088,7 +5088,7 @@
     ns1:accuracy "2"^^xsd:string ;
     ns1:cdli_provenience_id "292"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/KLB_geom> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/2970016> .
+    ns3:P1584 <https://pleiades.stoa.org/places/2970016> .
 
 <http://data.archaeology.link/data/cigs/KLC> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -5113,8 +5113,8 @@
     ns1:accuracy "1"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/KLK_geom> ;
-    ns2:P1566 <https://www.geonames.org/298676> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/2793986> .
+    ns3:P1566 <https://www.geonames.org/298676> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/2793986> .
 
 <http://data.archaeology.link/data/cigs/KML> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -5129,7 +5129,7 @@
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/KML_geom> ;
     skos:altLabel "Kar-Mullissi"@ar ;
-    ns2:P1566 <https://www.geonames.org/6860783> .
+    ns3:P1566 <https://www.geonames.org/6860783> .
 
 <http://data.archaeology.link/data/cigs/KMN> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -5155,7 +5155,7 @@
     ns1:accuracy "2"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/KMS_geom> ;
-    ns2:P1566 <https://www.geonames.org/310597> .
+    ns3:P1566 <https://www.geonames.org/310597> .
 
 <http://data.archaeology.link/data/cigs/KNB> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -5169,7 +5169,7 @@
     ns1:accuracy "2"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/KNB_geom> ;
-    ns2:P1566 <https://www.geonames.org/94957> .
+    ns3:P1566 <https://www.geonames.org/94957> .
 
 <http://data.archaeology.link/data/cigs/KNS> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -5184,7 +5184,7 @@
     geo:hasGeometry <http://data.archaeology.link/data/cigs/KNS_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q538605> ;
     skos:altLabel "Kanesh"@ar ;
-    ns2:P1584 <https://pleiades.stoa.org/places/628923> .
+    ns3:P1584 <https://pleiades.stoa.org/places/628923> .
 
 <http://data.archaeology.link/data/cigs/KOC> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -5197,7 +5197,7 @@
     ns1:accuracy "2"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/KOC_geom> ;
-    ns2:P1566 <https://www.geonames.org/306944> .
+    ns3:P1566 <https://www.geonames.org/306944> .
 
 <http://data.archaeology.link/data/cigs/KOK> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -5210,7 +5210,7 @@
     ns1:accuracy "2"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/KOK_geom> ;
-    ns2:P1566 <https://www.geonames.org/306281> .
+    ns3:P1566 <https://www.geonames.org/306281> .
 
 <http://data.archaeology.link/data/cigs/KOR> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -5223,7 +5223,7 @@
     ns1:accuracy "2"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/KOR_geom> ;
-    ns2:P1566 <https://www.geonames.org/298387> .
+    ns3:P1566 <https://www.geonames.org/298387> .
 
 <http://data.archaeology.link/data/cigs/KOS> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -5249,7 +5249,7 @@
     ns1:accuracy "1"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/KOT_geom> ;
-    ns2:P1566 <https://www.geonames.org/306242> .
+    ns3:P1566 <https://www.geonames.org/306242> .
 
 <http://data.archaeology.link/data/cigs/KOU> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -5264,8 +5264,8 @@
     ns1:cdli_provenience_id "375"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/KOU_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q1785592> ;
-    ns2:P1566 <https://www.geonames.org/146671> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/707549> .
+    ns3:P1566 <https://www.geonames.org/146671> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/707549> .
 
 <http://data.archaeology.link/data/cigs/KRC> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -5290,7 +5290,7 @@
     ns1:accuracy "2"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/KRG_geom> ;
-    ns2:P1566 <https://www.geonames.org/309839> .
+    ns3:P1566 <https://www.geonames.org/309839> .
 
 <http://data.archaeology.link/data/cigs/KRH> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -5303,7 +5303,7 @@
     ns1:accuracy "1"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/KRH_geom> ;
-    ns2:P1566 <https://www.geonames.org/6969130> .
+    ns3:P1566 <https://www.geonames.org/6969130> .
 
 <http://data.archaeology.link/data/cigs/KRI> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -5316,7 +5316,7 @@
     ns1:accuracy "1"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/KRI_geom> ;
-    ns2:P1566 <https://www.geonames.org/308464> .
+    ns3:P1566 <https://www.geonames.org/308464> .
 
 <http://data.archaeology.link/data/cigs/KRK> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -5331,7 +5331,7 @@
     ns1:cdli_provenience_id "270"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/KRK_geom> ;
     skos:altLabel "Karkemish"@ar ;
-    ns2:P1584 <https://pleiades.stoa.org/places/658465> .
+    ns3:P1584 <https://pleiades.stoa.org/places/658465> .
 
 <http://data.archaeology.link/data/cigs/KRM> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -5345,7 +5345,7 @@
     ns1:accuracy "1"^^xsd:string ;
     ns1:cdli_provenience_id "247"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/KRM_geom> ;
-    ns2:P1566 <https://www.geonames.org/128226> .
+    ns3:P1566 <https://www.geonames.org/128226> .
 
 <http://data.archaeology.link/data/cigs/KRT> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -5373,8 +5373,8 @@
     geo:hasGeometry <http://data.archaeology.link/data/cigs/KSH_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q132272> ;
     skos:altLabel "Kiš"@ar ;
-    ns2:P1566 <https://www.geonames.org/94277> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/894028> .
+    ns3:P1566 <https://www.geonames.org/94277> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/894028> .
 
 <http://data.archaeology.link/data/cigs/KSI> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -5401,7 +5401,7 @@
     ns1:cdli_provenience_id "190"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/KSK_geom> ;
     skos:altLabel "Šarišša"@ar ;
-    ns2:P1584 <https://pleiades.stoa.org/places/117143016> .
+    ns3:P1584 <https://pleiades.stoa.org/places/117143016> .
 
 <http://data.archaeology.link/data/cigs/KSM> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -5414,7 +5414,7 @@
     ns1:accuracy "2"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/KSM_geom> ;
-    ns2:P1566 <https://www.geonames.org/308906> .
+    ns3:P1566 <https://www.geonames.org/308906> .
 
 <http://data.archaeology.link/data/cigs/KSN> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -5429,7 +5429,7 @@
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/KSN_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q55634890> ;
-    ns2:P1566 <https://www.geonames.org/293364> .
+    ns3:P1566 <https://www.geonames.org/293364> .
 
 <http://data.archaeology.link/data/cigs/KSR> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -5445,7 +5445,7 @@
     geo:hasGeometry <http://data.archaeology.link/data/cigs/KSR_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q910253> ;
     skos:altLabel "Kisurra"@ar ;
-    ns2:P1566 <https://www.geonames.org/6731778> .
+    ns3:P1566 <https://www.geonames.org/6731778> .
 
 <http://data.archaeology.link/data/cigs/KSX> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -5474,8 +5474,8 @@
     geo:hasGeometry <http://data.archaeology.link/data/cigs/KTN_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q165841> ;
     skos:altLabel "Kar-Tukulti-Ninurta"@ar ;
-    ns2:P1566 <https://www.geonames.org/6837593> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/430344980> .
+    ns3:P1566 <https://www.geonames.org/6837593> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/430344980> .
 
 <http://data.archaeology.link/data/cigs/KUB> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -5489,7 +5489,7 @@
     ns1:accuracy "1"^^xsd:string ;
     ns1:cdli_provenience_id "427"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/KUB_geom> ;
-    ns2:P1566 <https://www.geonames.org/6412799> .
+    ns3:P1566 <https://www.geonames.org/6412799> .
 
 <http://data.archaeology.link/data/cigs/KUM> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -5528,7 +5528,7 @@
     ns1:accuracy "1"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/KUS_geom> ;
-    ns2:P1566 <https://www.geonames.org/7742460> .
+    ns3:P1566 <https://www.geonames.org/7742460> .
 
 <http://data.archaeology.link/data/cigs/KZK> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -5541,8 +5541,8 @@
     ns1:accuracy "1"^^xsd:string ;
     ns1:cdli_provenience_id "20"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/KZK_geom> ;
-    ns2:P1566 <https://www.geonames.org/307054> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/193878353> .
+    ns3:P1566 <https://www.geonames.org/307054> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/193878353> .
 
 <http://data.archaeology.link/data/cigs/KZL> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -5558,7 +5558,7 @@
     geo:hasGeometry <http://data.archaeology.link/data/cigs/KZL_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q3398568> ;
     skos:altLabel "Ṣumur"@ar ;
-    ns2:P1566 <https://www.geonames.org/163525> .
+    ns3:P1566 <https://www.geonames.org/163525> .
 
 <http://data.archaeology.link/data/cigs/KZN> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -5585,8 +5585,8 @@
     ns1:cdli_provenience_id "39"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/LAG_geom> ;
     skos:altLabel "Lagaš"@ar ;
-    ns2:P1566 <https://www.geonames.org/7025350> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/959120263> .
+    ns3:P1566 <https://www.geonames.org/7025350> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/959120263> .
 
 <http://data.archaeology.link/data/cigs/LAR> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -5602,8 +5602,8 @@
     geo:hasGeometry <http://data.archaeology.link/data/cigs/LAR_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q244746> ;
     skos:altLabel "Larsa"@ar ;
-    ns2:P1566 <https://www.geonames.org/91560> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/912897> .
+    ns3:P1566 <https://www.geonames.org/91560> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/912897> .
 
 <http://data.archaeology.link/data/cigs/LCJ> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -5631,8 +5631,8 @@
     ns1:cdli_provenience_id "33"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/LHM_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q911895> ;
-    ns2:P1566 <https://www.geonames.org/6735862> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/912953> .
+    ns3:P1566 <https://www.geonames.org/6735862> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/912953> .
 
 <http://data.archaeology.link/data/cigs/LIH> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -5645,7 +5645,7 @@
     ns1:accuracy "1"^^xsd:string ;
     ns1:cdli_provenience_id "648"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/LIH_geom> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/658520> .
+    ns3:P1584 <https://pleiades.stoa.org/places/658520> .
 
 <http://data.archaeology.link/data/cigs/LIY> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -5660,7 +5660,7 @@
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/LIY_geom> ;
     skos:altLabel "Liyan"@ar ;
-    ns2:P1566 <https://www.geonames.org/139817> .
+    ns3:P1566 <https://www.geonames.org/139817> .
 
 <http://data.archaeology.link/data/cigs/LMA> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -5688,8 +5688,8 @@
     ns1:cdli_provenience_id "132"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/LRK_geom> ;
     skos:altLabel "Larak"@ar ;
-    ns2:P1566 <https://www.geonames.org/8608191> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/762762282> .
+    ns3:P1566 <https://www.geonames.org/8608191> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/762762282> .
 
 <http://data.archaeology.link/data/cigs/LSB> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -5715,7 +5715,7 @@
     ns1:accuracy "1"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/MAL_geom> ;
-    ns2:P1566 <https://www.geonames.org/304916> .
+    ns3:P1566 <https://www.geonames.org/304916> .
 
 <http://data.archaeology.link/data/cigs/MAR> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -5731,8 +5731,8 @@
     geo:hasGeometry <http://data.archaeology.link/data/cigs/MAR_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q244762> ;
     skos:altLabel "Mari"@ar ;
-    ns2:P1566 <https://www.geonames.org/9204031> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/286681704> .
+    ns3:P1566 <https://www.geonames.org/9204031> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/286681704> .
 
 <http://data.archaeology.link/data/cigs/MAV> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -5746,7 +5746,7 @@
     ns1:accuracy "2"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/MAV_geom> ;
-    ns2:P1566 <https://www.geonames.org/124571> .
+    ns3:P1566 <https://www.geonames.org/124571> .
 
 <http://data.archaeology.link/data/cigs/MCH> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -5760,7 +5760,7 @@
     ns1:accuracy "1"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/MCH_geom> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/678288> .
+    ns3:P1584 <https://pleiades.stoa.org/places/678288> .
 
 <http://data.archaeology.link/data/cigs/MCQ> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -5814,8 +5814,8 @@
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/MDB_geom> ;
     skos:altLabel "Azamhul"@ar ;
-    ns2:P1566 <https://www.geonames.org/163493> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/957515415> .
+    ns3:P1566 <https://www.geonames.org/163493> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/957515415> .
 
 <http://data.archaeology.link/data/cigs/MET> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -5829,8 +5829,8 @@
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/MET_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q11120743> ;
-    ns2:P1566 <https://www.geonames.org/11224588> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/517771600> .
+    ns3:P1566 <https://www.geonames.org/11224588> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/517771600> .
 
 <http://data.archaeology.link/data/cigs/MGD> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -5845,8 +5845,8 @@
     ns1:cdli_provenience_id "272"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/MGD_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q208379> ;
-    ns2:P1566 <https://www.geonames.org/293357> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/26356565> .
+    ns3:P1566 <https://www.geonames.org/293357> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/26356565> .
 
 <http://data.archaeology.link/data/cigs/MHD> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -5873,7 +5873,7 @@
     ns1:accuracy "2"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/MHN_geom> ;
-    ns2:P1566 <https://www.geonames.org/125427> .
+    ns3:P1566 <https://www.geonames.org/125427> .
 
 <http://data.archaeology.link/data/cigs/MHO> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -5887,7 +5887,7 @@
     ns1:cdli_provenience_id "5"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/MHO_geom> ;
     skos:altLabel "Tapigga"@ar ;
-    ns2:P1584 <https://pleiades.stoa.org/places/133411593> .
+    ns3:P1584 <https://pleiades.stoa.org/places/133411593> .
 
 <http://data.archaeology.link/data/cigs/MHR> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -5940,7 +5940,7 @@
     geo:hasGeometry <http://data.archaeology.link/data/cigs/MLD_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q705132> ;
     skos:altLabel "Melid"@ar ;
-    ns2:P1584 <https://pleiades.stoa.org/places/25078867> .
+    ns3:P1584 <https://pleiades.stoa.org/places/25078867> .
 
 <http://data.archaeology.link/data/cigs/MLH> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -5979,7 +5979,7 @@
     ns1:accuracy "1"^^xsd:string ;
     ns1:cdli_provenience_id "62"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/MMG_geom> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/649834357> .
+    ns3:P1584 <https://pleiades.stoa.org/places/649834357> .
 
 <http://data.archaeology.link/data/cigs/MOA> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -5993,7 +5993,7 @@
     ns1:accuracy "2"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/MOA_geom> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/874749> .
+    ns3:P1584 <https://pleiades.stoa.org/places/874749> .
 
 <http://data.archaeology.link/data/cigs/MQS> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -6021,8 +6021,8 @@
     ns1:cdli_provenience_id "223"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/MRD_geom> ;
     skos:altLabel "Marad"@ar ;
-    ns2:P1566 <https://www.geonames.org/6788812> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/912901> .
+    ns3:P1566 <https://www.geonames.org/6788812> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/912901> .
 
 <http://data.archaeology.link/data/cigs/MRJ> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -6037,7 +6037,7 @@
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/MRJ_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q1183843> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/310449388> .
+    ns3:P1584 <https://pleiades.stoa.org/places/310449388> .
 
 <http://data.archaeology.link/data/cigs/MRL> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -6052,7 +6052,7 @@
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/MRL_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q764959> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/745058470> .
+    ns3:P1584 <https://pleiades.stoa.org/places/745058470> .
 
 <http://data.archaeology.link/data/cigs/MRM> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -6078,7 +6078,7 @@
     ns1:accuracy "2"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/MRN_geom> ;
-    ns2:P1566 <https://www.geonames.org/304797> .
+    ns3:P1566 <https://www.geonames.org/304797> .
 
 <http://data.archaeology.link/data/cigs/MRW> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -6106,7 +6106,7 @@
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/MSH_geom> ;
     skos:altLabel "Kar-Assurnazirpal"@ar ;
-    ns2:P1566 <https://www.geonames.org/385914> .
+    ns3:P1566 <https://www.geonames.org/385914> .
 
 <http://data.archaeology.link/data/cigs/MSK> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -6122,7 +6122,7 @@
     geo:hasGeometry <http://data.archaeology.link/data/cigs/MSK_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q2574582> ;
     skos:altLabel "Maškan-šapir"@ar ;
-    ns2:P1584 <https://pleiades.stoa.org/places/715980704> .
+    ns3:P1584 <https://pleiades.stoa.org/places/715980704> .
 
 <http://data.archaeology.link/data/cigs/MUG> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -6149,7 +6149,7 @@
     ns1:accuracy "2"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/MUH_geom> ;
-    ns2:P1566 <https://www.geonames.org/313920> .
+    ns3:P1566 <https://www.geonames.org/313920> .
 
 <http://data.archaeology.link/data/cigs/MUR> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -6162,7 +6162,7 @@
     ns1:accuracy "2"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/MUR_geom> ;
-    ns2:P1566 <https://www.geonames.org/9815319> .
+    ns3:P1566 <https://www.geonames.org/9815319> .
 
 <http://data.archaeology.link/data/cigs/MUS> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -6175,7 +6175,7 @@
     ns1:accuracy "2"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/MUS_geom> ;
-    ns2:P1566 <https://www.geonames.org/304081> .
+    ns3:P1566 <https://www.geonames.org/304081> .
 
 <http://data.archaeology.link/data/cigs/MZA> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -6216,8 +6216,8 @@
     geo:hasGeometry <http://data.archaeology.link/data/cigs/NAB_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q1658146> ;
     skos:altLabel "Nabada"@ar ;
-    ns2:P1566 <https://www.geonames.org/171645> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/423885388> .
+    ns3:P1566 <https://www.geonames.org/171645> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/423885388> .
 
 <http://data.archaeology.link/data/cigs/NAL> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -6231,7 +6231,7 @@
     ns1:accuracy "1"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/NAL_geom> ;
-    ns2:P1566 <https://www.geonames.org/616385> .
+    ns3:P1566 <https://www.geonames.org/616385> .
 
 <http://data.archaeology.link/data/cigs/NAS> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -6257,7 +6257,7 @@
     ns1:accuracy "1"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/NAZ_geom> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/713816456> .
+    ns3:P1584 <https://pleiades.stoa.org/places/713816456> .
 
 <http://data.archaeology.link/data/cigs/NER> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -6272,7 +6272,7 @@
     ns1:cdli_provenience_id "296"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/NER_geom> ;
     skos:altLabel "Nereb"@ar ;
-    ns2:P1584 <https://pleiades.stoa.org/places/633912597> .
+    ns3:P1584 <https://pleiades.stoa.org/places/633912597> .
 
 <http://data.archaeology.link/data/cigs/NGB> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -6286,7 +6286,7 @@
     ns1:accuracy "3"^^xsd:string ;
     ns1:cdli_provenience_id "273"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/NGB_geom> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/413309737> .
+    ns3:P1584 <https://pleiades.stoa.org/places/413309737> .
 
 <http://data.archaeology.link/data/cigs/NGN> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -6301,8 +6301,8 @@
     ns1:cdli_provenience_id "40 : 399"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/NGN_geom> ;
     skos:altLabel "Nigin"@ar ;
-    ns2:P1566 <https://www.geonames.org/7024991> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/912909> .
+    ns3:P1566 <https://www.geonames.org/7024991> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/912909> .
 
 <http://data.archaeology.link/data/cigs/NHV> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -6316,8 +6316,8 @@
     ns1:accuracy "1"^^xsd:string ;
     ns1:cdli_provenience_id "28"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/NHV_geom> ;
-    ns2:P1566 <https://www.geonames.org/122915> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/903088> .
+    ns3:P1566 <https://www.geonames.org/122915> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/903088> .
 
 <http://data.archaeology.link/data/cigs/NIM> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -6333,8 +6333,8 @@
     geo:hasGeometry <http://data.archaeology.link/data/cigs/NIM_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q237614> ;
     skos:altLabel "Kalhu"@ar ;
-    ns2:P1566 <https://www.geonames.org/93006> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/894019> .
+    ns3:P1566 <https://www.geonames.org/93006> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/894019> .
 
 <http://data.archaeology.link/data/cigs/NIP> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -6350,8 +6350,8 @@
     geo:hasGeometry <http://data.archaeology.link/data/cigs/NIP_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q188395> ;
     skos:altLabel "Nippur"@ar ;
-    ns2:P1566 <https://www.geonames.org/92882> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/912910> .
+    ns3:P1566 <https://www.geonames.org/92882> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/912910> .
 
 <http://data.archaeology.link/data/cigs/NJF> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -6365,7 +6365,7 @@
     ns1:accuracy "3"^^xsd:string ;
     ns1:cdli_provenience_id "392"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/NJF_geom> ;
-    ns2:P1566 <https://www.geonames.org/122847> .
+    ns3:P1566 <https://www.geonames.org/122847> .
 
 <http://data.archaeology.link/data/cigs/NKH> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -6390,7 +6390,7 @@
     ns1:accuracy "1"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/NKM_geom> ;
-    ns2:P1566 <https://www.geonames.org/6268312> .
+    ns3:P1566 <https://www.geonames.org/6268312> .
 
 <http://data.archaeology.link/data/cigs/NNV> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -6406,8 +6406,8 @@
     geo:hasGeometry <http://data.archaeology.link/data/cigs/NNV_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q5680> ;
     skos:altLabel "Nineveh"@ar ;
-    ns2:P1566 <https://www.geonames.org/92878> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/874621> .
+    ns3:P1566 <https://www.geonames.org/92878> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/874621> .
 
 <http://data.archaeology.link/data/cigs/NOR> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -6421,7 +6421,7 @@
     ns1:accuracy "2"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/NOR_geom> ;
-    ns2:P1566 <https://www.geonames.org/616360> .
+    ns3:P1566 <https://www.geonames.org/616360> .
 
 <http://data.archaeology.link/data/cigs/NQS> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -6435,7 +6435,7 @@
     ns1:accuracy "3"^^xsd:string ;
     ns1:cdli_provenience_id "422"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/NQS_geom> ;
-    ns2:P1566 <https://www.geonames.org/122681> .
+    ns3:P1566 <https://www.geonames.org/122681> .
 
 <http://data.archaeology.link/data/cigs/NRB> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -6451,7 +6451,7 @@
     geo:hasGeometry <http://data.archaeology.link/data/cigs/NRB_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q3338309> ;
     skos:altLabel "Nerebtum"@ar ;
-    ns2:P1566 <https://www.geonames.org/91213> .
+    ns3:P1566 <https://www.geonames.org/91213> .
 
 <http://data.archaeology.link/data/cigs/NRK> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -6495,8 +6495,8 @@
     ns1:cdli_provenience_id "159"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/NSR_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q342799> ;
-    ns2:P1566 <https://www.geonames.org/95275> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/733910291> .
+    ns3:P1566 <https://www.geonames.org/95275> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/733910291> .
 
 <http://data.archaeology.link/data/cigs/NUZ> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -6512,8 +6512,8 @@
     geo:hasGeometry <http://data.archaeology.link/data/cigs/NUZ_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q584605> ;
     skos:altLabel "Gasur"@ar ;
-    ns2:P1566 <https://www.geonames.org/89610> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/894054> .
+    ns3:P1566 <https://www.geonames.org/89610> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/894054> .
 
 <http://data.archaeology.link/data/cigs/OJA> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -6538,7 +6538,7 @@
     ns1:accuracy "2"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/ORD_geom> ;
-    ns2:P1566 <https://www.geonames.org/6970683> .
+    ns3:P1566 <https://www.geonames.org/6970683> .
 
 <http://data.archaeology.link/data/cigs/ORT> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -6553,7 +6553,7 @@
     geo:hasGeometry <http://data.archaeology.link/data/cigs/ORT_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q3620> ;
     skos:altLabel "Sapinuwa"@ar ;
-    ns2:P1584 <https://pleiades.stoa.org/places/964671598> .
+    ns3:P1584 <https://pleiades.stoa.org/places/964671598> .
 
 <http://data.archaeology.link/data/cigs/OTK> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -6578,7 +6578,7 @@
     ns1:accuracy "3"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/OYH_geom> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/275382665> .
+    ns3:P1584 <https://pleiades.stoa.org/places/275382665> .
 
 <http://data.archaeology.link/data/cigs/OZB> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -6605,7 +6605,7 @@
     ns1:cdli_provenience_id "396"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/PAS_geom> ;
     skos:altLabel "Pašime"@ar ;
-    ns2:P1584 <https://pleiades.stoa.org/places/108542249> .
+    ns3:P1584 <https://pleiades.stoa.org/places/108542249> .
 
 <http://data.archaeology.link/data/cigs/PAT> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -6618,8 +6618,8 @@
     ns1:accuracy "1"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/PAT_geom> ;
-    ns2:P1566 <https://www.geonames.org/302819> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/874529> .
+    ns3:P1566 <https://www.geonames.org/302819> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/874529> .
 
 <http://data.archaeology.link/data/cigs/PDK> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -6634,7 +6634,7 @@
     ns1:cdli_provenience_id "112 : 443"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/PDK_geom> ;
     skos:altLabel "Padakku"@ar ;
-    ns2:P1584 <https://pleiades.stoa.org/places/982176368> .
+    ns3:P1584 <https://pleiades.stoa.org/places/982176368> .
 
 <http://data.archaeology.link/data/cigs/PEL> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -6649,8 +6649,8 @@
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/PEL_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q167993> ;
-    ns2:P1566 <https://www.geonames.org/11396035> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/678326> .
+    ns3:P1566 <https://www.geonames.org/11396035> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/678326> .
 
 <http://data.archaeology.link/data/cigs/PHG> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -6664,7 +6664,7 @@
     ns1:accuracy "3"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/PHG_geom> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/854724> .
+    ns3:P1584 <https://pleiades.stoa.org/places/854724> .
 
 <http://data.archaeology.link/data/cigs/PHU> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -6689,7 +6689,7 @@
     ns1:accuracy "1"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/PIR_geom> ;
-    ns2:P1566 <https://www.geonames.org/302613> .
+    ns3:P1566 <https://www.geonames.org/302613> .
 
 <http://data.archaeology.link/data/cigs/PLU> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -6702,7 +6702,7 @@
     ns1:accuracy "2"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/PLU_geom> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/874383> .
+    ns3:P1584 <https://pleiades.stoa.org/places/874383> .
 
 <http://data.archaeology.link/data/cigs/PRA> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -6716,8 +6716,8 @@
     ns1:accuracy "1"^^xsd:string ;
     ns1:cdli_provenience_id "27"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/PRA_geom> ;
-    ns2:P1566 <https://www.geonames.org/97982> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/914118847> .
+    ns3:P1566 <https://www.geonames.org/97982> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/914118847> .
 
 <http://data.archaeology.link/data/cigs/PRS> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -6734,8 +6734,8 @@
     geo:hasGeometry <http://data.archaeology.link/data/cigs/PRS_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q129072> ;
     skos:altLabel "Pārśa"@ar ;
-    ns2:P1566 <https://www.geonames.org/110836> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/922695> .
+    ns3:P1566 <https://www.geonames.org/110836> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/922695> .
 
 <http://data.archaeology.link/data/cigs/PSG> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -6750,8 +6750,8 @@
     ns1:cdli_provenience_id "198"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/PSG_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q230025> ;
-    ns2:P1566 <https://www.geonames.org/121340> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/922693> .
+    ns3:P1566 <https://www.geonames.org/121340> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/922693> .
 
 <http://data.archaeology.link/data/cigs/QAB> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -6790,7 +6790,7 @@
     ns1:accuracy "1"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/QAL_geom> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/874652> .
+    ns3:P1584 <https://pleiades.stoa.org/places/874652> .
 
 <http://data.archaeology.link/data/cigs/QAN> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -6804,7 +6804,7 @@
     ns1:accuracy "3"^^xsd:string ;
     ns1:cdli_provenience_id "11"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/QAN_geom> ;
-    ns2:P1566 <https://www.geonames.org/119600> .
+    ns3:P1566 <https://www.geonames.org/119600> .
 
 <http://data.archaeology.link/data/cigs/QAT> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -6820,8 +6820,8 @@
     geo:hasGeometry <http://data.archaeology.link/data/cigs/QAT_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q195286> ;
     skos:altLabel "Qatara"@ar ;
-    ns2:P1566 <https://www.geonames.org/6786680> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/356369838> .
+    ns3:P1566 <https://www.geonames.org/6786680> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/356369838> .
 
 <http://data.archaeology.link/data/cigs/QBR> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -6835,7 +6835,7 @@
     ns1:accuracy "3"^^xsd:string ;
     ns1:cdli_provenience_id "233"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/QBR_geom> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/894110> .
+    ns3:P1584 <https://pleiades.stoa.org/places/894110> .
 
 <http://data.archaeology.link/data/cigs/QCH> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -6849,7 +6849,7 @@
     ns1:accuracy "2"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/QCH_geom> ;
-    ns2:P1566 <https://www.geonames.org/92440> .
+    ns3:P1566 <https://www.geonames.org/92440> .
 
 <http://data.archaeology.link/data/cigs/QDS> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -6864,8 +6864,8 @@
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/QDS_geom> ;
     skos:altLabel "Qadeš"@ar ;
-    ns2:P1566 <https://www.geonames.org/168753> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/668291> .
+    ns3:P1566 <https://www.geonames.org/168753> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/668291> .
 
 <http://data.archaeology.link/data/cigs/QHD> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -6879,7 +6879,7 @@
     ns1:accuracy "3"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/QHD_geom> ;
-    ns2:P1566 <https://www.geonames.org/163577> .
+    ns3:P1566 <https://www.geonames.org/163577> .
 
 <http://data.archaeology.link/data/cigs/QIT> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -6893,7 +6893,7 @@
     ns1:accuracy "3"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/QIT_geom> ;
-    ns2:P1566 <https://www.geonames.org/9082> .
+    ns3:P1566 <https://www.geonames.org/9082> .
 
 <http://data.archaeology.link/data/cigs/QLD> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -6907,7 +6907,7 @@
     ns1:accuracy "3"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/QLD_geom> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/512491137> .
+    ns3:P1584 <https://pleiades.stoa.org/places/512491137> .
 
 <http://data.archaeology.link/data/cigs/QNT> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -6922,7 +6922,7 @@
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/QNT_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q937930> ;
-    ns2:P1566 <https://www.geonames.org/350767> .
+    ns3:P1566 <https://www.geonames.org/350767> .
 
 <http://data.archaeology.link/data/cigs/QQN> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -6937,7 +6937,7 @@
     ns1:accuracy "1"^^xsd:string ;
     ns1:cdli_provenience_id "189"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/QQN_geom> ;
-    ns2:P1566 <https://www.geonames.org/10194030> .
+    ns3:P1566 <https://www.geonames.org/10194030> .
 
 <http://data.archaeology.link/data/cigs/QSH> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -6952,7 +6952,7 @@
     ns1:cdli_provenience_id "302"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/QSH_geom> ;
     skos:altLabel "Kilizu"@ar ;
-    ns2:P1584 <https://pleiades.stoa.org/places/894027> .
+    ns3:P1584 <https://pleiades.stoa.org/places/894027> .
 
 <http://data.archaeology.link/data/cigs/QTN> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -6967,7 +6967,7 @@
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/QTN_geom> ;
     skos:altLabel "Qaṭnā"@ar ;
-    ns2:P1584 <https://pleiades.stoa.org/places/412342122> .
+    ns3:P1584 <https://pleiades.stoa.org/places/412342122> .
 
 <http://data.archaeology.link/data/cigs/QUA> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -6982,7 +6982,7 @@
     ns1:cdli_provenience_id "158 : 185"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/QUA_geom> ;
     skos:altLabel "Apqu-ša-Adad"@ar ;
-    ns2:P1584 <https://pleiades.stoa.org/places/874723> .
+    ns3:P1584 <https://pleiades.stoa.org/places/874723> .
 
 <http://data.archaeology.link/data/cigs/QUF> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -6997,8 +6997,8 @@
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/QUF_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q935454> ;
-    ns2:P1566 <https://www.geonames.org/350560> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/786010> .
+    ns3:P1566 <https://www.geonames.org/350560> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/786010> .
 
 <http://data.archaeology.link/data/cigs/RAJ> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -7024,7 +7024,7 @@
     ns1:accuracy "2"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/RAZ_geom> ;
-    ns2:P1566 <https://www.geonames.org/118634> .
+    ns3:P1566 <https://www.geonames.org/118634> .
 
 <http://data.archaeology.link/data/cigs/RBT> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -7039,7 +7039,7 @@
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/RBT_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q4120177> ;
-    ns2:P1566 <https://www.geonames.org/173053> .
+    ns3:P1566 <https://www.geonames.org/173053> .
 
 <http://data.archaeology.link/data/cigs/RKI> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -7081,8 +7081,8 @@
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/RSL_geom> ;
     skos:altLabel "Ursalimmu"@ar ;
-    ns2:P1566 <https://www.geonames.org/281184> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/687928> .
+    ns3:P1566 <https://www.geonames.org/281184> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/687928> .
 
 <http://data.archaeology.link/data/cigs/RTA> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -7122,7 +7122,7 @@
     ns1:cdli_provenience_id "218"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/RUS_geom> ;
     skos:altLabel "Rusahinili"@ar ;
-    ns2:P1584 <https://pleiades.stoa.org/places/874771> .
+    ns3:P1584 <https://pleiades.stoa.org/places/874771> .
 
 <http://data.archaeology.link/data/cigs/RUT> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -7136,7 +7136,7 @@
     ns1:accuracy "1"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/RUT_geom> ;
-    ns2:P1566 <https://www.geonames.org/799326> .
+    ns3:P1566 <https://www.geonames.org/799326> .
 
 <http://data.archaeology.link/data/cigs/SAI> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -7150,7 +7150,7 @@
     ns1:accuracy "3"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/SAI_geom> ;
-    ns2:P1566 <https://www.geonames.org/172451> .
+    ns3:P1566 <https://www.geonames.org/172451> .
 
 <http://data.archaeology.link/data/cigs/SAL> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -7163,7 +7163,7 @@
     ns1:accuracy "2"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/SAL_geom> ;
-    ns2:P1566 <https://www.geonames.org/6969119> .
+    ns3:P1566 <https://www.geonames.org/6969119> .
 
 <http://data.archaeology.link/data/cigs/SAM> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -7192,8 +7192,8 @@
     geo:hasGeometry <http://data.archaeology.link/data/cigs/SAP_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q619707> ;
     skos:altLabel "Sippar"@ar ;
-    ns2:P1566 <https://www.geonames.org/6927414> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/894089> .
+    ns3:P1566 <https://www.geonames.org/6927414> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/894089> .
 
 <http://data.archaeology.link/data/cigs/SAR> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -7209,7 +7209,7 @@
     geo:hasGeometry <http://data.archaeology.link/data/cigs/SAR_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q253208> ;
     skos:altLabel "Dur-Šarrukin"@ar ;
-    ns2:P1584 <https://pleiades.stoa.org/places/874458> .
+    ns3:P1584 <https://pleiades.stoa.org/places/874458> .
 
 <http://data.archaeology.link/data/cigs/SAV> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -7222,7 +7222,7 @@
     ns1:accuracy "1"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/SAV_geom> ;
-    ns2:P1566 <https://www.geonames.org/301457> .
+    ns3:P1566 <https://www.geonames.org/301457> .
 
 <http://data.archaeology.link/data/cigs/SBA> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -7236,7 +7236,7 @@
     ns1:accuracy "1"^^xsd:string ;
     ns1:cdli_provenience_id "308"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/SBA_geom> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/528477900> .
+    ns3:P1584 <https://pleiades.stoa.org/places/528477900> .
 
 <http://data.archaeology.link/data/cigs/SBY> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -7265,8 +7265,8 @@
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/SCH_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q7697383> ;
-    ns2:P1566 <https://www.geonames.org/8070362> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/678403> .
+    ns3:P1566 <https://www.geonames.org/8070362> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/678403> .
 
 <http://data.archaeology.link/data/cigs/SDM> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -7295,8 +7295,8 @@
     geo:hasGeometry <http://data.archaeology.link/data/cigs/SDP_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q3481186> ;
     skos:altLabel "Šaduppûm"@ar ;
-    ns2:P1566 <https://www.geonames.org/96040> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/821129014> .
+    ns3:P1566 <https://www.geonames.org/96040> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/821129014> .
 
 <http://data.archaeology.link/data/cigs/SEA> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -7311,8 +7311,8 @@
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/SEA_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q152368> ;
-    ns2:P1566 <https://www.geonames.org/293387> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/678378> .
+    ns3:P1566 <https://www.geonames.org/293387> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/678378> .
 
 <http://data.archaeology.link/data/cigs/SEC> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -7339,8 +7339,8 @@
     ns1:cdli_provenience_id "120"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/SEL_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q1136681> ;
-    ns2:P1566 <https://www.geonames.org/89799> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/894178> .
+    ns3:P1566 <https://www.geonames.org/89799> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/894178> .
 
 <http://data.archaeology.link/data/cigs/SEQ> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -7355,7 +7355,7 @@
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/SEQ_geom> ;
     skos:altLabel "URULibliuni"@ar ;
-    ns2:P1584 <https://pleiades.stoa.org/places/884203> .
+    ns3:P1584 <https://pleiades.stoa.org/places/884203> .
 
 <http://data.archaeology.link/data/cigs/SER> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -7369,7 +7369,7 @@
     ns1:accuracy "1"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/SER_geom> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/727228> .
+    ns3:P1584 <https://pleiades.stoa.org/places/727228> .
 
 <http://data.archaeology.link/data/cigs/SFR> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -7411,7 +7411,7 @@
     ns1:cdli_provenience_id "280"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/SHD_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q498118> ;
-    ns2:P1566 <https://www.geonames.org/115960> .
+    ns3:P1566 <https://www.geonames.org/115960> .
 
 <http://data.archaeology.link/data/cigs/SHI> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -7427,7 +7427,7 @@
     geo:hasGeometry <http://data.archaeology.link/data/cigs/SHI_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q3482023> ;
     skos:altLabel "Šibaniba"@ar ;
-    ns2:P1584 <https://pleiades.stoa.org/places/237391811> .
+    ns3:P1584 <https://pleiades.stoa.org/places/237391811> .
 
 <http://data.archaeology.link/data/cigs/SHP> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -7454,7 +7454,7 @@
     ns1:accuracy "3"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/SHY_geom> ;
-    ns2:P1566 <https://www.geonames.org/96479> .
+    ns3:P1566 <https://www.geonames.org/96479> .
 
 <http://data.archaeology.link/data/cigs/SHZ> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -7467,7 +7467,7 @@
     ns1:accuracy "1"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/SHZ_geom> ;
-    ns2:P1566 <https://www.geonames.org/7010423> .
+    ns3:P1566 <https://www.geonames.org/7010423> .
 
 <http://data.archaeology.link/data/cigs/SID> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -7482,8 +7482,8 @@
     ns1:cdli_provenience_id "144"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/SID_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q163490> ;
-    ns2:P1566 <https://www.geonames.org/268064> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/678393> .
+    ns3:P1566 <https://www.geonames.org/268064> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/678393> .
 
 <http://data.archaeology.link/data/cigs/SIH> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -7496,7 +7496,7 @@
     ns1:accuracy "1"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/SIH_geom> ;
-    ns2:P1566 <https://www.geonames.org/320823> .
+    ns3:P1566 <https://www.geonames.org/320823> .
 
 <http://data.archaeology.link/data/cigs/SIN> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -7525,8 +7525,8 @@
     geo:hasGeometry <http://data.archaeology.link/data/cigs/SIP_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q7525818> ;
     skos:altLabel "Sippar-Amnanum"@ar ;
-    ns2:P1566 <https://www.geonames.org/6927582> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/392373882> .
+    ns3:P1566 <https://www.geonames.org/6927582> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/392373882> .
 
 <http://data.archaeology.link/data/cigs/SIS> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -7540,7 +7540,7 @@
     ns1:accuracy "1"^^xsd:string ;
     ns1:cdli_provenience_id "425"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/SIS_geom> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/58291143> .
+    ns3:P1584 <https://pleiades.stoa.org/places/58291143> .
 
 <http://data.archaeology.link/data/cigs/SIT> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -7567,7 +7567,7 @@
     ns1:accuracy "2"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/SIY_geom> ;
-    ns2:P1566 <https://www.geonames.org/116326> .
+    ns3:P1566 <https://www.geonames.org/116326> .
 
 <http://data.archaeology.link/data/cigs/SJQ> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -7581,7 +7581,7 @@
     ns1:accuracy "2"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/SJQ_geom> ;
-    ns2:P1566 <https://www.geonames.org/94220> .
+    ns3:P1566 <https://www.geonames.org/94220> .
 
 <http://data.archaeology.link/data/cigs/SJR> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -7594,7 +7594,7 @@
     ns1:accuracy "2"^^xsd:string ;
     ns1:cdli_provenience_id "199"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/SJR_geom> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/413309738> .
+    ns3:P1584 <https://pleiades.stoa.org/places/413309738> .
 
 <http://data.archaeology.link/data/cigs/SKH> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -7610,7 +7610,7 @@
     geo:hasGeometry <http://data.archaeology.link/data/cigs/SKH_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q3818869> ;
     skos:altLabel "Tarbisu"@ar ;
-    ns2:P1584 <https://pleiades.stoa.org/places/30774368> .
+    ns3:P1584 <https://pleiades.stoa.org/places/30774368> .
 
 <http://data.archaeology.link/data/cigs/SLA> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -7624,8 +7624,8 @@
     ns1:accuracy "1"^^xsd:string ;
     ns1:cdli_provenience_id "424"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/SLA_geom> ;
-    ns2:P1566 <https://www.geonames.org/246782> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/86623849> .
+    ns3:P1566 <https://www.geonames.org/246782> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/86623849> .
 
 <http://data.archaeology.link/data/cigs/SLB> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -7639,7 +7639,7 @@
     ns1:accuracy "2"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/SLB_geom> ;
-    ns2:P1566 <https://www.geonames.org/6763772> .
+    ns3:P1566 <https://www.geonames.org/6763772> .
 
 <http://data.archaeology.link/data/cigs/SLG> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -7652,8 +7652,8 @@
     ns1:accuracy "3"^^xsd:string ;
     ns1:cdli_provenience_id "259"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/SLG_geom> ;
-    ns2:P1566 <https://www.geonames.org/2565360> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/601235773> .
+    ns3:P1566 <https://www.geonames.org/2565360> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/601235773> .
 
 <http://data.archaeology.link/data/cigs/SMA> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -7669,8 +7669,8 @@
     ns1:cdli_provenience_id "398"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/SMA_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q1757438> ;
-    ns2:P1566 <https://www.geonames.org/282107> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/678370> .
+    ns3:P1566 <https://www.geonames.org/282107> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/678370> .
 
 <http://data.archaeology.link/data/cigs/SMH> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -7684,7 +7684,7 @@
     ns1:accuracy "3"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/SMH_geom> ;
-    ns2:P1566 <https://www.geonames.org/6739227> .
+    ns3:P1566 <https://www.geonames.org/6739227> .
 
 <http://data.archaeology.link/data/cigs/SMR> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -7699,7 +7699,7 @@
     ns1:cdli_provenience_id "282"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/SMR_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q170047> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/894082> .
+    ns3:P1584 <https://pleiades.stoa.org/places/894082> .
 
 <http://data.archaeology.link/data/cigs/SNJ> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -7727,8 +7727,8 @@
     ns1:cdli_provenience_id "309"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/SOK_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q1025825> ;
-    ns2:P1566 <https://www.geonames.org/1159598> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/377547413> .
+    ns3:P1566 <https://www.geonames.org/1159598> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/377547413> .
 
 <http://data.archaeology.link/data/cigs/SOU> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -7742,7 +7742,7 @@
     ns1:accuracy "3"^^xsd:string ;
     ns1:cdli_provenience_id "434"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/SOU_geom> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/668383> .
+    ns3:P1584 <https://pleiades.stoa.org/places/668383> .
 
 <http://data.archaeology.link/data/cigs/SPA> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -7770,8 +7770,8 @@
     ns1:cdli_provenience_id "307"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/SPH_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q1132798> ;
-    ns2:P1566 <https://www.geonames.org/293058> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/678387> .
+    ns3:P1566 <https://www.geonames.org/293058> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/678387> .
 
 <http://data.archaeology.link/data/cigs/SPI> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -7785,7 +7785,7 @@
     ns1:accuracy "3"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/SPI_geom> ;
-    ns2:P1566 <https://www.geonames.org/112703> .
+    ns3:P1566 <https://www.geonames.org/112703> .
 
 <http://data.archaeology.link/data/cigs/SQL> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -7800,8 +7800,8 @@
     ns1:cdli_provenience_id "251"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/SQL_geom> ;
     skos:altLabel "Isqalluna"@ar ;
-    ns2:P1566 <https://www.geonames.org/293400> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/687839> .
+    ns3:P1566 <https://www.geonames.org/293400> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/687839> .
 
 <http://data.archaeology.link/data/cigs/SRD> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -7815,7 +7815,7 @@
     ns1:accuracy "1"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/SRD_geom> ;
-    ns2:P1566 <https://www.geonames.org/616328> .
+    ns3:P1566 <https://www.geonames.org/616328> .
 
 <http://data.archaeology.link/data/cigs/SRK> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -7840,7 +7840,7 @@
     ns1:accuracy "2"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/SRM_geom> ;
-    ns2:P1566 <https://www.geonames.org/301531> .
+    ns3:P1566 <https://www.geonames.org/301531> .
 
 <http://data.archaeology.link/data/cigs/SRP> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -7867,7 +7867,7 @@
     ns1:accuracy "2"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/SSH_geom> ;
-    ns2:P1566 <https://www.geonames.org/35594> .
+    ns3:P1566 <https://www.geonames.org/35594> .
 
 <http://data.archaeology.link/data/cigs/SUH> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -7893,7 +7893,7 @@
     ns1:accuracy "2"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/SUN_geom> ;
-    ns2:P1566 <https://www.geonames.org/739232> .
+    ns3:P1566 <https://www.geonames.org/739232> .
 
 <http://data.archaeology.link/data/cigs/SUR> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -7909,8 +7909,8 @@
     geo:hasGeometry <http://data.archaeology.link/data/cigs/SUR_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q392725> ;
     skos:altLabel "Šuruppak"@ar ;
-    ns2:P1566 <https://www.geonames.org/96781> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/326150788> .
+    ns3:P1566 <https://www.geonames.org/96781> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/326150788> .
 
 <http://data.archaeology.link/data/cigs/SUS> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -7926,8 +7926,8 @@
     geo:hasGeometry <http://data.archaeology.link/data/cigs/SUS_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q180773> ;
     skos:altLabel "Susa"@ar ;
-    ns2:P1566 <https://www.geonames.org/6687956> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/912936> .
+    ns3:P1566 <https://www.geonames.org/6687956> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/912936> .
 
 <http://data.archaeology.link/data/cigs/SWE> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -7955,7 +7955,7 @@
     ns1:accuracy "3"^^xsd:string ;
     ns1:cdli_provenience_id "410"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/SWS_geom> ;
-    ns2:P1566 <https://www.geonames.org/285461> .
+    ns3:P1566 <https://www.geonames.org/285461> .
 
 <http://data.archaeology.link/data/cigs/SYA> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -7984,8 +7984,8 @@
     geo:hasGeometry <http://data.archaeology.link/data/cigs/SZE_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q588192> ;
     skos:altLabel "Šubat-Enlil"@ar ;
-    ns2:P1566 <https://www.geonames.org/8449936> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/223856813> .
+    ns3:P1566 <https://www.geonames.org/8449936> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/223856813> .
 
 <http://data.archaeology.link/data/cigs/SZU> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -8014,8 +8014,8 @@
     ns1:accuracy "3"^^xsd:string ;
     ns1:cdli_provenience_id "34"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/TAB_geom> ;
-    ns2:P1566 <https://www.geonames.org/163833> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/874754> .
+    ns3:P1566 <https://www.geonames.org/163833> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/874754> .
 
 <http://data.archaeology.link/data/cigs/TAF> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -8029,7 +8029,7 @@
     ns1:accuracy "3"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/TAF_geom> ;
-    ns2:P1566 <https://www.geonames.org/38369> .
+    ns3:P1566 <https://www.geonames.org/38369> .
 
 <http://data.archaeology.link/data/cigs/TAG> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -8069,8 +8069,8 @@
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/TAN_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q210598> ;
-    ns2:P1566 <https://www.geonames.org/349654> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/27236> .
+    ns3:P1566 <https://www.geonames.org/349654> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/27236> .
 
 <http://data.archaeology.link/data/cigs/TAR> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -8083,7 +8083,7 @@
     ns1:accuracy "1"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/TAR_geom> ;
-    ns2:P1566 <https://www.geonames.org/6969129> .
+    ns3:P1566 <https://www.geonames.org/6969129> .
 
 <http://data.archaeology.link/data/cigs/TAS> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -8096,7 +8096,7 @@
     ns1:accuracy "2"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/TAS_geom> ;
-    ns2:P1566 <https://www.geonames.org/299793> .
+    ns3:P1566 <https://www.geonames.org/299793> .
 
 <http://data.archaeology.link/data/cigs/TAT> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -8137,8 +8137,8 @@
     ns1:cdli_provenience_id "90"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/TAY_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q907974> ;
-    ns2:P1566 <https://www.geonames.org/438034> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/913163220> .
+    ns3:P1566 <https://www.geonames.org/438034> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/913163220> .
 
 <http://data.archaeology.link/data/cigs/TBA> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -8152,7 +8152,7 @@
     ns1:accuracy "3"^^xsd:string ;
     ns1:cdli_provenience_id "148"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/TBA_geom> ;
-    ns2:P1566 <https://www.geonames.org/6759615> .
+    ns3:P1566 <https://www.geonames.org/6759615> .
 
 <http://data.archaeology.link/data/cigs/TBM> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -8167,7 +8167,7 @@
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/TBM_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q2402197> ;
-    ns2:P1566 <https://www.geonames.org/293388> .
+    ns3:P1566 <https://www.geonames.org/293388> .
 
 <http://data.archaeology.link/data/cigs/TBO> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -8181,7 +8181,7 @@
     ns1:accuracy "3"^^xsd:string ;
     ns1:cdli_provenience_id "77"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/TBO_geom> ;
-    ns2:P1566 <https://www.geonames.org/389087> .
+    ns3:P1566 <https://www.geonames.org/389087> .
 
 <http://data.archaeology.link/data/cigs/TBP> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -8196,8 +8196,8 @@
     ns1:cdli_provenience_id "304"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/TBP_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q176458> ;
-    ns2:P1566 <https://www.geonames.org/163733> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/658410> .
+    ns3:P1566 <https://www.geonames.org/163733> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/658410> .
 
 <http://data.archaeology.link/data/cigs/TBR> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -8238,8 +8238,8 @@
     ns1:accuracy "3"^^xsd:string ;
     ns1:cdli_provenience_id "257"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/TBT_geom> ;
-    ns2:P1566 <https://www.geonames.org/442151> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/111343632> .
+    ns3:P1566 <https://www.geonames.org/442151> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/111343632> .
 
 <http://data.archaeology.link/data/cigs/TDB> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -8254,7 +8254,7 @@
     ns1:cdli_provenience_id "148"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/TDB_geom> ;
     skos:altLabel "Zaralulu"@ar ;
-    ns2:P1584 <https://pleiades.stoa.org/places/678313544> .
+    ns3:P1584 <https://pleiades.stoa.org/places/678313544> .
 
 <http://data.archaeology.link/data/cigs/TDU> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -8269,8 +8269,8 @@
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/TDU_geom> ;
     skos:altLabel "Taidu"@ar ;
-    ns2:P1566 <https://www.geonames.org/169996> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/874740> .
+    ns3:P1566 <https://www.geonames.org/169996> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/874740> .
 
 <http://data.archaeology.link/data/cigs/TDW> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -8310,8 +8310,8 @@
     ns1:accuracy "3"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/TEH_geom> ;
-    ns2:P1566 <https://www.geonames.org/10309119> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/687913> .
+    ns3:P1566 <https://www.geonames.org/10309119> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/687913> .
 
 <http://data.archaeology.link/data/cigs/TEI> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -8327,8 +8327,8 @@
     geo:hasGeometry <http://data.archaeology.link/data/cigs/TEI_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q1195993> ;
     skos:altLabel "Teisheba"@ar ;
-    ns2:P1566 <https://www.geonames.org/832159> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/863822> .
+    ns3:P1566 <https://www.geonames.org/832159> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/863822> .
 
 <http://data.archaeology.link/data/cigs/TEM> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -8342,7 +8342,7 @@
     ns1:accuracy "3"^^xsd:string ;
     ns1:cdli_provenience_id "438"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/TEM_geom> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/727124> .
+    ns3:P1584 <https://pleiades.stoa.org/places/727124> .
 
 <http://data.archaeology.link/data/cigs/TFA> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -8396,8 +8396,8 @@
     ns1:accuracy "3"^^xsd:string ;
     ns1:cdli_provenience_id "435"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/THA_geom> ;
-    ns2:P1566 <https://www.geonames.org/281604> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/678418> .
+    ns3:P1566 <https://www.geonames.org/281604> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/678418> .
 
 <http://data.archaeology.link/data/cigs/THE> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -8410,8 +8410,8 @@
     ns1:accuracy "3"^^xsd:string ;
     ns1:cdli_provenience_id "403"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/THE_geom> ;
-    ns2:P1566 <https://www.geonames.org/252910> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/541138> .
+    ns3:P1566 <https://www.geonames.org/252910> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/541138> .
 
 <http://data.archaeology.link/data/cigs/THM> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -8425,8 +8425,8 @@
     ns1:accuracy "3"^^xsd:string ;
     ns1:cdli_provenience_id "113"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/THM_geom> ;
-    ns2:P1566 <https://www.geonames.org/6755900> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/912956> .
+    ns3:P1566 <https://www.geonames.org/6755900> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/912956> .
 
 <http://data.archaeology.link/data/cigs/THO> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -8439,8 +8439,8 @@
     ns1:accuracy "2"^^xsd:string ;
     ns1:cdli_provenience_id "441"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/THO_geom> ;
-    ns2:P1566 <https://www.geonames.org/7619119> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/201144661> .
+    ns3:P1566 <https://www.geonames.org/7619119> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/201144661> .
 
 <http://data.archaeology.link/data/cigs/THR> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -8454,7 +8454,7 @@
     ns1:accuracy "1"^^xsd:string ;
     ns1:cdli_provenience_id "89"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/THR_geom> ;
-    ns2:P1566 <https://www.geonames.org/90026> .
+    ns3:P1566 <https://www.geonames.org/90026> .
 
 <http://data.archaeology.link/data/cigs/THW> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -8468,8 +8468,8 @@
     ns1:accuracy "3"^^xsd:string ;
     ns1:cdli_provenience_id "293"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/THW_geom> ;
-    ns2:P1566 <https://www.geonames.org/7103777> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/874728> .
+    ns3:P1566 <https://www.geonames.org/7103777> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/874728> .
 
 <http://data.archaeology.link/data/cigs/THY> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -8508,7 +8508,7 @@
     ns1:accuracy "1"^^xsd:string ;
     ns1:cdli_provenience_id "183"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/TIK_geom> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/894099> .
+    ns3:P1584 <https://pleiades.stoa.org/places/894099> .
 
 <http://data.archaeology.link/data/cigs/TIR> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -8521,8 +8521,8 @@
     ns1:accuracy "3"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/TIR_geom> ;
-    ns2:P1566 <https://www.geonames.org/408652> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/570740> .
+    ns3:P1566 <https://www.geonames.org/408652> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/570740> .
 
 <http://data.archaeology.link/data/cigs/TJZ> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -8536,7 +8536,7 @@
     ns1:accuracy "3"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/TJZ_geom> ;
-    ns2:P1566 <https://www.geonames.org/90184> .
+    ns3:P1566 <https://www.geonames.org/90184> .
 
 <http://data.archaeology.link/data/cigs/TKH> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -8550,8 +8550,8 @@
     ns1:accuracy "2"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/TKH_geom> ;
-    ns2:P1566 <https://www.geonames.org/6806341> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/894167> .
+    ns3:P1566 <https://www.geonames.org/6806341> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/894167> .
 
 <http://data.archaeology.link/data/cigs/TKP> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -8589,8 +8589,8 @@
     ns1:accuracy "3"^^xsd:string ;
     ns1:cdli_provenience_id "191"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/TLH_geom> ;
-    ns2:P1566 <https://www.geonames.org/6739313> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/912959> .
+    ns3:P1566 <https://www.geonames.org/6739313> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/912959> .
 
 <http://data.archaeology.link/data/cigs/TLL> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -8604,8 +8604,8 @@
     ns1:accuracy "3"^^xsd:string ;
     ns1:cdli_provenience_id "107"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/TLL_geom> ;
-    ns2:P1566 <https://www.geonames.org/6860784> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/741318296> .
+    ns3:P1566 <https://www.geonames.org/6860784> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/741318296> .
 
 <http://data.archaeology.link/data/cigs/TMH> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -8619,7 +8619,7 @@
     ns1:accuracy "3"^^xsd:string ;
     ns1:cdli_provenience_id "7"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/TMH_geom> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/249999668> .
+    ns3:P1584 <https://pleiades.stoa.org/places/249999668> .
 
 <http://data.archaeology.link/data/cigs/TMU> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -8633,7 +8633,7 @@
     ns1:accuracy "3"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/TMU_geom> ;
-    ns2:P1566 <https://www.geonames.org/122985> .
+    ns3:P1566 <https://www.geonames.org/122985> .
 
 <http://data.archaeology.link/data/cigs/TNA> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -8647,7 +8647,7 @@
     ns1:accuracy "1"^^xsd:string ;
     ns1:cdli_provenience_id "194"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/TNA_geom> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/893936> .
+    ns3:P1584 <https://pleiades.stoa.org/places/893936> .
 
 <http://data.archaeology.link/data/cigs/TNH> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -8675,7 +8675,7 @@
     ns1:cdli_provenience_id "405"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/TNP_geom> ;
     skos:altLabel "Tunip"@ar ;
-    ns2:P1566 <https://www.geonames.org/174035> .
+    ns3:P1566 <https://www.geonames.org/174035> .
 
 <http://data.archaeology.link/data/cigs/TOD> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -8690,8 +8690,8 @@
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/TOD_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q287731> ;
-    ns2:P1566 <https://www.geonames.org/347422> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/786132> .
+    ns3:P1566 <https://www.geonames.org/347422> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/786132> .
 
 <http://data.archaeology.link/data/cigs/TOP> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -8704,7 +8704,7 @@
     ns1:accuracy "2"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/TOP_geom> ;
-    ns2:P1566 <https://www.geonames.org/306910> .
+    ns3:P1566 <https://www.geonames.org/306910> .
 
 <http://data.archaeology.link/data/cigs/TRM> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -8717,7 +8717,7 @@
     ns1:accuracy "3"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/TRM_geom> ;
-    ns2:P1566 <https://www.geonames.org/324139> .
+    ns3:P1566 <https://www.geonames.org/324139> .
 
 <http://data.archaeology.link/data/cigs/TRQ> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -8733,7 +8733,7 @@
     geo:hasGeometry <http://data.archaeology.link/data/cigs/TRQ_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q644872> ;
     skos:altLabel "Terqa"@ar ;
-    ns2:P1584 <https://pleiades.stoa.org/places/894158> .
+    ns3:P1584 <https://pleiades.stoa.org/places/894158> .
 
 <http://data.archaeology.link/data/cigs/TRT> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -8747,7 +8747,7 @@
     ns1:accuracy "1"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/TRT_geom> ;
-    ns2:P1566 <https://www.geonames.org/163345> .
+    ns3:P1566 <https://www.geonames.org/163345> .
 
 <http://data.archaeology.link/data/cigs/TSA> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -8762,7 +8762,7 @@
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/TSA_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q7403017> ;
-    ns2:P1566 <https://www.geonames.org/164959> .
+    ns3:P1566 <https://www.geonames.org/164959> .
 
 <http://data.archaeology.link/data/cigs/TSB> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -8789,7 +8789,7 @@
     ns1:cdli_provenience_id "74"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/TSI_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q1581555> ;
-    ns2:P1566 <https://www.geonames.org/9210558> .
+    ns3:P1566 <https://www.geonames.org/9210558> .
 
 <http://data.archaeology.link/data/cigs/TSO> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -8832,7 +8832,7 @@
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/TTA_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q7697518> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/574198887> .
+    ns3:P1584 <https://pleiades.stoa.org/places/574198887> .
 
 <http://data.archaeology.link/data/cigs/TTB> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -8848,7 +8848,7 @@
     geo:hasGeometry <http://data.archaeology.link/data/cigs/TTB_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q1305112> ;
     skos:altLabel "Tutub"@ar ;
-    ns2:P1584 <https://pleiades.stoa.org/places/490043590> .
+    ns3:P1584 <https://pleiades.stoa.org/places/490043590> .
 
 <http://data.archaeology.link/data/cigs/TTU> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -8862,7 +8862,7 @@
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/TTU_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q1329616> ;
-    ns2:P1566 <https://www.geonames.org/6611419> .
+    ns3:P1566 <https://www.geonames.org/6611419> .
 
 <http://data.archaeology.link/data/cigs/TUH> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -8891,8 +8891,8 @@
     geo:hasGeometry <http://data.archaeology.link/data/cigs/TUT_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q657272> ;
     skos:altLabel "Tuttul"@ar ;
-    ns2:P1566 <https://www.geonames.org/171471> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/582993625> .
+    ns3:P1566 <https://www.geonames.org/171471> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/582993625> .
 
 <http://data.archaeology.link/data/cigs/TVI> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -8906,8 +8906,8 @@
     ns1:accuracy "1"^^xsd:string ;
     ns1:cdli_provenience_id "429"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/TVI_geom> ;
-    ns2:P1566 <https://www.geonames.org/113324> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/429> .
+    ns3:P1566 <https://www.geonames.org/113324> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/429> .
 
 <http://data.archaeology.link/data/cigs/TVK> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -8921,7 +8921,7 @@
     ns1:accuracy "1"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/TVK_geom> ;
-    ns2:P1566 <https://www.geonames.org/616138> .
+    ns3:P1566 <https://www.geonames.org/616138> .
 
 <http://data.archaeology.link/data/cigs/TYA> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -8949,8 +8949,8 @@
     ns1:cdli_provenience_id "402"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/TYM_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q27365> ;
-    ns2:P1566 <https://www.geonames.org/101516> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/814739> .
+    ns3:P1566 <https://www.geonames.org/101516> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/814739> .
 
 <http://data.archaeology.link/data/cigs/TYR> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -8965,8 +8965,8 @@
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/TYR_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q82070> ;
-    ns2:P1566 <https://www.geonames.org/267008> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/678437> .
+    ns3:P1566 <https://www.geonames.org/267008> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/678437> .
 
 <http://data.archaeology.link/data/cigs/TZW> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -8980,7 +8980,7 @@
     ns1:accuracy "1"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/TZW_geom> ;
-    ns2:P1566 <https://www.geonames.org/90109> .
+    ns3:P1566 <https://www.geonames.org/90109> .
 
 <http://data.archaeology.link/data/cigs/UBD> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -8995,7 +8995,7 @@
     ns1:cdli_provenience_id "226"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/UBD_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q1317854> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/339709658> .
+    ns3:P1584 <https://pleiades.stoa.org/places/339709658> .
 
 <http://data.archaeology.link/data/cigs/UCH> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -9009,7 +9009,7 @@
     ns1:accuracy "3"^^xsd:string ;
     ns1:cdli_provenience_id "278"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/UCH_geom> ;
-    ns2:P1566 <https://www.geonames.org/7011811> .
+    ns3:P1566 <https://www.geonames.org/7011811> .
 
 <http://data.archaeology.link/data/cigs/UFR> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -9038,8 +9038,8 @@
     geo:hasGeometry <http://data.archaeology.link/data/cigs/UGA_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q191369> ;
     skos:altLabel "Ugarit"@ar ;
-    ns2:P1566 <https://www.geonames.org/165369> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/668295> .
+    ns3:P1566 <https://www.geonames.org/165369> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/668295> .
 
 <http://data.archaeology.link/data/cigs/UMA> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -9069,7 +9069,7 @@
     geo:hasGeometry <http://data.archaeology.link/data/cigs/UPI_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q1287526> ;
     skos:altLabel "Upi"@ar ;
-    ns2:P1584 <https://pleiades.stoa.org/places/894056> .
+    ns3:P1584 <https://pleiades.stoa.org/places/894056> .
 
 <http://data.archaeology.link/data/cigs/UQA> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -9097,7 +9097,7 @@
     ns1:accuracy "3"^^xsd:string ;
     ns1:cdli_provenience_id "101 : 381"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/UQR_geom> ;
-    ns2:P1566 <https://www.geonames.org/6755904> .
+    ns3:P1566 <https://www.geonames.org/6755904> .
 
 <http://data.archaeology.link/data/cigs/URB> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -9112,7 +9112,7 @@
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/URB_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q206236> ;
-    ns2:P1566 <https://www.geonames.org/95444> .
+    ns3:P1566 <https://www.geonames.org/95444> .
 
 <http://data.archaeology.link/data/cigs/URI> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -9128,8 +9128,8 @@
     geo:hasGeometry <http://data.archaeology.link/data/cigs/URI_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q5699> ;
     skos:altLabel "Ur"@ar ;
-    ns2:P1566 <https://www.geonames.org/93199> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/912985> .
+    ns3:P1566 <https://www.geonames.org/93199> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/912985> .
 
 <http://data.archaeology.link/data/cigs/URK> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -9145,8 +9145,8 @@
     geo:hasGeometry <http://data.archaeology.link/data/cigs/URK_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q1758030> ;
     skos:altLabel "Urkiš"@ar ;
-    ns2:P1566 <https://www.geonames.org/166513> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/404687441> .
+    ns3:P1566 <https://www.geonames.org/166513> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/404687441> .
 
 <http://data.archaeology.link/data/cigs/URU> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -9162,8 +9162,8 @@
     geo:hasGeometry <http://data.archaeology.link/data/cigs/URU_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q168518> ;
     skos:altLabel "Uruk"@ar ;
-    ns2:P1566 <https://www.geonames.org/89703> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/912986> .
+    ns3:P1566 <https://www.geonames.org/89703> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/912986> .
 
 <http://data.archaeology.link/data/cigs/USH> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -9176,7 +9176,7 @@
     ns1:accuracy "3"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/USH_geom> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/512530798> .
+    ns3:P1584 <https://pleiades.stoa.org/places/512530798> .
 
 <http://data.archaeology.link/data/cigs/UWW> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -9214,7 +9214,7 @@
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/VAN_geom> ;
     skos:altLabel "Turuspa"@ar ;
-    ns2:P1584 <https://pleiades.stoa.org/places/964673805> .
+    ns3:P1584 <https://pleiades.stoa.org/places/964673805> .
 
 <http://data.archaeology.link/data/cigs/VAR> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -9228,7 +9228,7 @@
     ns1:accuracy "2"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/VAR_geom> ;
-    ns2:P1566 <https://www.geonames.org/859714> .
+    ns3:P1566 <https://www.geonames.org/859714> .
 
 <http://data.archaeology.link/data/cigs/WIN> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -9242,7 +9242,7 @@
     ns1:accuracy "1"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/WIN_geom> ;
-    ns2:P1566 <https://www.geonames.org/8142263> .
+    ns3:P1566 <https://www.geonames.org/8142263> .
 
 <http://data.archaeology.link/data/cigs/WLS> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -9256,8 +9256,8 @@
     ns1:accuracy "1"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/WLS_geom> ;
-    ns2:P1566 <https://www.geonames.org/268547> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/528477899> .
+    ns3:P1566 <https://www.geonames.org/268547> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/528477899> .
 
 <http://data.archaeology.link/data/cigs/WRS> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -9297,8 +9297,8 @@
     ns1:cdli_provenience_id "67"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/YAH_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q384077> ;
-    ns2:P1566 <https://www.geonames.org/6986540> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/29783> .
+    ns3:P1566 <https://www.geonames.org/6986540> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/29783> .
 
 <http://data.archaeology.link/data/cigs/YAL> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -9311,7 +9311,7 @@
     ns1:accuracy "2"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/YAL_geom> ;
-    ns2:P1566 <https://www.geonames.org/307181> .
+    ns3:P1566 <https://www.geonames.org/307181> .
 
 <http://data.archaeology.link/data/cigs/YAR> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -9325,7 +9325,7 @@
     ns1:accuracy "3"^^xsd:string ;
     ns1:cdli_provenience_id "219"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/YAR_geom> ;
-    ns2:P1566 <https://www.geonames.org/6860535> .
+    ns3:P1566 <https://www.geonames.org/6860535> .
 
 <http://data.archaeology.link/data/cigs/YAS> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -9350,7 +9350,7 @@
     ns1:accuracy "2"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/YAZ_geom> ;
-    ns2:P1566 <https://www.geonames.org/297344> .
+    ns3:P1566 <https://www.geonames.org/297344> .
 
 <http://data.archaeology.link/data/cigs/YEL> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -9376,7 +9376,7 @@
     ns1:accuracy "1"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/YES_geom> ;
-    ns2:P1566 <https://www.geonames.org/296884> .
+    ns3:P1566 <https://www.geonames.org/296884> .
 
 <http://data.archaeology.link/data/cigs/YON> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -9389,8 +9389,8 @@
     ns1:accuracy "1"^^xsd:string ;
     ns1:cdli_provenience_id "78"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/YON_geom> ;
-    ns2:P1566 <https://www.geonames.org/296593> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/708232007> .
+    ns3:P1566 <https://www.geonames.org/296593> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/708232007> .
 
 <http://data.archaeology.link/data/cigs/YSJ> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -9404,7 +9404,7 @@
     ns1:accuracy "1"^^xsd:string ;
     ns1:cdli_provenience_id "188"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/YSJ_geom> ;
-    ns2:P1566 <https://www.geonames.org/66093> .
+    ns3:P1566 <https://www.geonames.org/66093> .
 
 <http://data.archaeology.link/data/cigs/ZAA> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -9433,8 +9433,8 @@
     geo:hasGeometry <http://data.archaeology.link/data/cigs/ZAB_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q1074177> ;
     skos:altLabel "Zabalam"@ar ;
-    ns2:P1566 <https://www.geonames.org/6755876> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/921099766> .
+    ns3:P1566 <https://www.geonames.org/6755876> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/921099766> .
 
 <http://data.archaeology.link/data/cigs/ZBD> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -9461,7 +9461,7 @@
     ns1:cdli_provenience_id "14"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/ZCR_geom> ;
     skos:altLabel "Samal"@ar ;
-    ns2:P1584 <https://pleiades.stoa.org/places/192555966> .
+    ns3:P1584 <https://pleiades.stoa.org/places/192555966> .
 
 <http://data.archaeology.link/data/cigs/ZIW> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -9475,8 +9475,8 @@
     ns1:accuracy "2"^^xsd:string ;
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/ZIW_geom> ;
-    ns2:P1566 <https://www.geonames.org/10971678> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/884230> .
+    ns3:P1566 <https://www.geonames.org/10971678> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/884230> .
 
 <http://data.archaeology.link/data/cigs/ZLB> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -9490,8 +9490,8 @@
     ns1:accuracy "1"^^xsd:string ;
     ns1:cdli_provenience_id "58"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/ZLB_geom> ;
-    ns2:P1566 <https://www.geonames.org/23313> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/420860522> .
+    ns3:P1566 <https://www.geonames.org/23313> ;
+    ns3:P1584 <https://pleiades.stoa.org/places/420860522> .
 
 <http://data.archaeology.link/data/cigs/ZOH> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -9519,7 +9519,7 @@
     geo:hasGeometry <http://data.archaeology.link/data/cigs/ZTP_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q4819172> ;
     skos:altLabel "Tushhan"@ar ;
-    ns2:P1566 <https://www.geonames.org/439817> .
+    ns3:P1566 <https://www.geonames.org/439817> .
 
 <http://data.archaeology.link/data/cigs/ZVA> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -9534,7 +9534,7 @@
     ns1:cdli_provenience_id "0"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/ZVA_geom> ;
     owl:sameAs <http://www.wikidata.org/entity/Q505175> ;
-    ns2:P1566 <https://www.geonames.org/866096> .
+    ns3:P1566 <https://www.geonames.org/866096> .
 
 <http://data.archaeology.link/data/cigs/ZWY> a ns1:CuneiformSite,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -9548,14 +9548,14 @@
     ns1:accuracy "1"^^xsd:string ;
     ns1:cdli_provenience_id "271"^^xsd:string ;
     geo:hasGeometry <http://data.archaeology.link/data/cigs/ZWY_geom> ;
-    ns2:P1584 <https://pleiades.stoa.org/places/767486703> .
+    ns3:P1584 <https://pleiades.stoa.org/places/767486703> .
 
 <http://data.archaeology.link/data/cigs/cigs_dataset_P1566> a void:Dataset,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Property Partition: P1566"@en ;
-    void:property ns2:P1566 ;
+    void:property ns3:P1566 ;
     void:triples 284 .
 
 <http://data.archaeology.link/data/cigs/cigs_dataset_P1584> a void:Dataset,
@@ -9563,7 +9563,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Property Partition: P1584"@en ;
-    void:property ns2:P1584 ;
+    void:property ns3:P1584 ;
     void:triples 259 .
 
 <http://data.archaeology.link/data/cigs/cigs_dataset_accuracy> a void:Dataset,
@@ -9627,7 +9627,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Property Partition: doi"@en ;
-    void:property ns3:doi ;
+    void:property ns5:doi ;
     void:triples 1 .
 
 <http://data.archaeology.link/data/cigs/cigs_dataset_familyName> a void:Dataset,
@@ -9659,7 +9659,7 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Property Partition: hasMember"@en ;
-    void:property ns5:hasMember ;
+    void:property ns4:hasMember ;
     void:triples 6 .
 
 <http://data.archaeology.link/data/cigs/cigs_dataset_label> a void:Dataset,
@@ -14406,7 +14406,7 @@
     foaf:familyName "Smidt"@en ;
     foaf:firstName "Gustav Ryberg"@en .
 
-<http://data.archaeology.link/data/cigs/bib_rattenborg_rune_2021_7330077> a ns3:Document,
+<http://data.archaeology.link/data/cigs/bib_rattenborg_rune_2021_7330077> a ns5:Document,
         dcat:Dataset,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
@@ -14420,7 +14420,7 @@
         <http://data.archaeology.link/data/cigs/author_Smidt_Gustav_Ryberg> ;
     dc:title "Cuneiform Inscriptions Geographical Site Index (CIGS)"@en ;
     dcterms:publisher "Zenodo" ;
-    ns3:doi "10.5281/zenodo.7330077"^^xsd:string ;
+    ns5:doi "10.5281/zenodo.7330077"^^xsd:string ;
     void:inDataset <http://data.archaeology.link/data/cigs/cigs_dataset> .
 
 <http://data.archaeology.link/data/cigs/cigs_dataset> a void:Dataset,
@@ -14429,20 +14429,20 @@
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "cigs_dataset"@en ;
-    ns4:averageLiteralLength 0 ;
-    ns4:averageObjectIRILength 30 ;
-    ns4:averagePropertyIRILength 40 ;
-    ns4:averageSubjectIRILength 44 ;
-    ns4:datatypes 0 ;
-    ns4:distinctBlankNodes 0 ;
-    ns4:distinctIRIReferences 6997 ;
-    ns4:distinctLiterals 0 ;
-    ns4:distinctRDFNodes 6997 ;
-    ns4:languages 0 ;
-    ns4:propertyClasses 0 ;
+    ns2:averageLiteralLength 0 ;
+    ns2:averageObjectIRILength 30 ;
+    ns2:averagePropertyIRILength 40 ;
+    ns2:averageSubjectIRILength 44 ;
+    ns2:datatypes 0 ;
+    ns2:distinctBlankNodes 0 ;
+    ns2:distinctIRIReferences 6997 ;
+    ns2:distinctLiterals 0 ;
+    ns2:distinctRDFNodes 6997 ;
+    ns2:languages 0 ;
+    ns2:propertyClasses 0 ;
     dc:language <http://www.lexvo.org/page/iso639-1/en> ;
     dcterms:license <http://creativecommons.org/licenses/by/4.0> ;
-    dcterms:modified "2024-04-22T22:45:28"^^xsd:dateTime ;
+    dcterms:modified "2024-04-23T00:09:21"^^xsd:dateTime ;
     dcterms:subject <http://dbpedia.org/resource/Location>,
         <http://dbpedia.org/resource/OGC_GeoSPARQL>,
         <http://dbpedia.org/resource/Time>,
@@ -14494,7 +14494,7 @@
         <http://data.archaeology.link/data/cigs/cigs_dataset_type> ;
     void:triples 10150 ;
     void:uriSpace "http://data.archaeology.link/data/cigs/"^^xsd:string ;
-    void:vocabulary ns4:,
+    void:vocabulary ns2:,
         dcam:,
         dcmitype:,
         dc:,
