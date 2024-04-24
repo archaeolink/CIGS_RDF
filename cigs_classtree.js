@@ -4103,44 +4103,32 @@ var tree={
         "data": {
           "to": {
             "http://purl.org/dc/elements/1.1/created": {
-              "instancecount": 1
+              "instancecount": 0
             },
             "http://purl.org/dc/terms/partOf": {
-              "instancecount": 1,
+              "instancecount": 0,
               "http://purl.org/ontology/bibo/Document": 1,
               "http://www.w3.org/ns/dcat#Dataset": 1
             },
             "http://rdfs.org/ns/void#inDataset": {
-              "instancecount": 1,
-              "http://rdfs.org/ns/void#Dataset": 1,
-              "http://www.w3.org/ns/adms#Asset": 1
+              "instancecount": 0,
+              "http://www.w3.org/ns/adms#Asset": 1,
+              "http://rdfs.org/ns/void#Dataset": 1
             },
             "http://www.ancientports.com/ont#accuracy": {
-              "instancecount": 1
+              "instancecount": 0
             },
             "http://www.ancientports.com/ont#cdli_provenience_id": {
-              "instancecount": 1
+              "instancecount": 0
             },
             "http://www.opengis.net/ont/geosparql#hasGeometry": {
-              "instancecount": 1,
+              "instancecount": 0,
               "http://www.opengis.net/ont/sf#Point": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
-              "instancecount": 1
+              "instancecount": 0
             },
             "http://www.w3.org/2000/01/rdf-schema#label": {
-              "instancecount": 2
-            },
-            "http://www.w3.org/2002/07/owl#sameAs": {
-              "instancecount": 1
-            },
-            "http://www.w3.org/2004/02/skos/core#altLabel": {
-              "instancecount": 1
-            },
-            "http://www.wikidata.org/prop/direct/P1566": {
-              "instancecount": 1
-            },
-            "http://www.wikidata.org/prop/direct/P1584": {
               "instancecount": 1
             }
           },
@@ -4151,7 +4139,7 @@ var tree={
             }
           }
         },
-        "instancecount": 13
+        "instancecount": 1
       },
       {
         "id": "http://data.archaeology.link/data/cigs/ADA_geom",
@@ -8214,18 +8202,18 @@ var tree={
         "data": {
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
-              "instancecount": 1,
-              "http://rdfs.org/ns/void#Dataset": 1,
-              "http://www.w3.org/ns/adms#Asset": 1
+              "instancecount": 0,
+              "http://www.w3.org/ns/adms#Asset": 1,
+              "http://rdfs.org/ns/void#Dataset": 1
             },
             "http://www.opengis.net/ont/geosparql#asWKT": {
-              "instancecount": 1
+              "instancecount": 0
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
-              "instancecount": 1
+              "instancecount": 0
             },
             "http://www.w3.org/2000/01/rdf-schema#label": {
-              "instancecount": 1
+              "instancecount": 0
             }
           },
           "from": {
@@ -8239,7 +8227,7 @@ var tree={
             }
           }
         },
-        "instancecount": 4
+        "instancecount": 0
       },
       {
         "id": "http://data.archaeology.link/data/cigs/author_Andersson_Jakob",
@@ -8291,21 +8279,21 @@ var tree={
         "data": {
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
-              "instancecount": 1,
-              "http://rdfs.org/ns/void#Dataset": 1,
-              "http://www.w3.org/ns/adms#Asset": 1
+              "instancecount": 0,
+              "http://www.w3.org/ns/adms#Asset": 1,
+              "http://rdfs.org/ns/void#Dataset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
-              "instancecount": 1
+              "instancecount": 0
             },
             "http://www.w3.org/2000/01/rdf-schema#label": {
-              "instancecount": 1
+              "instancecount": 0
             },
             "http://xmlns.com/foaf/0.1/familyName": {
-              "instancecount": 1
+              "instancecount": 0
             },
             "http://xmlns.com/foaf/0.1/firstName": {
-              "instancecount": 1
+              "instancecount": 0
             }
           },
           "from": {
@@ -8320,7 +8308,7 @@ var tree={
             }
           }
         },
-        "instancecount": 5
+        "instancecount": 0
       },
       {
         "id": "http://data.archaeology.link/data/cigs/bib_rattenborg_rune_2021_7330077_suniv0_",
@@ -8351,28 +8339,28 @@ var tree={
         "data": {
           "to": {
             "http://purl.org/dc/elements/1.1/created": {
-              "instancecount": 1
+              "instancecount": 0
             },
             "http://purl.org/dc/elements/1.1/creator": {
-              "instancecount": 6,
+              "instancecount": 5,
               "http://xmlns.com/foaf/0.1/Person": 6
             },
             "http://purl.org/dc/elements/1.1/title": {
-              "instancecount": 1
+              "instancecount": 0
             },
             "http://purl.org/dc/terms/publisher": {
-              "instancecount": 1
+              "instancecount": 0
             },
             "http://purl.org/ontology/bibo/doi": {
-              "instancecount": 1
+              "instancecount": 0
             },
             "http://rdfs.org/ns/void#inDataset": {
-              "instancecount": 1,
-              "http://rdfs.org/ns/void#Dataset": 1,
-              "http://www.w3.org/ns/adms#Asset": 1
+              "instancecount": 0,
+              "http://www.w3.org/ns/adms#Asset": 1,
+              "http://rdfs.org/ns/void#Dataset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
-              "instancecount": 2
+              "instancecount": 1
             }
           },
           "from": {
@@ -8390,7 +8378,7 @@ var tree={
             }
           }
         },
-        "instancecount": 13
+        "instancecount": 6
       },
       {
         "id": "http://data.archaeology.link/data/cigs/CuneiformSite_collection",
@@ -8407,24 +8395,24 @@ var tree={
         "data": {
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
-              "instancecount": 1,
-              "http://rdfs.org/ns/void#Dataset": 1,
-              "http://www.w3.org/ns/adms#Asset": 1
+              "instancecount": 0,
+              "http://www.w3.org/ns/adms#Asset": 1,
+              "http://rdfs.org/ns/void#Dataset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
-              "instancecount": 1
+              "instancecount": 0
             },
             "http://www.w3.org/2000/01/rdf-schema#label": {
-              "instancecount": 1
+              "instancecount": 0
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 579,
+              "instancecount": 578,
               "http://www.ancientports.com/ont#CuneiformSite": 579
             }
           },
           "from": {}
         },
-        "instancecount": 583
+        "instancecount": 579
       },
       {
         "id": "http://data.archaeology.link/data/cigs/Point_collection",
@@ -8441,24 +8429,24 @@ var tree={
         "data": {
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
-              "instancecount": 1,
-              "http://rdfs.org/ns/void#Dataset": 1,
-              "http://www.w3.org/ns/adms#Asset": 1
+              "instancecount": 0,
+              "http://www.w3.org/ns/adms#Asset": 1,
+              "http://rdfs.org/ns/void#Dataset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
-              "instancecount": 1
+              "instancecount": 0
             },
             "http://www.w3.org/2000/01/rdf-schema#label": {
-              "instancecount": 1
+              "instancecount": 0
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 579,
+              "instancecount": 578,
               "http://www.opengis.net/ont/sf#Point": 579
             }
           },
           "from": {}
         },
-        "instancecount": 583
+        "instancecount": 579
       },
       {
         "id": "http://data.archaeology.link/data/cigs/Person_collection",
@@ -8475,24 +8463,24 @@ var tree={
         "data": {
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
-              "instancecount": 1,
-              "http://rdfs.org/ns/void#Dataset": 1,
-              "http://www.w3.org/ns/adms#Asset": 1
+              "instancecount": 0,
+              "http://www.w3.org/ns/adms#Asset": 1,
+              "http://rdfs.org/ns/void#Dataset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
-              "instancecount": 1
+              "instancecount": 0
             },
             "http://www.w3.org/2000/01/rdf-schema#label": {
-              "instancecount": 1
+              "instancecount": 0
             },
             "http://www.w3.org/2006/vcard/ns#hasMember": {
-              "instancecount": 6,
+              "instancecount": 5,
               "http://xmlns.com/foaf/0.1/Person": 6
             }
           },
           "from": {}
         },
-        "instancecount": 10
+        "instancecount": 6
       },
       {
         "id": "http://data.archaeology.link/data/cigs/Document_collection",
@@ -8509,25 +8497,25 @@ var tree={
         "data": {
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
-              "instancecount": 1,
-              "http://rdfs.org/ns/void#Dataset": 1,
-              "http://www.w3.org/ns/adms#Asset": 1
+              "instancecount": 0,
+              "http://www.w3.org/ns/adms#Asset": 1,
+              "http://rdfs.org/ns/void#Dataset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
-              "instancecount": 1
+              "instancecount": 0
             },
             "http://www.w3.org/2000/01/rdf-schema#label": {
-              "instancecount": 1
+              "instancecount": 0
             },
             "http://www.w3.org/2000/01/rdf-schema#member": {
-              "instancecount": 1,
+              "instancecount": 0,
               "http://purl.org/ontology/bibo/Document": 1,
               "http://www.w3.org/ns/dcat#Dataset": 1
             }
           },
           "from": {}
         },
-        "instancecount": 5
+        "instancecount": 1
       },
       {
         "id": "http://data.archaeology.link/data/cigs/Dataset_collection",
@@ -8544,25 +8532,25 @@ var tree={
         "data": {
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
-              "instancecount": 1,
-              "http://rdfs.org/ns/void#Dataset": 1,
-              "http://www.w3.org/ns/adms#Asset": 1
+              "instancecount": 0,
+              "http://www.w3.org/ns/adms#Asset": 1,
+              "http://rdfs.org/ns/void#Dataset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
-              "instancecount": 1
+              "instancecount": 0
             },
             "http://www.w3.org/2000/01/rdf-schema#label": {
-              "instancecount": 1
+              "instancecount": 0
             },
             "http://www.w3.org/ns/dcat#dataset": {
-              "instancecount": 1,
+              "instancecount": 0,
               "http://purl.org/ontology/bibo/Document": 1,
               "http://www.w3.org/ns/dcat#Dataset": 1
             }
           },
           "from": {}
         },
-        "instancecount": 5
+        "instancecount": 1
       },
       {
         "id": "http://www.opengis.net/ont/geosparql#SpatialObject",
