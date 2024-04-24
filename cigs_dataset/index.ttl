@@ -48,7 +48,7 @@
     dc:language <http://www.lexvo.org/page/iso639-1/en> ;
     dc:license <http://creativecommons.org/licenses/by/4.0> ;
     dcterms:license <http://creativecommons.org/licenses/by/4.0> ;
-    dcterms:modified "2024-04-24T07:30:13"^^xsd:dateTime ;
+    dcterms:modified "2024-04-24T21:22:24"^^xsd:dateTime ;
     dcterms:subject <http://dbpedia.org/resource/Location>,
         <http://dbpedia.org/resource/OGC_GeoSPARQL>,
         <http://dbpedia.org/resource/Time>,
@@ -66,8 +66,9 @@
         <http://data.archaeology.link/data/cigs/cigs_dataset_GeometryCollection>,
         <http://data.archaeology.link/data/cigs/cigs_dataset_Group>,
         <http://data.archaeology.link/data/cigs/cigs_dataset_Person>,
-        <http://data.archaeology.link/data/cigs/cigs_dataset_Point> ;
-    void:classes 10 ;
+        <http://data.archaeology.link/data/cigs/cigs_dataset_Point>,
+        <http://data.archaeology.link/data/cigs/cigs_dataset_SpatialObject> ;
+    void:classes 11 ;
     void:dataDump <https://archaeolink.github.io/CIGS_RDF//index.ttl> ;
     void:distinctObjects 5092 ;
     void:distinctSubjects 1883 ;

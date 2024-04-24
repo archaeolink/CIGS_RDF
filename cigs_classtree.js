@@ -4137,9 +4137,6 @@ var tree={
             "http://www.w3.org/2004/02/skos/core#altLabel": {
               "instancecount": 0
             },
-            "http://www.wikidata.org/prop/direct/P1566": {
-              "instancecount": 0
-            },
             "http://www.wikidata.org/prop/direct/P1584": {
               "instancecount": 0
             }
@@ -8563,6 +8560,13 @@ var tree={
           "from": {}
         },
         "instancecount": 1
+      },
+      {
+        "id": "http://www.opengis.net/ont/geosparql#SpatialObject",
+        "parent": "#",
+        "type": "class",
+        "text": "SpatialObject (gsp:SpatialObject)",
+        "data": {}
       }
     ]
   },

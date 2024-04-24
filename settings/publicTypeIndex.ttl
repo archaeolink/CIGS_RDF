@@ -963,6 +963,7 @@
         <https://archaeolink.github.io/CIGS_RDF//settings/publicTypeIndex.ttl#SZE_geom>,
         <https://archaeolink.github.io/CIGS_RDF//settings/publicTypeIndex.ttl#SZU>,
         <https://archaeolink.github.io/CIGS_RDF//settings/publicTypeIndex.ttl#SZU_geom>,
+        <https://archaeolink.github.io/CIGS_RDF//settings/publicTypeIndex.ttl#SpatialObject>,
         <https://archaeolink.github.io/CIGS_RDF//settings/publicTypeIndex.ttl#TAB>,
         <https://archaeolink.github.io/CIGS_RDF//settings/publicTypeIndex.ttl#TAB_geom>,
         <https://archaeolink.github.io/CIGS_RDF//settings/publicTypeIndex.ttl#TAF>,
@@ -4052,6 +4053,9 @@
 
 <https://archaeolink.github.io/CIGS_RDF//settings/publicTypeIndex.ttl#SZU_geom> ns1:forClass <http://www.opengis.net/ont/sf#Point> ;
     ns1:instance <https://archaeolink.github.io/CIGS_RDF//SZU_geom> .
+
+<https://archaeolink.github.io/CIGS_RDF//settings/publicTypeIndex.ttl#SpatialObject> ns1:forClass <#> ;
+    ns1:instance <https://archaeolink.github.io/CIGS_RDF//SpatialObject> .
 
 <https://archaeolink.github.io/CIGS_RDF//settings/publicTypeIndex.ttl#TAB> ns1:forClass <http://www.ancientports.com/ont#CuneiformSite> ;
     ns1:instance <https://archaeolink.github.io/CIGS_RDF//TAB> .
