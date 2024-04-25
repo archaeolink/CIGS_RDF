@@ -72,7 +72,7 @@
     void:linkPredicate rdf:type ;
     void:objectsTarget geo: ;
     void:subjectsTarget <http://data.archaeology.link/data/cigs/cigs_dataset> ;
-    void:triples 2 .
+    void:triples 1 .
 
 <http://data.archaeology.link/data/cigs/cigs_dataset_www.opengis.net_ont_sf_> a void:Linkset ;
     rdfs:label "Linkset: cigs_dataset - Simple Features Vocabulary (sf:)"@en ;
@@ -80,6 +80,13 @@
     void:objectsTarget <http://www.opengis.net/ont/sf#> ;
     void:subjectsTarget <http://data.archaeology.link/data/cigs/cigs_dataset> ;
     void:triples 579 .
+
+<http://data.archaeology.link/data/cigs/cigs_dataset_www.w3.org_2004_02_skos_core_> a void:Linkset ;
+    rdfs:label "Linkset: cigs_dataset - skos:"@en ;
+    void:linkPredicate rdf:type ;
+    void:objectsTarget skos: ;
+    void:subjectsTarget <http://data.archaeology.link/data/cigs/cigs_dataset> ;
+    void:triples 1 .
 
 <http://data.archaeology.link/data/cigs/cigs_dataset_www.w3.org_2006_vcard_ns_> a void:Linkset ;
     rdfs:label "Linkset: cigs_dataset - Vcard Vocabulary (vcard2006:)"@en ;
@@ -146,7 +153,7 @@
 <http://data.archaeology.link/data/cigs/geo_cigs_dataset_occ> a voaf:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://www.opengis.net/ont/geosparql# in cigs_dataset" ;
     voaf:inDataset <http://data.archaeology.link/data/cigs/cigs_dataset> ;
-    voaf:occurrences 4 .
+    voaf:occurrences 2 .
 
 <http://data.archaeology.link/data/cigs/odrl_cigs_dataset_occ> a voaf:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/odrl/2/ in cigs_dataset" ;
@@ -190,7 +197,8 @@
 
 <http://data.archaeology.link/data/cigs/skos_cigs_dataset_occ> a voaf:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://www.w3.org/2004/02/skos/core# in cigs_dataset" ;
-    voaf:inDataset <http://data.archaeology.link/data/cigs/cigs_dataset> .
+    voaf:inDataset <http://data.archaeology.link/data/cigs/cigs_dataset> ;
+    voaf:occurrences 2 .
 
 <http://data.archaeology.link/data/cigs/sosa_cigs_dataset_occ> a voaf:DatasetOccurrence ;
     rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/sosa/ in cigs_dataset" ;
@@ -244,7 +252,8 @@
 
 <http://data.archaeology.link/data/cigs/cigs_dataset_Collection> a void:Dataset ;
     rdfs:label "Class Partition: Collection"@en ;
-    void:class <http://purl.org/ontology/bibo/Collection> ;
+    void:class <http://purl.org/ontology/bibo/Collection>,
+        skos:Collection ;
     void:entities 1 .
 
 <http://data.archaeology.link/data/cigs/cigs_dataset_CuneiformSite> a void:Dataset ;
@@ -262,10 +271,13 @@
     void:class <http://purl.org/ontology/bibo/Document> ;
     void:entities 1 .
 
-<http://data.archaeology.link/data/cigs/cigs_dataset_FeatureCollection> a void:Dataset ;
-    rdfs:label "Class Partition: FeatureCollection"@en ;
-    void:class geo:FeatureCollection ;
-    void:entities 1 .
+<http://data.archaeology.link/data/cigs/cigs_dataset_Feature> a void:Dataset ;
+    rdfs:label "Class Partition: Feature"@en ;
+    void:class geo:Feature .
+
+<http://data.archaeology.link/data/cigs/cigs_dataset_Geometry> a void:Dataset ;
+    rdfs:label "Class Partition: Geometry"@en ;
+    void:class geo:Geometry .
 
 <http://data.archaeology.link/data/cigs/cigs_dataset_GeometryCollection> a void:Dataset ;
     rdfs:label "Class Partition: GeometryCollection"@en ;
@@ -300,6 +312,10 @@
 <http://data.archaeology.link/data/cigs/cigs_dataset_SpatialObject> a void:Dataset ;
     rdfs:label "Class Partition: SpatialObject"@en ;
     void:class geo:SpatialObject .
+
+<http://data.archaeology.link/data/cigs/cigs_dataset_SpatialObjectCollection> a void:Dataset ;
+    rdfs:label "Class Partition: SpatialObjectCollection"@en ;
+    void:class geo:SpatialObjectCollection .
 
 <http://data.archaeology.link/data/cigs/cigs_dataset_accuracy> a void:Dataset ;
     rdfs:label "Property Partition: accuracy"@en ;
@@ -394,7 +410,7 @@
 <http://data.archaeology.link/data/cigs/cigs_dataset_subClassOf> a void:Dataset ;
     rdfs:label "Property Partition: subClassOf"@en ;
     void:property rdfs:subClassOf ;
-    void:triples 10 .
+    void:triples 9 .
 
 <http://data.archaeology.link/data/cigs/cigs_dataset_title> a void:Dataset ;
     rdfs:label "Property Partition: title"@en ;
@@ -496,12 +512,6 @@ owl: a voaf:Vocabulary ;
     vann:preferredNamespaceUri "http://www.w3.org/2002/07/owl#"^^xsd:anyURI ;
     voaf:usageInDataset owl:_cigs_dataset_occ .
 
-skos: a voaf:Vocabulary ;
-    rdfs:label "skos Vocabulary"@en ;
-    vann:preferredNamespacePrefix "skos"^^xsd:string ;
-    vann:preferredNamespaceUri "http://www.w3.org/2004/02/skos/core#"^^xsd:anyURI ;
-    voaf:usageInDataset skos:_cigs_dataset_occ .
-
 time: a voaf:Vocabulary ;
     rdfs:label "time Vocabulary"@en ;
     vann:preferredNamespacePrefix "time"^^xsd:string ;
@@ -594,6 +604,12 @@ geo: a voaf:Vocabulary ;
     vann:preferredNamespaceUri "http://www.opengis.net/ont/geosparql#"^^xsd:anyURI ;
     voaf:usageInDataset geo:_cigs_dataset_occ .
 
+skos: a voaf:Vocabulary ;
+    rdfs:label "skos Vocabulary"@en ;
+    vann:preferredNamespacePrefix "skos"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/2004/02/skos/core#"^^xsd:anyURI ;
+    voaf:usageInDataset skos:_cigs_dataset_occ .
+
 dcat: a voaf:Vocabulary ;
     rdfs:label "DCAT Vocabulary"@en ;
     vann:preferredNamespacePrefix "dcat"^^xsd:string ;
@@ -617,14 +633,14 @@ foaf:Person rdfs:label "Person"@en .
     vext:averageSubjectIRILength 44 ;
     vext:datatypes 0 ;
     vext:distinctBlankNodes 0 ;
-    vext:distinctIRIReferences 6997 ;
+    vext:distinctIRIReferences 6995 ;
     vext:distinctLiterals 0 ;
-    vext:distinctRDFNodes 6997 ;
+    vext:distinctRDFNodes 6995 ;
     vext:languages 0 ;
     vext:propertyClasses 0 ;
     dc:language <http://www.lexvo.org/page/iso639-1/en> ;
     dcterms:license <http://creativecommons.org/licenses/by/4.0> ;
-    dcterms:modified "2024-04-24T21:22:24"^^xsd:dateTime ;
+    dcterms:modified "2024-04-25T17:16:21"^^xsd:dateTime ;
     dcterms:subject <http://dbpedia.org/resource/Location>,
         <http://dbpedia.org/resource/OGC_GeoSPARQL>,
         <http://dbpedia.org/resource/Time>,
@@ -638,16 +654,18 @@ foaf:Person rdfs:label "Person"@en .
         <http://data.archaeology.link/data/cigs/cigs_dataset_CuneiformSite>,
         <http://data.archaeology.link/data/cigs/cigs_dataset_Dataset>,
         <http://data.archaeology.link/data/cigs/cigs_dataset_Document>,
-        <http://data.archaeology.link/data/cigs/cigs_dataset_FeatureCollection>,
+        <http://data.archaeology.link/data/cigs/cigs_dataset_Feature>,
+        <http://data.archaeology.link/data/cigs/cigs_dataset_Geometry>,
         <http://data.archaeology.link/data/cigs/cigs_dataset_GeometryCollection>,
         <http://data.archaeology.link/data/cigs/cigs_dataset_Group>,
         <http://data.archaeology.link/data/cigs/cigs_dataset_Person>,
         <http://data.archaeology.link/data/cigs/cigs_dataset_Point>,
-        <http://data.archaeology.link/data/cigs/cigs_dataset_SpatialObject> ;
-    void:classes 11 ;
+        <http://data.archaeology.link/data/cigs/cigs_dataset_SpatialObject>,
+        <http://data.archaeology.link/data/cigs/cigs_dataset_SpatialObjectCollection> ;
+    void:classes 14 ;
     void:dataDump <https://archaeolink.github.io/CIGS_RDF//index.ttl> ;
-    void:distinctObjects 5092 ;
-    void:distinctSubjects 1883 ;
+    void:distinctObjects 5091 ;
+    void:distinctSubjects 1882 ;
     void:entities 1171 ;
     void:feature <http://www.w3.org/ns/formats/RDFa>,
         <http://www.w3.org/ns/formats/Turtle> ;
@@ -674,7 +692,7 @@ foaf:Person rdfs:label "Person"@en .
         <http://data.archaeology.link/data/cigs/cigs_dataset_subClassOf>,
         <http://data.archaeology.link/data/cigs/cigs_dataset_title>,
         <http://data.archaeology.link/data/cigs/cigs_dataset_type> ;
-    void:triples 10150 ;
+    void:triples 10149 ;
     void:uriSpace "http://data.archaeology.link/data/cigs/"^^xsd:string ;
     void:vocabulary vext:,
         dcam:,

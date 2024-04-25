@@ -4097,7 +4097,7 @@ var tree={
       },
       {
         "id": "http://www.ancientports.com/ont#CuneiformSite",
-        "parent": "#",
+        "parent": "http://www.opengis.net/ont/geosparql#Feature",
         "type": "halfgeoclass",
         "text": "CuneiformSite (ap:CuneiformSite) [579]",
         "data": {
@@ -4112,8 +4112,8 @@ var tree={
             },
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 0,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://www.ancientports.com/ont#accuracy": {
               "instancecount": 0
@@ -4134,7 +4134,7 @@ var tree={
             "http://www.w3.org/2002/07/owl#sameAs": {
               "instancecount": 0
             },
-            "http://www.w3.org/2004/02/skos/core#altLabel": {
+            "http://www.wikidata.org/prop/direct/P1566": {
               "instancecount": 0
             },
             "http://www.wikidata.org/prop/direct/P1584": {
@@ -4144,11 +4144,18 @@ var tree={
           "from": {
             "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 0,
-              "http://www.opengis.net/ont/geosparql#FeatureCollection": 1
+              "http://www.w3.org/2004/02/skos/core#Collection": 1
             }
           }
         },
         "instancecount": 1
+      },
+      {
+        "id": "http://www.opengis.net/ont/geosparql#Feature",
+        "parent": "#",
+        "type": "class",
+        "text": "Feature (gsp:Feature)",
+        "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/ADA_geom",
@@ -8205,15 +8212,15 @@ var tree={
       },
       {
         "id": "http://www.opengis.net/ont/sf#Point",
-        "parent": "#",
+        "parent": "http://www.opengis.net/ont/geosparql#Geometry",
         "type": "halfgeoclass",
         "text": "Point (sf:Point) [579]",
         "data": {
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 0,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://www.opengis.net/ont/geosparql#asWKT": {
               "instancecount": 0
@@ -8237,6 +8244,13 @@ var tree={
           }
         },
         "instancecount": 0
+      },
+      {
+        "id": "http://www.opengis.net/ont/geosparql#Geometry",
+        "parent": "#",
+        "type": "class",
+        "text": "Geometry (gsp:Geometry)",
+        "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/author_Andersson_Jakob",
@@ -8289,8 +8303,8 @@ var tree={
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 0,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 0
@@ -8365,8 +8379,8 @@ var tree={
             },
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 0,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 1
@@ -8391,22 +8405,22 @@ var tree={
       },
       {
         "id": "http://data.archaeology.link/data/cigs/CuneiformSite_collection",
-        "parent": "http://www.opengis.net/ont/geosparql#FeatureCollection",
-        "type": "featurecollection",
+        "parent": "http://www.w3.org/2004/02/skos/core#Collection",
+        "type": "instance",
         "text": "CuneiformSite Instances Collection (CuneiformSite_collection)",
         "data": {}
       },
       {
-        "id": "http://www.opengis.net/ont/geosparql#FeatureCollection",
+        "id": "http://www.w3.org/2004/02/skos/core#Collection",
         "parent": "#",
         "type": "collectionclass",
-        "text": "FeatureCollection (gsp:FeatureCollection) [1]",
+        "text": "Collection (skos:Collection) [1]",
         "data": {
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 0,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 0
@@ -8432,15 +8446,15 @@ var tree={
       },
       {
         "id": "http://www.opengis.net/ont/geosparql#GeometryCollection",
-        "parent": "#",
+        "parent": "http://www.opengis.net/ont/geosparql#SpatialObjectCollection",
         "type": "collectionclass",
         "text": "GeometryCollection (gsp:GeometryCollection) [1]",
         "data": {
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 0,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 0
@@ -8458,6 +8472,13 @@ var tree={
         "instancecount": 579
       },
       {
+        "id": "http://www.opengis.net/ont/geosparql#SpatialObjectCollection",
+        "parent": "#",
+        "type": "collectionclass",
+        "text": "SpatialObjectCollection (gsp:SpatialObjectCollection)",
+        "data": {}
+      },
+      {
         "id": "http://data.archaeology.link/data/cigs/Person_collection",
         "parent": "http://www.w3.org/2006/vcard/ns#Group",
         "type": "instance",
@@ -8466,15 +8487,15 @@ var tree={
       },
       {
         "id": "http://www.w3.org/2006/vcard/ns#Group",
-        "parent": "#",
+        "parent": "http://www.w3.org/2004/02/skos/core#Collection",
         "type": "collectionclass",
         "text": "Group (vcard2006:Group) [1]",
         "data": {
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 0,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 0
@@ -8500,15 +8521,15 @@ var tree={
       },
       {
         "id": "http://purl.org/ontology/bibo/Collection",
-        "parent": "#",
+        "parent": "http://www.w3.org/2004/02/skos/core#Collection",
         "type": "collectionclass",
         "text": "Collection (bibo:Collection) [1]",
         "data": {
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 0,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 0
@@ -8535,15 +8556,15 @@ var tree={
       },
       {
         "id": "http://www.w3.org/ns/dcat#Catalog",
-        "parent": "#",
+        "parent": "http://www.w3.org/2004/02/skos/core#Collection",
         "type": "collectionclass",
         "text": "Catalog (dcat:Catalog) [1]",
         "data": {
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
               "instancecount": 0,
-              "http://www.w3.org/ns/adms#Asset": 1,
-              "http://rdfs.org/ns/void#Dataset": 1
+              "http://rdfs.org/ns/void#Dataset": 1,
+              "http://www.w3.org/ns/adms#Asset": 1
             },
             "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": {
               "instancecount": 0
