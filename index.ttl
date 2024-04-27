@@ -33,7 +33,7 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://data.archaeology.link/data/cigs/CuneiformSite_collection> a skos:Collection,
+<http://data.archaeology.link/data/cigs/CuneiformSite_collection> a geo:FeatureCollection,
         <http://www.w3.org/ns/ldp#BasicContainer>,
         <http://www.w3.org/ns/ldp#Container>,
         <http://www.w3.org/ns/ldp#Resource> ;
@@ -1282,7 +1282,7 @@
     void:linkPredicate rdf:type ;
     void:objectsTarget geo: ;
     void:subjectsTarget <http://data.archaeology.link/data/cigs/cigs_dataset> ;
-    void:triples 1 .
+    void:triples 2 .
 
 <http://data.archaeology.link/data/cigs/cigs_dataset_www.opengis.net_ont_sf_> a void:Linkset,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -1293,16 +1293,6 @@
     void:objectsTarget <http://www.opengis.net/ont/sf#> ;
     void:subjectsTarget <http://data.archaeology.link/data/cigs/cigs_dataset> ;
     void:triples 579 .
-
-<http://data.archaeology.link/data/cigs/cigs_dataset_www.w3.org_2004_02_skos_core_> a void:Linkset,
-        <http://www.w3.org/ns/ldp#BasicContainer>,
-        <http://www.w3.org/ns/ldp#Container>,
-        <http://www.w3.org/ns/ldp#Resource> ;
-    rdfs:label "Linkset: cigs_dataset - skos:"@en ;
-    void:linkPredicate rdf:type ;
-    void:objectsTarget skos: ;
-    void:subjectsTarget <http://data.archaeology.link/data/cigs/cigs_dataset> ;
-    void:triples 1 .
 
 <http://data.archaeology.link/data/cigs/cigs_dataset_www.w3.org_2006_vcard_ns_> a void:Linkset,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -9718,7 +9708,7 @@
         <http://www.w3.org/ns/ldp#Resource> ;
     rdfs:label "Property Partition: subClassOf"@en ;
     void:property rdfs:subClassOf ;
-    void:triples 9 .
+    void:triples 10 .
 
 <http://data.archaeology.link/data/cigs/cigs_dataset_title> a void:Dataset,
         <http://www.w3.org/ns/ldp#BasicContainer>,
@@ -14445,14 +14435,14 @@
     ns4:averageSubjectIRILength 44 ;
     ns4:datatypes 0 ;
     ns4:distinctBlankNodes 0 ;
-    ns4:distinctIRIReferences 6995 ;
+    ns4:distinctIRIReferences 6997 ;
     ns4:distinctLiterals 0 ;
-    ns4:distinctRDFNodes 6995 ;
+    ns4:distinctRDFNodes 6997 ;
     ns4:languages 0 ;
     ns4:propertyClasses 0 ;
     dc:language <http://www.lexvo.org/page/iso639-1/en> ;
     dcterms:license <http://creativecommons.org/licenses/by/4.0> ;
-    dcterms:modified "2024-04-25T17:16:21"^^xsd:dateTime ;
+    dcterms:modified "2024-04-27T13:10:11"^^xsd:dateTime ;
     dcterms:subject <http://dbpedia.org/resource/Location>,
         <http://dbpedia.org/resource/OGC_GeoSPARQL>,
         <http://dbpedia.org/resource/Time>,
@@ -14467,6 +14457,7 @@
         <http://data.archaeology.link/data/cigs/cigs_dataset_Dataset>,
         <http://data.archaeology.link/data/cigs/cigs_dataset_Document>,
         <http://data.archaeology.link/data/cigs/cigs_dataset_Feature>,
+        <http://data.archaeology.link/data/cigs/cigs_dataset_FeatureCollection>,
         <http://data.archaeology.link/data/cigs/cigs_dataset_Geometry>,
         <http://data.archaeology.link/data/cigs/cigs_dataset_GeometryCollection>,
         <http://data.archaeology.link/data/cigs/cigs_dataset_Group>,
@@ -14474,10 +14465,10 @@
         <http://data.archaeology.link/data/cigs/cigs_dataset_Point>,
         <http://data.archaeology.link/data/cigs/cigs_dataset_SpatialObject>,
         <http://data.archaeology.link/data/cigs/cigs_dataset_SpatialObjectCollection> ;
-    void:classes 14 ;
+    void:classes 15 ;
     void:dataDump <https://archaeolink.github.io/CIGS_RDF//index.ttl> ;
-    void:distinctObjects 5091 ;
-    void:distinctSubjects 1882 ;
+    void:distinctObjects 5092 ;
+    void:distinctSubjects 1883 ;
     void:entities 1171 ;
     void:feature <http://www.w3.org/ns/formats/RDFa>,
         <http://www.w3.org/ns/formats/Turtle> ;
@@ -14504,7 +14495,7 @@
         <http://data.archaeology.link/data/cigs/cigs_dataset_subClassOf>,
         <http://data.archaeology.link/data/cigs/cigs_dataset_title>,
         <http://data.archaeology.link/data/cigs/cigs_dataset_type> ;
-    void:triples 10149 ;
+    void:triples 10150 ;
     void:uriSpace "http://data.archaeology.link/data/cigs/"^^xsd:string ;
     void:vocabulary ns4:,
         dcam:,

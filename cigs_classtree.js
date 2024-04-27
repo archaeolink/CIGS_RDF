@@ -4129,26 +4129,17 @@ var tree={
               "instancecount": 0
             },
             "http://www.w3.org/2000/01/rdf-schema#label": {
-              "instancecount": 1
-            },
-            "http://www.w3.org/2002/07/owl#sameAs": {
-              "instancecount": 0
-            },
-            "http://www.wikidata.org/prop/direct/P1566": {
-              "instancecount": 0
-            },
-            "http://www.wikidata.org/prop/direct/P1584": {
               "instancecount": 0
             }
           },
           "from": {
             "http://www.w3.org/2000/01/rdf-schema#member": {
               "instancecount": 0,
-              "http://www.w3.org/2004/02/skos/core#Collection": 1
+              "http://www.opengis.net/ont/geosparql#FeatureCollection": 1
             }
           }
         },
-        "instancecount": 1
+        "instancecount": 0
       },
       {
         "id": "http://www.opengis.net/ont/geosparql#Feature",
@@ -8405,16 +8396,16 @@ var tree={
       },
       {
         "id": "http://data.archaeology.link/data/cigs/CuneiformSite_collection",
-        "parent": "http://www.w3.org/2004/02/skos/core#Collection",
-        "type": "instance",
+        "parent": "http://www.opengis.net/ont/geosparql#FeatureCollection",
+        "type": "featurecollection",
         "text": "CuneiformSite Instances Collection (CuneiformSite_collection)",
         "data": {}
       },
       {
-        "id": "http://www.w3.org/2004/02/skos/core#Collection",
-        "parent": "#",
+        "id": "http://www.opengis.net/ont/geosparql#FeatureCollection",
+        "parent": "http://www.opengis.net/ont/geosparql#SpatialObjectCollection",
         "type": "collectionclass",
-        "text": "Collection (skos:Collection) [1]",
+        "text": "FeatureCollection (gsp:FeatureCollection) [1]",
         "data": {
           "to": {
             "http://rdfs.org/ns/void#inDataset": {
@@ -8436,6 +8427,13 @@ var tree={
           "from": {}
         },
         "instancecount": 579
+      },
+      {
+        "id": "http://www.opengis.net/ont/geosparql#SpatialObjectCollection",
+        "parent": "#",
+        "type": "collectionclass",
+        "text": "SpatialObjectCollection (gsp:SpatialObjectCollection)",
+        "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/Point_collection",
@@ -8472,13 +8470,6 @@ var tree={
         "instancecount": 579
       },
       {
-        "id": "http://www.opengis.net/ont/geosparql#SpatialObjectCollection",
-        "parent": "#",
-        "type": "collectionclass",
-        "text": "SpatialObjectCollection (gsp:SpatialObjectCollection)",
-        "data": {}
-      },
-      {
         "id": "http://data.archaeology.link/data/cigs/Person_collection",
         "parent": "http://www.w3.org/2006/vcard/ns#Group",
         "type": "instance",
@@ -8511,6 +8502,13 @@ var tree={
           "from": {}
         },
         "instancecount": 6
+      },
+      {
+        "id": "http://www.w3.org/2004/02/skos/core#Collection",
+        "parent": "#",
+        "type": "collectionclass",
+        "text": "Collection (skos:Collection)",
+        "data": {}
       },
       {
         "id": "http://data.archaeology.link/data/cigs/Document_collection",
