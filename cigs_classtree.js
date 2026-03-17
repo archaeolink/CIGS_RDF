@@ -5874,17 +5874,17 @@ var tree={
             "http://www.w3.org/2000/01/rdf-schema#label": {
               "instancecount": 1007
             },
-            "http://www.wikidata.org/prop/direct/P1566": {
-              "instancecount": 284
-            },
-            "http://www.w3.org/2002/07/owl#sameAs": {
-              "instancecount": 154
+            "http://www.w3.org/2004/02/skos/core#altLabel": {
+              "instancecount": 144
             },
             "http://www.wikidata.org/prop/direct/P1584": {
               "instancecount": 259
             },
-            "http://www.w3.org/2004/02/skos/core#altLabel": {
-              "instancecount": 144
+            "http://www.w3.org/2002/07/owl#sameAs": {
+              "instancecount": 154
+            },
+            "http://www.wikidata.org/prop/direct/P1566": {
+              "instancecount": 284
             }
           }
         }
