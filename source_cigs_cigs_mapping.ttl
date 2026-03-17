@@ -8,128 +8,66 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 cigs:ADA a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:ADA_geom .
 
 cigs:ADB a ont:CuneiformSite ;
     rdfs:label "Adab"@ar,
-        "بسمايا"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "بسمايا"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:ADB_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q346445> ;
     wdt:P1584 <https://pleiades.stoa.org/places/787747618> .
 
 cigs:ADH a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "تل أبو الذهب"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "تل أبو الذهب"@ar ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:ADH_geom ;
     wdt:P1566 <https://www.geonames.org/91040> .
 
 cigs:ADI a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:ADI_geom .
 
 cigs:AFA a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "تلول الفاج"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "تلول الفاج"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:AFA_geom .
 
 cigs:AGR a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "تل اجرب"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "تل اجرب"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:AGR_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q1612336> ;
     wdt:P1584 <https://pleiades.stoa.org/places/171585551> .
 
 cigs:AHT a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:AHT_geom ;
     wdt:P1566 <https://www.geonames.org/324757> .
 
 cigs:AIR a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "عین الروم"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "عین الروم"@fa ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:AIR_geom ;
     wdt:P1584 <https://pleiades.stoa.org/places/874307> .
 
 cigs:AJA a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "ابو جاموس"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "ابو جاموس"@ar ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:AJA_geom ;
     wdt:P1566 <https://www.geonames.org/6787705> .
 
 cigs:AJJ a ont:CuneiformSite ;
     rdfs:label "Shaddikanni"@ar,
-        "تل عجاجة"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "تل عجاجة"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:AJJ_geom ;
     wdt:P1584 <https://pleiades.stoa.org/places/874688> .
 
 cigs:AKH a ont:CuneiformSite ;
     rdfs:label "Akhetaten"@ar,
-        "العمارنة"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "العمارنة"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:AKH_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q5736> ;
@@ -138,12 +76,7 @@ cigs:AKH a ont:CuneiformSite ;
 
 cigs:ALA a ont:CuneiformSite ;
     rdfs:label "Alalah"@ar,
-        "تل العطشانة"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "تل العطشانة"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:ALA_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q575249> ;
@@ -151,12 +84,6 @@ cigs:ALA a ont:CuneiformSite ;
     wdt:P1584 <https://pleiades.stoa.org/places/309866128> .
 
 cigs:ALH a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:ALH_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q558861> ;
@@ -164,81 +91,40 @@ cigs:ALH a ont:CuneiformSite ;
     wdt:P1584 <https://pleiades.stoa.org/places/991964195> .
 
 cigs:ALI a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:ALI_geom ;
     wdt:P1584 <https://pleiades.stoa.org/places/291498921> .
 
 cigs:ALS a ont:CuneiformSite ;
-    rdfs:label "Ankuwa"@ar,
-        "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "Ankuwa"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:ALS_geom ;
     wdt:P1584 <https://pleiades.stoa.org/places/650309285> .
 
 cigs:ALT a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:ALT_geom ;
     wdt:P1584 <https://pleiades.stoa.org/places/874316> .
 
 cigs:AMC a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "عَمَّان‎"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "عَمَّان‎"@ar ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:AMC_geom .
 
 cigs:AMD a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "تل عامودا"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "تل عامودا"@ar ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:AMD_geom ;
     wdt:P1584 <https://pleiades.stoa.org/places/874318> .
 
 cigs:AMM a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "مطار عمان المدني"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "مطار عمان المدني"@ar ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:AMM_geom .
 
 cigs:ANS a ont:CuneiformSite ;
     rdfs:label "Anšan"@ar,
-        "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "تل ملیان"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "تل ملیان"@fa ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:ANS_geom ;
     wdt:P1566 <https://www.geonames.org/125047> ;
@@ -246,34 +132,18 @@ cigs:ANS a ont:CuneiformSite ;
 
 cigs:ANT a ont:CuneiformSite ;
     rdfs:label "Pi-Kasî"@ar,
-        "تل أبو عنتيك"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "تل أبو عنتيك"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:ANT_geom .
 
 cigs:ANZ a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:ANZ_geom ;
     wdt:P1566 <https://www.geonames.org/316914> .
 
 cigs:APH a ont:CuneiformSite ;
     rdfs:label "Antipatris"@ar,
-        "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "תל אפק"@he,
-        "nan"@ru ;
+        "תל אפק"@he ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:APH_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q682612> ;
@@ -282,12 +152,7 @@ cigs:APH a ont:CuneiformSite ;
 
 cigs:AQA a ont:CuneiformSite ;
     rdfs:label "Dur-Kurigalzu"@ar,
-        "تل عقرقوف"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "تل عقرقوف"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:AQA_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q622719> ;
@@ -295,24 +160,13 @@ cigs:AQA a ont:CuneiformSite ;
     wdt:P1584 <https://pleiades.stoa.org/places/893988> .
 
 cigs:ARA a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:ARA_geom ;
     wdt:P1566 <https://www.geonames.org/323694> .
 
 cigs:ARI a ont:CuneiformSite ;
     rdfs:label "Erebuni"@ar,
-        "nan"@ar,
-        "Արին բերդ"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "Արին բերդ"@arc ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:ARI_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q733610> ;
@@ -320,36 +174,20 @@ cigs:ARI a ont:CuneiformSite ;
     wdt:P1584 <https://pleiades.stoa.org/places/863785> .
 
 cigs:ARK a ont:CuneiformSite ;
-    rdfs:label "Arzaškun"@ar,
-        "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "Arzaškun"@ar ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:ARK_geom .
 
 cigs:ARM a ont:CuneiformSite ;
     rdfs:label "Argištihinili"@ar,
-        "nan"@ar,
-        "Արմավիր"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "Արմավիր"@arc ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:ARM_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q13052201> .
 
 cigs:ARR a ont:CuneiformSite ;
     rdfs:label "Arrapha"@ar,
-        "كركوك"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "كركوك"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:ARR_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q672905> ;
@@ -357,59 +195,33 @@ cigs:ARR a ont:CuneiformSite ;
 
 cigs:ART a ont:CuneiformSite ;
     rdfs:label "أرسلان طاش"@ar,
-        "Ḫadatu"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "Ḫadatu"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:ART_geom ;
     wdt:P1566 <https://www.geonames.org/172902> ;
     wdt:P1584 <https://pleiades.stoa.org/places/658399> .
 
 cigs:ARU a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "Արուճ"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "Արուճ"@arc ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:ARU_geom ;
     wdt:P1566 <https://www.geonames.org/823790> .
 
 cigs:ASA a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:ASA_geom .
 
 cigs:ASD a ont:CuneiformSite ;
     rdfs:label "Asdûdu"@ar,
         "أَشْدُود‎"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "אַשְׁדּוֹד"@he,
-        "nan"@ru ;
+        "אַשְׁדּוֹד"@he ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:ASD_geom ;
     wdt:P1566 <https://www.geonames.org/293402> ;
     wdt:P1584 <https://pleiades.stoa.org/places/687838> .
 
 cigs:ASK a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "تل أبو صلابيخ"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "تل أبو صلابيخ"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:ASK_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q195128> ;
@@ -417,181 +229,90 @@ cigs:ASK a ont:CuneiformSite ;
 
 cigs:ASS a ont:CuneiformSite ;
     rdfs:label "Assur"@ar,
-        "قاعة شرقط"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "قاعة شرقط"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:ASS_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q200200> ;
     wdt:P1584 <https://pleiades.stoa.org/places/893945> .
 
 cigs:AST a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:AST_geom .
 
 cigs:ASZ a ont:CuneiformSite ;
     rdfs:label "Ašnakkum"@ar,
-        "تل شاغر بازار"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "تل شاغر بازار"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:ASZ_geom ;
     wdt:P1566 <https://www.geonames.org/169251> ;
     wdt:P1584 <https://pleiades.stoa.org/places/480215077> .
 
 cigs:ATB a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "ابو طبيرة"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "ابو طبيرة"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:ATB_geom .
 
 cigs:AUS a ont:CuneiformSite ;
     rdfs:label "Pitru"@ar,
-        "تل عوشرية"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "تل عوشرية"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:AUS_geom ;
     wdt:P1584 <https://pleiades.stoa.org/places/771224407> .
 
 cigs:AVN a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:AVN_geom ;
     wdt:P1566 <https://www.geonames.org/313233> .
 
 cigs:AWA a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "قلعة عوينة"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "قلعة عوينة"@ar ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:AWA_geom ;
     wdt:P1566 <https://www.geonames.org/89760> .
 
 cigs:AYA a ont:CuneiformSite ;
-    rdfs:label "Rusaginili Eidurukai"@ar,
-        "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "Rusaginili Eidurukai"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:AYA_geom .
 
 cigs:AYC a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:AYC_geom ;
     wdt:P1566 <https://www.geonames.org/436411> .
 
 cigs:AZF a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:AZF_geom .
 
 cigs:AZN a ont:CuneiformSite ;
-    rdfs:label "Aludiri"@ar,
-        "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "Aludiri"@ar ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:AZN_geom .
 
 cigs:BAB a ont:CuneiformSite ;
     rdfs:label "Babylon"@ar,
-        "بابيل"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "بابيل"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:BAB_geom ;
     wdt:P1566 <https://www.geonames.org/98228> ;
     wdt:P1584 <https://pleiades.stoa.org/places/893951> .
 
 cigs:BAH a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:BAH_geom .
 
 cigs:BAK a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:BAK_geom ;
     wdt:P1566 <https://www.geonames.org/322242> .
 
 cigs:BAL a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:BAL_geom ;
     wdt:P1566 <https://www.geonames.org/314984> .
 
 cigs:BAM a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "Κίτιον"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "Κίτιον"@el ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:BAM_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q1743884> ;
@@ -600,208 +321,109 @@ cigs:BAM a ont:CuneiformSite ;
 
 cigs:BAQ a ont:CuneiformSite ;
     rdfs:label "Bit-Adad-eriba"@ar,
-        "تل بقاق"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "تل بقاق"@ar ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:BAQ_geom ;
     wdt:P1584 <https://pleiades.stoa.org/places/977603753> .
 
 cigs:BAR a ont:CuneiformSite ;
     rdfs:label "Girumu"@ar,
-        "Unknown"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "Unknown"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:BAR_geom ;
     wdt:P1584 <https://pleiades.stoa.org/places/894000> .
 
 cigs:BAS a ont:CuneiformSite ;
     rdfs:label "Mardaman"@ar,
-        "باستكي"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "باستكي"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:BAS_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q11935295> .
 
 cigs:BAW a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "نكرأوI"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "نكرأوI"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:BAW_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q42897132> ;
     wdt:P1566 <https://www.geonames.org/98118> .
 
 cigs:BAY a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "بيسان"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "بيسان"@ar ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:BAY_geom .
 
 cigs:BAZ a ont:CuneiformSite ;
     rdfs:label "Armanum?"@ar,
-        "تل بازي"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "تل بازي"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:BAZ_geom .
 
 cigs:BBK a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:BBK_geom ;
     wdt:P1566 <https://www.geonames.org/320457> .
 
 cigs:BDI a ont:CuneiformSite ;
     rdfs:label "Dur-Aššur-ketti-lešer"@ar,
-        "تل بديري"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "تل بديري"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:BDI_geom ;
     wdt:P1566 <https://www.geonames.org/171243> .
 
 cigs:BES a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:BES_geom ;
     wdt:P1566 <https://www.geonames.org/9815294> .
 
 cigs:BHN a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "بنات الحسن"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "بنات الحسن"@ar ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:BHN_geom .
 
 cigs:BHS a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "بنات الحسن"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "بنات الحسن"@ar ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:BHS_geom ;
     wdt:P1584 <https://pleiades.stoa.org/places/912818> .
 
 cigs:BIN a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:BIN_geom .
 
 cigs:BIS a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "بیستون‎"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "بیستون‎"@fa ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:BIS_geom ;
     wdt:P1584 <https://pleiades.stoa.org/places/903002> .
 
 cigs:BIT a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:BIT_geom ;
     wdt:P1566 <https://www.geonames.org/321025> ;
     wdt:P1584 <https://pleiades.stoa.org/places/874438> .
 
 cigs:BLQ a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "البلاد القديم"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "البلاد القديم"@ar ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:BLQ_geom .
 
 cigs:BLW a ont:CuneiformSite ;
     rdfs:label "Imgur-Enlil"@ar,
-        "بلاوات"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "بلاوات"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:BLW_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q1659846> ;
     wdt:P1584 <https://pleiades.stoa.org/places/90032637> .
 
 cigs:BMB a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "Բամբակաշատ"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "Բամբակաշատ"@arc ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:BMB_geom ;
     wdt:P1566 <https://www.geonames.org/616823> .
 
 cigs:BOR a ont:CuneiformSite ;
     rdfs:label "Borsippa"@ar,
-        "برس نمرود"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "برس نمرود"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:BOR_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q625134> ;
@@ -809,36 +431,19 @@ cigs:BOR a ont:CuneiformSite ;
     wdt:P1584 <https://pleiades.stoa.org/places/893964> .
 
 cigs:BOS a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:BOS_geom ;
     wdt:P1566 <https://www.geonames.org/320821> .
 
 cigs:BRD a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "تل بردان"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "تل بردان"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:BRD_geom ;
     wdt:P1584 <https://pleiades.stoa.org/places/894127> .
 
 cigs:BRK a ont:CuneiformSite ;
     rdfs:label "Nagar"@ar,
-        "تل براك"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "تل براك"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:BRK_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q978443> ;
@@ -846,82 +451,44 @@ cigs:BRK a ont:CuneiformSite ;
     wdt:P1584 <https://pleiades.stoa.org/places/874735> .
 
 cigs:BRM a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:BRM_geom .
 
 cigs:BRS a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "بريصا"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "بريصا"@ar ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:BRS_geom ;
     wdt:P1584 <https://pleiades.stoa.org/places/809004346> .
 
 cigs:BSE a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "تل بيت شيمش"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "תל בית שמש"@he,
-        "nan"@ru ;
+    rdfs:label "تل بيت شيمش"@ar,
+        "תל בית שמש"@he ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:BSE_geom ;
     wdt:P1566 <https://www.geonames.org/293386> ;
     wdt:P1584 <https://pleiades.stoa.org/places/432223402> .
 
 cigs:BSH a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "בן שמן"@he,
-        "nan"@ru ;
+    rdfs:label "בן שמן"@he ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:BSH_geom ;
     wdt:P1584 <https://pleiades.stoa.org/places/413309736> .
 
 cigs:BSK a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:BSK_geom ;
     wdt:P1566 <https://www.geonames.org/321940> ;
     wdt:P1584 <https://pleiades.stoa.org/places/874315> .
 
 cigs:BST a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "قلعه بسټ"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "قلعه بسټ"@fa ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:BST_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q20182301> ;
     wdt:P1566 <https://www.geonames.org/1425376> .
 
 cigs:BSV a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "תל באר שבע"@he,
-        "nan"@ru ;
+    rdfs:label "תל באר שבע"@he ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:BSV_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q534596> ;
@@ -930,81 +497,42 @@ cigs:BSV a ont:CuneiformSite ;
 
 cigs:BTB a ont:CuneiformSite ;
     rdfs:label "Bad-Tibira"@ar,
-        "تل المدينة"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "تل المدينة"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:BTB_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q1372270> ;
     wdt:P1584 <https://pleiades.stoa.org/places/771224406> .
 
 cigs:BTM a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "بسطام"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "بسطام"@fa ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:BTM_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q605408> ;
     wdt:P1584 <https://pleiades.stoa.org/places/874396> .
 
 cigs:BTU a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:BTU_geom ;
     wdt:P1584 <https://pleiades.stoa.org/places/708232008> .
 
 cigs:BUK a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:BUK_geom .
 
 cigs:BUL a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:BUL_geom ;
     wdt:P1566 <https://www.geonames.org/320410> .
 
 cigs:BUR a ont:CuneiformSite ;
     rdfs:label "Burmarina"@ar,
-        "تل الشيوخ فوقاني"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "تل الشيوخ فوقاني"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:BUR_geom ;
     wdt:P1566 <https://www.geonames.org/10304605> .
 
 cigs:BVI a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "بافيان"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "بافيان"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:BVI_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q104874183> ;
@@ -1012,25 +540,14 @@ cigs:BVI a ont:CuneiformSite ;
 
 cigs:BYB a ont:CuneiformSite ;
     rdfs:label "Gubla"@ar,
-        "جبيل"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "جبيل"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:BYB_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q173532> ;
     wdt:P1584 <https://pleiades.stoa.org/places/668216> .
 
 cigs:BZM a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "تل باز مسيان"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "تل باز مسيان"@ar ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:BZM_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q7697385> ;
@@ -1038,36 +555,19 @@ cigs:BZM a ont:CuneiformSite ;
     wdt:P1584 <https://pleiades.stoa.org/places/532748467> .
 
 cigs:CAV a ont:CuneiformSite ;
-    rdfs:label "Sardurihinili"@ar,
-        "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "Sardurihinili"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:CAV_geom ;
     wdt:P1566 <https://www.geonames.org/6987233> ;
     wdt:P1584 <https://pleiades.stoa.org/places/825333700> .
 
 cigs:CEL a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:CEL_geom ;
     wdt:P1566 <https://www.geonames.org/318923> .
 
 cigs:CGM a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "چغامیش"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "چغامیش"@fa ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:CGM_geom ;
     wdt:P1566 <https://www.geonames.org/138866> ;
@@ -1075,44 +575,21 @@ cigs:CGM a ont:CuneiformSite ;
 
 cigs:CGV a ont:CuneiformSite ;
     rdfs:label "Palum"@ar,
-        "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "چقاگاوانه"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "چقاگاوانه"@fa ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:CGV_geom .
 
 cigs:CHK a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:CHK_geom ;
     wdt:P1584 <https://pleiades.stoa.org/places/804216207> .
 
 cigs:CHM a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "جمجمال"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "جمجمال"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:CHM_geom .
 
 cigs:CHR a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:CHR_geom ;
     wdt:P1566 <https://www.geonames.org/261745> ;
@@ -1120,35 +597,20 @@ cigs:CHR a ont:CuneiformSite ;
 
 cigs:CHU a ont:CuneiformSite ;
     rdfs:label "تل الشويرة"@ar,
-        "Ḫarbe"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "Ḫarbe"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:CHU_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q1693787> ;
     wdt:P1584 <https://pleiades.stoa.org/places/677382294> .
 
 cigs:CKK a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "کلماکره"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "کلماکره"@fa ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:CKK_geom .
 
 cigs:COZ a ont:CuneiformSite ;
     rdfs:label "Dur-Untaš"@ar,
-        "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "چغازنبیل"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "چغازنبیل"@fa ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:COZ_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q4523> ;
@@ -1156,43 +618,22 @@ cigs:COZ a ont:CuneiformSite ;
     wdt:P1584 <https://pleiades.stoa.org/places/459393126> .
 
 cigs:CPE a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "چغاپهن"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "چغاپهن"@fa ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:CPE_geom .
 
 cigs:CPW a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "چغاپهن"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "چغاپهن"@fa ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:CPW_geom .
 
 cigs:CSA a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "چغا سبز"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "چغا سبز"@fa ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:CSA_geom .
 
 cigs:DAB a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "تل الضبعة"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "تل الضبعة"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:DAB_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q3517370> ;
@@ -1200,58 +641,30 @@ cigs:DAB a ont:CuneiformSite ;
 
 cigs:DAM a ont:CuneiformSite ;
     rdfs:label "Adama"@ar,
-        "تل داميا"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "تل داميا"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:DAM_geom ;
     wdt:P1566 <https://www.geonames.org/249738> .
 
 cigs:DAS a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:DAS_geom ;
     wdt:P1584 <https://pleiades.stoa.org/places/511225> .
 
 cigs:DEF a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "كوم دفنة"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "كوم دفنة"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:DEF_geom ;
     wdt:P1566 <https://www.geonames.org/358515> .
 
 cigs:DEG a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:DEG_geom ;
     wdt:P1566 <https://www.geonames.org/317435> .
 
 cigs:DEP a ont:CuneiformSite ;
     rdfs:label "Dura-Europos"@ar,
-        "دورا أوربوس"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "دورا أوربوس"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:DEP_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q464266> ;
@@ -1260,69 +673,37 @@ cigs:DEP a ont:CuneiformSite ;
 
 cigs:DER a ont:CuneiformSite ;
     rdfs:label "Der"@ar,
-        "تل عقار"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "تل عقار"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:DER_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q262432> ;
     wdt:P1584 <https://pleiades.stoa.org/places/903013> .
 
 cigs:DEY a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "تپه دیلم"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "تپه دیلم"@fa ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:DEY_geom .
 
 cigs:DGK a ont:CuneiformSite ;
-    rdfs:label "Unknown"@ar,
-        "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "Unknown"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:DGK_geom .
 
 cigs:DIB a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "دب"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "دب"@ar ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:DIB_geom ;
     wdt:P1566 <https://www.geonames.org/288760> .
 
 cigs:DIL a ont:CuneiformSite ;
     rdfs:label "Dilmun"@ar,
-        "عالي"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "عالي"@ar ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:DIL_geom .
 
 cigs:DKA a ont:CuneiformSite ;
     rdfs:label "Dur-Katlimmu"@ar,
-        "تل الشيخ حمد"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "تل الشيخ حمد"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:DKA_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q487614> ;
@@ -1331,36 +712,21 @@ cigs:DKA a ont:CuneiformSite ;
 
 cigs:DLB a ont:CuneiformSite ;
     rdfs:label "Dilbat"@ar,
-        "تل الدليم"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "تل الدليم"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:DLB_geom ;
     wdt:P1584 <https://pleiades.stoa.org/places/893987> .
 
 cigs:DLH a ont:CuneiformSite ;
     rdfs:label "Tummal"@ar,
-        "إيشان دليهم"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "إيشان دليهم"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:DLH_geom ;
     wdt:P1566 <https://www.geonames.org/6731733> .
 
 cigs:DLM a ont:CuneiformSite ;
     rdfs:label "Dilmun"@ar,
-        "قلعة البحرين"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "قلعة البحرين"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:DLM_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q740104> ;
@@ -1369,117 +735,61 @@ cigs:DLM a ont:CuneiformSite ;
 
 cigs:DMU a ont:CuneiformSite ;
     rdfs:label "Admannu"@ar,
-        "تل علي"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "تل علي"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:DMU_geom ;
     wdt:P1566 <https://www.geonames.org/6770327> ;
     wdt:P1584 <https://pleiades.stoa.org/places/532748466> .
 
 cigs:DNO a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "دە نو"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "دە نو"@fa ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:DNO_geom ;
     wdt:P1584 <https://pleiades.stoa.org/places/903011> .
 
 cigs:DOH a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "دهوك‎"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "دهوك‎"@ar ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:DOH_geom ;
     wdt:P1584 <https://pleiades.stoa.org/places/955792756> .
 
 cigs:DON a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:DON_geom .
 
 cigs:DQD a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "دقدقة"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "دقدقة"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:DQD_geom ;
     wdt:P1584 <https://pleiades.stoa.org/places/138636347> .
 
 cigs:DRE a ont:CuneiformSite ;
     rdfs:label "Puzriš-Dagan"@ar,
-        "تل دريهم"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "تل دريهم"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:DRE_geom ;
     wdt:P1566 <https://www.geonames.org/6739300> ;
     wdt:P1584 <https://pleiades.stoa.org/places/359215729> .
 
 cigs:DUB a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "أبو ضبع"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "أبو ضبع"@ar ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:DUB_geom .
 
 cigs:DUZ a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:DUZ_geom ;
     wdt:P1566 <https://www.geonames.org/316045> .
 
 cigs:DWL a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "الدوالي"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "الدوالي"@ar ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:DWL_geom ;
     wdt:P1584 <https://pleiades.stoa.org/places/945906723> .
 
 cigs:EBA a ont:CuneiformSite ;
     rdfs:label "Ebla"@ar,
-        "تل مرديخ"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "تل مرديخ"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:EBA_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q5743> ;
@@ -1487,82 +797,42 @@ cigs:EBA a ont:CuneiformSite ;
     wdt:P1584 <https://pleiades.stoa.org/places/869702586> .
 
 cigs:EDF a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "إدفو‎"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "إدفو‎"@ar ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:EDF_geom ;
     wdt:P1566 <https://www.geonames.org/355635> ;
     wdt:P1584 <https://pleiades.stoa.org/places/785974> .
 
 cigs:EDR a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:EDR_geom ;
     wdt:P1566 <https://www.geonames.org/301529> ;
     wdt:P1584 <https://pleiades.stoa.org/places/874362> .
 
 cigs:EHA a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:EHA_geom ;
     wdt:P1566 <https://www.geonames.org/315256> .
 
 cigs:EKA a ont:CuneiformSite ;
     rdfs:label "Ekalte"@ar,
-        "تل منباقه"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "تل منباقه"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:EKA_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q1952563> ;
     wdt:P1584 <https://pleiades.stoa.org/places/703315102> .
 
 cigs:EKY a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:EKY_geom ;
     wdt:P1566 <https://www.geonames.org/747252> .
 
 cigs:ELA a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "Էլար"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "Էլար"@arc ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:ELA_geom .
 
 cigs:ELM a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:ELM_geom ;
     wdt:P1566 <https://www.geonames.org/315691> ;
@@ -1570,37 +840,21 @@ cigs:ELM a ont:CuneiformSite ;
 
 cigs:EMR a ont:CuneiformSite ;
     rdfs:label "Emar"@ar,
-        "تل مسكنة"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "تل مسكنة"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:EMR_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q1196243> ;
     wdt:P1584 <https://pleiades.stoa.org/places/279984092> .
 
 cigs:ERD a ont:CuneiformSite ;
-    rdfs:label "KURQilbani"@ar,
-        "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "KURQilbani"@ar ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:ERD_geom ;
     wdt:P1584 <https://pleiades.stoa.org/places/356811079> .
 
 cigs:ERI a ont:CuneiformSite ;
     rdfs:label "Eridu"@ar,
-        "أبو شهرين"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "أبو شهرين"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:ERI_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q210065> ;
@@ -1608,35 +862,18 @@ cigs:ERI a ont:CuneiformSite ;
     wdt:P1584 <https://pleiades.stoa.org/places/912845> .
 
 cigs:ERN a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:ERN_geom ;
     wdt:P1566 <https://www.geonames.org/317744> .
 
 cigs:ERZ a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:ERZ_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q2866118> .
 
 cigs:ESH a ont:CuneiformSite ;
     rdfs:label "Ešnuna"@ar,
-        "تا أسمر"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "تا أسمر"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:ESH_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q375685> ;
@@ -1644,113 +881,57 @@ cigs:ESH a ont:CuneiformSite ;
     wdt:P1584 <https://pleiades.stoa.org/places/90720956> .
 
 cigs:ESK a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "اشکفت سلمان"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "اشکفت سلمان"@fa ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:ESK_geom ;
     wdt:P1566 <https://www.geonames.org/7549570> .
 
 cigs:FAK a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "تل الفخار"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "تل الفخار"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:FAK_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q2740784> ;
     wdt:P1584 <https://pleiades.stoa.org/places/574198886> .
 
 cigs:FAQ a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "فاقوس"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "فاقوس"@ar ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:FAQ_geom ;
     wdt:P1566 <https://www.geonames.org/356989> .
 
 cigs:FDW a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "ابو فندوا"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "ابو فندوا"@fa ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:FDW_geom .
 
 cigs:FKR a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "تل الفخيرية"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "تل الفخيرية"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:FKR_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q1149666> ;
     wdt:P1584 <https://pleiades.stoa.org/places/572048102> .
 
 cigs:FLO a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:FLO_geom .
 
 cigs:FRA a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:FRA_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q7697397> .
 
 cigs:FRU a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "تپه فرخآباد"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "تپه فرخآباد"@fa ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:FRU_geom .
 
 cigs:FSN a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "تل فسنة"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "تل فسنة"@ar ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:FSN_geom .
 
 cigs:GAR a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "Գառնիի"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "Գառնիի"@arc ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:GAR_geom ;
     wdt:P1566 <https://www.geonames.org/11336259> ;
@@ -1758,57 +939,29 @@ cigs:GAR a ont:CuneiformSite ;
 
 cigs:GAV a ont:CuneiformSite ;
     rdfs:label "DHaldiei URU"@ar,
-        "nan"@ar,
-        "Գավառ"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "Գավառ"@arc ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:GAV_geom ;
     wdt:P1584 <https://pleiades.stoa.org/places/863819> .
 
 cigs:GCN a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:GCN_geom ;
     wdt:P1584 <https://pleiades.stoa.org/places/293088342> .
 
 cigs:GDR a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "تل غضيريفه"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "تل غضيريفه"@ar ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:GDR_geom .
 
 cigs:GHA a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "تل الغران"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "تل الغران"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:GHA_geom .
 
 cigs:GIR a ont:CuneiformSite ;
     rdfs:label "Girsu"@ar,
-        "تا تيلوه"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "تا تيلوه"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:GIR_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q853946> ;
@@ -1816,207 +969,108 @@ cigs:GIR a ont:CuneiformSite ;
     wdt:P1584 <https://pleiades.stoa.org/places/912855> .
 
 cigs:GJN a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "گنجنامه"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "گنجنامه"@fa ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:GJN_geom ;
     wdt:P1566 <https://www.geonames.org/134125> ;
     wdt:P1584 <https://pleiades.stoa.org/places/903032> .
 
 cigs:GLA a ont:CuneiformSite ;
-    rdfs:label "Unknown"@ar,
-        "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "Unknown"@ar ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:GLA_geom ;
     wdt:P1584 <https://pleiades.stoa.org/places/223856812> .
 
 cigs:GNT a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:GNT_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q3110595> ;
     wdt:P1584 <https://pleiades.stoa.org/places/391537222> .
 
 cigs:GNZ a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:GNZ_geom ;
     wdt:P1584 <https://pleiades.stoa.org/places/539776278> .
 
 cigs:GOT a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "گودین‌تپه"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "گودین‌تپه"@fa ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:GOT_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q774339> ;
     wdt:P1584 <https://pleiades.stoa.org/places/903035> .
 
 cigs:GOV a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:GOV_geom ;
     wdt:P1566 <https://www.geonames.org/313908> .
 
 cigs:GOZ a ont:CuneiformSite ;
-    rdfs:label "Tarsus"@ar,
-        "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "Tarsus"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:GOZ_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q5626760> ;
     wdt:P1584 <https://pleiades.stoa.org/places/648789> .
 
 cigs:GRD a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "Unknown"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "Unknown"@fa ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:GRD_geom .
 
 cigs:GRL a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:GRL_geom ;
     wdt:P1566 <https://www.geonames.org/677429> ;
     wdt:P1584 <https://pleiades.stoa.org/places/207133> .
 
 cigs:GRO a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "تل گري قاسم"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "تل گري قاسم"@ar ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:GRO_geom .
 
 cigs:GRS a ont:CuneiformSite ;
     rdfs:label "Garšana"@ar,
-        "تل بردية"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "تل بردية"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:GRS_geom .
 
 cigs:GTV a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "تپه گتوند"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "تپه گتوند"@fa ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:GTV_geom .
 
 cigs:GUD a ont:CuneiformSite ;
     rdfs:label "Gudua"@ar,
-        "تل إبراهيم"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "تل إبراهيم"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:GUD_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q1096108> ;
     wdt:P1584 <https://pleiades.stoa.org/places/893977> .
 
 cigs:GUG a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:GUG_geom .
 
 cigs:GUL a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "شقافت گل گل"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "شقافت گل گل"@fa ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:GUL_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q3482085> .
 
 cigs:GWR a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "تپه گورە"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "تپه گورە"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:GWR_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q607583> ;
     wdt:P1584 <https://pleiades.stoa.org/places/944606650> .
 
 cigs:GZH a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "تل گسر"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "تل گسر"@fa ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:GZH_geom .
 
 cigs:GZR a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "تل الجزر"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "גֶּזֶר"@he,
-        "nan"@ru ;
+    rdfs:label "تل الجزر"@ar,
+        "גֶּזֶר"@he ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:GZR_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q1466687> ;
@@ -2024,58 +1078,29 @@ cigs:GZR a ont:CuneiformSite ;
     wdt:P1584 <https://pleiades.stoa.org/places/68790> .
 
 cigs:HAB a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:HAB_geom ;
     wdt:P1566 <https://www.geonames.org/10903894> ;
     wdt:P1584 <https://pleiades.stoa.org/places/887556001> .
 
 cigs:HAD a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "تل الحديدي"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "تل الحديدي"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:HAD_geom ;
     wdt:P1566 <https://www.geonames.org/9060> .
 
 cigs:HAE a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:HAE_geom ;
     wdt:P1584 <https://pleiades.stoa.org/places/887415955> .
 
 cigs:HAI a ont:CuneiformSite ;
-    rdfs:label "Unknown"@ar,
-        "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "Unknown"@ar ;
     ont:accuracy "0"^^xsd:string ;
     geo:hasGeometry cigs:HAI_geom .
 
 cigs:HAL a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "Ἁλικαρνᾱσσός"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "Ἁλικαρνᾱσσός"@el ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:HAL_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q45368> ;
@@ -2084,58 +1109,29 @@ cigs:HAL a ont:CuneiformSite ;
 
 cigs:HAM a ont:CuneiformSite ;
     rdfs:label "Hamath"@ar,
-        "حماة"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "حماة"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:HAM_geom ;
     wdt:P1566 <https://www.geonames.org/170017> .
 
 cigs:HAN a ont:CuneiformSite ;
-    rdfs:label "Unknown"@ar,
-        "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "Unknown"@ar ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:HAN_geom .
 
 cigs:HAR a ont:CuneiformSite ;
-    rdfs:label "Harran"@ar,
-        "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "Harran"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:HAR_geom ;
     wdt:P1584 <https://pleiades.stoa.org/places/658427> .
 
 cigs:HAS a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:HAS_geom ;
     wdt:P1566 <https://www.geonames.org/312439> .
 
 cigs:HAT a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "Ḫattusa"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "Ḫattusa"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:HAT_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q181007> ;
@@ -2143,23 +1139,13 @@ cigs:HAT a ont:CuneiformSite ;
     wdt:P1584 <https://pleiades.stoa.org/places/283602441> .
 
 cigs:HAY a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "Հայկավան"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "Հայկավան"@arc ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:HAY_geom ;
     wdt:P1566 <https://www.geonames.org/616845> .
 
 cigs:HAZ a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "תל חצור"@he,
-        "nan"@ru ;
+    rdfs:label "תל חצור"@he ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:HAZ_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q740138> ;
@@ -2167,165 +1153,85 @@ cigs:HAZ a ont:CuneiformSite ;
     wdt:P1584 <https://pleiades.stoa.org/places/779967430> .
 
 cigs:HBK a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "حبوبة"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "حبوبة"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:HBK_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q1567031> ;
     wdt:P1584 <https://pleiades.stoa.org/places/923122730> .
 
 cigs:HBR a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "תל חברון"@he,
-        "nan"@ru ;
+    rdfs:label "תל חברון"@he ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:HBR_geom ;
     wdt:P1584 <https://pleiades.stoa.org/places/687915> .
 
 cigs:HBS a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "حبل الصخر"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "حبل الصخر"@ar ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:HBS_geom .
 
 cigs:HDD a ont:CuneiformSite ;
     rdfs:label "Me-Turran"@ar,
-        "تل حداد"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "تل حداد"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:HDD_geom ;
     wdt:P1584 <https://pleiades.stoa.org/places/894042> .
 
 cigs:HFR a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "أم الحفريات"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "أم الحفريات"@ar ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:HFR_geom .
 
 cigs:HIL a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "الحلة"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "الحلة"@ar ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:HIL_geom ;
     wdt:P1566 <https://www.geonames.org/99347> .
 
 cigs:HJR a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "الحجر"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "الحجر"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:HJR_geom ;
     wdt:P1584 <https://pleiades.stoa.org/places/932429> .
 
 cigs:HLF a ont:CuneiformSite ;
     rdfs:label "Guzana"@ar,
-        "تل حلف"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "تل حلف"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:HLF_geom ;
     wdt:P1584 <https://pleiades.stoa.org/places/874739> .
 
 cigs:HLT a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "Τεκές Χαλά Σουλτάνας"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "Τεκές Χαλά Σουλτάνας"@el ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:HLT_geom .
 
 cigs:HLW a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "تل حلاوة"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "تل حلاوة"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:HLW_geom ;
     wdt:P1566 <https://www.geonames.org/6647836> .
 
 cigs:HMD a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "همدان"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "همدان"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:HMD_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q696193> ;
     wdt:P1584 <https://pleiades.stoa.org/places/903021> .
 
 cigs:HMM a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "حمام"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "حمام"@ar ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:HMM_geom .
 
 cigs:HMR a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "سليمه"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "سليمه"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:HMR_geom ;
     wdt:P1566 <https://www.geonames.org/98776> .
 
 cigs:HMT a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "تل حمام التركمان"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "تل حمام التركمان"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:HMT_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q21513167> ;
@@ -2333,45 +1239,23 @@ cigs:HMT a ont:CuneiformSite ;
     wdt:P1584 <https://pleiades.stoa.org/places/874741> .
 
 cigs:HOR a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "Unknown"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "Unknown"@fa ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:HOR_geom .
 
 cigs:HPK a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:HPK_geom .
 
 cigs:HRD a ont:CuneiformSite ;
     rdfs:label "Haradum"@ar,
-        "خربة الدينية"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "خربة الدينية"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:HRD_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q3127717> ;
     wdt:P1584 <https://pleiades.stoa.org/places/894003> .
 
 cigs:HRE a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:HRE_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q841207> ;
@@ -2379,72 +1263,38 @@ cigs:HRE a ont:CuneiformSite ;
     wdt:P1584 <https://pleiades.stoa.org/places/599641> .
 
 cigs:HRP a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:HRP_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q6017381> ;
     wdt:P1566 <https://www.geonames.org/7467408> .
 
 cigs:HRT a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "هرات"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "هرات"@ar ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:HRT_geom ;
     wdt:P1566 <https://www.geonames.org/1140026> ;
     wdt:P1584 <https://pleiades.stoa.org/places/961874> .
 
 cigs:HSC a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:HSC_geom ;
     wdt:P1566 <https://www.geonames.org/10632543> .
 
 cigs:HSI a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "תל חסי"@he,
-        "nan"@ru ;
+    rdfs:label "תל חסי"@he ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:HSI_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q2067518> ;
     wdt:P1566 <https://www.geonames.org/293367> .
 
 cigs:HSK a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:HSK_geom ;
     wdt:P1566 <https://www.geonames.org/312479> ;
     wdt:P1584 <https://pleiades.stoa.org/places/874664> .
 
 cigs:HSR a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "تپه حصار"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "تپه حصار"@fa ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:HSR_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q1484199> ;
@@ -2452,24 +1302,12 @@ cigs:HSR a ont:CuneiformSite ;
     wdt:P1584 <https://pleiades.stoa.org/places/942329> .
 
 cigs:HUM a ont:CuneiformSite ;
-    rdfs:label "Unknown"@ar,
-        "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "Unknown"@ar ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:HUM_geom .
 
 cigs:HUZ a ont:CuneiformSite ;
-    rdfs:label "Huzirina"@ar,
-        "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "Huzirina"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:HUZ_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q1347916> ;
@@ -2478,82 +1316,42 @@ cigs:HUZ a ont:CuneiformSite ;
 
 cigs:HWS a ont:CuneiformSite ;
     rdfs:label "Ubasē"@ar,
-        "تل حويش"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "تل حويش"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:HWS_geom .
 
 cigs:HYK a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:HYK_geom ;
     wdt:P1566 <https://www.geonames.org/438338> ;
     wdt:P1584 <https://pleiades.stoa.org/places/572486151> .
 
 cigs:IBA a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "تل ابراهيم بايس"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "تل ابراهيم بايس"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:IBA_geom ;
     wdt:P1566 <https://www.geonames.org/6869902> .
 
 cigs:IDH a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "إشان ذهك"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "إشان ذهك"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:IDH_geom .
 
 cigs:IDU a ont:CuneiformSite ;
     rdfs:label "Idu"@ar,
-        "ساتو قلا"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "ساتو قلا"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:IDU_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q15876602> ;
     wdt:P1566 <https://www.geonames.org/91451> .
 
 cigs:IHF a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "إشان حافذ"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "إشان حافذ"@ar ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:IHF_geom .
 
 cigs:IHN a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "رأس ابن هاني"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "رأس ابن هاني"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:IHN_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q1438447> ;
@@ -2561,56 +1359,27 @@ cigs:IHN a ont:CuneiformSite ;
     wdt:P1584 <https://pleiades.stoa.org/places/668262> .
 
 cigs:IKA a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "إشان الخزينة"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "إشان الخزينة"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:IKA_geom .
 
 cigs:IKH a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "إشان الخلفة"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "إشان الخلفة"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:IKH_geom .
 
 cigs:INA a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:INA_geom .
 
 cigs:IRS a ont:CuneiformSite ;
-    rdfs:label "Irisagrig"@ar,
-        "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "Irisagrig"@ar ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:IRS_geom .
 
 cigs:ISN a ont:CuneiformSite ;
     rdfs:label "Isin"@ar,
-        "إشان نحريات"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "إشان نحريات"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:ISN_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q501259> ;
@@ -2618,69 +1387,36 @@ cigs:ISN a ont:CuneiformSite ;
     wdt:P1584 <https://pleiades.stoa.org/places/912868> .
 
 cigs:JAN a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "Ջանֆիդա"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "Ջանֆիդա"@arc ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:JAN_geom ;
     wdt:P1566 <https://www.geonames.org/616735> .
 
 cigs:JAV a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "جوان قلعه"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "جوان قلعه"@fa ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:JAV_geom .
 
 cigs:JDD a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "جديدە"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "جديدە"@ar ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:JDD_geom ;
     wdt:P1584 <https://pleiades.stoa.org/places/945906724> .
 
 cigs:JDG a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:JDG_geom ;
     wdt:P1566 <https://www.geonames.org/317981> ;
     wdt:P1584 <https://pleiades.stoa.org/places/471828778> .
 
 cigs:JDR a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "تل جدر"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "تل جدر"@ar ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:JDR_geom ;
     wdt:P1584 <https://pleiades.stoa.org/places/912957> .
 
 cigs:JMM a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "תל גמה"@he,
-        "nan"@ru ;
+    rdfs:label "תל גמה"@he ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:JMM_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q1301002> ;
@@ -2689,46 +1425,24 @@ cigs:JMM a ont:CuneiformSite ;
 
 cigs:JOK a ont:CuneiformSite ;
     rdfs:label "Umma"@ar,
-        "تا جوكة"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "تا جوكة"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:JOK_geom ;
     wdt:P1566 <https://www.geonames.org/95090> ;
     wdt:P1584 <https://pleiades.stoa.org/places/44626252> .
 
 cigs:JOR a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "تل اجر"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "تل اجر"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:JOR_geom .
 
 cigs:JRD a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "جبل عارودة"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "جبل عارودة"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:JRD_geom .
 
 cigs:JRO a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "יְרִיחוֹ"@he,
-        "nan"@ru ;
+    rdfs:label "יְרִיחוֹ"@he ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:JRO_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q2402267> ;
@@ -2736,105 +1450,51 @@ cigs:JRO a ont:CuneiformSite ;
     wdt:P1584 <https://pleiades.stoa.org/places/687917> .
 
 cigs:JRW a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "جراونة"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "جراونة"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:JRW_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q17064815> ;
     wdt:P1584 <https://pleiades.stoa.org/places/248782116> .
 
 cigs:JUH a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "تل جوخة"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "تل جوخة"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:JUH_geom .
 
 cigs:JWN a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "تلول أبو جاون"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "تلول أبو جاون"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:JWN_geom ;
     wdt:P1566 <https://www.geonames.org/6806251> ;
     wdt:P1584 <https://pleiades.stoa.org/places/894161> .
 
 cigs:KAB a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "كبريت"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "كبريت"@ar ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:KAB_geom .
 
 cigs:KAD a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:KAD_geom .
 
 cigs:KAH a ont:CuneiformSite ;
-    rdfs:label "Marqasi"@ar,
-        "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "Marqasi"@ar ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:KAH_geom ;
     wdt:P1566 <https://www.geonames.org/310859> ;
     wdt:P1584 <https://pleiades.stoa.org/places/658474> .
 
 cigs:KAI a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:KAI_geom .
 
 cigs:KAL a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "كامد اللوز"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "كامد اللوز"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:KAL_geom .
 
 cigs:KAR a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "الكرنك"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "الكرنك"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:KAR_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q522862> ;
@@ -2842,45 +1502,23 @@ cigs:KAR a ont:CuneiformSite ;
     wdt:P1584 <https://pleiades.stoa.org/places/786050> .
 
 cigs:KAS a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "Καστρί"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "Καστρί"@el ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:KAS_geom ;
     wdt:P1584 <https://pleiades.stoa.org/places/570400> .
 
 cigs:KAY a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "Šamuḫa"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "Šamuḫa"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:KAY_geom .
 
 cigs:KAZ a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:KAZ_geom ;
     wdt:P1566 <https://www.geonames.org/743613> .
 
 cigs:KBL a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "چمن حضوری"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "چمن حضوری"@fa ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:KBL_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q55887438> ;
@@ -2888,156 +1526,77 @@ cigs:KBL a ont:CuneiformSite ;
 
 cigs:KBN a ont:CuneiformSite ;
     rdfs:label "Kabnak"@ar,
-        "هفت تپه"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "هفت تپه"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:KBN_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q1266141> ;
     wdt:P1584 <https://pleiades.stoa.org/places/379400932> .
 
 cigs:KCT a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:KCT_geom .
 
 cigs:KDH a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "قندهار"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "قندهار"@fa ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:KDH_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q7084310> ;
     wdt:P1584 <https://pleiades.stoa.org/places/59669> .
 
 cigs:KDR a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "الخضر"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "الخضر"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:KDR_geom .
 
 cigs:KEB a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:KEB_geom ;
     wdt:P1584 <https://pleiades.stoa.org/places/842949950> .
 
 cigs:KEC a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:KEC_geom ;
     wdt:P1566 <https://www.geonames.org/6969127> .
 
 cigs:KEL a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "كليشين"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "كليشين"@ar ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:KEL_geom ;
     wdt:P1566 <https://www.geonames.org/93750> .
 
 cigs:KEV a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:KEV_geom ;
     wdt:P1566 <https://www.geonames.org/307979> .
 
 cigs:KFA a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "کول‌فرح"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "کول‌فرح"@fa ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:KFA_geom ;
     wdt:P1566 <https://www.geonames.org/126291> .
 
 cigs:KFI a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "کامفیروز"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "کامفیروز"@fa ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:KFI_geom .
 
 cigs:KFK a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:KFK_geom .
 
 cigs:KHA a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "تل خيبر"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "تل خيبر"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:KHA_geom .
 
 cigs:KHI a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "تپه خیبر"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "تپه خیبر"@fa ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:KHI_geom ;
     wdt:P1566 <https://www.geonames.org/6684057> .
 
 cigs:KHR a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "الخرجة"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "الخرجة"@ar ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:KHR_geom ;
     wdt:P1566 <https://www.geonames.org/353686> ;
@@ -3045,12 +1604,7 @@ cigs:KHR a ont:CuneiformSite ;
 
 cigs:KHT a ont:CuneiformSite ;
     rdfs:label "Kahat"@ar,
-        "تل بري"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "تل بري"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:KHT_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q3822951> ;
@@ -3058,88 +1612,42 @@ cigs:KHT a ont:CuneiformSite ;
     wdt:P1584 <https://pleiades.stoa.org/places/874732> .
 
 cigs:KHW a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "خان حسوا"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "خان حسوا"@ar ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:KHW_geom .
 
 cigs:KKA a ont:CuneiformSite ;
-    rdfs:label "Unknown"@ar,
-        "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "Unknown"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:KKA_geom .
 
 cigs:KKH a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:KKH_geom ;
     wdt:P1584 <https://pleiades.stoa.org/places/874418> .
 
 cigs:KKL a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "Unknown"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "Unknown"@arc ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:KKL_geom ;
     wdt:P1566 <https://www.geonames.org/616584> .
 
 cigs:KKU a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "Unknown"@he,
-        "nan"@ru ;
+    rdfs:label "Unknown"@he ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:KKU_geom .
 
 cigs:KLB a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "نهر الكلب"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "نهر الكلب"@ar ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:KLB_geom ;
     wdt:P1584 <https://pleiades.stoa.org/places/2970016> .
 
 cigs:KLC a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:KLC_geom .
 
 cigs:KLK a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:KLK_geom ;
     wdt:P1566 <https://www.geonames.org/298676> ;
@@ -3147,124 +1655,61 @@ cigs:KLK a ont:CuneiformSite ;
 
 cigs:KML a ont:CuneiformSite ;
     rdfs:label "Kar-Mullissi"@ar,
-        "تل القديسة بربارة"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "تل القديسة بربارة"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:KML_geom ;
     wdt:P1566 <https://www.geonames.org/6860783> .
 
 cigs:KMN a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "كمونة"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "كمونة"@ar ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:KMN_geom .
 
 cigs:KMS a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:KMS_geom ;
     wdt:P1566 <https://www.geonames.org/310597> .
 
 cigs:KNB a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "کانی بی"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "کانی بی"@ar ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:KNB_geom ;
     wdt:P1566 <https://www.geonames.org/94957> .
 
 cigs:KNS a ont:CuneiformSite ;
-    rdfs:label "Kanesh"@ar,
-        "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "Kanesh"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:KNS_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q538605> ;
     wdt:P1584 <https://pleiades.stoa.org/places/628923> .
 
 cigs:KOC a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:KOC_geom ;
     wdt:P1566 <https://www.geonames.org/306944> .
 
 cigs:KOK a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:KOK_geom ;
     wdt:P1566 <https://www.geonames.org/306281> .
 
 cigs:KOR a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:KOR_geom ;
     wdt:P1566 <https://www.geonames.org/298387> .
 
 cigs:KOS a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "کنار صندل"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "کنار صندل"@fa ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:KOS_geom .
 
 cigs:KOT a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:KOT_geom ;
     wdt:P1566 <https://www.geonames.org/306242> .
 
 cigs:KOU a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "Koúριov"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "Koúριov"@el ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:KOU_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q1785592> ;
@@ -3272,89 +1717,44 @@ cigs:KOU a ont:CuneiformSite ;
     wdt:P1584 <https://pleiades.stoa.org/places/707549> .
 
 cigs:KRC a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:KRC_geom .
 
 cigs:KRG a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:KRG_geom ;
     wdt:P1566 <https://www.geonames.org/309839> .
 
 cigs:KRH a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:KRH_geom ;
     wdt:P1566 <https://www.geonames.org/6969130> .
 
 cigs:KRI a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:KRI_geom ;
     wdt:P1566 <https://www.geonames.org/308464> .
 
 cigs:KRK a ont:CuneiformSite ;
     rdfs:label "Karkemish"@ar,
-        "جرابلس"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "جرابلس"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:KRK_geom ;
     wdt:P1584 <https://pleiades.stoa.org/places/658465> .
 
 cigs:KRM a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "کرمانشاه‎"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "کرمانشاه‎"@fa ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:KRM_geom ;
     wdt:P1566 <https://www.geonames.org/128226> .
 
 cigs:KRT a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:KRT_geom .
 
 cigs:KSH a ont:CuneiformSite ;
     rdfs:label "Kiš"@ar,
-        "كيش"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "كيش"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:KSH_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q132272> ;
@@ -3362,46 +1762,23 @@ cigs:KSH a ont:CuneiformSite ;
     wdt:P1584 <https://pleiades.stoa.org/places/894028> .
 
 cigs:KSI a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "كاني شاية"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "كاني شاية"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:KSI_geom .
 
 cigs:KSK a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "Šarišša"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "Šarišša"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:KSK_geom ;
     wdt:P1584 <https://pleiades.stoa.org/places/117143016> .
 
 cigs:KSM a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:KSM_geom ;
     wdt:P1566 <https://www.geonames.org/308906> .
 
 cigs:KSN a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "תל כיסון"@he,
-        "nan"@ru ;
+    rdfs:label "תל כיסון"@he ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:KSN_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q55634890> ;
@@ -3409,35 +1786,20 @@ cigs:KSN a ont:CuneiformSite ;
 
 cigs:KSR a ont:CuneiformSite ;
     rdfs:label "Kisurra"@ar,
-        "إشان أبو حطب"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "إشان أبو حطب"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:KSR_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q910253> ;
     wdt:P1566 <https://www.geonames.org/6731778> .
 
 cigs:KSX a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "کهنک"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "کهنک"@fa ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:KSX_geom .
 
 cigs:KTN a ont:CuneiformSite ;
     rdfs:label "Kar-Tukulti-Ninurta"@ar,
-        "تلول الأقر"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "تلول الأقر"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:KTN_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q165841> ;
@@ -3445,57 +1807,27 @@ cigs:KTN a ont:CuneiformSite ;
     wdt:P1584 <https://pleiades.stoa.org/places/430344980> .
 
 cigs:KUB a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "كوبري"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "كوبري"@ar ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:KUB_geom ;
     wdt:P1566 <https://www.geonames.org/6412799> .
 
 cigs:KUM a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "ايشان أبو كمبارة"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "ايشان أبو كمبارة"@ar ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:KUM_geom .
 
 cigs:KUN a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "كونـارا"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "كونـارا"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:KUN_geom .
 
 cigs:KUS a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:KUS_geom ;
     wdt:P1566 <https://www.geonames.org/7742460> .
 
 cigs:KZK a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:KZK_geom ;
     wdt:P1566 <https://www.geonames.org/307054> ;
@@ -3503,35 +1835,19 @@ cigs:KZK a ont:CuneiformSite ;
 
 cigs:KZL a ont:CuneiformSite ;
     rdfs:label "تل كزل"@ar,
-        "Ṣumur"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "Ṣumur"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:KZL_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q3398568> ;
     wdt:P1566 <https://www.geonames.org/163525> .
 
 cigs:KZN a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:KZN_geom .
 
 cigs:LAG a ont:CuneiformSite ;
     rdfs:label "Lagaš"@ar,
-        "تل الهبا"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "تل الهبا"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:LAG_geom ;
     wdt:P1566 <https://www.geonames.org/7025350> ;
@@ -3539,12 +1855,7 @@ cigs:LAG a ont:CuneiformSite ;
 
 cigs:LAR a ont:CuneiformSite ;
     rdfs:label "Larsa"@ar,
-        "تل السنكرة"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "تل السنكرة"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:LAR_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q244746> ;
@@ -3552,23 +1863,12 @@ cigs:LAR a ont:CuneiformSite ;
     wdt:P1584 <https://pleiades.stoa.org/places/912897> .
 
 cigs:LCJ a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "Լճաշեն"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "Լճաշեն"@arc ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:LCJ_geom .
 
 cigs:LHM a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "تل اللحم"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "تل اللحم"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:LHM_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q911895> ;
@@ -3576,81 +1876,43 @@ cigs:LHM a ont:CuneiformSite ;
     wdt:P1584 <https://pleiades.stoa.org/places/912953> .
 
 cigs:LIH a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:LIH_geom ;
     wdt:P1584 <https://pleiades.stoa.org/places/658520> .
 
 cigs:LIY a ont:CuneiformSite ;
     rdfs:label "Liyan"@ar,
-        "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "بوشهر‎"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "بوشهر‎"@fa ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:LIY_geom ;
     wdt:P1566 <https://www.geonames.org/139817> .
 
 cigs:LMA a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "لما"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "لما"@fa ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:LMA_geom .
 
 cigs:LRK a ont:CuneiformSite ;
     rdfs:label "Larak"@ar,
-        "تل ولاية"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "تل ولاية"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:LRK_geom ;
     wdt:P1566 <https://www.geonames.org/8608191> ;
     wdt:P1584 <https://pleiades.stoa.org/places/762762282> .
 
 cigs:LSB a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "تل السيب"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "تل السيب"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:LSB_geom .
 
 cigs:MAL a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:MAL_geom ;
     wdt:P1566 <https://www.geonames.org/304916> .
 
 cigs:MAR a ont:CuneiformSite ;
     rdfs:label "Mari"@ar,
-        "تل حريري"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "تل حريري"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:MAR_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q244762> ;
@@ -3658,80 +1920,41 @@ cigs:MAR a ont:CuneiformSite ;
     wdt:P1584 <https://pleiades.stoa.org/places/286681704> .
 
 cigs:MAV a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "موانا"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "موانا"@fa ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:MAV_geom ;
     wdt:P1566 <https://www.geonames.org/124571> .
 
 cigs:MCH a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "מִכְמֹרֶת"@he,
-        "nan"@ru ;
+    rdfs:label "מִכְמֹרֶת"@he ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:MCH_geom ;
     wdt:P1584 <https://pleiades.stoa.org/places/678288> .
 
 cigs:MCQ a ont:CuneiformSite ;
-    rdfs:label "Unknown"@ar,
-        "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "Unknown"@ar ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:MCQ_geom .
 
 cigs:MCY a ont:CuneiformSite ;
-    rdfs:label "Unknown"@ar,
-        "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "Unknown"@ar ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:MCY_geom .
 
 cigs:MCZ a ont:CuneiformSite ;
-    rdfs:label "Unknown"@ar,
-        "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "Unknown"@ar ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:MCZ_geom .
 
 cigs:MDB a ont:CuneiformSite ;
     rdfs:label "Azamhul"@ar,
-        "تل محمد دياب"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "تل محمد دياب"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:MDB_geom ;
     wdt:P1566 <https://www.geonames.org/163493> ;
     wdt:P1584 <https://pleiades.stoa.org/places/957515415> .
 
 cigs:MET a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:MET_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q11120743> ;
@@ -3739,12 +1962,7 @@ cigs:MET a ont:CuneiformSite ;
     wdt:P1584 <https://pleiades.stoa.org/places/517771600> .
 
 cigs:MGD a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "מגידו"@he,
-        "nan"@ru ;
+    rdfs:label "מגידו"@he ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:MGD_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q208379> ;
@@ -3752,228 +1970,116 @@ cigs:MGD a ont:CuneiformSite ;
     wdt:P1584 <https://pleiades.stoa.org/places/26356565> .
 
 cigs:MHD a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "محمودآباد"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "محمودآباد"@fa ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:MHD_geom .
 
 cigs:MHN a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "ماهان"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "ماهان"@fa ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:MHN_geom ;
     wdt:P1566 <https://www.geonames.org/125427> .
 
 cigs:MHO a ont:CuneiformSite ;
-    rdfs:label "Tapigga"@ar,
-        "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "Tapigga"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:MHO_geom ;
     wdt:P1584 <https://pleiades.stoa.org/places/133411593> .
 
 cigs:MHR a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:MHR_geom .
 
 cigs:MIT a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "تل ميثلي"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "تل ميثلي"@ar ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:MIT_geom .
 
 cigs:MKA a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "Unknown"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "Unknown"@fa ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:MKA_geom .
 
 cigs:MLD a ont:CuneiformSite ;
-    rdfs:label "Melid"@ar,
-        "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "Melid"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:MLD_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q705132> ;
     wdt:P1584 <https://pleiades.stoa.org/places/25078867> .
 
 cigs:MLH a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "تل أمليحية"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "تل أمليحية"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:MLH_geom .
 
 cigs:MLK a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "المخطط"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "المخطط"@ar ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:MLK_geom .
 
 cigs:MMG a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:MMG_geom ;
     wdt:P1584 <https://pleiades.stoa.org/places/649834357> .
 
 cigs:MOA a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "تل محمد عرب"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "تل محمد عرب"@ar ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:MOA_geom ;
     wdt:P1584 <https://pleiades.stoa.org/places/874749> .
 
 cigs:MQS a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "المقشة"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "المقشة"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:MQS_geom .
 
 cigs:MRD a ont:CuneiformSite ;
     rdfs:label "Marad"@ar,
-        "تل صدوم"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "تل صدوم"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:MRD_geom ;
     wdt:P1566 <https://www.geonames.org/6788812> ;
     wdt:P1584 <https://pleiades.stoa.org/places/912901> .
 
 cigs:MRJ a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "المرجب"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "المرجب"@ar ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:MRJ_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q1183843> ;
     wdt:P1584 <https://pleiades.stoa.org/places/310449388> .
 
 cigs:MRL a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "مارلیک"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "مارلیک"@fa ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:MRL_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q764959> ;
     wdt:P1584 <https://pleiades.stoa.org/places/745058470> .
 
 cigs:MRM a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "Մարմաշեն"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "Մարմաշեն"@arc ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:MRM_geom .
 
 cigs:MRN a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:MRN_geom ;
     wdt:P1566 <https://www.geonames.org/304797> .
 
 cigs:MRW a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "تل مرواني"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "تل مرواني"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:MRW_geom .
 
 cigs:MSH a ont:CuneiformSite ;
     rdfs:label "Kar-Assurnazirpal"@ar,
-        "جبل مسئخ"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "جبل مسئخ"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:MSH_geom ;
     wdt:P1566 <https://www.geonames.org/385914> .
 
 cigs:MSK a ont:CuneiformSite ;
     rdfs:label "Maškan-šapir"@ar,
-        "تل أبو دواري"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "تل أبو دواري"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:MSK_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q2574582> ;
@@ -3981,77 +2087,37 @@ cigs:MSK a ont:CuneiformSite ;
 
 cigs:MUG a ont:CuneiformSite ;
     rdfs:label "Mukdan"@ar,
-        "أم الجير"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "أم الجير"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:MUG_geom .
 
 cigs:MUH a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:MUH_geom ;
     wdt:P1566 <https://www.geonames.org/313920> .
 
 cigs:MUR a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:MUR_geom ;
     wdt:P1566 <https://www.geonames.org/9815319> .
 
 cigs:MUS a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:MUS_geom ;
     wdt:P1566 <https://www.geonames.org/304081> .
 
 cigs:MZA a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "إشان مزياد"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "إشان مزياد"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:MZA_geom .
 
 cigs:MZT a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:MZT_geom .
 
 cigs:NAB a ont:CuneiformSite ;
     rdfs:label "Nabada"@ar,
-        "تل بيدر"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "تل بيدر"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:NAB_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q1658146> ;
@@ -4059,82 +2125,44 @@ cigs:NAB a ont:CuneiformSite ;
     wdt:P1584 <https://pleiades.stoa.org/places/423885388> .
 
 cigs:NAL a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "Նալբանդյան"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "Նալբանդյան"@arc ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:NAL_geom ;
     wdt:P1566 <https://www.geonames.org/616385> .
 
 cigs:NAS a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "Unknown"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "Unknown"@fa ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:NAS_geom .
 
 cigs:NAZ a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:NAZ_geom ;
     wdt:P1584 <https://pleiades.stoa.org/places/713816456> .
 
 cigs:NER a ont:CuneiformSite ;
     rdfs:label "Nereb"@ar,
-        "نيرب"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "نيرب"@ar ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:NER_geom ;
     wdt:P1584 <https://pleiades.stoa.org/places/633912597> .
 
 cigs:NGB a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "نگوب"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "نگوب"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:NGB_geom ;
     wdt:P1584 <https://pleiades.stoa.org/places/413309737> .
 
 cigs:NGN a ont:CuneiformSite ;
     rdfs:label "Nigin"@ar,
-        "ايشان زرغل"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "ايشان زرغل"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:NGN_geom ;
     wdt:P1566 <https://www.geonames.org/7024991> ;
     wdt:P1584 <https://pleiades.stoa.org/places/912909> .
 
 cigs:NHV a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "نهاوند"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "نهاوند"@ar ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:NHV_geom ;
     wdt:P1566 <https://www.geonames.org/122915> ;
@@ -4142,12 +2170,7 @@ cigs:NHV a ont:CuneiformSite ;
 
 cigs:NIM a ont:CuneiformSite ;
     rdfs:label "Kalhu"@ar,
-        "نمرود"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "نمرود"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:NIM_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q237614> ;
@@ -4156,12 +2179,7 @@ cigs:NIM a ont:CuneiformSite ;
 
 cigs:NIP a ont:CuneiformSite ;
     rdfs:label "Nippur"@ar,
-        "نفر"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "نفر"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:NIP_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q188395> ;
@@ -4169,45 +2187,23 @@ cigs:NIP a ont:CuneiformSite ;
     wdt:P1584 <https://pleiades.stoa.org/places/912910> .
 
 cigs:NJF a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "نجف‌آباد"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "نجف‌آباد"@fa ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:NJF_geom ;
     wdt:P1566 <https://www.geonames.org/122847> .
 
 cigs:NKH a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "0"^^xsd:string ;
     geo:hasGeometry cigs:NKH_geom .
 
 cigs:NKM a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:NKM_geom ;
     wdt:P1566 <https://www.geonames.org/6268312> .
 
 cigs:NNV a ont:CuneiformSite ;
     rdfs:label "Nineveh"@ar,
-        "نينوى"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "نينوى"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:NNV_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q5680> ;
@@ -4215,72 +2211,40 @@ cigs:NNV a ont:CuneiformSite ;
     wdt:P1584 <https://pleiades.stoa.org/places/874621> .
 
 cigs:NOR a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "Նորագավիթ"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "Նորագավիթ"@arc ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:NOR_geom ;
     wdt:P1566 <https://www.geonames.org/616360> .
 
 cigs:NQS a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "نقش رستم"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "نقش رستم"@fa ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:NQS_geom ;
     wdt:P1566 <https://www.geonames.org/122681> .
 
 cigs:NRB a ont:CuneiformSite ;
     rdfs:label "Nerebtum"@ar,
-        "أشخالي"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "أشخالي"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:NRB_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q3338309> ;
     wdt:P1566 <https://www.geonames.org/91213> .
 
 cigs:NRK a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "نمريك"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "نمريك"@ar ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:NRK_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q13708140> .
 
 cigs:NSB a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "تل النصبة"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "תל אנצבה"@he,
-        "nan"@ru ;
+    rdfs:label "تل النصبة"@ar,
+        "תל אנצבה"@he ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:NSB_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q7697543> .
 
 cigs:NSR a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "جمدة نصر‎"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "جمدة نصر‎"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:NSR_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q342799> ;
@@ -4289,12 +2253,7 @@ cigs:NSR a ont:CuneiformSite ;
 
 cigs:NUZ a ont:CuneiformSite ;
     rdfs:label "Gasur"@ar,
-        "يورغان تبة"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "يورغان تبة"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:NUZ_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q584605> ;
@@ -4302,89 +2261,42 @@ cigs:NUZ a ont:CuneiformSite ;
     wdt:P1584 <https://pleiades.stoa.org/places/894054> .
 
 cigs:OJA a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:OJA_geom .
 
 cigs:ORD a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:ORD_geom ;
     wdt:P1566 <https://www.geonames.org/6970683> .
 
 cigs:ORT a ont:CuneiformSite ;
-    rdfs:label "Sapinuwa"@ar,
-        "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "Sapinuwa"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:ORT_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q3620> ;
     wdt:P1584 <https://pleiades.stoa.org/places/964671598> .
 
 cigs:OTK a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:OTK_geom .
 
 cigs:OYH a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:OYH_geom ;
     wdt:P1584 <https://pleiades.stoa.org/places/275382665> .
 
 cigs:OZB a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:OZB_geom .
 
 cigs:PAS a ont:CuneiformSite ;
     rdfs:label "Pašime"@ar,
-        "تل أبو شيجة"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "تل أبو شيجة"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:PAS_geom ;
     wdt:P1584 <https://pleiades.stoa.org/places/108542249> .
 
 cigs:PAT a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:PAT_geom ;
     wdt:P1566 <https://www.geonames.org/302819> ;
@@ -4392,24 +2304,13 @@ cigs:PAT a ont:CuneiformSite ;
 
 cigs:PDK a ont:CuneiformSite ;
     rdfs:label "Padakku"@ar,
-        "الحايط"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "الحايط"@ar ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:PDK_geom ;
     wdt:P1584 <https://pleiades.stoa.org/places/982176368> .
 
 cigs:PEL a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "طبقة فحل"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "طبقة فحل"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:PEL_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q167993> ;
@@ -4417,56 +2318,27 @@ cigs:PEL a ont:CuneiformSite ;
     wdt:P1584 <https://pleiades.stoa.org/places/678326> .
 
 cigs:PHG a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "Фанагория"@ru ;
+    rdfs:label "Фанагория"@ru ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:PHG_geom ;
     wdt:P1584 <https://pleiades.stoa.org/places/854724> .
 
 cigs:PHU a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:PHU_geom .
 
 cigs:PIR a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:PIR_geom ;
     wdt:P1566 <https://www.geonames.org/302613> .
 
 cigs:PLU a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:PLU_geom ;
     wdt:P1584 <https://pleiades.stoa.org/places/874383> .
 
 cigs:PRA a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "بارة"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "بارة"@ar ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:PRA_geom ;
     wdt:P1566 <https://www.geonames.org/97982> ;
@@ -4475,11 +2347,7 @@ cigs:PRA a ont:CuneiformSite ;
 cigs:PRS a ont:CuneiformSite ;
     rdfs:label "."@ar,
         "Pārśa"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "تخت جمشید"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "تخت جمشید"@fa ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:PRS_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q129072> ;
@@ -4487,12 +2355,7 @@ cigs:PRS a ont:CuneiformSite ;
     wdt:P1584 <https://pleiades.stoa.org/places/922695> .
 
 cigs:PSG a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "پاسارگاد"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "پاسارگاد"@fa ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:PSG_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q230025> ;
@@ -4500,56 +2363,29 @@ cigs:PSG a ont:CuneiformSite ;
     wdt:P1584 <https://pleiades.stoa.org/places/922693> .
 
 cigs:QAB a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "تل قبر ابو العتيق"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "تل قبر ابو العتيق"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:QAB_geom .
 
 cigs:QAI a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "قلعه ایمام"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "قلعه ایمام"@fa ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:QAI_geom .
 
 cigs:QAL a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:QAL_geom ;
     wdt:P1584 <https://pleiades.stoa.org/places/874652> .
 
 cigs:QAN a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "قصر ابونصر"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "قصر ابونصر"@fa ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:QAN_geom ;
     wdt:P1566 <https://www.geonames.org/119600> .
 
 cigs:QAT a ont:CuneiformSite ;
     rdfs:label "Qatara"@ar,
-        "تل الرمة"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "تل الرمة"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:QAT_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q195286> ;
@@ -4557,147 +2393,80 @@ cigs:QAT a ont:CuneiformSite ;
     wdt:P1584 <https://pleiades.stoa.org/places/356369838> .
 
 cigs:QBR a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "تل أبو قبر"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "تل أبو قبر"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:QBR_geom ;
     wdt:P1584 <https://pleiades.stoa.org/places/894110> .
 
 cigs:QCH a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "قرة جتان"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "قرة جتان"@ar ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:QCH_geom ;
     wdt:P1566 <https://www.geonames.org/92440> .
 
 cigs:QDS a ont:CuneiformSite ;
     rdfs:label "Qadeš"@ar,
-        "تل النبي مندو"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "تل النبي مندو"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:QDS_geom ;
     wdt:P1566 <https://www.geonames.org/168753> ;
     wdt:P1584 <https://pleiades.stoa.org/places/668291> .
 
 cigs:QHD a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "تل الهادي"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "تل الهادي"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:QHD_geom ;
     wdt:P1566 <https://www.geonames.org/163577> .
 
 cigs:QIT a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "تل القطار"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "تل القطار"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:QIT_geom ;
     wdt:P1566 <https://www.geonames.org/9082> .
 
 cigs:QLD a ont:CuneiformSite ;
-    rdfs:label "Unknown"@ar,
-        "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "Unknown"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:QLD_geom ;
     wdt:P1584 <https://pleiades.stoa.org/places/512491137> .
 
 cigs:QNT a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "قنتير"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "قنتير"@ar ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:QNT_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q937930> ;
     wdt:P1566 <https://www.geonames.org/350767> .
 
 cigs:QQN a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "قاقون"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "קאקון"@he,
-        "nan"@ru ;
+    rdfs:label "قاقون"@ar,
+        "קאקון"@he ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:QQN_geom ;
     wdt:P1566 <https://www.geonames.org/10194030> .
 
 cigs:QSH a ont:CuneiformSite ;
     rdfs:label "Kilizu"@ar,
-        "قصر شماموك"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "قصر شماموك"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:QSH_geom ;
     wdt:P1584 <https://pleiades.stoa.org/places/894027> .
 
 cigs:QTN a ont:CuneiformSite ;
     rdfs:label "Qaṭnā"@ar,
-        "تل المشرفة"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "تل المشرفة"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:QTN_geom ;
     wdt:P1584 <https://pleiades.stoa.org/places/412342122> .
 
 cigs:QUA a ont:CuneiformSite ;
     rdfs:label "Apqu-ša-Adad"@ar,
-        "ال أبو ماريا"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "ال أبو ماريا"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:QUA_geom ;
     wdt:P1584 <https://pleiades.stoa.org/places/874723> .
 
 cigs:QUF a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "قفـط"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "قفـط"@ar ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:QUF_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q935454> ;
@@ -4705,162 +2474,83 @@ cigs:QUF a ont:CuneiformSite ;
     wdt:P1584 <https://pleiades.stoa.org/places/786010> .
 
 cigs:RAJ a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "الرجيبة"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "الرجيبة"@ar ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:RAJ_geom .
 
 cigs:RAZ a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "رازلیق"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "رازلیق"@fa ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:RAZ_geom ;
     wdt:P1566 <https://www.geonames.org/118634> .
 
 cigs:RBT a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "تل عربيد"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "تل عربيد"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:RBT_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q4120177> ;
     wdt:P1566 <https://www.geonames.org/173053> .
 
 cigs:RKI a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "خارک"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "خارک"@ar ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:RKI_geom .
 
 cigs:RQI a ont:CuneiformSite ;
-    rdfs:label "Unknown"@ar,
-        "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "Unknown"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:RQI_geom .
 
 cigs:RSL a ont:CuneiformSite ;
     rdfs:label "Ursalimmu"@ar,
         "القدس"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "ירושלים"@he,
-        "nan"@ru ;
+        "ירושלים"@he ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:RSL_geom ;
     wdt:P1566 <https://www.geonames.org/281184> ;
     wdt:P1584 <https://pleiades.stoa.org/places/687928> .
 
 cigs:RTA a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "رسم ال طنجرة"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "رسم ال طنجرة"@ar ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:RTA_geom .
 
 cigs:RTE a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "ربت تپه"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "ربت تپه"@ar ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:RTE_geom .
 
 cigs:RUS a ont:CuneiformSite ;
-    rdfs:label "Rusahinili"@ar,
-        "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "Rusahinili"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:RUS_geom ;
     wdt:P1584 <https://pleiades.stoa.org/places/874771> .
 
 cigs:RUT a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "Unknown"@ru ;
+    rdfs:label "Unknown"@ru ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:RUT_geom ;
     wdt:P1566 <https://www.geonames.org/799326> .
 
 cigs:SAI a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "السيال"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "السيال"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:SAI_geom ;
     wdt:P1566 <https://www.geonames.org/172451> .
 
 cigs:SAL a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:SAL_geom ;
     wdt:P1566 <https://www.geonames.org/6969119> .
 
 cigs:SAM a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "شميت"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "شميت"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:SAM_geom .
 
 cigs:SAP a ont:CuneiformSite ;
     rdfs:label "Sippar"@ar,
-        "تل أبو حبة"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "تل أبو حبة"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:SAP_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q619707> ;
@@ -4869,59 +2559,31 @@ cigs:SAP a ont:CuneiformSite ;
 
 cigs:SAR a ont:CuneiformSite ;
     rdfs:label "Dur-Šarrukin"@ar,
-        "خورسباط"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "خورسباط"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:SAR_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q253208> ;
     wdt:P1584 <https://pleiades.stoa.org/places/874458> .
 
 cigs:SAV a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:SAV_geom ;
     wdt:P1566 <https://www.geonames.org/301457> .
 
 cigs:SBA a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "سباع"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "سباع"@ar ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:SBA_geom ;
     wdt:P1584 <https://pleiades.stoa.org/places/528477900> .
 
 cigs:SBY a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "تل صبي أبيض"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "تل صبي أبيض"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:SBY_geom .
 
 cigs:SCH a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "تل بلاطة‎"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "שְׁכָם"@he,
-        "nan"@ru ;
+    rdfs:label "تل بلاطة‎"@ar,
+        "שְׁכָם"@he ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:SCH_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q7697383> ;
@@ -4929,23 +2591,13 @@ cigs:SCH a ont:CuneiformSite ;
     wdt:P1584 <https://pleiades.stoa.org/places/678403> .
 
 cigs:SDM a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "سرخ دم لـري"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "سرخ دم لـري"@fa ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:SDM_geom .
 
 cigs:SDP a ont:CuneiformSite ;
     rdfs:label "Šaduppûm"@ar,
-        "تل حرمل"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "تل حرمل"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:SDP_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q3481186> ;
@@ -4953,12 +2605,7 @@ cigs:SDP a ont:CuneiformSite ;
     wdt:P1584 <https://pleiades.stoa.org/places/821129014> .
 
 cigs:SEA a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "בֵּית שְׁאָן‎"@he,
-        "nan"@ru ;
+    rdfs:label "בֵּית שְׁאָן‎"@he ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:SEA_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q152368> ;
@@ -4966,23 +2613,11 @@ cigs:SEA a ont:CuneiformSite ;
     wdt:P1584 <https://pleiades.stoa.org/places/678378> .
 
 cigs:SEC a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "0"^^xsd:string ;
     geo:hasGeometry cigs:SEC_geom .
 
 cigs:SEL a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "سلوقية"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "سلوقية"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:SEL_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q1136681> ;
@@ -4991,57 +2626,30 @@ cigs:SEL a ont:CuneiformSite ;
 
 cigs:SEQ a ont:CuneiformSite ;
     rdfs:label "URULibliuni"@ar,
-        "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "سقندل"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "سقندل"@fa ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:SEQ_geom ;
     wdt:P1584 <https://pleiades.stoa.org/places/884203> .
 
 cigs:SER a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "سرابيوم"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "سرابيوم"@ar ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:SER_geom ;
     wdt:P1584 <https://pleiades.stoa.org/places/727228> .
 
 cigs:SFR a ont:CuneiformSite ;
     rdfs:label "Kutalla"@ar,
-        "تل سفر"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "تل سفر"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:SFR_geom .
 
 cigs:SHA a ont:CuneiformSite ;
-    rdfs:label "Unknown"@ar,
-        "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "Unknown"@ar ;
     ont:accuracy "0"^^xsd:string ;
     geo:hasGeometry cigs:SHA_geom .
 
 cigs:SHD a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "شهداد"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "شهداد"@fa ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:SHD_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q498118> ;
@@ -5049,58 +2657,30 @@ cigs:SHD a ont:CuneiformSite ;
 
 cigs:SHI a ont:CuneiformSite ;
     rdfs:label "Šibaniba"@ar,
-        "ال بلة"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "ال بلة"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:SHI_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q3482023> ;
     wdt:P1584 <https://pleiades.stoa.org/places/237391811> .
 
 cigs:SHP a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "Unknown"@he,
-        "nan"@ru ;
+    rdfs:label "Unknown"@he ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:SHP_geom .
 
 cigs:SHY a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "كاري بهين"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "كاري بهين"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:SHY_geom ;
     wdt:P1566 <https://www.geonames.org/96479> .
 
 cigs:SHZ a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:SHZ_geom ;
     wdt:P1566 <https://www.geonames.org/7010423> .
 
 cigs:SID a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "صيدا"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "صيدا"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:SID_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q163490> ;
@@ -5108,35 +2688,18 @@ cigs:SID a ont:CuneiformSite ;
     wdt:P1584 <https://pleiades.stoa.org/places/678393> .
 
 cigs:SIH a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:SIH_geom ;
     wdt:P1566 <https://www.geonames.org/320823> .
 
 cigs:SIN a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "شيشين"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "شيشين"@ar ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:SIN_geom .
 
 cigs:SIP a ont:CuneiformSite ;
     rdfs:label "Sippar-Amnanum"@ar,
-        "تل الدير"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "تل الدير"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:SIP_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q7525818> ;
@@ -5144,120 +2707,63 @@ cigs:SIP a ont:CuneiformSite ;
     wdt:P1584 <https://pleiades.stoa.org/places/392373882> .
 
 cigs:SIS a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "شير الصنام"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "شير الصنام"@ar ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:SIS_geom ;
     wdt:P1584 <https://pleiades.stoa.org/places/58291143> .
 
 cigs:SIT a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "تل سيتك"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "تل سيتك"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:SIT_geom .
 
 cigs:SIY a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "سیه‌چشمه"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "سیه‌چشمه"@fa ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:SIY_geom ;
     wdt:P1566 <https://www.geonames.org/116326> .
 
 cigs:SJQ a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "کۆیسینجاق"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "کۆیسینجاق"@ar ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:SJQ_geom ;
     wdt:P1566 <https://www.geonames.org/94220> .
 
 cigs:SJR a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:SJR_geom ;
     wdt:P1584 <https://pleiades.stoa.org/places/413309738> .
 
 cigs:SKH a ont:CuneiformSite ;
     rdfs:label "Tarbisu"@ar,
-        "تل شريف خان"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "تل شريف خان"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:SKH_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q3818869> ;
     wdt:P1584 <https://pleiades.stoa.org/places/30774368> .
 
 cigs:SLA a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "السلع"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "السلع"@ar ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:SLA_geom ;
     wdt:P1566 <https://www.geonames.org/246782> ;
     wdt:P1584 <https://pleiades.stoa.org/places/86623849> .
 
 cigs:SLB a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "تل أبو صلابيخ"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "تل أبو صلابيخ"@ar ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:SLB_geom ;
     wdt:P1566 <https://www.geonames.org/6763772> .
 
 cigs:SLG a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:SLG_geom ;
     wdt:P1566 <https://www.geonames.org/2565360> ;
     wdt:P1584 <https://pleiades.stoa.org/places/601235773> .
 
 cigs:SMA a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "السامرة"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "שומרון"@he,
-        "nan"@ru ;
+    rdfs:label "السامرة"@ar,
+        "שומרון"@he ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:SMA_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q1757438> ;
@@ -5265,48 +2771,25 @@ cigs:SMA a ont:CuneiformSite ;
     wdt:P1584 <https://pleiades.stoa.org/places/678370> .
 
 cigs:SMH a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "اشان السمع"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "اشان السمع"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:SMH_geom ;
     wdt:P1566 <https://www.geonames.org/6739227> .
 
 cigs:SMR a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "سامراء"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "سامراء"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:SMR_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q170047> ;
     wdt:P1584 <https://pleiades.stoa.org/places/894082> .
 
 cigs:SNJ a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "بتواتا"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "بتواتا"@ar ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:SNJ_geom .
 
 cigs:SOK a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "شهر سوخته"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "شهر سوخته"@fa ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:SOK_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q1025825> ;
@@ -5314,34 +2797,18 @@ cigs:SOK a ont:CuneiformSite ;
     wdt:P1584 <https://pleiades.stoa.org/places/377547413> .
 
 cigs:SOU a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "تل سوكاس"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "تل سوكاس"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:SOU_geom ;
     wdt:P1584 <https://pleiades.stoa.org/places/668383> .
 
 cigs:SPA a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "Սպանդարյան"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "Սպանդարյան"@arc ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:SPA_geom .
 
 cigs:SPH a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "צִפּוֹרִי"@he,
-        "nan"@ru ;
+    rdfs:label "צִפּוֹרִי"@he ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:SPH_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q1132798> ;
@@ -5349,113 +2816,58 @@ cigs:SPH a ont:CuneiformSite ;
     wdt:P1584 <https://pleiades.stoa.org/places/678387> .
 
 cigs:SPI a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "تل‌اسپید"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "تل‌اسپید"@fa ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:SPI_geom ;
     wdt:P1566 <https://www.geonames.org/112703> .
 
 cigs:SQL a ont:CuneiformSite ;
     rdfs:label "Isqalluna"@ar,
-        "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "אַשְׁקְלוֹן"@he,
-        "nan"@ru ;
+        "אַשְׁקְלוֹן"@he ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:SQL_geom ;
     wdt:P1566 <https://www.geonames.org/293400> ;
     wdt:P1584 <https://pleiades.stoa.org/places/687839> .
 
 cigs:SRD a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "Սարդարապատ"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "Սարդարապատ"@arc ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:SRD_geom ;
     wdt:P1566 <https://www.geonames.org/616328> .
 
 cigs:SRK a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:SRK_geom .
 
 cigs:SRM a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:SRM_geom ;
     wdt:P1566 <https://www.geonames.org/301531> .
 
 cigs:SRP a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "ساربتا"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "ساربتا"@ar ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:SRP_geom .
 
 cigs:SSH a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "شيشه"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "شيشه"@fa ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:SSH_geom ;
     wdt:P1566 <https://www.geonames.org/35594> .
 
 cigs:SUH a ont:CuneiformSite ;
-    rdfs:label "Unknown"@ar,
-        "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "Unknown"@ar ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:SUH_geom .
 
 cigs:SUN a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:SUN_geom ;
     wdt:P1566 <https://www.geonames.org/739232> .
 
 cigs:SUR a ont:CuneiformSite ;
     rdfs:label "Šuruppak"@ar,
-        "تل فارا"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "تل فارا"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:SUR_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q392725> ;
@@ -5464,12 +2876,7 @@ cigs:SUR a ont:CuneiformSite ;
 
 cigs:SUS a ont:CuneiformSite ;
     rdfs:label "Susa"@ar,
-        "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "شوش"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "شوش"@fa ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:SUS_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q180773> ;
@@ -5477,48 +2884,25 @@ cigs:SUS a ont:CuneiformSite ;
     wdt:P1584 <https://pleiades.stoa.org/places/912936> .
 
 cigs:SWE a ont:CuneiformSite ;
-    rdfs:label "Unknown"@ar,
-        "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "Unknown"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:SWE_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q1986456> .
 
 cigs:SWS a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "سعد وسعيد"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "سعد وسعيد"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:SWS_geom ;
     wdt:P1566 <https://www.geonames.org/285461> .
 
 cigs:SYA a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "تل سيانو"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "تل سيانو"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:SYA_geom .
 
 cigs:SZE a ont:CuneiformSite ;
     rdfs:label "Šubat-Enlil"@ar,
-        "تل ليلان"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "تل ليلان"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:SZE_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q588192> ;
@@ -5527,69 +2911,35 @@ cigs:SZE a ont:CuneiformSite ;
 
 cigs:SZU a ont:CuneiformSite ;
     rdfs:label "Šušarra"@ar,
-        "تل شمشارة"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "تل شمشارة"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:SZU_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q2273816> .
 
 cigs:TAB a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "تل طابان"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "تل طابان"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:TAB_geom ;
     wdt:P1566 <https://www.geonames.org/163833> ;
     wdt:P1584 <https://pleiades.stoa.org/places/874754> .
 
 cigs:TAF a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "تل افغاني‎"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "تل افغاني‎"@fa ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:TAF_geom ;
     wdt:P1566 <https://www.geonames.org/38369> .
 
 cigs:TAG a ont:CuneiformSite ;
-    rdfs:label "Unknown"@ar,
-        "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "Unknown"@ar ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:TAG_geom .
 
 cigs:TAH a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:TAH_geom .
 
 cigs:TAN a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "صان الحجر"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "صان الحجر"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:TAN_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q210598> ;
@@ -5597,56 +2947,27 @@ cigs:TAN a ont:CuneiformSite ;
     wdt:P1584 <https://pleiades.stoa.org/places/27236> .
 
 cigs:TAR a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:TAR_geom ;
     wdt:P1566 <https://www.geonames.org/6969129> .
 
 cigs:TAS a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:TAS_geom ;
     wdt:P1566 <https://www.geonames.org/299793> .
 
 cigs:TAT a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "طاس تپه"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "طاس تپه"@fa ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:TAT_geom .
 
 cigs:TAW a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "طويلان"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "طويلان"@ar ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:TAW_geom .
 
 cigs:TAY a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "تل طعينات"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "تل طعينات"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:TAY_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q907974> ;
@@ -5654,49 +2975,26 @@ cigs:TAY a ont:CuneiformSite ;
     wdt:P1584 <https://pleiades.stoa.org/places/913163220> .
 
 cigs:TBA a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "تلول البقرات"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "تلول البقرات"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:TBA_geom ;
     wdt:P1566 <https://www.geonames.org/6759615> .
 
 cigs:TBM a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "תל בית מירשם"@he,
-        "nan"@ru ;
+    rdfs:label "תל בית מירשם"@he ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:TBM_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q2402197> ;
     wdt:P1566 <https://www.geonames.org/293388> .
 
 cigs:TBO a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "تپه برمی"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "تپه برمی"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:TBO_geom ;
     wdt:P1566 <https://www.geonames.org/389087> .
 
 cigs:TBP a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "تل أحمر"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "تل أحمر"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:TBP_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q176458> ;
@@ -5704,35 +3002,18 @@ cigs:TBP a ont:CuneiformSite ;
     wdt:P1584 <https://pleiades.stoa.org/places/658410> .
 
 cigs:TBR a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "طابور"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "תבור"@he,
-        "nan"@ru ;
+    rdfs:label "طابور"@ar,
+        "תבור"@he ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:TBR_geom .
 
 cigs:TBS a ont:CuneiformSite ;
-    rdfs:label "Unknown"@ar,
-        "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "Unknown"@ar ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:TBS_geom .
 
 cigs:TBT a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "تل عبطة"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "تل عبطة"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:TBT_geom ;
     wdt:P1566 <https://www.geonames.org/442151> ;
@@ -5740,57 +3021,31 @@ cigs:TBT a ont:CuneiformSite ;
 
 cigs:TDB a ont:CuneiformSite ;
     rdfs:label "Unknown"@ar,
-        "Zaralulu"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "Zaralulu"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:TDB_geom ;
     wdt:P1584 <https://pleiades.stoa.org/places/678313544> .
 
 cigs:TDU a ont:CuneiformSite ;
     rdfs:label "Taidu"@ar,
-        "تل حميدي"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "تل حميدي"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:TDU_geom ;
     wdt:P1566 <https://www.geonames.org/169996> ;
     wdt:P1584 <https://pleiades.stoa.org/places/874740> .
 
 cigs:TDW a ont:CuneiformSite ;
-    rdfs:label "Unknown"@ar,
-        "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "Unknown"@ar ;
     ont:accuracy "0"^^xsd:string ;
     geo:hasGeometry cigs:TDW_geom .
 
 cigs:TEG a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "تول گیلان"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "تول گیلان"@fa ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:TEG_geom .
 
 cigs:TEH a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "תל חדיד"@he,
-        "nan"@ru ;
+    rdfs:label "תל חדיד"@he ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:TEH_geom ;
     wdt:P1566 <https://www.geonames.org/10309119> ;
@@ -5798,12 +3053,7 @@ cigs:TEH a ont:CuneiformSite ;
 
 cigs:TEI a ont:CuneiformSite ;
     rdfs:label "Teisheba"@ar,
-        "nan"@ar,
-        "Կարմիր բլուր"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "Կարմիր բլուր"@arc ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:TEI_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q1195993> ;
@@ -5811,304 +3061,154 @@ cigs:TEI a ont:CuneiformSite ;
     wdt:P1584 <https://pleiades.stoa.org/places/863822> .
 
 cigs:TEM a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "تل المسخوطة"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "تل المسخوطة"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:TEM_geom ;
     wdt:P1584 <https://pleiades.stoa.org/places/727124> .
 
 cigs:TFA a ont:CuneiformSite ;
     rdfs:label "Unknown"@ar,
-        "Ḫabuba"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "Ḫabuba"@ar ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:TFA_geom .
 
 cigs:TFQ a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "تل فقوس"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "تل فقوس"@ar ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:TFQ_geom .
 
 cigs:TGA a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "تپه گاران"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "تپه گاران"@fa ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:TGA_geom .
 
 cigs:THA a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "תענכ"@he,
-        "nan"@ru ;
+    rdfs:label "תענכ"@he ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:THA_geom ;
     wdt:P1566 <https://www.geonames.org/281604> ;
     wdt:P1584 <https://pleiades.stoa.org/places/678418> .
 
 cigs:THE a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:THE_geom ;
     wdt:P1566 <https://www.geonames.org/252910> ;
     wdt:P1584 <https://pleiades.stoa.org/places/541138> .
 
 cigs:THM a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "تل الحمام"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "تل الحمام"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:THM_geom ;
     wdt:P1566 <https://www.geonames.org/6755900> ;
     wdt:P1584 <https://pleiades.stoa.org/places/912956> .
 
 cigs:THO a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:THO_geom ;
     wdt:P1566 <https://www.geonames.org/7619119> ;
     wdt:P1584 <https://pleiades.stoa.org/places/201144661> .
 
 cigs:THR a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "طوز خورماتو"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "طوز خورماتو"@ar ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:THR_geom ;
     wdt:P1566 <https://www.geonames.org/90026> .
 
 cigs:THW a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "تل الهوى"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "تل الهوى"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:THW_geom ;
     wdt:P1566 <https://www.geonames.org/7103777> ;
     wdt:P1584 <https://pleiades.stoa.org/places/874728> .
 
 cigs:THY a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:THY_geom .
 
 cigs:TIJ a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "تل عتيج"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "تل عتيج"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:TIJ_geom .
 
 cigs:TIK a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "تكريت"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "تكريت"@ar ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:TIK_geom ;
     wdt:P1584 <https://pleiades.stoa.org/places/894099> .
 
 cigs:TIR a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:TIR_geom ;
     wdt:P1566 <https://www.geonames.org/408652> ;
     wdt:P1584 <https://pleiades.stoa.org/places/570740> .
 
 cigs:TJZ a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "ترجان"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "ترجان"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:TJZ_geom ;
     wdt:P1566 <https://www.geonames.org/90184> .
 
 cigs:TKH a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "تلول خطاب"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "تلول خطاب"@ar ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:TKH_geom ;
     wdt:P1566 <https://www.geonames.org/6806341> ;
     wdt:P1584 <https://pleiades.stoa.org/places/894167> .
 
 cigs:TKP a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:TKP_geom .
 
 cigs:TLB a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:TLB_geom .
 
 cigs:TLH a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "تل اللحم"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "تل اللحم"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:TLH_geom ;
     wdt:P1566 <https://www.geonames.org/6739313> ;
     wdt:P1584 <https://pleiades.stoa.org/places/912959> .
 
 cigs:TLL a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "تلول اللك"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "تلول اللك"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:TLL_geom ;
     wdt:P1566 <https://www.geonames.org/6860784> ;
     wdt:P1584 <https://pleiades.stoa.org/places/741318296> .
 
 cigs:TMH a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "تل محمد"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "تل محمد"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:TMH_geom ;
     wdt:P1584 <https://pleiades.stoa.org/places/249999668> .
 
 cigs:TMU a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "تپه موسیان"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "تپه موسیان"@fa ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:TMU_geom ;
     wdt:P1566 <https://www.geonames.org/122985> .
 
 cigs:TNA a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "عنه"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "عنه"@ar ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:TNA_geom ;
     wdt:P1584 <https://pleiades.stoa.org/places/893936> .
 
 cigs:TNH a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "Թանահատ"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "Թանահատ"@arc ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:TNH_geom .
 
 cigs:TNP a ont:CuneiformSite ;
     rdfs:label "Tunip"@ar,
-        "تل العشارنة"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "تل العشارنة"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:TNP_geom ;
     wdt:P1566 <https://www.geonames.org/174035> .
 
 cigs:TOD a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "طود"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "طود"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:TOD_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q287731> ;
@@ -6116,118 +3216,61 @@ cigs:TOD a ont:CuneiformSite ;
     wdt:P1584 <https://pleiades.stoa.org/places/786132> .
 
 cigs:TOP a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:TOP_geom ;
     wdt:P1566 <https://www.geonames.org/306910> .
 
 cigs:TRM a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:TRM_geom ;
     wdt:P1566 <https://www.geonames.org/324139> .
 
 cigs:TRQ a ont:CuneiformSite ;
     rdfs:label "Terqa"@ar,
-        "تل الأشارة"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "تل الأشارة"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:TRQ_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q644872> ;
     wdt:P1584 <https://pleiades.stoa.org/places/894158> .
 
 cigs:TRT a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "طرطوس"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "طرطوس"@ar ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:TRT_geom ;
     wdt:P1566 <https://www.geonames.org/163345> .
 
 cigs:TSA a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "تل سك"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "تل سك"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:TSA_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q7403017> ;
     wdt:P1566 <https://www.geonames.org/164959> .
 
 cigs:TSB a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:TSB_geom .
 
 cigs:TSI a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "تپه سیلک"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "تپه سیلک"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:TSI_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q1581555> ;
     wdt:P1566 <https://www.geonames.org/9210558> .
 
 cigs:TSO a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "تپه سفالین"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "تپه سفالین"@fa ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:TSO_geom .
 
 cigs:TSV a ont:CuneiformSite ;
     rdfs:label "Alitschalu"@ar,
-        "nan"@ar,
-        "Օձաբերդ"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "Օձաբերդ"@arc ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:TSV_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q53483> .
 
 cigs:TTA a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "تل الطايع"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "تل الطايع"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:TTA_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q7697518> ;
@@ -6235,48 +3278,26 @@ cigs:TTA a ont:CuneiformSite ;
 
 cigs:TTB a ont:CuneiformSite ;
     rdfs:label "Tutub"@ar,
-        "خفاجي"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "خفاجي"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:TTB_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q1305112> ;
     wdt:P1584 <https://pleiades.stoa.org/places/490043590> .
 
 cigs:TTU a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:TTU_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q1329616> ;
     wdt:P1566 <https://www.geonames.org/6611419> .
 
 cigs:TUH a ont:CuneiformSite ;
-    rdfs:label "Unknown"@ar,
-        "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "Unknown"@ar ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:TUH_geom .
 
 cigs:TUT a ont:CuneiformSite ;
     rdfs:label "Tuttul"@ar,
-        "تل البيعة"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "تل البيعة"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:TUT_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q657272> ;
@@ -6284,47 +3305,25 @@ cigs:TUT a ont:CuneiformSite ;
     wdt:P1584 <https://pleiades.stoa.org/places/582993625> .
 
 cigs:TVI a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "تنگي ور‎"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "تنگي ور‎"@fa ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:TVI_geom ;
     wdt:P1566 <https://www.geonames.org/113324> ;
     wdt:P1584 <https://pleiades.stoa.org/places/429> .
 
 cigs:TVK a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "Ծովակ"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "Ծովակ"@arc ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:TVK_geom ;
     wdt:P1566 <https://www.geonames.org/616138> .
 
 cigs:TYA a ont:CuneiformSite ;
-    rdfs:label "Malgium"@ar,
-        "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "Malgium"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:TYA_geom .
 
 cigs:TYM a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "تيما"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "تيما"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:TYM_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q27365> ;
@@ -6332,13 +3331,7 @@ cigs:TYM a ont:CuneiformSite ;
     wdt:P1584 <https://pleiades.stoa.org/places/814739> .
 
 cigs:TYR a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "صور"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "صور"@ar ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:TYR_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q82070> ;
@@ -6346,61 +3339,32 @@ cigs:TYR a ont:CuneiformSite ;
     wdt:P1584 <https://pleiades.stoa.org/places/678437> .
 
 cigs:TZW a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "طوبزاوة"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "طوبزاوة"@ar ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:TZW_geom ;
     wdt:P1566 <https://www.geonames.org/90109> .
 
 cigs:UBD a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "تل العبيد"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "تل العبيد"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:UBD_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q1317854> ;
     wdt:P1584 <https://pleiades.stoa.org/places/339709658> .
 
 cigs:UCH a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "تل المجاتل"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "تل المجاتل"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:UCH_geom ;
     wdt:P1566 <https://www.geonames.org/7011811> .
 
 cigs:UFR a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "أم الحفريات"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "أم الحفريات"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:UFR_geom .
 
 cigs:UGA a ont:CuneiformSite ;
     rdfs:label "Ugarit"@ar,
-        "راس شمرة"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "راس شمرة"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:UGA_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q191369> ;
@@ -6408,62 +3372,33 @@ cigs:UGA a ont:CuneiformSite ;
     wdt:P1584 <https://pleiades.stoa.org/places/668295> .
 
 cigs:UMA a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "أم المرة"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "أم المرة"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:UMA_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q7881676> .
 
 cigs:UPI a ont:CuneiformSite ;
     rdfs:label "Upi"@ar,
-        "أوبيس"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "أوبيس"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:UPI_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q1287526> ;
     wdt:P1584 <https://pleiades.stoa.org/places/894056> .
 
 cigs:UQA a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "تل عقير"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "تل عقير"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:UQA_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q1716909> .
 
 cigs:UQR a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "تل ام العجايب"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "تل ام العجايب"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:UQR_geom ;
     wdt:P1566 <https://www.geonames.org/6755904> .
 
 cigs:URB a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "قلعة أربيل"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "قلعة أربيل"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:URB_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q206236> ;
@@ -6471,12 +3406,7 @@ cigs:URB a ont:CuneiformSite ;
 
 cigs:URI a ont:CuneiformSite ;
     rdfs:label "Ur"@ar,
-        "تل المقير"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "تل المقير"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:URI_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q5699> ;
@@ -6485,12 +3415,7 @@ cigs:URI a ont:CuneiformSite ;
 
 cigs:URK a ont:CuneiformSite ;
     rdfs:label "Urkiš"@ar,
-        "تل موزان‎‎"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "تل موزان‎‎"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:URK_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q1758030> ;
@@ -6499,12 +3424,7 @@ cigs:URK a ont:CuneiformSite ;
 
 cigs:URU a ont:CuneiformSite ;
     rdfs:label "Uruk"@ar,
-        "وركاء"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "وركاء"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:URU_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q168518> ;
@@ -6512,111 +3432,54 @@ cigs:URU a ont:CuneiformSite ;
     wdt:P1584 <https://pleiades.stoa.org/places/912986> .
 
 cigs:USH a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:USH_geom ;
     wdt:P1584 <https://pleiades.stoa.org/places/512530798> .
 
 cigs:UWW a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:UWW_geom .
 
 cigs:VAK a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:VAK_geom .
 
 cigs:VAN a ont:CuneiformSite ;
-    rdfs:label "Turuspa"@ar,
-        "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "Turuspa"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:VAN_geom ;
     wdt:P1584 <https://pleiades.stoa.org/places/964673805> .
 
 cigs:VAR a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "Վարդաձոր"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "Վարդաձոր"@arc ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:VAR_geom ;
     wdt:P1566 <https://www.geonames.org/859714> .
 
 cigs:WIN a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "וינגייט"@he,
-        "nan"@ru ;
+    rdfs:label "וינגייט"@he ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:WIN_geom ;
     wdt:P1566 <https://www.geonames.org/8142263> .
 
 cigs:WLS a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "وادي آل سبع"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "وادي آل سبع"@ar ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:WLS_geom ;
     wdt:P1566 <https://www.geonames.org/268547> ;
     wdt:P1584 <https://pleiades.stoa.org/places/528477899> .
 
 cigs:WRS a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "تل وريش"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "تل وريش"@ar ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:WRS_geom .
 
 cigs:XOC a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:XOC_geom .
 
 cigs:YAH a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "تپه یحیی‎"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "تپه یحیی‎"@fa ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:YAH_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q384077> ;
@@ -6624,114 +3487,55 @@ cigs:YAH a ont:CuneiformSite ;
     wdt:P1584 <https://pleiades.stoa.org/places/29783> .
 
 cigs:YAL a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:YAL_geom ;
     wdt:P1566 <https://www.geonames.org/307181> .
 
 cigs:YAR a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "تل يارة"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "تل يارة"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:YAR_geom ;
     wdt:P1566 <https://www.geonames.org/6860535> .
 
 cigs:YAS a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:YAS_geom .
 
 cigs:YAZ a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:YAZ_geom ;
     wdt:P1566 <https://www.geonames.org/297344> .
 
 cigs:YEL a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "تل يلخي"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "تل يلخي"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:YEL_geom .
 
 cigs:YES a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:YES_geom ;
     wdt:P1566 <https://www.geonames.org/296884> .
 
 cigs:YON a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:YON_geom ;
     wdt:P1566 <https://www.geonames.org/296593> ;
     wdt:P1584 <https://pleiades.stoa.org/places/708232007> .
 
 cigs:YSJ a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "یاسوج"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "یاسوج"@ar ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:YSJ_geom ;
     wdt:P1566 <https://www.geonames.org/66093> .
 
 cigs:ZAA a ont:CuneiformSite ;
-    rdfs:label "Unknown"@ar,
-        "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "Unknown"@ar ;
     ont:accuracy "0"^^xsd:string ;
     geo:hasGeometry cigs:ZAA_geom .
 
 cigs:ZAB a ont:CuneiformSite ;
     rdfs:label "Zabalam"@ar,
-        "تل ابزيخ"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+        "تل ابزيخ"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:ZAB_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q1074177> ;
@@ -6739,96 +3543,51 @@ cigs:ZAB a ont:CuneiformSite ;
     wdt:P1584 <https://pleiades.stoa.org/places/921099766> .
 
 cigs:ZBD a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "تل زبيدي"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "تل زبيدي"@ar ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:ZBD_geom .
 
 cigs:ZCR a ont:CuneiformSite ;
-    rdfs:label "Samal"@ar,
-        "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "Samal"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:ZCR_geom ;
     wdt:P1584 <https://pleiades.stoa.org/places/192555966> .
 
 cigs:ZIW a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "زیویه"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "زیویه"@fa ;
     ont:accuracy "2"^^xsd:string ;
     geo:hasGeometry cigs:ZIW_geom ;
     wdt:P1566 <https://www.geonames.org/10971678> ;
     wdt:P1584 <https://pleiades.stoa.org/places/884230> .
 
 cigs:ZLB a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "زالوآب"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "زالوآب"@ar ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:ZLB_geom ;
     wdt:P1566 <https://www.geonames.org/23313> ;
     wdt:P1584 <https://pleiades.stoa.org/places/420860522> .
 
 cigs:ZOH a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "سر پل زهاب"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "سر پل زهاب"@fa ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:ZOH_geom .
 
 cigs:ZTP a ont:CuneiformSite ;
-    rdfs:label "Tushhan"@ar,
-        "nan"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "Tushhan"@ar ;
     ont:accuracy "3"^^xsd:string ;
     geo:hasGeometry cigs:ZTP_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q4819172> ;
     wdt:P1566 <https://www.geonames.org/439817> .
 
 cigs:ZVA a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "Զվարթնոց"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "Զվարթնոց"@arc ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:ZVA_geom ;
     owl:sameAs <https://wikidata.org/wiki/Q505175> ;
     wdt:P1566 <https://www.geonames.org/866096> .
 
 cigs:ZWY a ont:CuneiformSite ;
-    rdfs:label "nan"@ar,
-        "زوية"@ar,
-        "nan"@arc,
-        "nan"@el,
-        "nan"@fa,
-        "nan"@he,
-        "nan"@ru ;
+    rdfs:label "زوية"@ar ;
     ont:accuracy "1"^^xsd:string ;
     geo:hasGeometry cigs:ZWY_geom ;
     wdt:P1584 <https://pleiades.stoa.org/places/767486703> .
