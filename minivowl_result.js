@@ -81,28 +81,21 @@ var minivowlresult={
   },
   {
    "source": 0,
-   "target": 6,
+   "target": 7,
    "valueTo": "partOf",
    "propertyTo": "class",
    "uriTo": "http://purl.org/dc/terms/partOf"
   },
   {
    "source": 0,
-   "target": 7,
+   "target": 6,
    "valueTo": "partOf",
    "propertyTo": "class",
    "uriTo": "http://purl.org/dc/terms/partOf"
   },
   {
    "source": 8,
-   "target": 3,
-   "valueTo": "member",
-   "propertyTo": "class",
-   "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
-  },
-  {
-   "source": 8,
-   "target": 6,
+   "target": 7,
    "valueTo": "member",
    "propertyTo": "class",
    "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
@@ -116,13 +109,13 @@ var minivowlresult={
   },
   {
    "source": 8,
-   "target": 7,
+   "target": 6,
    "valueTo": "member",
    "propertyTo": "class",
    "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
   },
   {
-   "source": 11,
+   "source": 8,
    "target": 3,
    "valueTo": "member",
    "propertyTo": "class",
@@ -130,7 +123,7 @@ var minivowlresult={
   },
   {
    "source": 11,
-   "target": 6,
+   "target": 7,
    "valueTo": "member",
    "propertyTo": "class",
    "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
@@ -144,13 +137,13 @@ var minivowlresult={
   },
   {
    "source": 11,
-   "target": 7,
+   "target": 6,
    "valueTo": "member",
    "propertyTo": "class",
    "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
   },
   {
-   "source": 9,
+   "source": 11,
    "target": 3,
    "valueTo": "member",
    "propertyTo": "class",
@@ -158,7 +151,7 @@ var minivowlresult={
   },
   {
    "source": 9,
-   "target": 6,
+   "target": 7,
    "valueTo": "member",
    "propertyTo": "class",
    "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
@@ -172,7 +165,14 @@ var minivowlresult={
   },
   {
    "source": 9,
-   "target": 7,
+   "target": 6,
+   "valueTo": "member",
+   "propertyTo": "class",
+   "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
+  },
+  {
+   "source": 9,
+   "target": 3,
    "valueTo": "member",
    "propertyTo": "class",
    "uriTo": "http://www.w3.org/2000/01/rdf-schema#member"
@@ -185,18 +185,11 @@ var minivowlresult={
    "uriTo": "http://www.w3.org/2006/vcard/ns#hasMember"
   },
   {
-   "source": 6,
-   "target": 4,
-   "valueTo": "creator",
+   "source": 12,
+   "target": 7,
+   "valueTo": "dataset",
    "propertyTo": "class",
-   "uriTo": "http://purl.org/dc/elements/1.1/creator"
-  },
-  {
-   "source": 7,
-   "target": 4,
-   "valueTo": "creator",
-   "propertyTo": "class",
-   "uriTo": "http://purl.org/dc/elements/1.1/creator"
+   "uriTo": "http://www.w3.org/ns/dcat#dataset"
   },
   {
    "source": 12,
@@ -206,11 +199,18 @@ var minivowlresult={
    "uriTo": "http://www.w3.org/ns/dcat#dataset"
   },
   {
-   "source": 12,
-   "target": 7,
-   "valueTo": "dataset",
+   "source": 7,
+   "target": 4,
+   "valueTo": "creator",
    "propertyTo": "class",
-   "uriTo": "http://www.w3.org/ns/dcat#dataset"
+   "uriTo": "http://purl.org/dc/elements/1.1/creator"
+  },
+  {
+   "source": 6,
+   "target": 4,
+   "valueTo": "creator",
+   "propertyTo": "class",
+   "uriTo": "http://purl.org/dc/elements/1.1/creator"
   }
  ]
 }
