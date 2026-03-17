@@ -1,0 +1,29 @@
+{
+  "namespace": "http://data.archaeology.link/data/cigs/",
+  "attnamespace": "http://www.ancientports.com/ont#",
+  "nsprefix":"spp",
+  "class": {"uri": "http://www.ancientports.com/ont#CuneiformSite","labels": {"en": "cuneiform site"}},
+  "id": "site_id",
+  "onlyschema":true,
+  "geometry":["lat_wgs1984","lon_wgs1984"],
+  "prefixes":{
+    "bibo":"http://purl.org/ontology/bibo/",
+    "frapo":"http://purl.org/cerif/frapo/",
+    "wdt":"http://www.wikidata.org/prop/direct/"
+  },
+  "columns": {
+        "anc_name": {"propiri": "http://www.w3.org/2000/01/rdf-schema#label","lang":"ar","prop": "anno"},
+        "ara_name": {"propiri": "http://www.w3.org/2000/01/rdf-schema#label","lang":"ar","prop": "anno"},
+        "arm_name": {"propiri": "http://www.w3.org/2000/01/rdf-schema#label","lang":"arc","prop": "anno"},
+        "fas_name": {"propiri": "http://www.w3.org/2000/01/rdf-schema#label","lang":"fa","prop": "anno"},
+        "gre_name": {"propiri": "http://www.w3.org/2000/01/rdf-schema#label","lang":"el","prop": "anno"},
+        "heb_name": {"propiri": "http://www.w3.org/2000/01/rdf-schema#label","lang":"he","prop": "anno"},
+        "rus_name": {"propiri": "http://www.w3.org/2000/01/rdf-schema#label","lang":"ru","prop": "anno"},
+        "openstreetmap_url": {"propiri": "http://www.wikidata.org/prop/direct/P11693","prop": "obj"},
+        "pleiades_url": {"propiri": "http://www.wikidata.org/prop/direct/P1584","prop": "obj"},
+        "geonames_url": {"propiri": "http://www.wikidata.org/prop/direct/P1566","prop": "obj"}, 
+        "wikidata_url": {"propiri": "http://www.w3.org/2002/07/owl#sameAs","prop": "obj"},
+        "accuracy": {"prop": "data","range":"xsd:string"},
+        "cdli_provenance_id": {"prop": "data","range":"xsd:string"}
+  }
+}

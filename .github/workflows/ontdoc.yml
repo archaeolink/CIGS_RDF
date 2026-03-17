@@ -16,6 +16,18 @@ on:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"  
+  mapit:
+
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+    uses: situx/geordfconverter/.github/workflows/geordfconvert.yml@main
+    with: 
+        input: source/cigs.csv
+        output: docs
+        ghpages: true
+        mapping: cigs_mapping.json
+        bibtex: source/cigs.bib
+        sepchar: ","
+  
   build:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     uses: sparqlunicorn/sparqlunicornGoesGIS-ontdoc/.github/workflows/udoc.yml@main
