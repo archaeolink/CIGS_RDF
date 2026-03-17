@@ -1,7 +1,7 @@
 {
   "namespace": "http://data.archaeology.link/data/cigs/",
   "attnamespace": "http://www.ancientports.com/ont#",
-  "nsprefix":"spp",
+  "nsprefix":"cigs",
   "class": {"uri": "http://www.ancientports.com/ont#CuneiformSite","labels": {"en": "cuneiform site"}},
   "id": "site_id",
   "onlyschema":true,
