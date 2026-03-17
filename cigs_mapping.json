@@ -12,7 +12,8 @@
     "wdt":"http://www.wikidata.org/prop/direct/"
   },
   "columns": {
-        "anc_name": {"propiri": "http://www.w3.org/2000/01/rdf-schema#label","lang":"ar","prop": "anno"},
+        "transc_name":{"propiri": "http://www.w3.org/2000/01/rdf-schema#label","lang":"en","prop": "anno"},
+        "anc_name": {"propiri": "http://www.w3.org/2004/02/skos/core#altLabel","lang":"ar","prop": "anno"},
         "ara_name": {"propiri": "http://www.w3.org/2000/01/rdf-schema#label","lang":"ar","prop": "anno"},
         "arm_name": {"propiri": "http://www.w3.org/2000/01/rdf-schema#label","lang":"arc","prop": "anno"},
         "fas_name": {"propiri": "http://www.w3.org/2000/01/rdf-schema#label","lang":"fa","prop": "anno"},
@@ -25,5 +26,8 @@
         "wikidata_url": {"propiri": "http://www.w3.org/2002/07/owl#sameAs","prop": "obj"},
         "accuracy": {"prop": "data","range":"xsd:string"},
         "cdli_provenance_id": {"prop": "data","range":"xsd:string"}
+  },
+  "addcolumns":{
+    "created": {"propiri": "http://purl.org/dc/elements/1.1/created","range":"xsd:gYear","prop": "data"}   
   }
 }
