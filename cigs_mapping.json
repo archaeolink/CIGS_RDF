@@ -5,7 +5,7 @@
   "class": {"uri": "http://www.ancientports.com/ont#CuneiformSite","labels": {"en": "cuneiform site"}},
   "id": "site_id",
   "onlyschema":true,
-  "geometry":["lat_wgs1984","lon_wgs1984"],
+  "geometry":["lat_wgs1984","lon_wgs1984"], 
   "prefixes":{
     "bibo":"http://purl.org/ontology/bibo/",
     "frapo":"http://purl.org/cerif/frapo/",
