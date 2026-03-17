@@ -7,7 +7,7 @@
   "onlyschema":true,
   "geometry":["lat_wgs1984","lon_wgs1984"],   
   "prefixes":{
-    "bibo":"http://purl.org/ontology/bibo/",
+    "bibo":"http://purl.org/ontology/bibo/", 
     "frapo":"http://purl.org/cerif/frapo/",
     "wdt":"http://www.wikidata.org/prop/direct/"
   },
