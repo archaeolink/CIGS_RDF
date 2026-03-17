@@ -1,0 +1,160 @@
+{
+  "columns": {
+    "accuracy": {
+      "category": false,
+      "prop": "data",
+      "range": "xsd:integer",
+      "unique": false
+    },
+    "anc_name": {
+      "category": true,
+      "prop": "data",
+      "range": "xsd:string",
+      "unique": true
+    },
+    "ara_name": {
+      "category": false,
+      "prop": "data",
+      "range": "xsd:string",
+      "unique": false
+    },
+    "arm_name": {
+      "category": true,
+      "prop": "data",
+      "range": "xsd:string",
+      "unique": false
+    },
+    "cdli_provenience_id": {
+      "category": true,
+      "prop": "data",
+      "range": "xsd:string",
+      "unique": false
+    },
+    "fas_name": {
+      "category": false,
+      "prop": "data",
+      "range": "xsd:string",
+      "unique": false
+    },
+    "geo_name": {
+      "category": true,
+      "prop": "data",
+      "range": "xsd:string",
+      "unique": false
+    },
+    "geonames_url": {
+      "category": true,
+      "prop": "data",
+      "range": "xsd:string",
+      "unique": false
+    },
+    "gre_name": {
+      "category": true,
+      "prop": "data",
+      "range": "xsd:string",
+      "unique": false
+    },
+    "heb_name": {
+      "category": true,
+      "prop": "data",
+      "range": "xsd:string",
+      "unique": true
+    },
+    "lat_wgs1984": {
+      "category": false,
+      "prop": "data",
+      "range": "xsd:double",
+      "unique": false
+    },
+    "legacy_name": {
+      "category": true,
+      "prop": "data",
+      "range": "xsd:string",
+      "unique": false
+    },
+    "lon_wgs1984": {
+      "category": false,
+      "prop": "data",
+      "range": "xsd:double",
+      "unique": false
+    },
+    "osm_url": {
+      "category": true,
+      "prop": "data",
+      "range": "xsd:string",
+      "unique": false
+    },
+    "pleiades_url": {
+      "category": true,
+      "prop": "data",
+      "range": "xsd:string",
+      "unique": false
+    },
+    "rla_url": {
+      "category": true,
+      "prop": "data",
+      "range": "xsd:string",
+      "unique": false
+    },
+    "rus_name": {
+      "category": true,
+      "prop": "data",
+      "range": "xsd:string",
+      "unique": false
+    },
+    "site_id": {
+      "category": true,
+      "prop": "data",
+      "range": "xsd:string",
+      "unique": true
+    },
+    "transc_name": {
+      "category": false,
+      "prop": "data",
+      "range": "xsd:string",
+      "unique": false
+    },
+    "wik_ara": {
+      "category": true,
+      "prop": "data",
+      "range": "xsd:string",
+      "unique": false
+    },
+    "wik_en": {
+      "category": true,
+      "prop": "data",
+      "range": "xsd:string",
+      "unique": false
+    },
+    "wik_fas": {
+      "category": true,
+      "prop": "data",
+      "range": "xsd:string",
+      "unique": false
+    },
+    "wik_gre": {
+      "category": true,
+      "prop": "data",
+      "range": "xsd:string",
+      "unique": false
+    },
+    "wik_heb": {
+      "category": true,
+      "prop": "data",
+      "range": "xsd:string",
+      "unique": false
+    },
+    "wik_tr": {
+      "category": true,
+      "prop": "data",
+      "range": "xsd:string",
+      "unique": false
+    },
+    "wikidata_url": {
+      "category": true,
+      "prop": "data",
+      "range": "xsd:string",
+      "unique": false
+    }
+  }
+}
